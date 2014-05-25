@@ -27,6 +27,7 @@ Glowstone Wire srg b111
 Iron Chest v6.0.14.719
 JABBA v1.1.3
 Mantle v0.2.8
+MapWriter v2.1.1
 Metallurgy v4.0.2.5
 Metallurgy Core v4.0.1.16
 Morpheus v1.3.48
