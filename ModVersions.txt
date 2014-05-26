@@ -2,7 +2,7 @@ Current Mod Versions
 
 Alternate Terrain Generation v0.10.0
 AOBD v2.0.2
-Applied Energistics 2 rv0 Beta 6
+Applied Energistics 2 rv0 Beta 15
 Armor Status HUD v1.25
 Baubles v1.0.0.13
 BiblioCraft v1.7.0
