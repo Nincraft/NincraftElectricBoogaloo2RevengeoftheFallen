@@ -13,6 +13,7 @@ bspkrs Core v6.8
 Carpenter's Blocks v3.1.4
 CodeChickenCore v1.0.0
 CodeChickenLib v1.1.1.80
+ComputerCraft v1.64pr2
 Damage Indicators Mod v3.1.1
 Dense Ores dev 1.1a
 Doom-like Dungeon v1.2.10
