@@ -20,6 +20,7 @@ Doom-like Dungeon v1.2.10
 Drama Splash v0.1
 Dynamic Lights v1.7.2
 Enchiridion v1.0b
+EnderIO  v1.1.0 alpha 71
 Extra Cells v2.0.0
 Extra Utilities v1.1.0 prerelease 6
 FMPIntegration v1.2
