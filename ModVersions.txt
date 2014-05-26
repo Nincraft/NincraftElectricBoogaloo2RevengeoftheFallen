@@ -8,7 +8,7 @@ Baubles v1.0.0.13
 BiblioCraft v1.7.0
 Biomes O' Plenty v2.0.0.833
 Blood Magic v1.0.1e
-Botania Beta 34
+Botania Beta 37
 bspkrs Core v6.8
 Carpenter's Blocks v3.1.4
 CodeChickenCore v1.0.0
