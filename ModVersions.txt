@@ -1,7 +1,7 @@
 Current Mod Versions
 
 Alternate Terrain Generation v0.10.0
-AOBD v2.0.1
+AOBD v2.0.2
 Applied Energistics 2 rv0 Beta 6
 Armor Status HUD v1.25
 Baubles v1.0.0.13
