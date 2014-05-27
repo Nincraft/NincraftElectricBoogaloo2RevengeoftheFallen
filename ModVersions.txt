@@ -11,6 +11,7 @@ Blood Magic v1.0.1e
 Botania Beta 37
 bspkrs Core v6.8
 Carpenter's Blocks v3.1.4
+Chisel v1.5.4d
 CodeChickenCore v1.0.0
 CodeChickenLib v1.1.1.80
 ComputerCraft v1.64pr2
