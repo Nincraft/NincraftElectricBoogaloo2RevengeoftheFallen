@@ -19,7 +19,9 @@
     },
     "data": {
         "tags": {
-            "value": [NEB2 1.0.0]
+            "value": [
+                "NEB2",
+                "NEB2 1.0.0"]
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",
