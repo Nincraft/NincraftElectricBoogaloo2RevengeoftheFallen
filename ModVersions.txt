@@ -43,7 +43,7 @@ Not Enough Items v1.0.1
 Open Eye v0.5
 Pam's Clay Spawn v1.7.2a
 PneumaticCraft v1.1.14
-RPGAdvMod v0.0.1
+RPGAdvMod v1.0.0
 Thaumcraft v4.1.1.13
 Thaumic Warden v2.0.3
 TiCTooltips v1.1.6
