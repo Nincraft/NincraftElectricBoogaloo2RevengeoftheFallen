@@ -22,6 +22,7 @@ Drama Splash v0.1
 Dynamic Lights v1.7.2
 Enchiridion v1.0b
 EnderIO  v1.1.0 alpha 71
+Equivalent Exchange 3 v0.2.203
 Extra Cells v2.0.0
 Extra Utilities v1.1.0 prerelease 6
 FMPIntegration v1.2
