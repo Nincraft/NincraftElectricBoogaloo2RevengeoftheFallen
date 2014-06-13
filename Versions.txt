@@ -1,3 +1,7 @@
+Current Forge Version
+
+Forge 10.12.1.1112
+
 Current Mod Versions
 
 Alternate Terrain Generation v0.10.0
@@ -24,7 +28,7 @@ Enchiridion v1.0b
 EnderIO  v1.1.0 alpha 71
 Equivalent Exchange 3 v0.2.203
 Extra Cells v2.0.0
-Extra Utilities v1.1.0a
+Extra Utilities v1.1.0b
 FMPIntegration v1.2
 Forge Multipart v1.1.0.282
 Glowstone Wire srg b111
