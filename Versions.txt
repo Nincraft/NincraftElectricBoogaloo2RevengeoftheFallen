@@ -12,21 +12,21 @@ Baubles v1.0.0.13
 BiblioCraft v1.7.0
 Biomes O' Plenty v2.0.0.833
 Blood Magic v1.0.1e
-Botania Beta 37
+Botania r1.0 53
 bspkrs Core v6.8
 Carpenter's Blocks v3.1.4
 Chisel v1.5.4d
 CodeChickenCore v1.0.0
 CodeChickenLib v1.1.1.80
 ComputerCraft v1.64pr2
-Damage Indicators Mod v3.1.1
+Damage Indicators Mod v3.1.2
 Dense Ores dev 1.1a
 Doom-like Dungeon v1.2.10
 Drama Splash v0.1
 Dynamic Lights v1.7.2
 Enchiridion v1.0b
 EnderIO  v1.1.0 alpha 71
-Equivalent Exchange 3 v0.2.203
+Equivalent Exchange 3 v0.2.219
 Extra Cells v2.0.0
 Extra Utilities v1.1.0b
 FMPIntegration v1.2
@@ -46,7 +46,7 @@ Natura v2.2.0a3
 Not Enough Items v1.0.1
 Open Eye v0.5
 Pam's Clay Spawn v1.7.2a
-PneumaticCraft v1.1.14
+PneumaticCraft v1.2.0
 RPGAdvMod v1.0.0
 Thaumcraft v4.1.1.13
 Thaumic Warden v2.0.3
