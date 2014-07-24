@@ -15,7 +15,7 @@ Developers
 
 Information
 ===============
-Clients: This pack runs best with at least 2.5 GB memory, and 256 MB of permgen _(estimated, might be able to get away with lower lower for now.)_. To set the permgen, add the following java parameter to your launcher: __-XX:PermSize=256M__
+Clients: This pack runs best with at least 2.5 GB memory, and 256 MB of permgen _(estimated, might be able to get away with lower for now.)_. To set the permgen, add the following java parameter to your launcher: __-XX:PermSize=256M__
 
 Servers: The server download comes with recommended Java arguments. Those were used when initially testing this pack before it released, and it worked great. You may need to allocate more RAM if you have lots of concurrent players online. Never try and allocate too much, Java hates that.
 
