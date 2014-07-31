@@ -23,7 +23,7 @@ Contributing
 ===
 We love getting outside contributions, especially to our mod documentation system, however doing so can be a little complex for some.
 
-First a note: If you are going to contribute, please make your contributions to the ___Dev___ branch, not master. Switch this by using the dropdown box on the main repo page.
+First a note: If you would like to contribute, just submit a pull request to the ___master___ branch, and we'll determine if we would like to add it into the repo.
 
 Also, if you are just planning on making a one-line change, or anything that just alters one file, you can simply find the file and press "edit", and github will do the rest.
 
