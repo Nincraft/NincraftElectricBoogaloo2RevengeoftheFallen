@@ -1,8 +1,0 @@
-# Configuration file
-
-version_check_tracker {
-    S:ArmorStatusHUD=1.26
-    S:bspkrsCore=6.9
-}
-
-
