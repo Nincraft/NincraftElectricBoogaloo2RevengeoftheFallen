@@ -1,61 +1,75 @@
 Current Forge Version
 
-Forge 10.12.1.1112
+Forge v10.13.0.1190
 
 Current API Versions
 
-bspkrs Core v6.8
-CodeChickenCore v1.0.0
-CodeChickenLib v1.1.1.80
-Mantle v0.2.8
+bspkrs Core v6.13
+CodeChickenCore v1.0.2.9
+CodeChickenLib v1.1.1.93
+Mantle v0.3.0
 Metallurgy Core v4.0.1.16
 
 Current Mod Versions
 
-Alternate Terrain Generation v0.10.0
-AOBD v2.0.2
-Applied Energistics 2 rv0 Beta 15
-Armor Status HUD v1.25
-Baubles v1.0.0.13
-BiblioCraft v1.7.0
-Biomes O' Plenty v2.0.0.833
-Blood Magic v1.0.1e
-Botania r1.0 53
-Carpenter's Blocks v3.1.4
-Chisel v1.5.4d
-ComputerCraft v1.64pr2
-Damage Indicators Mod v3.1.2
-Dense Ores dev 1.1a
-Doom-like Dungeon v1.2.10
-Drama Splash v0.1
-Dynamic Lights v1.7.2
-Enchiridion v1.0b
-EnderIO  v1.1.0 alpha 71
-Equivalent Exchange 3 v0.2.219
-Extra Cells v2.0.0
-Extra Utilities v1.1.0b
-FMPIntegration v1.2
-Forge Multipart v1.1.0.282
-Glowstone Wire srg b111
-GLSL Shaders Mod (version needed)
-InventoryTweaks v1.57 116
-Iron Chest v6.0.14.719
-JABBA v1.1.3
-MapWriter v2.1.1
-Metallurgy v4.0.2.5
-Morpheus v1.3.48
-Mystcraft v0.10.14.00
-Natura v2.2.0a3
-Not Enough Items v1.0.1
-Open Eye v0.5
+AOBD v2.2.1
+Applied Energistics 2 rv0 Stable 10
+Armor Status HUD v1.27
+Baubles v1.0.1.2
+BiblioCraft v1.7.5
+Biomes O' Plenty v2.1.0.943
+Blood Magic v1.1.0
+Botania r1.1-94
+Carpenter's Blocks v3.2.5 [DEV R3]
+Chisel v1.5.6
+CoFHCore v3.0.0B1-19
+CoFHLib v1.0.0B2-14
+Damage Indicators Mod v3.2.0
+Dense Ores dev 1.3
+Doom-like Dungeon v1.3.3
+Dynamic Lights v1.7.10
+Enchiridion v1.2
+EnderIO  v2.0 beta 152
+Ender Storage v1.4.4.6
+Equivalent Exchange 3 v0.2.292
+Extra Cells v2.1.3
+ExtraTiC v1.0.0
+Extra Utilities v1.1.0e
+FMPIntegration v1.2.2
+Forge Multipart v1.1.0.292
+Glowstone Wire v1.0.2.113
+InventoryTweaks v1.58 147
+Iron Chest v6.0.41.729
+JABBA v1.1.4
+Mekanism v7.0.0.75
+Mekanism Generators v7.0.0.75
+Mekanism Tools v7.0.0.75
+Metallurgy v4.0.3.36
+Metallurgy Core v4.0.3.11
+Minefactory Reloaded v2.8.0RC1-540
+Morpheus v1.5.17
+Mystcraft v0.10.15.00
+Natura v2.2.0 b1
+Nether Ores v2.3.0RC2-76
+Not Enough Items v1.0.2.15
+Open Eye v0.6
 Pam's Clay Spawn v1.7.2a
-PneumaticCraft v1.2.0
+PneumaticCraft v1.2.2
 RPGAdvMod v1.0.0
-Thaumcraft v4.1.1.13
-Thaumic Warden v2.0.3
-TiCTooltips v1.1.6
-Tinker's Construct v1.6.0.a14
-Twilight Forest v2.0.3
-Underground Biomes Constructs v0.5i
-WAILA v1.5.2a
-Witchery v0.18.4
+Thermal Expansion v4.0.0B1-3
+Thermal Foundation v1.0.0.B1-2
+TiCTooltips v1.1.8a
+Tinker's Construct v1.6.0d35
+Twilight Forest v2.2.3
+WAILA v1.5.3
+Witchery v0.20.2
+
+Disabled Mods (For Now)
+
+Alternate Terrain Generation
+ComputerCraft
+Drama Splash
+MapWriter1
+Thaumcraft
+Thaumic Warden
+Underground Biomes Constructs
