@@ -1,7 +1,7 @@
 {
     "prometheum": {
         "template": "normal",
-		"block": "Metallurgy:fantasy.ore"
+		"block": "Metallurgy:fantasy.ore",
 		"metadata": 0,
         "clusterSize": 6,
         "numClusters": 5,
@@ -257,7 +257,7 @@
 		"weight": [
 			90,
 			10
-		]
+		],
         "clusterSize": 6,
         "numClusters": 9,
         "minHeight": 0,
@@ -395,7 +395,7 @@
 		"weight": [
 			90,
 			10
-		]
+		],
         "clusterSize": 3,
         "numClusters": 2,
         "minHeight": 0,
@@ -525,5 +525,5 @@
             -1,
             1
         ]
-    },
+    }
 }
