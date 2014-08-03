@@ -1,0 +1,529 @@
+{
+    "prometheum": {
+        "template": "normal",
+		"block": "Metallurgy:fantasy.ore"
+		"metadata": 0,
+        "clusterSize": 6,
+        "numClusters": 5,
+		"meanHeight": 32,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"deepiron": {
+        "template": "normal",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 1,
+        "clusterSize": 4,
+        "numClusters": 5,
+		"meanHeight": 24,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"infuscolium": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 2,
+        "clusterSize": 4,
+        "numClusters": 5,
+        "minHeight": 32,
+        "maxHeight": 64,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19
+        ]
+    },
+	"Oureclase": {
+        "template": "normal",
+		"block": [
+			"Metallurgy:fantasy.ore",
+			"Metallurgy:fantasy.ore"
+		],
+		"metadata": [
+			4,
+			6
+		],
+		"weight": [
+			90,
+			10
+		],
+        "clusterSize": 4,
+        "numClusters": 3,
+		"meanHeight": 24,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"astralsiver": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 5,
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"carmot": {
+        "template": "normal",
+		"block": [
+			"Metallurgy:fantasy.ore",
+			"Metallurgy:fantasy.ore"
+		],
+		"metadata": [
+			6,
+			4
+		],
+		"weight": [
+			90,
+			10
+		],
+        "clusterSize": 3,
+        "numClusters": 2,
+		"meanHeight": 20,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"rubracium": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 8,
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19
+        ]
+    },
+	"orichalcum": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 11,
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 8,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
+        ]
+    },
+	"adamantine": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 13,
+        "clusterSize": 4,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19
+        ]
+    },
+	"atlarus": {
+        "template": "uniform",
+		"block": "Metallurgy:fantasy.ore",
+		"metadata": 14,
+        "clusterSize": 2,
+        "numClusters": 1,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19
+        ]
+    },
+	"zinc": {
+        "template": "normal",
+		"block": "Metallurgy:precious.ore",
+		"metadata": 0,
+        "clusterSize": 8,
+        "numClusters": 6,
+        "meanHeight": 60,
+        "maxVariance": 6,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"eximite": {
+        "template": "uniform",
+		"block": "Metallurgy:ender.ore",
+		"metadata": 0,
+        "clusterSize": 4,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+	"meutoite": {
+        "template": "uniform",
+		"block": "Metallurgy:ender.ore",
+		"metadata": 1,
+        "clusterSize": 3,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+	"ignatius": {
+        "template": "uniform",
+		"block": [
+			"Metallurgy:nether.ore",
+			"Metallurgy:nether.ore"
+		],
+		"metadata": [
+			0,
+			8
+		],
+		"weight": [
+			90,
+			10
+		]
+        "clusterSize": 6,
+        "numClusters": 9,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"shadowiron": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 1,
+        "clusterSize": 6,
+        "numClusters": 7,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"lemurite": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 2,
+        "clusterSize": 6,
+        "numClusters": 6,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"midasium": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 3,
+        "clusterSize": 6,
+        "numClusters": 5,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"vyroxeres": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 4,
+        "clusterSize": 7,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"ceruclase": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 5,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"alduorite": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 6,
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"kalendrite": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 7,
+        "clusterSize": 4,
+        "numClusters": 3,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"vulcanite": {
+        "template": "uniform",
+		"block": [
+			"Metallurgy:nether.ore",
+			"Metallurgy:nether.ore"
+		],
+		"metadata": [
+			8,
+			0
+		],
+		"weight": [
+			90,
+			10
+		]
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"sanguinite": {
+        "template": "uniform",
+		"block": "Metallurgy:nether.ore",
+		"metadata": 9,
+        "clusterSize": 3,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+	"sulfur": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 0,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"phosphorite": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 1,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"saltpeter": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 0,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 64,
+        "maxHeight": 32,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"magnesium": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 0,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"bitumen": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 0,
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 8,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"potash": {
+        "template": "uniform",
+		"block": "Metallurgy:utility.ore",
+		"metadata": 0,
+        "clusterSize": 4,
+        "numClusters": 4,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+}

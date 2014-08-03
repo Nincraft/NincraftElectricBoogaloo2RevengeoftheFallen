@@ -13,7 +13,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"tin": {
@@ -30,7 +31,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "silver": {
@@ -44,8 +46,8 @@
             3
         ],
         "weight": [
-            80,
-            20
+            90,
+            10
         ],
         "clusterSize": 9,
         "numClusters": 5,
@@ -57,7 +59,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "lead": {
@@ -84,13 +87,24 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
     "nickel": {
         "template": "uniform",
-		"block": "ThermalFoundation:Ore",
-		"metadata": 4,
+		"block": [
+		    "ThermalFoundation:Ore",
+			"ThermalFoundation:Ore"
+	    ],
+		"metadata": [
+		    4,
+			5
+		],
+		"weight": [
+			90,
+			10
+		],
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 6,
@@ -101,7 +115,54 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
+        ]
+    },	
+    "platinum": {
+        "template": "uniform",
+		"block": [
+		    "ThermalFoundation:Ore",
+			"ThermalFoundation:Ore"
+	    ],
+		"metadata": [
+		    5,
+			4
+		],
+		"weight": [
+			90,
+			10
+		],
+        "clusterSize": 6,
+        "numClusters": 3,
+        "minHeight": 4,
+        "maxHeight": 12,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+			7
+        ]
+    },
+	"mithril": {
+        "template": "normal",
+		"block": "ThermalFoundation:Ore",
+		"metadata": 6,
+        "clusterSize": 3,
+        "numClusters": 3,
+        "meanHeight": 24,
+        "maxVariance": 8,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+			7
         ]
     }
 }
