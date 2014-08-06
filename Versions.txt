@@ -30,6 +30,7 @@ Doom-like Dungeon v1.3.3
 Dynamic Lights v1.7.10
 Enchiridion v1.2
 EnderIO  v2.0 beta 152
+EnderTech v0.1.0.199
 Ender Storage v1.4.4.6
 Equivalent Exchange 3 v0.2.292
 Extra Cells v2.1.3
