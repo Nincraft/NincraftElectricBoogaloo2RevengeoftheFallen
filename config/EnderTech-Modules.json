@@ -1,0 +1,9 @@
+{
+  "CONFIG_VERSION": 1,
+  "modules": {
+    "TestPulse": {
+      "enabled": true,
+      "description": "This one\u0027s for testing. It goes up to 11."
+    }
+  }
+}
