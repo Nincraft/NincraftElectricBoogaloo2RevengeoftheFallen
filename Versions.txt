@@ -20,7 +20,7 @@ BiblioCraft v1.7.5
 Biomes O' Plenty v2.1.0.943
 Blood Magic v1.1.0
 Botania r1.1-94
-Carpenter's Blocks v3.2.5 [DEV R3]
+Carpenter's Blocks v3.2.5
 Chisel v1.5.6
 CoFHCore v3.0.0B1-19
 CoFHLib v1.0.0B2-14
