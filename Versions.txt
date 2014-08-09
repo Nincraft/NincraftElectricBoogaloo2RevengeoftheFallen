@@ -17,6 +17,8 @@ Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
 Baubles v1.0.1.2
 BiblioCraft v1.7.5
+BiblioWoods (BoP) v1.6
+BiblioWoods (Natura) v1.2
 Biomes O' Plenty v2.1.0.943
 Blood Magic v1.1.0
 Botania r1.1-94
