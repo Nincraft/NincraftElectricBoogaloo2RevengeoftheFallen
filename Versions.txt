@@ -43,6 +43,7 @@ Extra Utilities v1.1.0e
 FMPIntegration v1.2.2
 Forge Multipart v1.1.0.292
 Glowstone Wire v1.0.2.113
+Hats v4.0.0
 InventoryTweaks v1.58 147
 Iron Chest v6.0.41.729
 JABBA v1.1.4
