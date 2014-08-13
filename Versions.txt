@@ -44,6 +44,7 @@ FMPIntegration v1.2.2
 Forge Multipart v1.1.0.292
 Glowstone Wire v1.0.2.113
 Hats v4.0.0
+Iguana's Tinker Tweaks v2.0.0
 InventoryTweaks v1.58 147
 Iron Chest v6.0.41.729
 JABBA v1.1.4
@@ -69,7 +70,7 @@ Shatter v4.0.0
 Thermal Expansion v4.0.0B1-3
 Thermal Foundation v1.0.0.B1-2
 TiCTooltips v1.1.8a
-Tinker's Construct v1.6.0d35
+Tinker's Construct v1.6.0d38
 Twilight Forest v2.2.3
 WAILA v1.5.3
 Witchery v0.20.2
