@@ -1,9 +1,31 @@
 {
     "aluminum": {
         "template": "uniform",
-		"block": "TConstruct:SearedBrick",
-		"metadata": 5,
-        "clusterSize": 4,
+		"block": [
+		    "TConstruct:SearedBrick",
+			"BiomesOPlenty:gemOre",
+			"BiomesOPlenty:gemOre",
+			"BiomesOPlenty:gemOre",
+			"BiomesOPlenty:gemOre",
+			"emerald_ore"
+		],
+		"metadata": [
+			5,
+			2,
+			6,
+			8,
+			12,
+			0
+		],
+		"weight": [
+			95,
+			1,
+			1,
+			1,
+			1,
+			1
+		],
+        "clusterSize": 5,
         "numClusters": 11,
         "minHeight": 44,
         "maxHeight": 62,
@@ -13,7 +35,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     }
 }

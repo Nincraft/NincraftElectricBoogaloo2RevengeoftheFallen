@@ -52,7 +52,21 @@
     },
     "iron": {
         "template": "normal",
-        "block": "iron_ore",
+        "block": [
+			"iron_ore",
+			"BiomesOPlenty:gemOre",
+			"BiomesOPlenty:gemOre"
+		],
+		"metadata": [
+			0,
+			4,
+			8
+		],
+		"weight": [
+			98,
+			1,
+			1
+		],
 		"material": "minecraft:stone",
         "clusterSize": 13,
         "numClusters": 8,

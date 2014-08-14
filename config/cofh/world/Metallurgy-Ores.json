@@ -477,8 +477,18 @@
     },
 	"magnesium": {
         "template": "uniform",
-		"block": "Metallurgy:utility.ore",
-		"metadata": 0,
+		"block": [
+			"Metallurgy:utility.ore",
+			"BiomesOPlenty:gemOre"
+		],
+		"metadata": [
+			0,
+			4
+		],
+		"weight": [
+			92,
+			8
+		],
         "clusterSize": 4,
         "numClusters": 4,
         "minHeight": 0,

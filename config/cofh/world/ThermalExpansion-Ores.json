@@ -1,8 +1,18 @@
 {
     "copper": {
         "template": "normal",
-        "block": "ThermalFoundation:Ore",
-		"metadata": 0,
+        "block": [
+			"ThermalFoundation:Ore",
+			"BiomesOPlenty:gemOre"
+		],
+		"metadata": [
+			0,
+			10
+		],
+		"weight": [
+			98,
+			2
+		],
         "clusterSize": 11,
         "numClusters": 6,
         "meanHeight": 58,
