@@ -1,14 +1,14 @@
 Current Forge Version
 
-Forge v10.13.0.1190
+Forge v10.13.0.1206
 
 Current API Versions
 
 bspkrs Core v6.13
 CodeChickenCore v1.0.2.9
 CodeChickenLib v1.1.1.93
-CoFHCore v3.0.0B1-19
-CoFHLib v1.0.0B2-14
+CoFHCore v3.0.0B3-26
+CoFHLib v1.0.0B3-20
 iChunUtil v4.0.0
 Mantle v0.3.0
 Metallurgy Core v4.0.3.11
@@ -43,6 +43,7 @@ Extra Utilities v1.1.0e
 FMPIntegration v1.2.2
 Forge Multipart v1.1.0.292
 Glowstone Wire v1.0.2.113
+Hardcore Ender Expansion v1.6.2
 Hats v4.0.0
 Iguana's Tinker Tweaks v2.0.0
 InventoryTweaks v1.58 147
@@ -52,14 +53,14 @@ Mekanism v7.0.0.75
 Mekanism Generators v7.0.0.75
 Mekanism Tools v7.0.0.75
 Metallurgy v4.0.3.36
-Minefactory Reloaded v2.8.0RC1-540
+Minefactory Reloaded v2.8.0RC2-557
 MineTweaker v3.0.6
 ModTweaker v0.5d
 Morph v0.9.0
 Morpheus v1.5.17
 Mystcraft v0.10.15.00
 Natura v2.2.0 b1
-Nether Ores v2.3.0RC2-76
+Nether Ores v2.3.0RC3-84
 Not Enough Items v1.0.2.15
 Open Eye v0.6
 Pam's Clay Spawn v1.7.2a
@@ -67,8 +68,8 @@ PiP v4.0.0
 PneumaticCraft v1.2.2
 RPGAdvMod v1.0.0
 Shatter v4.0.0
-Thermal Expansion v4.0.0B1-3
-Thermal Foundation v1.0.0.B1-2
+Thermal Expansion v4.0.0B3-11
+Thermal Foundation v1.0.0.B1-6
 TiCTooltips v1.1.8a
 Tinker's Construct v1.6.0d38
 Twilight Forest v2.2.3
