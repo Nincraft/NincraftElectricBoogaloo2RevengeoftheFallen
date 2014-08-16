@@ -212,40 +212,6 @@
             1
         ]
     },
-	"eximite": {
-        "template": "uniform",
-		"block": "Metallurgy:ender.ore",
-		"metadata": 0,
-		"materia": "minecraft:end_stone",
-        "clusterSize": 4,
-        "numClusters": 6,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
-    },
-	"meutoite": {
-        "template": "uniform",
-		"block": "Metallurgy:ender.ore",
-		"metadata": 1,
-		"materia": "minecraft:end_stone",
-        "clusterSize": 3,
-        "numClusters": 3,
-        "minHeight": 0,
-        "maxHeight": 128,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            1
-        ]
-    },
 	"ignatius": {
         "template": "uniform",
 		"block": [
