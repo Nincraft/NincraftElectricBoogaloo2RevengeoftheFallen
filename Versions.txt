@@ -23,7 +23,7 @@ Better Foliage v0.9.9b
 BiblioCraft v1.7.5
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
-Biomes O' Plenty v2.1.0.943
+Biomes O' Plenty v2.1.0.969
 Blood Magic v1.1.0
 Botania r1.1-94
 Carpenter's Blocks v3.2.5
