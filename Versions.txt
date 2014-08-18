@@ -1,80 +1,92 @@
 Current Forge Version
 
-Forge v10.13.0.1206
+Forge v10.13.0.1207
 
 Current API Versions
 
+Baubles v1.0.1.2
 bspkrs Core v6.13
-CodeChickenCore v1.0.2.9
-CodeChickenLib v1.1.1.93
+CodeChickenCore v1.0.3.23
+CodeChickenLib v1.1.1.99
 CoFHCore v3.0.0B3-26
 CoFHLib v1.0.0B3-20
+CookieCore v1.2.0
+Forge Multipart v1.1.0.292
 iChunUtil v4.0.0
 Mantle v0.3.0
 Metallurgy Core v4.0.3.11
+MicDoodleCore v3.0.1.166
 
 Current Mod Versions
 
-AOBD v2.2.1
+AOBD v2.2.3
 Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
-Baubles v1.0.1.2
-Better Foliage v0.9.9b
+Better Foliage v0.9.10b
 BiblioCraft v1.7.5
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
+Big Reactors v0.4.0RC2
 Biomes O' Plenty v2.1.0.969
 Blood Magic v1.1.0
-Botania r1.1-94
-Carpenter's Blocks v3.2.5
-Chisel v1.5.6
+Botania r1.1-100
+Carpenter's Blocks v3.2.6
+Chisel v1.5.6a
 Damage Indicators Mod v3.2.0
-Dense Ores dev 1.3
-Doom-like Dungeon v1.3.4
+Dense Ores dev 1.4.2
+Doom-like Dungeon v1.4.0
 Dynamic Lights v1.7.10
-Enchiridion v1.2
-EnderIO  v2.0 beta 152
-EnderTech v0.1.0.199
-Ender Storage v1.4.4.6
-Equivalent Exchange 3 v0.2.292
+Enchiridion v1.2b
+EnderIO  v2.0 beta 180
+Ender Storage v1.4.5.19
+Ender Tech v0.2.0.254
+Equivalent Exchange 3 v0.2.295
 Extra Cells v2.1.3
-ExtraTiC v1.0.0
-Extra Utilities v1.1.0e
+ExtraTiC v1.0.3
+Extra Utilities v1.1.0g
 FMPIntegration v1.2.2
-Forge Multipart v1.1.0.292
+Galacticraft Core v3.0.1.166
+Galacticraft Planets v3.0.1.166
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
 Hats v4.0.0
-Iguana's Tinker Tweaks v2.0.0
+Iguana's Tinker Tweaks v2.0.1B2
 InventoryTweaks v1.58 147
-Iron Chest v6.0.41.729
+Iron Chest v6.0.49.733
 JABBA v1.1.4
+Lycanite's Mobs v1.8.2b
+Magical Crops v0.1
 Mekanism v7.0.0.75
 Mekanism Generators v7.0.0.75
 Mekanism Tools v7.0.0.75
-Metallurgy v4.0.3.36
+Metallurgy v4.0.4.43
 Minefactory Reloaded v2.8.0RC2-557
 MineTweaker v3.0.6
 ModTweaker v0.5d
 Morph v0.9.0
-Morpheus v1.5.17
-Mystcraft v0.10.15.00
+Morpheus v1.5.18
 Natura v2.2.0 b1
+NEI Addons v1.12.0.4
+NEI Plugins v1.1.0.7
 Nether Ores v2.3.0RC3-84
-Not Enough Items v1.0.2.15
+Not Enough Items v1.0.3.49
 Open Eye v0.6
 Pam's Clay Spawn v1.7.2a
 PiP v4.0.0
-PneumaticCraft v1.2.2
+PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
 Shatter v4.0.0
 Thermal Expansion v4.0.0B3-11
 Thermal Foundation v1.0.0.B1-6
-TiCTooltips v1.1.8a
-Tinker's Construct v1.6.0d38
+TiCTooltips v1.1.9
+Tinker's Construct v1.6.0d39
+Tinker's Mechworks v0.2.8
+Tinker's Steelworks v1.0.2
+Translocator v1.1.1.8
 Twilight Forest v2.2.3
 WAILA v1.5.3
-Witchery v0.20.2
+WAWLA v1.0.4
+Witchery v0.20.5
 
 Disabled Mods (For Now)
 
@@ -82,6 +94,7 @@ Alternate Terrain Generation
 ComputerCraft
 Drama Splash
 MapWriter1
+Mystcraft
 Thaumcraft
 Thaumic Warden
 Underground Biomes Constructs

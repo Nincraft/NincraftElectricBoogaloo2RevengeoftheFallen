@@ -49,7 +49,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
-            -19
+            -19,
+			7
         ]
     },
 	"Oureclase": {
@@ -140,7 +141,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
-            -19
+            -19,
+			7
         ]
     },
 	"orichalcum": {
@@ -170,12 +172,16 @@
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			"DarkForest",
+			"DarkForestCenter"
+		],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
-            -19
+            -19,
+			7
         ]
     },
 	"atlarus": {
@@ -187,12 +193,15 @@
         "minHeight": 0,
         "maxHeight": 16,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			"Thornlands"
+		],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
-            -19
+            -19,
+			7
         ]
     },
 	"zinc": {
@@ -209,7 +218,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"ignatius": {
@@ -416,7 +426,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"phosphorite": {
@@ -433,7 +444,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"saltpeter": {
@@ -450,7 +462,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"magnesium": {
@@ -477,7 +490,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"bitumen": {
@@ -494,7 +508,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     },
 	"potash": {
@@ -511,7 +526,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-            1
+            1,
+			7
         ]
     }
 }

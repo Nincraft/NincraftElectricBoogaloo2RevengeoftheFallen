@@ -166,8 +166,10 @@
         "meanHeight": 24,
         "maxVariance": 8,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			"EnchantedForest"
+		],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
