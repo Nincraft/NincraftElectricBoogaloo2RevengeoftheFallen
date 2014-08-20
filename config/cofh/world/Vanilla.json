@@ -18,7 +18,30 @@
     },
     "gravel": {
         "template": "uniform",
-        "block": "gravel",
+        "block": [
+		    "gravel",
+			"TConstruct:GravelOre",
+			"TConstruct:GravelOre",
+			"TConstruct:GravelOre",
+			"TConstruct:GravelOre",
+			"TConstruct:GravelOre"
+		],
+		"metadata": [
+		    0,
+			0,
+			1,
+			2,
+			3,
+			4
+		],
+		"weight": [
+		    95,
+			1,
+			1,
+			1,
+			1,
+			1
+		],
 		"material": "stone",
         "clusterSize": 32,
         "numClusters": 10,

@@ -168,7 +168,7 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-			"EnchantedForest"
+			216
 		],
         "dimensionRestriction": "whitelist",
         "dimensions": [
