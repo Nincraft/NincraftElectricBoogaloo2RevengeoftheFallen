@@ -74,7 +74,6 @@ Not Enough Items v1.0.3.49
 Open Eye v0.6
 Pam's Clay Spawn v1.7.2a
 Ping v1.0.2.B6
-PiP v4.0.0
 PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
 Shatter v4.0.0
@@ -97,8 +96,9 @@ Disabled Mods (For Now)
 Alternate Terrain Generation
 ComputerCraft
 Drama Splash
-MapWriter1
+MapWriter
 Mystcraft
+PiP v4.0.0
 Thaumcraft
 Thaumic Warden
 Underground Biomes Constructs
