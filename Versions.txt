@@ -54,6 +54,7 @@ Iguana's Tinker Tweaks v2.0.1B2
 InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
+JourneyMap v4.0.4
 Lycanite's Mobs v1.8.2b
 Magical Crops v0.1
 Mekanism v7.0.0.75
@@ -72,10 +73,12 @@ Nether Ores v2.3.0RC3-84
 Not Enough Items v1.0.3.49
 Open Eye v0.6
 Pam's Clay Spawn v1.7.2a
+Ping v1.0.2.B6
 PiP v4.0.0
 PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
 Shatter v4.0.0
+Simply Jetpacks v1.1.0
 Thermal Expansion v4.0.0B3-11
 Thermal Foundation v1.0.0.B1-6
 TiCTooltips v1.1.9
@@ -85,6 +88,7 @@ Tinker's Steelworks v1.0.2
 Translocator v1.1.1.8
 Twilight Forest v2.2.3
 WAILA v1.5.3
+Warpbook v1.2.29
 WAWLA v1.0.4
 Witchery v0.20.5
 
