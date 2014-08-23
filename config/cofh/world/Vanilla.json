@@ -2,7 +2,7 @@
     "dirt": {
         "template": "uniform",
         "block": "dirt",
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 32,
         "numClusters": 20,
         "minHeight": 20,
@@ -35,12 +35,12 @@
 			4
 		],
 		"weight": [
-		    95,
-			1,
-			1,
-			1,
-			1,
-			1
+		    975,
+			5,
+			5,
+			5,
+			5,
+			5
 		],
 		"material": "stone",
         "clusterSize": 32,
@@ -90,7 +90,7 @@
 			1,
 			1
 		],
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 13,
         "numClusters": 8,
         "meanHeight": 48,
@@ -108,7 +108,7 @@
     "gold": {
         "template": "normal",
         "block": "gold_ore",
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 8,
         "numClusters": 3,
         "meanHeight": 18,
@@ -126,7 +126,7 @@
     "redstone": {
         "template": "normal",
         "block": "redstone_ore",
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 4,
         "numClusters": 16,
         "meanHeight": 13,
@@ -143,7 +143,7 @@
     "diamond": {
         "template": "uniform",
         "block": "diamond_ore",
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 7,
         "numClusters": 2,
         "minHeight": 1,
@@ -161,7 +161,7 @@
     "lapis": {
         "template": "normal",
         "block": "lapis_ore",
-		"material": "minecraft:stone",
+		"material": "stone",
         "clusterSize": 5,
         "numClusters": 2,
         "meanHeight": 15,
@@ -178,7 +178,7 @@
     "quartz": {
         "template": "uniform",
         "block": "quartz_ore",
-		"material": "minecraft:netherrack",
+		"material": "netherrack",
         "clusterSize": 13,
         "numClusters": 16,
         "minHeight": 10,

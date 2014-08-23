@@ -2,16 +2,21 @@
     "yellorite": {
         "template": "normal",
         "block": "BigReactors:YelloriteOre",
+		"material": "stone",
         "clusterSize": 10,
         "numClusters": 3,
         "meanHeight": 6,
         "maxVariance": 6,
         "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "whitelist",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+		    211
+		],
+        "dimensionRestriction": "blacklist",
         "dimensions": [
-            -28
+            -1,
+			1,
+			7
         ]
     }
 }

@@ -2,6 +2,7 @@
     "osmium": {
         "template": "normal",
         "block": "Mekanism:OreBlock",
+		"material": "stone",
 		"metadata": 0,
         "clusterSize": 8,
         "numClusters": 8,

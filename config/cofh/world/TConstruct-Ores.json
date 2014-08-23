@@ -25,6 +25,7 @@
 			1,
 			1
 		],
+		"material": "stone",
         "clusterSize": 5,
         "numClusters": 11,
         "minHeight": 44,

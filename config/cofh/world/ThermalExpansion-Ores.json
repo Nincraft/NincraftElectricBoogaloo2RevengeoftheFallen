@@ -13,6 +13,7 @@
 			98,
 			2
 		],
+		"material": "stone",
         "clusterSize": 11,
         "numClusters": 6,
         "meanHeight": 58,
@@ -30,6 +31,7 @@
 	"tin": {
         "template": "normal",
         "block": "ThermalFoundation:Ore",
+		"material": "stone",
 		"metadata": 1,
         "clusterSize": 10,
         "numClusters": 6,
@@ -59,6 +61,7 @@
             90,
             10
         ],
+		"material": "stone",
         "clusterSize": 9,
         "numClusters": 5,
         "meanHeight": 24,
@@ -87,6 +90,7 @@
             90,
             10
         ],
+		"material": "stone",
         "clusterSize": 10,
         "numClusters": 5,
         "meanHeight": 28,
@@ -115,6 +119,7 @@
 			90,
 			10
 		],
+		"material": "stone",
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 6,
@@ -143,6 +148,7 @@
 			90,
 			10
 		],
+		"material": "stone",
         "clusterSize": 6,
         "numClusters": 3,
         "minHeight": 4,
@@ -160,6 +166,7 @@
 	"mithril": {
         "template": "normal",
 		"block": "ThermalFoundation:Ore",
+		"material": "stone",
 		"metadata": 6,
         "clusterSize": 3,
         "numClusters": 3,
@@ -168,7 +175,8 @@
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-			216
+			216,
+			193
 		],
         "dimensionRestriction": "whitelist",
         "dimensions": [
