@@ -1,0 +1,24 @@
+{
+    "essenceore": {
+        "template": "normal",
+        "block": "magicalcrops:magicalcrops_EssenceOre",
+		"material": "stone",
+        "clusterSize": 18,
+        "numClusters": 3,
+        "meanHeight": 13,
+        "maxVariance": 5,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			216,
+			193
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+			-19,
+			0,
+			7
+        ]
+    }
+}
