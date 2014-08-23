@@ -78,6 +78,7 @@ PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
 Shatter v4.0.0
 Simply Jetpacks v1.1.0
+Thaumcraft v4.2.0
 Thermal Expansion v4.0.0B3-11
 Thermal Foundation v1.0.0.B1-6
 TiCTooltips v1.1.9
@@ -98,7 +99,5 @@ ComputerCraft
 Drama Splash
 MapWriter
 Mystcraft
-PiP v4.0.0
-Thaumcraft
+PiP
 Thaumic Warden
-Underground Biomes Constructs
