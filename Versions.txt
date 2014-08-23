@@ -76,6 +76,8 @@ Pam's Clay Spawn v1.7.2a
 Ping v1.0.2.B6
 PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
+ServerTools-BACKUP v2.1.0.11
+ServerTools-CORE v2.1.0.55
 Shatter v4.0.0
 Simply Jetpacks v1.1.0
 Thaumcraft v4.2.0
