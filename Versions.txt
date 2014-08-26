@@ -44,6 +44,7 @@ Equivalent Exchange 3 v0.2.295
 Extra Cells v2.1.3
 ExtraTiC v1.0.3
 Extra Utilities v1.1.0g
+Flaxbeard's Steam Power v0.25.2
 FMPIntegration v1.2.2
 Galacticraft Core v3.0.1.166
 Galacticraft Planets v3.0.1.166
