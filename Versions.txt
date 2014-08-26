@@ -54,7 +54,6 @@ InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
 JourneyMap v4.0.4
-Lycanite's Mobs v1.8.2b
 Magical Crops v0.1
 Mekanism v7.0.0.75
 Mekanism Generators v7.0.0.75
@@ -100,6 +99,7 @@ Alternate Terrain Generation
 ComputerCraft
 Drama Splash
 Iguana's Tinker Tweaks
+Lycanite's Mobs
 MapWriter
 Mystcraft
 PiP
