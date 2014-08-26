@@ -51,6 +51,7 @@ Galacticraft Planets v3.0.1.166
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
 Hats v4.0.0
+HatStand v4.0.0
 InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
