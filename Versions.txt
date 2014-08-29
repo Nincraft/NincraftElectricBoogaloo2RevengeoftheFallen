@@ -56,7 +56,6 @@ HatStand v4.0.0
 InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
-JourneyMap v4.0.4
 Magical Crops v0.1
 Mekanism v7.0.0.75
 Mekanism Generators v7.0.0.75
@@ -98,7 +97,6 @@ Twilight Forest v2.2.3
 WAILA v1.5.3
 Warpbook v1.2.29
 WAWLA v1.0.4
-Witchery v0.20.5
 
 Disabled Mods (For Now)
 
