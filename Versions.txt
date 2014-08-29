@@ -44,7 +44,7 @@ Ender Tech v0.2.0.254
 Equivalent Exchange 3 v0.2.295
 Extra Cells v2.1.3
 ExtraTiC v1.0.3
-Extra Utilities v1.1.0g
+Extra Utilities v1.1.0j
 Flaxbeard's Steam Power v0.26.1
 FMPIntegration v1.2.2
 Galacticraft Core v3.0.1.170
