@@ -91,7 +91,7 @@ Thermal Foundation v1.0.0.B1-6
 TiCTooltips v1.1.9
 Tinker's Construct v1.6.0d39
 Tinker's Mechworks v0.2.8
-Tinker's Steelworks v1.0.2
+Tinker's Steelworks v1.0.3
 Translocator v1.1.1.8
 Twilight Forest v2.2.3
 WAILA v1.5.3
