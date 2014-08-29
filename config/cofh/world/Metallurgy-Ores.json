@@ -213,5 +213,22 @@
             1,
             7
         ]
+    },
+    "manganese": {
+        "template": "uniform",
+        "block": "Metallurgy:base.ore",
+        "metadata": 2,
+        "clusterSize": 1,
+        "numClusters": 2,
+        "minHeight": 20,
+        "maxHeight": 40,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+			1,
+			7
+        ]
     }
 }
