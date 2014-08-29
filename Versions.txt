@@ -79,7 +79,7 @@ Opis v1.2.3
 Pam's Clay Spawn v1.7.2a
 Ping v1.0.2.B6
 PiP v4.0.0
-PneumaticCraft v1.2.5
+PneumaticCraft v1.2.6
 RPGAdvMod v1.0.0
 ServerTools-BACKUP v2.1.0.11
 ServerTools-CORE v2.1.0.55
