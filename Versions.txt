@@ -46,8 +46,8 @@ ExtraTiC v1.0.3
 Extra Utilities v1.1.0g
 Flaxbeard's Steam Power v0.25.2
 FMPIntegration v1.2.2
-Galacticraft Core v3.0.1.166
-Galacticraft Planets v3.0.1.166
+Galacticraft Core v3.0.1.170
+Galacticraft Planets v3.0.1.170
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
 Hats v4.0.0
@@ -77,6 +77,7 @@ Open Eye v0.6
 Opis v1.2.3
 Pam's Clay Spawn v1.7.2a
 Ping v1.0.2.B6
+PiP v4.0.0
 PneumaticCraft v1.2.5
 RPGAdvMod v1.0.0
 ServerTools-BACKUP v2.1.0.11
@@ -106,5 +107,4 @@ Iguana's Tinker Tweaks
 Lycanite's Mobs
 MapWriter
 Mystcraft
-PiP
 Thaumic Warden
