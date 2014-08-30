@@ -33,6 +33,7 @@ Blood Magic v1.1.0
 Botania r1.2-101
 Carpenter's Blocks v3.2.6
 Chisel v1.5.6a
+CoroUtil v1.5.6a
 Damage Indicators Mod v3.2.0
 Dense Ores dev 1.4.2
 Doom-like Dungeon v1.4.0
@@ -56,7 +57,6 @@ HatStand v4.0.0
 InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
-Local Storms and Weather v2.3.5
 Magical Crops v0.1
 Mekanism v7.0.0.75
 Mekanism Generators v7.0.0.75
@@ -99,6 +99,7 @@ Twilight Forest v2.2.3
 WAILA v1.5.3
 Warpbook v1.2.29
 WAWLA v1.0.4
+Weather v2.3.5
 
 Disabled Mods (For Now)
 
