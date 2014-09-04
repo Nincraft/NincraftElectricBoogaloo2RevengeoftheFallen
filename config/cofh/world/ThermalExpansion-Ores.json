@@ -14,7 +14,7 @@
             2
         ],
         "material": "minecraft:stone",
-        "clusterSize": 11,
+        "clusterSize": 12,
         "numClusters": 6,
         "meanHeight": 58,
         "maxVariance": 7,
@@ -33,7 +33,7 @@
         "block": "ThermalFoundation:Ore",
         "material": "minecraft:stone",
         "metadata": 1,
-        "clusterSize": 10,
+        "clusterSize": 6,
         "numClusters": 6,
         "meanHeight": 37,
         "maxVariance": 7,
