@@ -115,7 +115,7 @@
         "template": "normal",
         "block": "Metallurgy:precious.ore",
         "metadata": 0,
-        "clusterSize": 8,
+        "clusterSize": 4,
         "numClusters": 6,
         "meanHeight": 60,
         "maxVariance": 6,
