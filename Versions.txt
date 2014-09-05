@@ -8,11 +8,12 @@ Baubles v1.0.1.2
 bspkrs Core v6.13
 CodeChickenCore v1.0.3.23
 CodeChickenLib v1.1.1.99
-CoFHCore v3.0.0B3-26
-CoFHLib v1.0.0B3-20
+CoFHCore v3.0.0B6-32
+CoFHLib v1.0.0B6-26
 CookieCore v1.2.0
 Forge Multipart v1.1.0.292
 iChunUtil v4.0.0
+IndustrialCraft 2 Experimental v2.2.633
 Mantle v0.3.0
 Metallurgy Core v4.0.3.11
 MicDoodleCore v3.0.1.166
@@ -27,7 +28,7 @@ Better Foliage v0.9.10b
 BiblioCraft v1.7.5
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
-Big Reactors v0.4.0RC2
+Big Reactors v0.4.0RC8
 Biomes O' Plenty v2.1.0.969
 Blood Magic v1.1.0
 Botania r1.2-101
@@ -58,11 +59,11 @@ InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
 Magical Crops v0.1
-Mekanism v7.0.0.75
-Mekanism Generators v7.0.0.75
-Mekanism Tools v7.0.0.75
+Mekanism v7.1.0.92
+Mekanism Generators v7.1.0.92
+Mekanism Tools v7.1.0.92
 Metallurgy v4.0.4.43
-Minefactory Reloaded v2.8.0RC2-557
+Minefactory Reloaded v2.8.0RC3-591
 MineTweaker v3.0.6
 MobiusCore v1.2.3
 ModTweaker v0.5d
@@ -80,6 +81,7 @@ Pam's Clay Spawn v1.7.2a
 Ping v1.0.2.B6
 PiP v4.0.0
 PneumaticCraft v1.2.6
+RedstoneArsenal v1.1.0B4-10
 RPGAdvMod v1.0.0
 ServerTools-BACKUP v2.1.0.11
 ServerTools-CORE v2.1.0.55
@@ -88,8 +90,8 @@ Simply Jetpacks v1.1.0
 Steve's Carts v2.0.0b16
 Thaumcraft v4.2.0
 Thaumic Tinkerer v2.5-157
-Thermal Expansion v4.0.0B3-11
-Thermal Foundation v1.0.0.B1-6
+Thermal Expansion v4.0.0B5-13
+Thermal Foundation v1.0.0.B3-8
 TiCTooltips v1.1.9
 Tinker's Construct v1.6.0d39
 Tinker's Mechworks v0.2.8
