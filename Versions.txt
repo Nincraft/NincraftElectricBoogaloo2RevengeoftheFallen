@@ -97,6 +97,7 @@ Steve's Carts v2.0.0b16
 TabulaRasa v1.0.1-3
 Thaumcraft v4.2.0
 Thaumic Tinkerer v2.5-157
+Thaumic Warden v1.1.1
 Thermal Expansion v4.0.0B5-13
 Thermal Foundation v1.0.0.B3-8
 TiCTooltips v1.1.9
@@ -118,4 +119,3 @@ Drama Splash
 Lycanite's Mobs
 MapWriter
 Mystcraft
-Thaumic Warden
