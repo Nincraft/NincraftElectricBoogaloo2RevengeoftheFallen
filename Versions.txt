@@ -51,6 +51,7 @@ Flaxbeard's Steam Power v0.26.1
 FMPIntegration v1.2.2
 Galacticraft Core v3.0.1.170
 Galacticraft Planets v3.0.1.170
+Garden Stuff v1.2.1
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
 Hats v4.0.0
