@@ -92,6 +92,7 @@ ServerTools-CORE v2.1.0.55
 Shatter v4.0.0
 Simply Jetpacks v1.1.0
 Steve's Carts v2.0.0b16
+TabulaRasa v1.0.1-3
 Thaumcraft v4.2.0
 Thaumic Tinkerer v2.5-157
 Thermal Expansion v4.0.0B5-13
