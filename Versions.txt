@@ -86,6 +86,7 @@ PiP v4.0.0
 PneumaticCraft v1.2.6
 Random Things 2.1.4
 RedstoneArsenal v1.1.0B4-10
+Reliquary v1.2.137
 RPGAdvMod v1.0.0
 ServerTools-BACKUP v2.1.0.11
 ServerTools-CORE v2.1.0.55
