@@ -2,16 +2,16 @@
     "oureclase": {
         "template": "normal",
         "block": [
-            "Metallurgy:fantasy.ore",
-            "Metallurgy:fantasy.ore"
-        ],
-        "metadata": [
-            4,
-            6
-        ],
-        "weight": [
-            90,
-            10
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 6,
+                "weight": 10
+            }
         ],
         "clusterSize": 8,
         "numClusters": 4,
@@ -30,16 +30,16 @@
     "carmot": {
         "template": "normal",
         "block": [
-            "Metallurgy:fantasy.ore",
-            "Metallurgy:fantasy.ore"
-        ],
-        "metadata": [
-            6,
-            4
-        ],
-        "weight": [
-            90,
-            10
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 6,
+                "weight": 90
+            },
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 4,
+                "weight": 10
+            }
         ],
         "clusterSize": 6,
         "numClusters": 4,
@@ -57,8 +57,10 @@
     },
     "orichalcum": {
         "template": "uniform",
-        "block": "Metallurgy:fantasy.ore",
-        "metadata": 11,
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 11
+        },
         "clusterSize": 6,
         "numClusters": 10,
         "minHeight": 5,
@@ -76,8 +78,10 @@
     },
     "adamantine": {
         "template": "uniform",
-        "block": "Metallurgy:fantasy.ore",
-        "metadata": 13,
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 13
+        },
         "clusterSize": 3,
         "numClusters": 2,
         "minHeight": 0,
@@ -95,8 +99,10 @@
     },
     "atlarus": {
         "template": "uniform",
-        "block": "Metallurgy:fantasy.ore",
-        "metadata": 14,
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 14
+        },
         "clusterSize": 9,
         "numClusters": 10,
         "minHeight": 0,
@@ -113,8 +119,10 @@
     },
     "zinc": {
         "template": "normal",
-        "block": "Metallurgy:precious.ore",
-        "metadata": 0,
+        "block": {
+            "name": "Metallurgy:precious.ore",
+            "metadata": 0
+        },
         "clusterSize": 4,
         "numClusters": 6,
         "meanHeight": 60,
@@ -131,8 +139,10 @@
     },
     "vyroxeres": {
         "template": "uniform",
-        "block": "Metallurgy:nether.ore",
-        "metadata": 4,
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 4
+        },
         "material": "minecraft:netherrack",
         "clusterSize": 7,
         "numClusters": 8,
@@ -150,8 +160,10 @@
     },
     "vulcanite": {
         "template": "uniform",
-        "block": "Metallurgy:nether.ore",
-        "metadata": 8,
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 8
+        },
         "material": "minecraft:netherrack",
         "clusterSize": 4,
         "numClusters": 6,
@@ -169,8 +181,10 @@
     },
     "sanguinite": {
         "template": "uniform",
-        "block": "Metallurgy:nether.ore",
-        "metadata": 9,
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 9
+        },
         "material": "minecraft:netherrack",
         "clusterSize": 4,
         "numClusters": 6,
@@ -189,16 +203,16 @@
     "magnesium": {
         "template": "uniform",
         "block": [
-            "Metallurgy:utility.ore",
-            "BiomesOPlenty:gemOre"
-        ],
-        "metadata": [
-            0,
-            4
-        ],
-        "weight": [
-            92,
-            8
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 0,
+                "weight": 92
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 4,
+                "weight": 8
+            }
         ],
         "clusterSize": 4,
         "numClusters": 4,
@@ -216,8 +230,10 @@
     },
     "manganese": {
         "template": "uniform",
-        "block": "Metallurgy:base.ore",
-        "metadata": 2,
+        "block": {
+            "name": "Metallurgy:base.ore",
+            "metadata": 2
+        },
         "clusterSize": 1,
         "numClusters": 2,
         "minHeight": 20,
@@ -227,8 +243,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
-			1,
-			7
+            1,
+            7
         ]
     }
 }

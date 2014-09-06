@@ -1,9 +1,11 @@
 {
     "osmium": {
         "template": "normal",
-        "block": "Mekanism:OreBlock",
-		"material": "stone",
-		"metadata": 0,
+        "block": {
+            "name": "Mekanism:OreBlock",
+            "metadata": 0
+        },
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 8,
         "meanHeight": 16,
@@ -15,7 +17,7 @@
         "dimensions": [
             -1,
             1,
-			7
+            7
         ]
     }
 }

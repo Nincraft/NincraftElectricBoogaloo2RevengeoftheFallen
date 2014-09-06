@@ -2,7 +2,7 @@
     "dirt": {
         "template": "uniform",
         "block": "dirt",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 20,
         "minHeight": 20,
@@ -19,30 +19,38 @@
     "gravel": {
         "template": "uniform",
         "block": [
-		    "gravel",
-			"TConstruct:GravelOre",
-			"TConstruct:GravelOre",
-			"TConstruct:GravelOre",
-			"TConstruct:GravelOre",
-			"TConstruct:GravelOre"
-		],
-		"metadata": [
-		    0,
-			0,
-			1,
-			2,
-			3,
-			4
-		],
-		"weight": [
-		    975,
-			5,
-			5,
-			5,
-			5,
-			5
-		],
-		"material": "stone",
+            {
+                "name": "gravel",
+                "metadata": 0,
+                "weight": 975
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 0,
+                "weight": 5
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 1,
+                "weight": 5
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 2,
+                "weight": 5
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 3,
+                "weight": 5
+            },
+            {
+                "name": "TConstruct:GravelOre",
+                "metadata": 4,
+                "weight": 5
+            }
+        ],
+        "material": "stone",
         "clusterSize": 32,
         "numClusters": 10,
         "minHeight": 20,
@@ -59,7 +67,7 @@
     "coal": {
         "template": "uniform",
         "block": "coal_ore",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 18,
         "numClusters": 20,
         "minHeight": 0,
@@ -76,21 +84,23 @@
     "iron": {
         "template": "normal",
         "block": [
-			"iron_ore",
-			"BiomesOPlenty:gemOre",
-			"BiomesOPlenty:gemOre"
-		],
-		"metadata": [
-			0,
-			4,
-			8
-		],
-		"weight": [
-			98,
-			1,
-			1
-		],
-		"material": "stone",
+            {
+                "name": "iron_ore",
+                "metadata": 0,
+                "weight": 98
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 4,
+                "weight": 1
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 8,
+                "weight": 1
+            }
+        ],
+        "material": "stone",
         "clusterSize": 13,
         "numClusters": 8,
         "meanHeight": 48,
@@ -102,13 +112,13 @@
         "dimensions": [
             -1,
             1,
-			7
+            7
         ]
     },
     "gold": {
         "template": "normal",
         "block": "gold_ore",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 3,
         "meanHeight": 18,
@@ -120,13 +130,13 @@
         "dimensions": [
             -1,
             1,
-			7
+            7
         ]
     },
     "redstone": {
         "template": "normal",
         "block": "redstone_ore",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 4,
         "numClusters": 16,
         "meanHeight": 13,
@@ -143,7 +153,7 @@
     "diamond": {
         "template": "uniform",
         "block": "diamond_ore",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 7,
         "numClusters": 2,
         "minHeight": 1,
@@ -155,13 +165,13 @@
         "dimensions": [
             -1,
             1,
-			7
+            7
         ]
     },
     "lapis": {
         "template": "normal",
         "block": "lapis_ore",
-		"material": "stone",
+        "material": "stone",
         "clusterSize": 5,
         "numClusters": 2,
         "meanHeight": 15,
@@ -178,7 +188,7 @@
     "quartz": {
         "template": "uniform",
         "block": "quartz_ore",
-		"material": "netherrack",
+        "material": "netherrack",
         "clusterSize": 13,
         "numClusters": 16,
         "minHeight": 10,

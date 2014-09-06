@@ -2,16 +2,16 @@
     "copper": {
         "template": "normal",
         "block": [
-            "ThermalFoundation:Ore",
-            "BiomesOPlenty:gemOre"
-        ],
-        "metadata": [
-            0,
-            10
-        ],
-        "weight": [
-            98,
-            2
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 0,
+                "weight": 98
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 10,
+                "weight": 2
+            }
         ],
         "material": "minecraft:stone",
         "clusterSize": 12,
@@ -30,9 +30,11 @@
     },
     "tin": {
         "template": "normal",
-        "block": "ThermalFoundation:Ore",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 1
+        },
         "material": "minecraft:stone",
-        "metadata": 1,
         "clusterSize": 6,
         "numClusters": 6,
         "meanHeight": 37,
@@ -50,16 +52,16 @@
     "silver": {
         "template": "normal",
         "block": [
-            "ThermalFoundation:Ore",
-            "ThermalFoundation:Ore"
-        ],
-        "metadata": [
-            2,
-            3
-        ],
-        "weight": [
-            90,
-            10
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 10
+            }
         ],
         "material": "minecraft:stone",
         "clusterSize": 9,
@@ -79,16 +81,16 @@
     "lead": {
         "template": "normal",
         "block": [
-            "ThermalFoundation:Ore",
-            "ThermalFoundation:Ore"
-        ],
-        "metadata": [
-            3,
-            2
-        ],
-        "weight": [
-            90,
-            10
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 10
+            }
         ],
         "material": "minecraft:stone",
         "clusterSize": 10,
@@ -108,16 +110,16 @@
     "nickel": {
         "template": "uniform",
         "block": [
-            "ThermalFoundation:Ore",
-            "ThermalFoundation:Ore"
-        ],
-        "metadata": [
-            4,
-            5
-        ],
-        "weight": [
-            90,
-            10
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 10
+            }
         ],
         "material": "minecraft:stone",
         "clusterSize": 6,
@@ -136,9 +138,11 @@
     },
     "mithril": {
         "template": "normal",
-        "block": "ThermalFoundation:Ore",
+        "block": {
+            "name": "ThermalFoundation:Ore",
+            "metadata": 6
+        },
         "material": "minecraft:stone",
-        "metadata": 6,
         "clusterSize": 3,
         "numClusters": 3,
         "meanHeight": 24,
