@@ -29,10 +29,10 @@ var bricks = <ore:bricksClay>;
 var brewingStand = <minecraft:brewing_stand>;
 
 # Survivalist Generator
-# -----------------------------------------------------------------
-# [ Cobble,          Cobble,                      Cobble         ]
-# [ Cobble,          Furnace,                     Cobble         ]
-# [ Redstone Alloy,  Leadstone Energy Cell Frame, Redstone Alloy ]
+# -------------------------------------------------------------------
+# [ Cobble,           Cobble,                      Cobble          ]
+# [ Cobble,           Furnace,                     Cobble          ]
+# [ Conductive Iron,  Leadstone Energy Cell Frame, Conductive Iron ]
 var survivalistGen = <ExtraUtilities:generator:0>;
 
 recipes.remove(survivalistGen);
@@ -42,10 +42,10 @@ recipes.addShaped(survivalistGen, [
     [conductiveIron, leadCellFrame, conductiveIron]]);
 
 # Furnace Generator
-# -----------------------------------------------------------------
-# [ Iron Ingot,      Iron Ingot,                  Iron Ingot     ]
-# [ Iron Ingot,      Furnace,                     Iron Ingot     ]
-# [ Redstone Alloy,  Leadstone Energy Cell Frame, Redstone Alloy ]
+# -------------------------------------------------------------------
+# [ Iron Ingot,       Iron Ingot,                  Iron Ingot      ]
+# [ Iron Ingot,       Furnace,                     Iron Ingot      ]
+# [ Conductive Iron,  Leadstone Energy Cell Frame, Conductive Iron ]
 var furnaceGen = <ExtraUtilities:generator:1>;
 
 recipes.remove(furnaceGen);
@@ -58,7 +58,7 @@ recipes.addShaped(furnaceGen, [
 # ------------------------------------------------------------------
 # [ Nether Bricks,   Nether Bricks,               Nether Bricks   ]
 # [ Nether Bricks,   Nether Furnace,              Nether Bricks   ]
-# [ Conductive Iron, Leadstone Energy Cell Frame, Conductive Iron ]
+# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
 var lavaGen = <ExtraUtilities:generator:2>;
 
 recipes.remove(lavaGen);
@@ -94,10 +94,10 @@ recipes.addShaped(heatedRedstoneGen, [
     [ignatiusIngot, ignatiusIngot, ignatiusIngot]]);
 
 # Culinary Generator
-# ----------------------------------------------------------------
-# [ Bricks,         Bricks,                      Bricks         ]
-# [ Bricks,         cauldron,                    Bricks         ]
-# [ Redstone Alloy, Leadstone Energy Cell Frame, Redstone Alloy ]
+# ------------------------------------------------------------------
+# [ Bricks,          Bricks,                      Bricks          ]
+# [ Bricks,          Cauldron,                    Bricks          ]
+# [ Conductive Iron, Leadstone Energy Cell Frame, Conductive Iron ]
 var foodGen = <ExtraUtilities:generator:5>;
 
 recipes.remove(foodGen);
@@ -107,10 +107,10 @@ recipes.addShaped(foodGen, [
     [conductiveIron, leadCellFrame, conductiveIron]]);
 
 # Potion Generator
-# -----------------------------------------------------------------
+# ------------------------------------------------------------------
 # [ Nether Bricks,   Nether Bricks,               Nether Bricks   ]
 # [ Nether Bricks,   Brewing Stand,               Nether Bricks   ]
-# [ Conductive Iron, Leadstone Energy Cell Frame, Conductive Iron ]
+# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
 var potionGen = <ExtraUtilities:generator:6>;
 
 recipes.remove(potionGen);
@@ -120,10 +120,10 @@ recipes.addShaped(potionGen, [
     [energeticAlloy, leadCellFrame, energeticAlloy]]);
 
 # Solar Generator
-# -----------------------------------------------------------------
-# [ Cobalt Ingot,    Clear Glass,                Cobalt Ingot    ]
-# [ Cobalt Ingot,    Advanced Photovoltaic Cell, Cobalt Ingot    ]
-# [ Conductive Iron, Redstone Energy Cell Frame, Conductive Iron ]
+# -------------------------------------------------------------
+# [ Cobalt Ingot,  Clear Glass,                Cobalt Ingot  ]
+# [ Cobalt Ingot,  Advanced Photovoltaic Cell, Cobalt Ingot  ]
+# [ Vibrant Alloy, Redstone Energy Cell Frame, Vibrant Alloy ]
 var solarGen = <ExtraUtilities:generator:7>;
 
 recipes.remove(solarGen);
@@ -136,7 +136,7 @@ recipes.addShaped(solarGen, [
 # ------------------------------------------------------------------
 # [ Obsidian,        Obsidian,                    Obsidian        ]
 # [ Obsidian,        Empty Space,                 Obsidian        ]
-# [ Conductive Iron, Leadstone Energy Cell Frame, Conductive Iron ]
+# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
 var tntGen = <ExtraUtilities:generator:8>;
 
 recipes.remove(tntGen);
