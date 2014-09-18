@@ -4,7 +4,7 @@ Forge v10.13.0.1208
 
 Current API Versions
 
-Baubles v1.0.1.2
+Baubles v1.0.1.8
 bspkrs Core v6.13
 CodeChickenCore v1.0.3.23
 CodeChickenLib v1.1.1.99
@@ -24,12 +24,12 @@ Admin Command Toolbox v0.0.2a
 AOBD v2.2.3
 Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
-Better Foliage v0.9.10b
-BiblioCraft v1.7.5
+Better Foliage v1.0.1
+BiblioCraft v1.8.1
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
 Big Reactors v0.4.0RC8
-Biomes O' Plenty v2.1.0.969
+Biomes O' Plenty v2.1.0.991
 Blood Magic v1.1.0
 Botania r1.2-115
 Carpenter's Blocks v3.2.6
@@ -47,7 +47,7 @@ Equivalent Exchange 3 v0.2.308
 Extra Cells v2.1.3
 ExtraTiC v1.0.3
 Extra Utilities v1.1.0j
-Flaxbeard's Steam Power v0.26.1
+Flaxbeard's Steam Power v0.26.2
 FMPIntegration v1.2.2
 Galacticraft Core v3.0.1.170
 Galacticraft Planets v3.0.1.170
@@ -107,7 +107,7 @@ Tinker's Mechworks v0.2.8
 Tinker's Steelworks v1.0.3
 Translocator v1.1.1.8
 Twilight Forest v2.2.3
-WAILA v1.5.3
+WAILA v1.5.4a
 Warpbook v1.2.29
 WAWLA v1.0.4
 Weather v2.3.5
