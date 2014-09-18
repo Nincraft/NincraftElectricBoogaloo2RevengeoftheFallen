@@ -25,7 +25,7 @@ AOBD v2.2.3
 Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
 Better Foliage v1.0.1
-BiblioCraft v1.7.5
+BiblioCraft v1.8.1
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
 Big Reactors v0.4.0RC8
