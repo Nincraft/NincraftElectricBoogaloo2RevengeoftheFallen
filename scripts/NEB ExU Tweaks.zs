@@ -1,5 +1,5 @@
 # COMMON VARIABLES
-
+#------------------
 var cobblestone = <ore:cobblestone>;
 var leadCellFrame = <ThermalExpansion:Frame:4>;
 var redstoneCellFrame = <ThermalExpansion:Frame:6>;

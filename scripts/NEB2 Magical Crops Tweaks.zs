@@ -1,5 +1,5 @@
 # COMMON VARIABLES
-
+#------------------
 var carmotDust = <ore:dustCarmot>;
 var infuscoliumDust = <ore:dustInfuscolium>;
 var essenceDust = <magicalcrops:magicalcrops_MagicEssence:0>;
@@ -75,11 +75,13 @@ recipes.addShaped(extremeEssence, [
     [null, carmotDust, null]]);
     
 # Remove Redundant Recipes
+#--------------------------
 recipes.remove(essenceDust);
 recipes.remove(infusionStone);
 recipes.remove(essenceOrb);
 
 # Adjust Downgrading Essence Recipes
+#------------------------------------
 recipes.addShapeless(essenceDust * 3, [weakEssence]);
 recipes.addShapeless(weakEssence * 3, [regularEssence]);
 recipes.addShapeless(regularEssence * 3, [strongEssence]);

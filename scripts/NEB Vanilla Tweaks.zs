@@ -1,5 +1,5 @@
 # COMMON VARIABLES
-
+#------------------
 var cobblestone = <ore:cobblestone>;
 var woodSlab = <ore:slabWood>;
 var ironToughRod = <TConstruct:toughRod:2>;
@@ -10,9 +10,6 @@ var bricks = <minecraft:brick_block>;
 #----------------
 var clayBricks = <ore:bricksClay>;
 clayBricks.add(bricks);
-
-# RECIPES
-#---------
 
 # Piston
 # -----------------------------------------
