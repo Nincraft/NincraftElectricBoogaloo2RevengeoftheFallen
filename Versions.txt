@@ -106,7 +106,7 @@ Tinker's Mechworks v0.2.8
 Tinker's Steelworks v1.0.3
 Translocator v1.1.1.8
 Twilight Forest v2.2.3
-WAILA v1.5.3
+WAILA v1.5.4a
 Warpbook v1.2.29
 WAWLA v1.0.4
 Weather v2.3.5
