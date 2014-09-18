@@ -4,7 +4,7 @@ Forge v10.13.0.1208
 
 Current API Versions
 
-Baubles v1.0.1.2
+Baubles v1.0.1.8
 bspkrs Core v6.13
 CodeChickenCore v1.0.3.23
 CodeChickenLib v1.1.1.99
