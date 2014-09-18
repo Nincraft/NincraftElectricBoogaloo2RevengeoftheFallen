@@ -24,7 +24,7 @@ Admin Command Toolbox v0.0.2a
 AOBD v2.2.3
 Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
-Better Foliage v0.9.10b
+Better Foliage v1.0.1
 BiblioCraft v1.7.5
 BiblioWoods (BoP) v1.6
 BiblioWoods (Natura) v1.2
