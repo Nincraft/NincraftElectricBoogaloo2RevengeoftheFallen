@@ -42,7 +42,7 @@ Dynamic Lights v1.7.10
 Enchiridion v1.2b
 EnderIO  v2.0.8.221
 Ender Storage v1.4.5.19
-Ender Tech v0.2.0.254
+Ender Tech v0.3.0.346
 Equivalent Exchange 3 v0.2.308
 Extra Cells v2.1.12b8
 ExtraTiC v1.0.3
