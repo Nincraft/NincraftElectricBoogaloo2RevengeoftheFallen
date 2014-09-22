@@ -40,7 +40,7 @@ Dense Ores dev 1.4.2
 Doom-like Dungeon v1.4.0
 Dynamic Lights v1.7.10
 Enchiridion v1.2b
-EnderIO  v2.0.4.211
+EnderIO  v2.0.8.221
 Ender Storage v1.4.5.19
 Ender Tech v0.2.0.254
 Equivalent Exchange 3 v0.2.308
