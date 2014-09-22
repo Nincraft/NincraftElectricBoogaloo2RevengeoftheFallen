@@ -19,6 +19,7 @@
         <fileSet>
             <directory>config</directory>
             <outputDirectory>/config</outputDirectory>
+            <filtered>true</filtered>
         </fileSet>
         <fileSet>
             <directory>servertools</directory>
