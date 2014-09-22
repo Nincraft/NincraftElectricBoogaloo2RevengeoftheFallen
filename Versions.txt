@@ -33,7 +33,7 @@ Biomes O' Plenty v2.1.0.991
 Blood Magic v1.1.0
 Botania r1.2-116
 Carpenter's Blocks v3.2.8
-Chisel v1.5.6a
+Chisel v1.5.7
 CoroUtil v1.5.6a
 Damage Indicators Mod v3.2.0
 Dense Ores dev 1.4.2
