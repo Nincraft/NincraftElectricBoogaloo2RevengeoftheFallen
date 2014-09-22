@@ -31,7 +31,7 @@ BiblioWoods (Natura) v1.4
 Big Reactors v0.4.0RC8
 Biomes O' Plenty v2.1.0.991
 Blood Magic v1.1.0
-Botania r1.2-115
+Botania r1.2-116
 Carpenter's Blocks v3.2.6
 Chisel v1.5.6a
 CoroUtil v1.5.6a
