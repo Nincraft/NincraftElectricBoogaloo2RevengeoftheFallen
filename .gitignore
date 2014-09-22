@@ -3,6 +3,23 @@
 #################
 mods/
 target/
+asm/
+cache/
+crash-reports/
+dumps/
+hats/
+journeyMap/
+logs/
+reports/
+saves/
+screenshots/
+
+*.lck
+*.rar
+1213309934
+nicknames.json
+options.txt
+optionsshaders.txt
 
 #################
 ## Eclipse
