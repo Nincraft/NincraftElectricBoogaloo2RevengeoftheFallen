@@ -21,7 +21,7 @@ MicDoodleCore v3.0.1.166
 Current Mod Versions
 
 Admin Command Toolbox v0.0.2a
-AOBD v2.2.3
+AOBD v2.2.4
 Applied Energistics 2 rv0 Stable 10
 Armor Status HUD v1.27
 Better Foliage v1.0.1
