@@ -86,6 +86,7 @@ Open Eye v0.6
 OpenModsLib v0.6-snapshot-224
 Opis v1.2.3
 Pam's Clay Spawn v1.7.2a
+Pam's HarvestCraft v1.7.10b
 Ping v1.0.2.B6
 PiP v4.0.0
 PneumaticCraft v1.2.6
