@@ -57,7 +57,7 @@ Galacticraft Planets v3.0.1.170
 Garden Stuff v1.2.1
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
-Hats v4.0.0
+Hats v4.0.1
 HatStand v4.0.0
 Iguana's Tinker Tweaks v2.0.3
 InventoryTweaks v1.58 147
