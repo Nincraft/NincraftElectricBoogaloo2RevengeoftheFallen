@@ -100,6 +100,7 @@ Simply Jetpacks v1.1.0
 Sparkly Pants v0.21
 Special Mobs v3.0.2
 Steve's Carts v2.0.0b16
+Sync v4.0.0
 TabulaRasa v1.0.1-3
 Thaumcraft v4.2.0
 Thaumic Tinkerer v2.5-157
