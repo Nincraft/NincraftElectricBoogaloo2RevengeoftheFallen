@@ -37,7 +37,8 @@ Carpenter's Blocks v3.2.8
 Chisel v1.5.7
 CoroUtil v1.5.6a
 Damage Indicators Mod v3.2.0
-Dense Ores dev 1.4.2
+Dense Ores dev v1.4.2
+DimensionGuard v0.4.2
 Doom-like Dungeon v1.4.0
 Dynamic Lights v1.7.10
 Enchiridion v1.2b
