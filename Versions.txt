@@ -37,6 +37,7 @@ Carpenter's Blocks v3.2.8
 Chisel v1.5.7
 CoroUtil v1.5.6a
 Damage Indicators Mod v3.2.0
+Dark Menagerie beta v1.0
 Dense Ores dev v1.4.2
 DimensionGuard v0.4.3
 Doom-like Dungeon v1.4.0
