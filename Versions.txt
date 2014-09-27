@@ -11,7 +11,7 @@ CodeChickenLib v1.1.1.99
 CoFHCore v3.0.0B6-32
 CoFHLib v1.0.0B6-26
 CookieCore v1.2.0
-Forge Multipart v1.1.0.292
+Forge Multipart v1.1.0.307
 iChunUtil v4.0.0
 IndustrialCraft 2 Experimental v2.2.633
 Mantle v0.3.1
@@ -26,18 +26,18 @@ Applied Energistics 2 rv1 Stable 1
 Armor Status HUD v1.27
 Better Foliage v1.0.1
 Better Title Screen v1.1
-BiblioCraft v1.8.1
+BiblioCraft v1.8.2
 BiblioWoods (BoP) v1.8
 BiblioWoods (Natura) v1.4
-Big Reactors v0.4.0RC8
+Big Reactors v0.4.0RC9
 Biomes O' Plenty v2.1.0.991
 Blood Magic v1.1.0
-Botania r1.2-116
+Botania r1.2-119
 Carpenter's Blocks v3.2.8
 Chisel v1.5.7
 CoroUtil v1.5.6a
 Damage Indicators Mod v3.2.0
-Dark Menagerie beta v1.0
+Dark Menagerie beta v2.0
 Dense Ores dev v1.4.2
 DimensionGuard v0.5.0
 Doom-like Dungeon v1.4.0
@@ -46,10 +46,10 @@ Enchiridion v1.2b
 EnderIO  v2.0.8.221
 Ender Storage v1.4.5.19
 Ender Tech v0.3.0.346
-Equivalent Exchange 3 v0.2.308
+Equivalent Exchange 3 v0.2.335
 Extra Cells v2.1.12b8
 ExtraTiC v1.0.3
-Extra Utilities v1.1.0j
+Extra Utilities v1.1.0k
 Flaxbeard's Steam Power v0.26.2
 FMPIntegration v1.2.2
 Galacticraft Core v3.0.1.170
@@ -59,7 +59,7 @@ Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
 Hats v4.0.1
 HatStand v4.0.0
-Iguana's Tinker Tweaks v2.0.3
+Iguana's Tinker Tweaks v2.0.6
 InventoryTweaks v1.58 147
 Iron Chest v6.0.49.733
 JABBA v1.1.4
@@ -89,7 +89,7 @@ Pam's Clay Spawn v1.7.2a
 Pam's HarvestCraft v1.7.10b
 Ping v1.0.2.B6
 PiP v4.0.0
-PneumaticCraft v1.2.6
+PneumaticCraft v1.2.7
 Random Things 2.1.4
 RedstoneArsenal v1.1.0B4-10
 Reliquary v1.2.137
@@ -97,7 +97,7 @@ RPGAdvMod v1.0.0
 ServerTools-BACKUP v2.1.0.11
 ServerTools-CORE v2.1.0.55
 Shatter v4.0.0
-Simply Jetpacks v1.1.0
+Simply Jetpacks v1.1.3
 Sparkly Pants v0.21
 Special Mobs v3.0.2
 Steve's Carts v2.0.0b16
@@ -108,14 +108,14 @@ Thaumic Tinkerer v2.5-157
 Thaumic Warden v1.1.1
 Thermal Expansion v4.0.0B5-13
 Thermal Foundation v1.0.0.B3-8
-TiCTooltips v1.1.9
-Tinker's Construct v1.7.0d2
+TiCTooltips v1.1.11b
+Tinker's Construct v1.7.0d3.1
 Tinker's Mechworks v0.2.8
 Tinker's Steelworks v1.0.3
 Translocator v1.1.1.8
 Twilight Forest v2.2.3
 WAILA v1.5.4a
-Warpbook v1.2.29
+Warpbook v2.0.34
 WAWLA v1.0.4
 Weather v2.3.5
 
