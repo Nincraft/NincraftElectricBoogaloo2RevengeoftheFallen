@@ -16,7 +16,7 @@ iChunUtil v4.0.0
 IndustrialCraft 2 Experimental v2.2.633
 Mantle v0.3.1
 Metallurgy Core v4.0.3.11
-MicDoodleCore v3.0.1.166
+MicDoodleCore v3.0.4.203
 
 Current Mod Versions
 
@@ -36,7 +36,7 @@ Botania r1.2-119
 Carpenter's Blocks v3.2.8
 Chisel v1.5.7
 ComputerCraft v1.64
-CoroUtil v1.5.6a
+CoroUtil v1.1
 Damage Indicators Mod v3.2.0
 Dark Menagerie beta v2.0
 Dense Ores dev v1.4.2
@@ -53,8 +53,8 @@ ExtraTiC v1.0.3
 Extra Utilities v1.1.0k
 Flaxbeard's Steam Power v0.26.2
 FMPIntegration v1.2.2
-Galacticraft Core v3.0.1.170
-Galacticraft Planets v3.0.1.170
+Galacticraft Core v3.0.4.203
+Galacticraft Planets v3.0.4.203
 Garden Stuff v1.2.1
 Glowstone Wire v1.0.2.113
 Hardcore Ender Expansion v1.6.2
@@ -74,9 +74,9 @@ MineTweaker v3.0.6
 MobiusCore v1.2.3
 ModTweaker v0.5d
 Morph v0.9.0
-Morpheus v1.5.18
+Morpheus v1.5.19
 Natura v2.2.0 b1
-NEI Addons v1.12.0.4
+NEI Addons v1.12.2.9
 NEI Plugins v1.1.0.7
 Nether Ores v2.3.0RC3-84
 Not Enough Items v1.0.3.49
@@ -118,7 +118,7 @@ Twilight Forest v2.2.3
 WAILA v1.5.4a
 Warpbook v2.0.34
 WAWLA v1.0.4
-Weather v2.3.5
+Weather v2.3.6
 
 Disabled Mods (For Now)
 
