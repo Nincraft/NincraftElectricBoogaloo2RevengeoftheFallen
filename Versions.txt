@@ -23,6 +23,7 @@ Current Mod Versions
 Admin Command Toolbox v0.0.2a
 AOBD v2.2.4
 Applied Energistics 2 rv1 Stable 1
+AsieLib v0.3.1
 Armor Status HUD v1.27
 Better Foliage v1.0.1
 Better Title Screen v1.1
@@ -101,6 +102,7 @@ Shatter v4.0.0
 Simply Jetpacks v1.1.3
 Sparkly Pants v0.21
 Special Mobs v3.0.2
+Statues v2.1.4
 Steve's Carts v2.0.0b16
 Sync v4.0.0
 TabulaRasa v1.0.1-3
