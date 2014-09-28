@@ -81,7 +81,7 @@ NEI Plugins v1.1.0.7
 Nether Ores v2.3.0RC3-84
 Not Enough Items v1.0.3.49
 Oceancraft v1.4.1
-OpenBlocks v1.3-snapshot-433
+OpenBlocks v1.3-snapshot-434
 OpenComputers v1.3.4.63
 Open Eye v0.6
 OpenModsLib v0.6-snapshot-224
