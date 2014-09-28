@@ -37,7 +37,7 @@ Botania r1.2-119
 Carpenter's Blocks v3.2.8
 Chisel v1.5.7
 ComputerCraft v1.64
-CoroUtil v1.1
+CoroUtil v1.0
 Damage Indicators Mod v3.2.0
 Dark Menagerie beta v2.0
 Dense Ores dev v1.4.2
@@ -120,7 +120,7 @@ Twilight Forest v2.3.2
 WAILA v1.5.4a
 Warpbook v2.0.34
 WAWLA v1.0.6
-Weather v2.3.6
+Weather v2.3.5
 
 Disabled Mods (For Now)
 
