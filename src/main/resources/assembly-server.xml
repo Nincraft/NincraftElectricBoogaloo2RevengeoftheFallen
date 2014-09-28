@@ -18,6 +18,7 @@
                 <exclude>*ShadersModCore*</exclude>
                 <exclude>*Shatter*</exclude>
                 <exclude>*VersionChecker*</exclude>
+                <exclude>*BetterTitleScreen*</exclude>
             </excludes>
         </fileSet>
         <fileSet>
