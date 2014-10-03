@@ -3,12 +3,10 @@
 
 # MOD IMPORTS
 #-------------
-
 import mods.thaumcraft.Aspects;
 
 # THAUMCRAFT ASPECTS
 #--------------------
-
 Aspects.add(<Botania:flower:*>, "herba 1, victus 1, sensus 1, praecantatio 1");
 Aspects.add(<Botania:petal:*>, "herba 1, praecantatio 1, sensus 1");
 Aspects.add(<Botania:manaPetal:*>, "herba 1, praecantatio 1, sensus 1");
