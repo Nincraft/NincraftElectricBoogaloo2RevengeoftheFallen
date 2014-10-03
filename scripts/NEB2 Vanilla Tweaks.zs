@@ -5,11 +5,16 @@ var woodSlab = <ore:slabWood>;
 var ironToughRod = <TConstruct:toughRod:2>;
 var redstoneAlloy = <ore:ingotRedstoneAlloy>;
 var bricks = <minecraft:brick_block>;
+var bread = <minecraft:bread>;
 
 # ORE DICTIONARY
 #----------------
 var clayBricks = <ore:bricksClay>;
 clayBricks.add(bricks);
+
+# RECIPE REMOVAL
+#----------------
+recipes.removeShaped(bread);
 
 # Piston
 # -----------------------------------------
