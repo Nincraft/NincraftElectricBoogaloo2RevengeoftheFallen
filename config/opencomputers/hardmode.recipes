@@ -121,17 +121,17 @@ linkedCard {
 
 batteryUpgrade1 {
   input: [[ingotIron, nuggetGold, ingotIron]
-          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          ["oc:transistor", "oc:capacitor", "oc:transistor"]
           [ingotIron, nuggetGold, ingotIron]]
 }
 batteryUpgrade2 {
   input: [[ingotGold, "oc:capacitor", ingotGold]
-          ["oc:materialTransistor", nuggetGold, "oc:materialTransistor"]
+          ["oc:transistor", nuggetGold, "oc:transistor"]
           [ingotGold, "oc:capacitor", ingotGold]]
 }
 batteryUpgrade3 {
   input: [[diamond, "oc:capacitor", diamond]
-          ["oc:materialTransistor", "oc:capacitor", "oc:materialTransistor"]
+          ["oc:transistor", "oc:capacitor", "oc:transistor"]
           [diamond, "oc:capacitor", diamond]]
 }
 craftingUpgrade {
@@ -165,7 +165,7 @@ navigationUpgrade {
           [ingotGold, potion, ingotGold]]
 }
 signUpgrade {
-  input: [[ingotIron, dyeBlack, ingotIron]
+  input: [[ingotIron, dyePowder, ingotIron]
           ["oc:circuitChip1", stickWood, "oc:circuitChip1"]
           [ingotIron, pistonStickyBase, ingotIron]]
 }
@@ -269,7 +269,7 @@ cu {
 
 rawCircuitBoard {
   type: shapeless
-  input: ["oc:materialCuttingWire", clay, dyeGreen]
+  input: ["oc:materialCuttingWire", clay, {item=dyePowder, subID=2}]
 }
 circuitBoard {
   type: furnace
@@ -358,7 +358,7 @@ rack {
           ["oc:switch", "oc:materialCircuitBoardPrinted","oc:powerDistributor"]]
 }
 redstone {
-  input: [[ingotIron, "oc:circuitChip3", ingotIron]
+  input: [[ingotIron, "oc:circuitChip2", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
@@ -373,9 +373,9 @@ screen1 {
           [ingotIron, ingotIron, glass]]
 }
 screen2 {
-  input: [[ingotGold, dyeRed, ingotGold]
-          ["oc:circuitChip2", dyeGreen, "oc:screen1"]
-          [ingotGold, dyeBlue, ingotGold]]
+  input: [[ingotGold, {item=dyePowder, subID=1}, ingotGold]
+          ["oc:circuitChip2", {item=dyePowder, subID=2}, "oc:screen1"]
+          [ingotGold, {item=dyePowder, subID=4}, ingotGold]]
 }
 screen3 {
   input: [[obsidian, "oc:materialCircuitBoardPrinted", "oc:circuitChip3"]
