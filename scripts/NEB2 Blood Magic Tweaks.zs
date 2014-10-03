@@ -14,6 +14,10 @@ var sanguiniteAxe = <Metallurgy:sanguinite.axe>;
 var sanguinitePickaxe = <Metallurgy:sanguinite.pickaxe>;
 var sanguiniteShovel = <Metallurgy:sanguinite.shovel>;
 #var sanguiniteSword = <Metallurgy:sanguinite.sword>;
+var emptySocket = <AWWayofTime:emptySocket>;
+var weakBloodShard = <AWWayofTime:weakBloodShard>;
+var anyGlass = <ore:blockGlass>;
+#var sanguiniteBlock = <Metallurgy:nether.block.?>;
 
 var boundTools = [
     boundAxe,
@@ -27,6 +31,17 @@ var sanguiniteTools = [
     sanguiniteShovel
     #,sanguiniteSword
 ] as IItemStack[];
+
+# Empty Socket
+#----------------------------------------------------------
+# [ Weak Blood Shard, Glass,            Weak Blood Shard ]
+# [ Glass             Sanguinite Block, Glass            ]
+# [ Weak Blood Shard, Glass,            Weak Blood Shard ]
+#recipes.remove(emptySocket);
+#recipes.addShaped(emptySocket, [
+#    [weakBloodShard, anyGlass, weakBloodShard],
+#    [anyGlass, sanguiniteBlock, anyGlass],
+#    [weakBloodShard, anyGlass, weakBloodShard]]);
 
 # RITUAL OF BINDING
 #-------------------
