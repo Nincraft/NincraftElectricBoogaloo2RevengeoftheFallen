@@ -124,8 +124,8 @@ Current Mod Versions
 
 Disabled Mods (For Now)
 
-Alternate Terrain Generation
-Drama Splash
-Lycanite's Mobs
-MapWriter
-Mystcraft
+- Alternate Terrain Generation
+- Drama Splash
+- Lycanite's Mobs
+- MapWriter
+- Mystcraft
