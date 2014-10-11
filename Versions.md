@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.0.1208
+- **Forge** v10.13.0.1224
 
 Current API Versions
 =
@@ -31,7 +31,7 @@ Current Mod Versions
 - **BiblioWoods (BoP)** v1.8
 - **BiblioWoods (Natura)** v1.4
 - **Big Reactors** v0.4.0RC9
-- **Biomes O' Plenty** v2.1.0.991
+- **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.1.0
 - **Botania** r1.2-119
 - **Carpenter's Blocks** v3.2.8
@@ -106,7 +106,7 @@ Current Mod Versions
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b16
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.0
+- **Thaumcraft** v4.2.1.4
 - **Thaumic Tinkerer** v2.5-157
 - **Thaumic Warden** v1.1.1
 - **Thermal Expansion** v4.0.0B5-13
