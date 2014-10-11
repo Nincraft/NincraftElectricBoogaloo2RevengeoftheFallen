@@ -21,7 +21,7 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.2.4
+- **AOBD** v2.2.5
 - **Applied Energistics 2** rv1 Stable 1
 - **AsieLib** v0.3.1
 - **Armor Status HUD** v1.27
@@ -33,10 +33,10 @@ Current Mod Versions
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.1.0
-- **Botania** r1.2-119
-- **Carpenter's Blocks** v3.2.8
+- **Botania** r1.2-123
+- **Carpenter's Blocks** v3.3.0
 - **Chisel** v1.5.7
-- **ComputerCraft** v1.64
+- **ComputerCraft** v1.65
 - **CoroUtil** v1.0
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
@@ -47,8 +47,8 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Ender Tech** v0.3.0.346
-- **Equivalent Exchange 3** v0.2.335
+- **Ender Tech** v0.3.0.348
+- **Equivalent Exchange 3** v0.2.349
 - **Extra Cells** v2.1.12b8
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.1.0k
@@ -84,7 +84,7 @@ Current Mod Versions
 - **Not Enough Items** v1.0.3.49
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-434
-- **OpenComputers** v1.3.4.63
+- **OpenComputers** v1.3.6
 - **Open Eye** v0.6
 - **OpenModsLib** v0.6-snapshot-224
 - **Opis** v1.2.3
