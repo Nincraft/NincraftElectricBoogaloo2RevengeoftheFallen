@@ -41,6 +41,7 @@ Current Mod Versions
 - **CoroUtil** v1.0
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
+- **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v0.5.0
 - **Doom-like Dungeon** v1.4.0
