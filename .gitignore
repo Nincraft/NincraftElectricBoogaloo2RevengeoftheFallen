@@ -13,6 +13,8 @@ logs/
 reports/
 saves/
 screenshots/
+betterrecords/libs
+betterrecords/localLibrary.json
 
 *.lck
 *.rar
