@@ -25,6 +25,10 @@
             <directory>servertools</directory>
             <outputDirectory>/servertools</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>betterrecords</directory>
+            <outputDirectory>/betterrecords</outputDirectory>
+        </fileSet>
     </fileSets>
     <files>
         <file>
