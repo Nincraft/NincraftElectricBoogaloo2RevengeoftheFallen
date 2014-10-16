@@ -79,6 +79,7 @@ Current Mod Versions
 - **ModTweaker** v0.5d
 - **Morph** v0.9.0
 - **Morpheus** v1.5.19
+- **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
 - **NEI Addons** v1.12.2.9
 - **NEI Plugins** v1.1.0.7
