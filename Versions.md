@@ -131,4 +131,3 @@ Disabled Mods (For Now)
 - Drama Splash
 - Lycanite's Mobs
 - MapWriter
-- Mystcraft
