@@ -30,6 +30,10 @@
             <directory>servertools</directory>
             <outputDirectory>/servertools</outputDirectory>
         </fileSet>
+        <fileSet>
+            <directory>scripts</directory>
+            <outputDirectory>/scripts</outputDirectory>
+        </fileSet>
     </fileSets>
     <files>
         <file>
