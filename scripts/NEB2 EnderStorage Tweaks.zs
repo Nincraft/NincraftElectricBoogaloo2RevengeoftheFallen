@@ -78,362 +78,8 @@ var enderBucket = <ThermalFoundation:bucket:2>;
 var leather = <minecraft:leather>;
 var enderEye = <minecraft:ender_eye>;
 
-# Ender Chest
-# -----------------------------------------------------------------------
-# [ Blaze Rod,              Wool,               Blaze Rod              ]
-# [ Ender-Infused Obsidian, Resonant Strongbox, Ender-Infused Obsidian ]
-# [ Blaze Rod,              Eye of Ender,       Blaze Rod              ]
-
-# white
-recipes.remove(enderChestWhite);
-recipes.addShaped(enderChestWhite, [
-    [blazeRod, woolWhite, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# orange
-#recipes.remove(enderChestOrange);
-recipes.addShaped(enderChestOrange, [
-    [blazeRod, woolOrange, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# magenta
-recipes.remove(enderChestMagenta);
-recipes.addShaped(enderChestMagenta, [
-    [blazeRod, woolMagenta, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# light blue
-#recipes.remove(enderChestLightBlue);
-recipes.addShaped(enderChestLightBlue, [
-    [blazeRod, woolLightBlue, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# yellow
-#recipes.remove(enderChestYellow);
-recipes.addShaped(enderChestYellow, [
-    [blazeRod, woolYellow, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# lime
-#recipes.remove(enderChestLime);
-recipes.addShaped(enderChestLime, [
-    [blazeRod, woolLime, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# pink
-#recipes.remove(enderChestPink);
-recipes.addShaped(enderChestPink, [
-    [blazeRod, woolPink, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# gray
-#recipes.remove(enderChestGray);
-recipes.addShaped(enderChestGray, [
-    [blazeRod, woolGray, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# light gray
-#recipes.remove(enderChestLightGray);
-recipes.addShaped(enderChestLightGray, [
-    [blazeRod, woolLightGray, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# cyan
-#recipes.remove(enderChestCyan);
-recipes.addShaped(enderChestCyan, [
-    [blazeRod, woolCyan, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# purple
-#recipes.remove(enderChestPurple);
-recipes.addShaped(enderChestPurple, [
-    [blazeRod, woolPurple, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# blue
-#recipes.remove(enderChestBlue);
-recipes.addShaped(enderChestBlue, [
-    [blazeRod, woolBlue, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# brown
-#recipes.remove(enderChestBrown);
-recipes.addShaped(enderChestBrown, [
-    [blazeRod, woolBrown, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# green
-#recipes.remove(enderChestGreen);
-recipes.addShaped(enderChestGreen, [
-    [blazeRod, woolGreen, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# red
-#recipes.remove(enderChestRed);
-recipes.addShaped(enderChestRed, [
-    [blazeRod, woolRed, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# black
-#recipes.remove(enderChestBlack);
-recipes.addShaped(enderChestBlack, [
-    [blazeRod, woolBlack, blazeRod],
-    [enderObsidian, resonantChest, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# Ender Pouch
-# ----------------------------------------------------------
-# [ Infused String, Wool,                  Infused String ]
-# [ Leather,        Resonant Satchel,      Leather        ]
-# [ Infused String, Resonant Ender Bucket, Infused String ]
-
-# white
-recipes.remove(enderPouchWhite);
-recipes.addShaped(enderPouchWhite, [
-    [infusedString, woolWhite, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# orange
-#recipes.remove(enderPouchOrange);
-recipes.addShaped(enderPouchOrange, [
-    [infusedString, woolOrange, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# magenta
-recipes.remove(enderPouchMagenta);
-recipes.addShaped(enderPouchMagenta, [
-    [infusedString, woolMagenta, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# light blue
-#recipes.remove(enderPouchLightBlue);
-recipes.addShaped(enderPouchLightBlue, [
-    [infusedString, woolLightBlue, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# yellow
-#recipes.remove(enderPouchYellow);
-recipes.addShaped(enderPouchYellow, [
-    [infusedString, woolYellow, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# lime
-#recipes.remove(enderPouchLime);
-recipes.addShaped(enderPouchLime, [
-    [infusedString, woolLime, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# pink
-#recipes.remove(enderPouchPink);
-recipes.addShaped(enderPouchPink, [
-    [infusedString, woolPink, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# gray
-#recipes.remove(enderPouchGray);
-recipes.addShaped(enderPouchGray, [
-    [infusedString, woolGray, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# light gray
-#recipes.remove(enderPouchLightGray);
-recipes.addShaped(enderPouchLightGray, [
-    [infusedString, woolLightGray, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# cyan
-#recipes.remove(enderPouchCyan);
-recipes.addShaped(enderPouchCyan, [
-    [infusedString, woolCyan, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# purple
-#recipes.remove(enderPouchPurple);
-recipes.addShaped(enderPouchPurple, [
-    [infusedString, woolPurple, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# blue
-#recipes.remove(enderPouchBlue);
-recipes.addShaped(enderPouchBlue, [
-    [infusedString, woolBlue, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# brown
-#recipes.remove(enderPouchBrown);
-recipes.addShaped(enderPouchBrown, [
-    [infusedString, woolBrown, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# green
-#recipes.remove(enderPouchGreen);
-recipes.addShaped(enderPouchGreen, [
-    [infusedString, woolGreen, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# red
-#recipes.remove(enderPouchRed);
-recipes.addShaped(enderPouchRed, [
-    [infusedString, woolRed, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# black
-#recipes.remove(enderPouchBlack);
-recipes.addShaped(enderPouchBlack, [
-    [infusedString, woolBlack, infusedString],
-    [leather, resonantPouch, leather],
-    [infusedString, enderBucket, infusedString]]);
-
-# Ender Tank
-# ------------------------------------------------------------------
-# [ Blaze Rod,              Wool,          Blaze Rod              ]
-# [ Ender-Infused Obsidian, Resonant Tank, Ender-Infused Obsidian ]
-# [ Blaze Rod,              Eye of Ender,  Blaze Rod              ]
-
-# white
-recipes.remove(enderTankWhite);
-recipes.addShaped(enderTankWhite, [
-    [blazeRod, woolWhite, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# orange
-#recipes.remove(enderTankOrange);
-recipes.addShaped(enderTankOrange, [
-    [blazeRod, woolOrange, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# magenta
-recipes.remove(enderTankMagenta);
-recipes.addShaped(enderTankMagenta, [
-    [blazeRod, woolMagenta, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# light blue
-#recipes.remove(enderTankLightBlue);
-recipes.addShaped(enderTankLightBlue, [
-    [blazeRod, woolLightBlue, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# yellow
-#recipes.remove(enderTankYellow);
-recipes.addShaped(enderTankYellow, [
-    [blazeRod, woolYellow, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# lime
-#recipes.remove(enderTankLime);
-recipes.addShaped(enderTankLime, [
-    [blazeRod, woolLime, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# pink
-#recipes.remove(enderTankPink);
-recipes.addShaped(enderTankPink, [
-    [blazeRod, woolPink, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# gray
-#recipes.remove(enderTankGray);
-recipes.addShaped(enderTankGray, [
-    [blazeRod, woolGray, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# light gray
-#recipes.remove(enderTankLightGray);
-recipes.addShaped(enderTankLightGray, [
-    [blazeRod, woolLightGray, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# cyan
-#recipes.remove(enderTankCyan);
-recipes.addShaped(enderTankCyan, [
-    [blazeRod, woolCyan, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# purple
-#recipes.remove(enderTankPurple);
-recipes.addShaped(enderTankPurple, [
-    [blazeRod, woolPurple, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# blue
-#recipes.remove(enderTankBlue);
-recipes.addShaped(enderTankBlue, [
-    [blazeRod, woolBlue, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# brown
-#recipes.remove(enderTankBrown);
-recipes.addShaped(enderTankBrown, [
-    [blazeRod, woolBrown, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# green
-#recipes.remove(enderTankGreen);
-recipes.addShaped(enderTankGreen, [
-    [blazeRod, woolGreen, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# red
-#recipes.remove(enderTankRed);
-recipes.addShaped(enderTankRed, [
-    [blazeRod, woolRed, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-# black
-#recipes.remove(enderTankBlack);
-recipes.addShaped(enderTankBlack, [
-    [blazeRod, woolBlack, blazeRod],
-    [enderObsidian, resonantTank, enderObsidian],
-    [blazeRod, enderEye, blazeRod]]);
-
-/*
-NOTE: If the looping ever gets fixed, use everything within the comment instead.
+# ITEM LISTS
+#------------
 var wools = [
     woolWhite,
     woolOrange,
@@ -507,19 +153,21 @@ var enderTanks = [
     enderTankBlack
 ] as IItemStack[];
 
+# ENDER STORAGE RECIPES
+#-----------------------
 for i, wool in wools {
     # Ender Chest
     # -----------------------------------------------------------------------
     # [ Blaze Rod,              Wool,               Blaze Rod              ]
     # [ Ender-Infused Obsidian, Resonant Strongbox, Ender-Infused Obsidian ]
     # [ Blaze Rod,              Eye of Ender,       Blaze Rod              ]
-    #var enderChest = enderChests[i];
+    var enderChest = enderChests[i];
 
-    #recipes.remove(enderChest);
-    #recipes.addShaped(enderChest, [
-    #    [blazeRod, wool, blazeRod],
-    #    [enderObsidian, resonantChest, enderObsidian],
-    #    [blazeRod, enderEye, blazeRod]]);
+    recipes.remove(enderChest);
+    recipes.addShaped(enderChest, [
+        [blazeRod, wool, blazeRod],
+        [enderObsidian, resonantChest, enderObsidian],
+        [blazeRod, enderEye, blazeRod]]);
 
     # Ender Pouch
     # ----------------------------------------------------------
@@ -539,12 +187,11 @@ for i, wool in wools {
     # [ Blaze Rod,              Wool,          Blaze Rod              ]
     # [ Ender-Infused Obsidian, Resonant Tank, Ender-Infused Obsidian ]
     # [ Blaze Rod,              Eye of Ender,  Blaze Rod              ]
-    #var enderTank = enderTanks[i];
+    var enderTank = enderTanks[i];
 
-    #recipes.remove(enderTank);
-    #recipes.addShaped(enderTank, [
-    #    [blazeRod, wool, blazeRod],
-    #    [enderObsidian, resonantTank, enderObsidian],
-    #    [blazeRod, enderEye, blazeRod]]);
+    recipes.remove(enderTank);
+    recipes.addShaped(enderTank, [
+        [blazeRod, wool, blazeRod],
+        [enderObsidian, resonantTank, enderObsidian],
+        [blazeRod, enderEye, blazeRod]]);
 }
-*/

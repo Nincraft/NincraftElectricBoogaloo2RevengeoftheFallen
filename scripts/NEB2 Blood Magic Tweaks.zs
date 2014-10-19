@@ -1,5 +1,6 @@
 # MOD IMPORTS
 #-------------
+import minetweaker.item.IItemStack;
 #import mods.bloodmagic.Alchemy;
 #import mods.bloodmagic.Altar;
 import mods.bloodmagic.Binding;
@@ -9,27 +10,27 @@ import mods.bloodmagic.Binding;
 var boundAxe = <AWWayofTime:boundAxe>;
 var boundPickaxe = <AWWayofTime:boundPickaxe>;
 var boundShovel = <AWWayofTime:boundShovel>;
-#var boundSword = <AWWayofTime:boundSword>;
+var boundSword = <AWWayofTime:energySword>;
 var sanguiniteAxe = <Metallurgy:sanguinite.axe>;
 var sanguinitePickaxe = <Metallurgy:sanguinite.pickaxe>;
 var sanguiniteShovel = <Metallurgy:sanguinite.shovel>;
-#var sanguiniteSword = <Metallurgy:sanguinite.sword>;
+var sanguiniteSword = <Metallurgy:sanguinite.sword>;
 var emptySocket = <AWWayofTime:emptySocket>;
 var weakBloodShard = <AWWayofTime:weakBloodShard>;
 var anyGlass = <ore:blockGlass>;
-#var sanguiniteBlock = <Metallurgy:nether.block.?>;
+var sanguiniteBlock = <ore:blockSanguinite>;
 
 var boundTools = [
     boundAxe,
     boundPickaxe,
-    boundShovel
-    #,boundSword
+    boundShovel,
+    boundSword
 ] as IItemStack[];
 var sanguiniteTools = [
     sanguiniteAxe,
     sanguinitePickaxe,
-    sanguiniteShovel
-    #,sanguiniteSword
+    sanguiniteShovel,
+    sanguiniteSword
 ] as IItemStack[];
 
 # Empty Socket
@@ -37,11 +38,11 @@ var sanguiniteTools = [
 # [ Weak Blood Shard, Glass,            Weak Blood Shard ]
 # [ Glass             Sanguinite Block, Glass            ]
 # [ Weak Blood Shard, Glass,            Weak Blood Shard ]
-#recipes.remove(emptySocket);
-#recipes.addShaped(emptySocket, [
-#    [weakBloodShard, anyGlass, weakBloodShard],
-#    [anyGlass, sanguiniteBlock, anyGlass],
-#    [weakBloodShard, anyGlass, weakBloodShard]]);
+recipes.remove(emptySocket);
+recipes.addShaped(emptySocket, [
+    [weakBloodShard, anyGlass, weakBloodShard],
+    [anyGlass, sanguiniteBlock, anyGlass],
+    [weakBloodShard, anyGlass, weakBloodShard]]);
 
 # RITUAL OF BINDING
 #-------------------
