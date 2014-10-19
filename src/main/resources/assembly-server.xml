@@ -19,6 +19,7 @@
                 <exclude>*Shatter*</exclude>
                 <exclude>*VersionChecker*</exclude>
                 <exclude>*BetterTitleScreen*</exclude>
+                <exclude>*.disabled</exclude>
             </excludes>
         </fileSet>
         <fileSet>
@@ -28,6 +29,10 @@
         <fileSet>
             <directory>servertools</directory>
             <outputDirectory>/servertools</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>scripts</directory>
+            <outputDirectory>/scripts</outputDirectory>
         </fileSet>
     </fileSets>
     <files>
