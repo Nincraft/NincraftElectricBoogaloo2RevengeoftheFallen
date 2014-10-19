@@ -13,6 +13,7 @@ logs/
 reports/
 saves/
 screenshots/
+stats/
 
 *.lck
 *.rar
@@ -20,6 +21,7 @@ screenshots/
 nicknames.json
 options.txt
 optionsshaders.txt
+usercache.json
 
 #################
 ## Eclipse
