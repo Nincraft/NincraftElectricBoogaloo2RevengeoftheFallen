@@ -513,13 +513,13 @@ for i, wool in wools {
     # [ Blaze Rod,              Wool,               Blaze Rod              ]
     # [ Ender-Infused Obsidian, Resonant Strongbox, Ender-Infused Obsidian ]
     # [ Blaze Rod,              Eye of Ender,       Blaze Rod              ]
-    #var enderChest = enderChests[i];
+    var enderChest = enderChests[i];
 
-    #recipes.remove(enderChest);
-    #recipes.addShaped(enderChest, [
-    #    [blazeRod, wool, blazeRod],
-    #    [enderObsidian, resonantChest, enderObsidian],
-    #    [blazeRod, enderEye, blazeRod]]);
+    recipes.remove(enderChest);
+    recipes.addShaped(enderChest, [
+        [blazeRod, wool, blazeRod],
+        [enderObsidian, resonantChest, enderObsidian],
+        [blazeRod, enderEye, blazeRod]]);
 
     # Ender Pouch
     # ----------------------------------------------------------
@@ -539,12 +539,12 @@ for i, wool in wools {
     # [ Blaze Rod,              Wool,          Blaze Rod              ]
     # [ Ender-Infused Obsidian, Resonant Tank, Ender-Infused Obsidian ]
     # [ Blaze Rod,              Eye of Ender,  Blaze Rod              ]
-    #var enderTank = enderTanks[i];
+    var enderTank = enderTanks[i];
 
-    #recipes.remove(enderTank);
-    #recipes.addShaped(enderTank, [
-    #    [blazeRod, wool, blazeRod],
-    #    [enderObsidian, resonantTank, enderObsidian],
-    #    [blazeRod, enderEye, blazeRod]]);
+    recipes.remove(enderTank);
+    recipes.addShaped(enderTank, [
+        [blazeRod, wool, blazeRod],
+        [enderObsidian, resonantTank, enderObsidian],
+        [blazeRod, enderEye, blazeRod]]);
 }
 */
