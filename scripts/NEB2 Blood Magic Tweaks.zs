@@ -9,7 +9,7 @@ import mods.bloodmagic.Binding;
 var boundAxe = <AWWayofTime:boundAxe>;
 var boundPickaxe = <AWWayofTime:boundPickaxe>;
 var boundShovel = <AWWayofTime:boundShovel>;
-var boundSword = <AWWayofTime:energySword>;
+#var boundSword = <AWWayofTime:boundSword>;
 var sanguiniteAxe = <Metallurgy:sanguinite.axe>;
 var sanguinitePickaxe = <Metallurgy:sanguinite.pickaxe>;
 var sanguiniteShovel = <Metallurgy:sanguinite.shovel>;
