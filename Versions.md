@@ -74,7 +74,7 @@ Current Mod Versions
 - **Mekanism Tools** v7.1.0.92
 - **Metallurgy** v4.0.4.43
 - **Minefactory Reloaded** v2.8.0RC3-591
-- **MineTweaker** v3.0.9
+- **MineTweaker** v3.0.9B
 - **MobiusCore** v1.2.3
 - **ModTweaker** v0.6-22
 - **Morph** v0.9.0
