@@ -60,6 +60,7 @@ Current Mod Versions
 - **Galacticraft Planets** v3.0.4.203
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
+- **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.6.2
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
