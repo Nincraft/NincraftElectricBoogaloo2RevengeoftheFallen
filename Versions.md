@@ -23,7 +23,7 @@ Current Mod Versions
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.2.5
 - **Applied Energistics 2** rv1 Stable 1
-- **AsieLib** v0.3.1
+- **AsieLib** v0.3.2
 - **Armor Status HUD** v1.27
 - **Better Foliage** v1.0.1
 - **Better Records** v1.1.6
@@ -33,8 +33,8 @@ Current Mod Versions
 - **BiblioWoods (Natura)** v1.4
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
-- **Blood Magic** v1.1.0
-- **Botania** r1.2-123
+- **Blood Magic** v1.2.0a
+- **Botania** r1.2-127
 - **Carpenter's Blocks** v3.3.0
 - **Chisel** v1.5.7
 - **ComputerCraft** v1.65
@@ -45,16 +45,16 @@ Current Mod Versions
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v0.9.3
 - **Doom-like Dungeon** v1.4.0
-- **Dynamic Lights** v1.7.10
+- **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Ender Tech** v0.3.0.348
-- **Equivalent Exchange 3** v0.2.349
+- **Ender Tech** v0.3.0.353
+- **Equivalent Exchange 3** v0.2.361
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.1.0k
-- **Flaxbeard's Steam Power** v0.26.2
+- **Flaxbeard's Steam Power** v0.26.4
 - **FMPIntegration** v1.2.2
 - **Galacticraft Core** v3.0.4.203
 - **Galacticraft Planets** v3.0.4.203
@@ -105,7 +105,7 @@ Current Mod Versions
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
-- **Simply Jetpacks** v1.1.4
+- **Simply Jetpacks** v1.2.0
 - **Sparkly Pants** v0.21
 - **Special Mobs** v3.0.2
 - **Stackie** v1.5.1.28
