@@ -68,6 +68,7 @@ Current Mod Versions
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.1.4
+- **LunatriusCore** v1.1.2.14
 - **Magical Crops** v0.1
 - **Mekanism** v7.1.0.92
 - **Mekanism Generators** v7.1.0.92
@@ -106,6 +107,7 @@ Current Mod Versions
 - **Simply Jetpacks** v1.1.4
 - **Sparkly Pants** v0.21
 - **Special Mobs** v3.0.2
+- **Stackie** v1.5.1.28
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b16
 - **Sync** v4.0.0
