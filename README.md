@@ -1,26 +1,26 @@
 Nincraft Electric Boogaloo 2: Revenge of the Fallen
-===========================================
+=
+A public repository for all changes to the Nincraft private server's custom modpack.
 
-A public repository for all changes to the Nincraft Server's custom modpack.
-
-We have a subreddit at http://www.reddit.com/r/Nincraft
+We have our own subreddit, [/r/nincraft](http://www.reddit.com/r/Nincraft)!
 
 Developers
-===============
+=
+- *Nincodedo*
+- *Undead_Zeratul*
 
-###Current Nincraft Team
-- _Nincodedo_
-
-- _Undead\_Zeratul_
+Current Modlist
+=
+[Current Mod List](Versions.md)
 
 Information
-===============
+=
 Clients: This pack runs best with at least 2.5 GB memory, and 256 MB of permgen _(estimated, might be able to get away with lower for now.)_. To set the permgen, add the following java parameter to your launcher: __-XX:PermSize=256M__
 
 Servers: The server download comes with recommended Java arguments. Those were used when initially testing this pack before it released, and it worked great. You may need to allocate more RAM if you have lots of concurrent players online. Never try and allocate too much, Java hates that.
 
 Contributing
-===
+=
 We love getting outside contributions, especially to our mod documentation system, however doing so can be a little complex for some.
 
 First a note: If you would like to contribute, just submit a pull request to the ___master___ branch, and we'll determine if we would like to add it into the repo.
@@ -34,7 +34,3 @@ To do so you will need to make what is called a "fork" of this repository. To do
 Once your fork has all the changes you want, you need to create a "pull request" on the main repository. To do this, go to the pull request tab on the right, and hit "new pull request". At the top of that screen hit "compare across forks", then choose the second dropdown on the first line to be "master", the first dropdown on the second line to be _your_ fork, and the final dropdown to be "master" again (This may require hitting "compare across forks" and "edit" quite a few times to get it right). If everything looks right, meaning you see all your commits on the screen, hit "Create pull request" and we will review it as soon as possible. 
 
 Thank you for your help!
-
-Current Modlist
-===============
-[Google Spreadsheet (WIP)](https://docs.google.com/spreadsheets/d/1WC-u9wV_4V6Vlg3vwmhvKlfnVwQc_y4PsZnEsv5Mia8/edit?usp=sharing)
