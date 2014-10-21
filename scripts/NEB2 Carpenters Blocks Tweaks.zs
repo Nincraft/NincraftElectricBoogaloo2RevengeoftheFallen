@@ -6,7 +6,7 @@ var carpentersFence          = <CarpentersBlocks:blockCarpentersBarrier>;
 var carpentersSlab           = <CarpentersBlocks:blockCarpentersBlock>; // Should be slab, full block is only temporary.
 
 var glass                    = <ore:glass>;
-var quartz                   = <minecraft:quartz>;
+var quartz                   = <ore:crystalNetherQuartz>;
 var stick                    = <ore:stickWood>;
 
 # Carpenter's Barrier
