@@ -98,6 +98,11 @@ Current Mod Versions
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.2.9-24
+- **ProjectRed Base** v4.5.1.51
+- **ProjectRed Compat** v4.5.1.51
+- **ProjectRed Integration** v4.5.1.51
+- **ProjectRed Lighting** v4.5.1.51
+- **ProjectRed World** v4.5.1.51
 - **Random Things** v2.1.7
 - **RedstoneArsenal** v1.1.0B4-10
 - **Reliquary** v1.2.137
