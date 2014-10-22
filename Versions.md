@@ -75,6 +75,7 @@ Current Mod Versions
 - **Mekanism Generators** v7.1.0.92
 - **Mekanism Tools** v7.1.0.92
 - **Metallurgy** v4.0.4.43
+- **MFFS** v4.1.0.33
 - **Minefactory Reloaded** v2.8.0RC3-591
 - **MineTweaker** v3.0.9B
 - **MobiusCore** v1.2.3
@@ -106,6 +107,7 @@ Current Mod Versions
 - **Random Things** v2.1.8
 - **RedstoneArsenal** v1.1.0B4-10
 - **Reliquary** v1.2.137
+- **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
@@ -128,6 +130,7 @@ Current Mod Versions
 - **Tinker's Steelworks** v1.0.3
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.2
+- **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.4a
 - **Warpbook** v2.0.34
 - **WAWLA** v1.0.6
