@@ -49,7 +49,6 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Ender Tech** v0.3.0.353
 - **Equivalent Exchange 3** v0.2.361
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
@@ -132,7 +131,6 @@ Current Mod Versions
 - **Twilight Forest** v2.3.2
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.4a
-- **Warpbook** v2.0.34
 - **WAWLA** v1.0.6
 - **Weather** v2.3.5
 
