@@ -43,7 +43,6 @@ Current Mod Versions
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
-- **DimensionGuard** v0.9.4
 - **Doom-like Dungeon** v1.4.0
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
