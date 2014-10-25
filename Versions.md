@@ -14,7 +14,7 @@ Current API Versions
 - **Forge Multipart** v1.1.0.310
 - **iChunUtil** v4.0.0
 - **IndustrialCraft 2 Experimental** v2.2.633
-- **Mantle** v0.3.1
+- **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
 - **MicDoodleCore** v3.0.4.203
 
