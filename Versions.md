@@ -33,7 +33,7 @@ Current Mod Versions
 - **BiblioWoods (Natura)** v1.4
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
-- **Blood Magic** v1.2.0a
+- **Blood Magic** v1.2.0b
 - **Botania** r1.2-129
 - **Carpenter's Blocks** v3.3.0
 - **Chisel** v1.5.7
@@ -48,7 +48,7 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Equivalent Exchange 3** v0.2.361
+- **Equivalent Exchange 3** v0.2.362
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.1.0k
@@ -96,7 +96,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10b
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.2.9-24
+- **PneumaticCraft** v1.2.14-29
 - **ProjectRed Base** v4.5.1.51
 - **ProjectRed Compat** v4.5.1.51
 - **ProjectRed Integration** v4.5.1.51
@@ -129,8 +129,8 @@ Current Mod Versions
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.2
 - **Universal Electricity** v4.0.0.83
-- **WAILA** v1.5.4a
-- **WAWLA** v1.0.6
+- **WAILA** v1.5.5
+- **WAWLA** v1.0.8
 - **Weather** v2.3.5
 
 Disabled Mods (For Now)
