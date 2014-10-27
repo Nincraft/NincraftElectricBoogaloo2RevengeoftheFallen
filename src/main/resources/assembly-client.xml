@@ -27,10 +27,6 @@
             <outputDirectory>/servertools</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>betterrecords</directory>
-            <outputDirectory>/betterrecords</outputDirectory>
-        </fileSet>
-        <fileSet>
             <directory>scripts</directory>
             <outputDirectory>/scripts</outputDirectory>
         </fileSet>
