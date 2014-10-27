@@ -102,7 +102,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.1.51
 - **ProjectRed Lighting** v4.5.1.51
 - **ProjectRed World** v4.5.1.51
-- **Random Things** v2.1.8
+- **Random Things** v2.1.9
 - **RedstoneArsenal** v1.1.0B4-10
 - **Reliquary** v1.2.137
 - **Resonant Engine** v2.0.0.144
