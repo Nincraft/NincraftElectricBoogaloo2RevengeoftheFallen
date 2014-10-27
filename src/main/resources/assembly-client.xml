@@ -33,7 +33,7 @@
     </fileSets>
     <files>
         <file>
-            <source>servers.dat</source>
+            <source>server/servers.dat</source>
             <outputDirectory>/</outputDirectory>
         </file>
     </files>
