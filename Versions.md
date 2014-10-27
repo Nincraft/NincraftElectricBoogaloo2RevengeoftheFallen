@@ -26,7 +26,6 @@ Current Mod Versions
 - **AsieLib** v0.3.2
 - **Armor Status HUD** v1.27
 - **Better Foliage** v1.0.1
-- **Better Records** v1.1.6
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.8.2
 - **BiblioWoods (BoP)** v1.8
@@ -130,7 +129,7 @@ Current Mod Versions
 - **Twilight Forest** v2.3.2
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.5
-- **WAWLA** v1.0.8
+- **WAWLA** v1.0.6
 - **Weather** v2.3.5
 
 Disabled Mods (For Now)
