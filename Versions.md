@@ -123,7 +123,7 @@ Current Mod Versions
 - **Thermal Expansion** v4.0.0B5-13
 - **Thermal Foundation** v1.0.0.B3-8
 - **TiCTooltips** v1.1.11b
-- **Tinker's Construct** v1.7.1
+- **Tinker's Construct** v1.7.1c
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.3
 - **Translocator** v1.1.1.8
