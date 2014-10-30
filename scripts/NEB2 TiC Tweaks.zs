@@ -49,6 +49,7 @@ var titaniumDust       = <ore:dustTitanium>;
 var eximiteDust        = <ore:dustEximite>;
 var meutoiteDust       = <ore:dustMeutoite>;
 var electrumDust       = <ore:dustElectrum>;
+var aluminumBrassDust  = <ore:dustAluminumBrass>;
 var brassDust          = <ore:dustBrass>;
 var hepatizonDust      = <ore:dustHepatizon>;
 var bronzeDust         = <ore:dustBronze>;
@@ -105,6 +106,7 @@ var titaniumIngot      = <ore:ingotTitanium>;
 var eximiteIngot       = <ore:ingotEximite>;
 var meutoiteIngot      = <ore:ingotMeutoite>;
 var electrumIngot      = <ore:ingotElectrum>;
+var aluminumBrassIngot = <ore:ingotAluminumBrass>;
 var brassIngot         = <ore:ingotBrass>;
 var hepatizonIngot     = <ore:ingotHepatizon>;
 var bronzeIngot        = <ore:ingotBronze>;
@@ -206,6 +208,7 @@ furnace.remove(titaniumIngot);
 furnace.remove(eximiteIngot);
 furnace.remove(meutoiteIngot);
 furnace.remove(electrumIngot);
+furnace.remove(aluminumBrassIngot);
 furnace.remove(brassIngot);
 furnace.remove(hepatizonIngot);
 furnace.remove(bronzeIngot);
@@ -288,6 +291,12 @@ Smeltery.removeMelting(invarDust);
 
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
+
+# Aluminum Brass Blend: 8 Copper, 1 Aluminum
+recipes.remove(aluminumBrassDust);
+recipes.addShapeless(aluminumBrassDust * 9, [copperDust, copperDust, copperDust, copperDust,
+                                             copperDust, copperDust, copperDust, copperDust,
+                                             aluminumDust]);
 
 # Hepatizon Blend: 8 Copper, 1 Electrum
 recipes.remove(hepatizonDust);
