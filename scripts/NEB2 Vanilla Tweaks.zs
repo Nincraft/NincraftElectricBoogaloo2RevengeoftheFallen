@@ -12,6 +12,7 @@ var redstoneAlloy   = <ore:ingotRedstoneAlloy>;
 var bricks          = <minecraft:brick_block>;
 var bread           = <minecraft:bread>;
 var bow             = <minecraft:bow>;
+var clayBall        = <minecraft:clay_ball>;
 var clayBlock       = <minecraft:clay>;
 var bucket          = <minecraft:bucket>;
 var flint           = <minecraft:flint>;
