@@ -63,6 +63,7 @@ Current Mod Versions
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.0.6
 - **Infernal Mobs** v1.5.9
+- **INpureCore** v1.0.0B6-13
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.1.4
