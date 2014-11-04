@@ -125,6 +125,7 @@ Current Mod Versions
 - **Tinker's Construct** v1.7.1c
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.3
+- **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.2
 - **Universal Electricity** v4.0.0.83
