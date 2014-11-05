@@ -11,7 +11,7 @@ Developers
 
 Current Modlist
 =
-[Current Mod List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/Versions.md)
+[Current Mod List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/blob/master/Versions.md)
 
 Wiki
 =
