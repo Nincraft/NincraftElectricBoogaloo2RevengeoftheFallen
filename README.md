@@ -2,8 +2,6 @@ Nincraft Electric Boogaloo 2: Revenge of the Fallen
 =
 A public repository for all changes to the Nincraft private server's custom modpack.
 
-We have our own subreddit, [/r/nincraft](http://www.reddit.com/r/Nincraft)!
-
 Developers
 =
 - *Nincodedo*
