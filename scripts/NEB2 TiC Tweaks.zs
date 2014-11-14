@@ -3,13 +3,20 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 import mods.tconstruct.Smeltery;
+import mods.tconstruct.Casting;
 
 # COMMON VARIABLES
 #------------------
 var bucket             = <minecraft:bucket>;
+
+# Blocks
 var steelBlock         = <TConstruct:MetalBlock:9>;
+var redstoneBlock      = <minecraft:redstone_block>;
+var glowstoneBlock     = <minecraft:glowstone>;
 
 # Dusts
+var redstoneDust       = <minecraft:redstone>;
+var glowstoneDust      = <minecraft:glowstone_dust>;
 var aluminumDust       = <ore:dustAluminum>;
 var copperDust         = <ore:dustCopper>;
 var tinDust            = <ore:dustTin>;
@@ -126,6 +133,8 @@ var desichalkosIngot   = <ore:ingotDesichalkos>;
 # Molten Metals
 var moltenSteel        = <liquid:steel.molten>;
 var moltenManyullyn    = <liquid:manyullyn.molten>;
+var moltenRedstone     = <liquid:redstone>;
+var moltenGlowstone    = <liquid:glowstone>;
 
 # Ores
 var aluminumOre        = <ore:oreAluminum>;
@@ -227,6 +236,22 @@ furnace.remove(desichalkosIngot);
 
 # SMELTERY TWEAKS
 #-----------------
+
+# Redstone
+Smeltery.addMelting(redstoneDust, moltenRedstone * 100, 200, redstoneBlock);
+Smeltery.addMelting(redstoneBlock, moltenRedstone * 900, 200, redstoneBlock);
+
+Casting.addTableRecipe(<ThermalFoundation:bucket>, moltenRedstone * 1000, bucket, true, 20);
+
+Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 20);
+
+# Glowstone
+Smeltery.addMelting(glowstoneDust, moltenGlowstone * 250, 200, glowstoneBlock);
+Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock);
+
+Casting.addTableRecipe(<ThermalFoundation:bucket:1>, moltenGlowstone * 1000, bucket, true, 20);
+
+Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 20);
 
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
