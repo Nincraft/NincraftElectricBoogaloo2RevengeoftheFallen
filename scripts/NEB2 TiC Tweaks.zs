@@ -335,66 +335,66 @@ Smeltery.removeMelting(invarDust);
 
 # Aluminum Brass Blend: 8 Copper, 1 Aluminum
 recipes.remove(aluminumBrassDust);
-recipes.addShapeless(aluminumBrassDust.items[0] * 9, [copperDust, copperDust, copperDust, copperDust,
-                                                      copperDust, copperDust, copperDust, copperDust,
-                                                      aluminumDust]);
+recipes.addShapeless(<TConstruct:materials:42> * 9, [copperDust, copperDust, copperDust, copperDust,
+                                                     copperDust, copperDust, copperDust, copperDust,
+                                                     aluminumDust]);
 
 # Hepatizon Blend: 8 Copper, 1 Electrum
 recipes.remove(hepatizonDust);
-recipes.addShapeless(hepatizonDust.items[0] * 9, [copperDust, copperDust, copperDust, copperDust,
-                                                  copperDust, copperDust, copperDust, copperDust,
-                                                  electrumDust]);
+recipes.addShapeless(<Metallurgy:base.dust:4> * 9, [copperDust, copperDust, copperDust, copperDust,
+                                                    copperDust, copperDust, copperDust, copperDust,
+                                                    electrumDust]);
 
 # Angmallen Blend: 3 Gold, 2 Iron
 recipes.remove(angmallenDust);
-recipes.addShapeless(angmallenDust.items[0] * 5, [goldDust, goldDust, goldDust,
-                                                  ironDust, ironDust]);
+recipes.addShapeless(<Metallurgy:base.dust:6> * 5, [goldDust, goldDust, goldDust,
+                                                    ironDust, ironDust]);
 
 # Damascus Steel Blend: 3 Iron, 2 Bronze
 recipes.remove(damascusSteelDust);
-recipes.addShapeless(damascusSteelDust.items[0] * 5, [ironDust, ironDust, ironDust,
-                                                      bronzeDust, bronzeDust]);
+recipes.addShapeless(<Metallurgy:base.dust:5> * 5, [ironDust, ironDust, ironDust,
+                                                    bronzeDust, bronzeDust]);
 
 # Quicksilver Blend: 3 Silver, 1 Mithril
 recipes.remove(quicksilverDust);
-recipes.addShapeless(quicksilverDust.items[0] * 4, [silverDust, silverDust, silverDust,
-                                                    mithrilDust]);
+recipes.addShapeless(<Metallurgy:fantasy.dust:9> * 4, [silverDust, silverDust, silverDust,
+                                                       mithrilDust]);
 
 # Black Steel Blend: 2 Deep Iron, 1 Infuscolium
 recipes.remove(blackSteelDust);
-recipes.addShapeless(blackSteelDust.items[0] * 3, [deepIronDust, deepIronDust,
-                                                   infuscoliumDust]);
+recipes.addShapeless(<Metallurgy:fantasy.dust:3> * 3, [deepIronDust, deepIronDust,
+                                                       infuscoliumDust]);
 
 # Celenegil Blend: 3 Platinum, 1 Orichalcum
 recipes.remove(celenegilDust);
-recipes.addShapeless(celenegilDust.items[0] * 4, [platinumDust, platinumDust, platinumDust,
-                                                  orichalcumDust]);
+recipes.addShapeless(<Metallurgy:fantasy.dust:12> * 4, [platinumDust, platinumDust, platinumDust,
+                                                        orichalcumDust]);
 
 # Haderoth Blend: 2 Mithril, 1 Rubracium
 recipes.remove(haderothDust);
-recipes.addShapeless(haderothDust.items[0] * 3, [mithrilDust, mithrilDust,
-                                                 rubraciumDust]);
+recipes.addShapeless(<Metallurgy:fantasy.dust:10> * 3, [mithrilDust, mithrilDust,
+                                                        rubraciumDust]);
 
 # Tartarite Blend: 2 Adamantine, 1 Atlarus
 recipes.remove(tartariteDust);
-recipes.addShapeless(tartariteDust.items[0] * 3, [adamantineDust, adamantineDust,
-                                                  atlarusDust]);
+recipes.addShapeless(<Metallurgy:fantasy.dust:15> * 3, [adamantineDust, adamantineDust,
+                                                        atlarusDust]);
 
 # Shadow Steel Blend: 2 Shadow Iron, 1 Lemurite
 recipes.remove(shadowSteelDust);
-recipes.addShapeless(shadowSteelDust.items[0] * 3, [shadowIronDust, shadowIronDust,
-                                                    lemuriteDust]);
+recipes.addShapeless(<Metallurgy:nether.dust:10> * 3, [shadowIronDust, shadowIronDust,
+                                                       lemuriteDust]);
 
 # Inolashite Blend: 2 Ceruclase, 1 Alduorite
 recipes.remove(inolashiteDust);
-recipes.addShapeless(inolashiteDust.items[0] * 3, [ceruclaseDust, ceruclaseDust,
-                                                   alduoriteDust]);
+recipes.addShapeless(<Metallurgy:nether.dust:11> * 3, [ceruclaseDust, ceruclaseDust,
+                                                       alduoriteDust]);
 
 # Amordrine Blend: 3 Platinum, 1 Kalendrite
 recipes.remove(amordrineDust);
-recipes.addShapeless(amordrineDust.items[0] * 4, [platinumDust, platinumDust, platinumDust,
-                                                  kalendriteDust]);
-
+recipes.addShapeless(<Metallurgy:nether.dust:12> * 4, [platinumDust, platinumDust, platinumDust,
+                                                       kalendriteDust]);
+												  
 # Enderium Blend: 2 End Powder, 1 Ceruclase, 1 Quicksilver, 1 Resonant Ender Bucket
 recipes.remove(enderiumDust);
 recipes.addShapeless(enderiumDust * 2, [endPowder, endPowder,
