@@ -398,7 +398,7 @@ recipes.addShapeless(amordrineDust.items[0] * 4, [platinumDust, platinumDust, pl
 # Enderium Blend: 2 End Powder, 1 Ceruclase, 1 Quicksilver, 1 Resonant Ender Bucket
 recipes.remove(enderiumDust);
 recipes.addShapeless(enderiumDust * 2, [endPowder, endPowder,
-                                        ceruclaseDust, quicksilverDust
+                                        ceruclaseDust, quicksilverDust,
                                         bucketEnder]);
 
 # Pyrotheum Blend: 1 Vulcanite, 1 Blaze Powder, 1 Shadow Iron, 1 Aluminum
