@@ -17,7 +17,7 @@ var brine = <gas:brine>;
 var cardboardBox = <Mekanism:CardboardBox>;
 
 # ORE DICTIONARY
-#---------------------------------
+#----------------
 anyObsidianIngot.add(mekObsidianIngot);
 anyObsidianDust.add(reinforcedObsidianDust);
 
