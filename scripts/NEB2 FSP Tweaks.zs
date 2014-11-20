@@ -1,16 +1,19 @@
 # COMMON VARIABLES
 #------------------
-var allFish = <ore:listAllfishcooked>;
-var allMeat = <ore:listAllmeatcooked>;
-var steamedBeef = <Steamcraft:steamedBeef>;
+var steamedBeef    = <Steamcraft:steamedBeef>;
 var steamedChicken = <Steamcraft:steamedChicken>;
-var steamedFish = <Steamcraft:steamedFish>;
-var steamedPork = <Steamcraft:steamedPorkchop>;
-
+var steamedFish    = <Steamcraft:steamedFish>;
+var steamedPork    = <Steamcraft:steamedPorkchop>;
 
 # ORE DICTIONARY
 #----------------
-allMeat.add(steamedBeef);
-allMeat.add(steamedChicken);
-allMeat.add(steamedPork);
-allFish.add(steamedFish);
+
+# Cooked Meat
+var meatCooked     = <ore:listAllmeatcooked>;
+meatCooked.add(steamedBeef);
+meatCooked.add(steamedChicken);
+meatCooked.add(steamedPork);
+
+# Cooked Fish
+var fishCooked     = <ore:listAllfishcooked>;
+fishCooked.add(steamedFish);
