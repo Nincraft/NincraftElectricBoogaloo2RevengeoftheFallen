@@ -4,6 +4,17 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
+var resonantChest = <ThermalExpansion:Strongbox:4>;
+var resonantPouch = <ThermalExpansion:satchel:4>;
+var resonantTank = <ThermalExpansion:Tank:4>;
+var enderObsidian = <ore:enderobsidian>;
+var blazeRod = <minecraft:blaze_rod>;
+var infusedString = <magicalcrops:magicalcrops_ArmourMaterials:3>;
+var enderBucket = <ThermalFoundation:bucket:2>;
+var leather = <minecraft:leather>;
+var enderEye = <minecraft:ender_eye>;
+
+# Wools
 var woolWhite = <minecraft:wool:0>;
 var woolOrange = <minecraft:wool:1>;
 var woolMagenta = <minecraft:wool:2>;
@@ -20,6 +31,8 @@ var woolBrown = <minecraft:wool:12>;
 var woolGreen = <minecraft:wool:13>;
 var woolRed = <minecraft:wool:14>;
 var woolBlack = <minecraft:wool:15>;
+
+# Ender Chests
 var enderChestWhite = <EnderStorage:enderChest:0>;
 var enderChestOrange = <EnderStorage:enderChest:273>;
 var enderChestMagenta = <EnderStorage:enderChest:546>;
@@ -36,6 +49,8 @@ var enderChestBrown = <EnderStorage:enderChest:3276>;
 var enderChestGreen = <EnderStorage:enderChest:3549>;
 var enderChestRed = <EnderStorage:enderChest:3822>;
 var enderChestBlack = <EnderStorage:enderChest:4095>;
+
+# Ender Pouches
 var enderPouchWhite = <EnderStorage:enderPouch:0>;
 var enderPouchOrange = <EnderStorage:enderPouch:273>;
 var enderPouchMagenta = <EnderStorage:enderPouch:546>;
@@ -52,6 +67,8 @@ var enderPouchBrown = <EnderStorage:enderPouch:3276>;
 var enderPouchGreen = <EnderStorage:enderPouch:3549>;
 var enderPouchRed = <EnderStorage:enderPouch:3822>;
 var enderPouchBlack = <EnderStorage:enderPouch:4095>;
+
+# Ender Tanks
 var enderTankWhite = <EnderStorage:enderChest:4096>; 
 var enderTankOrange = <EnderStorage:enderChest:4369>; 
 var enderTankMagenta = <EnderStorage:enderChest:4642>;
@@ -68,15 +85,6 @@ var enderTankBrown = <EnderStorage:enderChest:7372>;
 var enderTankGreen = <EnderStorage:enderChest:7645>;
 var enderTankRed = <EnderStorage:enderChest:7918>;
 var enderTankBlack = <EnderStorage:enderChest:8191>;
-var resonantChest = <ThermalExpansion:Strongbox:4>;
-var resonantPouch = <ThermalExpansion:satchel:4>;
-var resonantTank = <ThermalExpansion:Tank:4>;
-var enderObsidian = <ore:enderobsidian>;
-var blazeRod = <minecraft:blaze_rod>;
-var infusedString = <magicalcrops:magicalcrops_ArmourMaterials:3>;
-var enderBucket = <ThermalFoundation:bucket:2>;
-var leather = <minecraft:leather>;
-var enderEye = <minecraft:ender_eye>;
 
 # ITEM LISTS
 #------------
