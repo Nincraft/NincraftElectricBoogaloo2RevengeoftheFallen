@@ -19,9 +19,7 @@ var allRawMeat   = <ore:listAllmeatraw>;
 allRawMeat.add(rawMeatIngot);
 
 # Plastic
-var anyPlastic   = <ore:anyPlastic>;
-anyPlastic.add(rawPlastic);
-
+var anyPlastic   = <ore:dustPlastic>;
 for i, plastic in allPlastics.items {
     anyPlastic.add(plastic);
 }
