@@ -34,7 +34,7 @@
     </fileSets>
     <files>
         <file>
-            <source>server/servers.dat</source>
+            <source>client/servers.dat</source>
             <outputDirectory>/</outputDirectory>
         </file>
     </files>
