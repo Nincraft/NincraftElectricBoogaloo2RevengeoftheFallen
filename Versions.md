@@ -59,10 +59,12 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
+- **GregTech** v5.06.06
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.0.6
+- **IndustrialCraft 2 EXP** v2.2.645
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B6-13
 - **InventoryTweaks** v1.58 147
