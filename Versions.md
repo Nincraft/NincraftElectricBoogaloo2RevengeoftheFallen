@@ -4,6 +4,7 @@ Current Forge Version
 
 Current API Versions
 =
+- **AppleCore** v1.0.1
 - **Baubles** v1.0.1.8
 - **bspkrs Core** v6.13
 - **CodeChickenCore** v1.0.3.23
