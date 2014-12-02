@@ -109,6 +109,7 @@ Current Mod Versions
 - **Reliquary** v1.2.137
 - **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
+- **SciMCLib** v0.0.0.1
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
@@ -128,6 +129,7 @@ Current Mod Versions
 - **Tinker's Construct** v1.7.1c
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.3
+- **Torcherino** v1.1s
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.2
