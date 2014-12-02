@@ -10,6 +10,11 @@ var torcherino   = <Torcherino:tile.torcherino>;
 recipes.remove(torcherino);
 
 recipes.addShaped(torcherino, [
-    [soulFragment, clock,    soulFragment],
-    [clock,        anyTorch, clock],
-    [soulFragment, clock,    soulFragment]]);
+    [null,         clock,    null],
+    [soulFragment, anyTorch, soulFragment],
+    [null,         clock,    null]]);
+
+recipes.addShaped(torcherino, [
+    [null,  soulFragment, null],
+    [clock, anyTorch,     clock],
+    [null,  soulFragment, null]]);
