@@ -26,6 +26,44 @@ var glowstoneBlock     = <minecraft:glowstone>;
 var emptySocket        = <AWWayofTime:emptySocket>;
 var filledSocket       = <AWWayofTime:bloodSocket>;
 
+# Ores
+var aluminumOre        = <ore:oreAluminum>;
+var copperOre          = <ore:oreCopper>;
+var tinOre             = <ore:oreTin>;
+var zincOre            = <ore:oreZinc>;
+var ironOre            = <ore:oreIron>;
+var goldOre            = <ore:oreGold>;
+var silverOre          = <ore:oreSilver>;
+var leadOre            = <ore:oreLead>;
+var platinumOre        = <ore:orePlatinum>;
+var nickelOre          = <ore:oreNickel>;
+var prometheumOre      = <ore:orePrometheum>;
+var infuscoliumOre     = <ore:oreInfuscolium>;
+var ignatiusOre        = <ore:oreIgnatius>;
+var astralSilverOre    = <ore:oreAstralSilver>;
+var carmotOre          = <ore:oreCarmot>;
+var deepIronOre        = <ore:oreDeepIron>;
+var oureclaseOre       = <ore:oreOureclase>;
+var orichalcumOre      = <ore:oreOrichalcum>;
+var mithrilOre         = <ore:oreMithril>;
+var rubraciumOre       = <ore:oreRubracium>;
+var atlarusOre         = <ore:oreAtlarus>;
+var adamantineOre      = <ore:oreAdamantine>;
+var shadowIronOre      = <ore:oreShadowIron>;
+var ceruclaseOre       = <ore:oreCeruclase>;
+var alduoriteOre       = <ore:oreAlduorite>;
+var lemuriteOre        = <ore:oreLemurite>;
+var midasiumOre        = <ore:oreMidasium>;
+var kalendriteOre      = <ore:oreKalendrite>;
+var cobaltOre          = <ore:oreCobalt>;
+var arditeOre          = <ore:oreArdite>;
+var sanguiniteOre      = <ore:oreSanguinite>;
+var vyroxeresOre       = <ore:oreVyroxeres>;
+var vulcaniteOre       = <ore:oreVulcanite>;
+var titaniumOre        = <ore:oreTitanium>;
+var eximiteOre         = <ore:oreEximite>;
+var meutoiteOre        = <ore:oreMeutoite>;
+
 # Dusts
 var redstoneDust       = <minecraft:redstone>;
 var glowstoneDust      = <minecraft:glowstone_dust>;
@@ -89,6 +127,63 @@ var tartariteDust      = <ore:dustTartarite>;
 var shadowSteelDust    = <ore:dustShadowSteel>;
 var amordrineDust      = <ore:dustAmordrine>;
 var desichalkosDust    = <ore:dustDesichalkos>;
+
+# Nuggets
+var aluminumIngot      = <ore:nuggetAluminum>;
+var copperIngot        = <ore:nuggetCopper>;
+var tinIngot           = <ore:nuggetTin>;
+var zincIngot          = <ore:nuggetZinc>;
+var ironIngot          = <ore:nuggetIron>;
+var goldIngot          = <ore:nuggetGold>;
+var silverIngot        = <ore:nuggetSilver>;
+var leadIngot          = <ore:nuggetLead>;
+var platinumIngot      = <ore:nuggetPlatinum>;
+var nickelIngot        = <ore:nuggetNickel>;
+var prometheumIngot    = <ore:nuggetPrometheum>;
+var infuscoliumIngot   = <ore:nuggetInfuscolium>;
+var ignatiusIngot      = <ore:nuggetIgnatius>;
+var astralSilverIngot  = <ore:nuggetAstralSilver>;
+var carmotIngot        = <ore:nuggetCarmot>;
+var deepIronIngot      = <ore:nuggetDeepIron>;
+var oureclaseIngot     = <ore:nuggetOureclase>;
+var orichalcumIngot    = <ore:nuggetOrichalcum>;
+var mithrilIngot       = <ore:nuggetMithril>;
+var rubraciumIngot     = <ore:nuggetRubracium>;
+var atlarusIngot       = <ore:nuggetAtlarus>;
+var adamantineIngot    = <ore:nuggetAdamantine>;
+var shadowIronIngot    = <ore:nuggetShadowIron>;
+var ceruclaseIngot     = <ore:nuggetCeruclase>;
+var alduoriteIngot     = <ore:nuggetAlduorite>;
+var lemuriteIngot      = <ore:nuggetLemurite>;
+var midasiumIngot      = <ore:nuggetMidasium>;
+var kalendriteIngot    = <ore:nuggetKalendrite>;
+var inolashiteIngot    = <ore:nuggetInolashite>;
+var cobaltIngot        = <ore:nuggetCobalt>;
+var arditeIngot        = <ore:nuggetArdite>;
+var manyullynIngot     = <ore:nuggetManyullyn>;
+var sanguiniteIngot    = <ore:nuggetSanguinite>;
+var vyroxeresIngot     = <ore:nuggetVyroxeres>;
+var vulcaniteIngot     = <ore:nuggetVulcanite>;
+var titaniumIngot      = <ore:nuggetTitanium>;
+var eximiteIngot       = <ore:nuggetEximite>;
+var meutoiteIngot      = <ore:nuggetMeutoite>;
+var electrumIngot      = <ore:nuggetElectrum>;
+var aluminumBrassIngot = <ore:nuggetAluminumBrass>;
+var brassIngot         = <ore:nuggetBrass>;
+var hepatizonIngot     = <ore:nuggetHepatizon>;
+var bronzeIngot        = <ore:nuggetBronze>;
+var angmallenIngot     = <ore:nuggetAngmallen>;
+var invarIngot         = <ore:nuggetInvar>;
+var damascusSteelIngot = <ore:nuggetDamascusSteel>;
+var steelIngot         = <ore:nuggetSteel>;
+var quicksilverIngot   = <ore:nuggetQuicksilver>;
+var blackSteelIngot    = <ore:nuggetBlackSteel>;
+var celenegilIngot     = <ore:nuggetCelenegil>;
+var haderothIngot      = <ore:nuggetHaderoth>;
+var tartariteIngot     = <ore:nuggetTartarite>;
+var shadowSteelIngot   = <ore:nuggetShadowSteel>;
+var amordrineIngot     = <ore:nuggetAmordrine>;
+var desichalkosIngot   = <ore:nuggetDesichalkos>;
 
 # Ingots
 var aluminumIngot      = <ore:ingotAluminum>;
@@ -156,43 +251,181 @@ var moltenGlowstone    = <liquid:glowstone>;
 var moltenPyrotheum    = <liquid:pyrotheum>;
 var moltenCryotheum    = <liquid:cryotheum>;
 
-# Ores
-var aluminumOre        = <ore:oreAluminum>;
-var copperOre          = <ore:oreCopper>;
-var tinOre             = <ore:oreTin>;
-var zincOre            = <ore:oreZinc>;
-var ironOre            = <ore:oreIron>;
-var goldOre            = <ore:oreGold>;
-var silverOre          = <ore:oreSilver>;
-var leadOre            = <ore:oreLead>;
-var platinumOre        = <ore:orePlatinum>;
-var nickelOre          = <ore:oreNickel>;
-var prometheumOre      = <ore:orePrometheum>;
-var infuscoliumOre     = <ore:oreInfuscolium>;
-var ignatiusOre        = <ore:oreIgnatius>;
-var astralSilverOre    = <ore:oreAstralSilver>;
-var carmotOre          = <ore:oreCarmot>;
-var deepIronOre        = <ore:oreDeepIron>;
-var oureclaseOre       = <ore:oreOureclase>;
-var orichalcumOre      = <ore:oreOrichalcum>;
-var mithrilOre         = <ore:oreMithril>;
-var rubraciumOre       = <ore:oreRubracium>;
-var atlarusOre         = <ore:oreAtlarus>;
-var adamantineOre      = <ore:oreAdamantine>;
-var shadowIronOre      = <ore:oreShadowIron>;
-var ceruclaseOre       = <ore:oreCeruclase>;
-var alduoriteOre       = <ore:oreAlduorite>;
-var lemuriteOre        = <ore:oreLemurite>;
-var midasiumOre        = <ore:oreMidasium>;
-var kalendriteOre      = <ore:oreKalendrite>;
-var cobaltOre          = <ore:oreCobalt>;
-var arditeOre          = <ore:oreArdite>;
-var sanguiniteOre      = <ore:oreSanguinite>;
-var vyroxeresOre       = <ore:oreVyroxeres>;
-var vulcaniteOre       = <ore:oreVulcanite>;
-var titaniumOre        = <ore:oreTitanium>;
-var eximiteOre         = <ore:oreEximite>;
-var meutoiteOre        = <ore:oreMeutoite>;
+/*
+# ITEM LISTS
+#------------
+var metalDusts         = [
+    aluminumDust,
+    copperDust,
+    tinDust,
+    zincDust,
+    ironDust,
+    goldDust,
+    silverDust,
+    leadDust,
+    platinumDust,
+    nickelDust,
+    prometheumDust,
+    infuscoliumDust,
+    ignatiusDust,
+    astralSilverDust,
+    carmotDust,
+    deepIronDust,
+    oureclaseDust,
+    orichalcumDust,
+    mithrilDust,
+    rubraciumDust,
+    atlarusDust,
+    adamantineDust,
+    shadowIronDust,
+    ceruclaseDust,
+    alduoriteDust,
+    lemuriteDust,
+    midasiumDust,
+    kalendriteDust,
+    inolashiteDust,
+    cobaltDust,
+    arditeDust,
+    manyullynDust,
+    sanguiniteDust,
+    vyroxeresDust,
+    vulcaniteDust,
+    titaniumDust,
+    eximiteDust,
+    meutoiteDust,
+    electrumDust,
+    aluminumBrassDust,
+    brassDust,
+    hepatizonDust,
+    bronzeDust,
+    angmallenDust,
+    invarDust,
+    damascusSteelDust,
+    steelDust,
+    quicksilverDust,
+    blackSteelDust,
+    celenegilDust,
+    haderothDust,
+    tartariteDust,
+    shadowSteelDust,
+    amordrineDust,
+    desichalkosDust
+] as IIngredient[];
+var metalNuggets       = [
+    aluminumNugget,
+    copperNugget,
+    tinNugget,
+    zincNugget,
+    ironNugget,
+    goldNugget,
+    silverNugget,
+    leadNugget,
+    platinumNugget,
+    nickelNugget,
+    prometheumNugget,
+    infuscoliumNugget,
+    ignatiusNugget,
+    astralSilverNugget,
+    carmotNugget,
+    deepIronNugget,
+    oureclaseNugget,
+    orichalcumNugget,
+    mithrilNugget,
+    rubraciumNugget,
+    atlarusNugget,
+    adamantineNugget,
+    shadowIronNugget,
+    ceruclaseNugget,
+    alduoriteNugget,
+    lemuriteNugget,
+    midasiumNugget,
+    kalendriteNugget,
+    inolashiteNugget,
+    cobaltNugget,
+    arditeNugget,
+    manyullynNugget,
+    sanguiniteNugget,
+    vyroxeresNugget,
+    vulcaniteNugget,
+    titaniumNugget,
+    eximiteNugget,
+    meutoiteNugget,
+    electrumNugget,
+    aluminumBrassNugget,
+    brassNugget,
+    hepatizonNugget,
+    bronzeNugget,
+    angmallenNugget,
+    invarNugget,
+    damascusSteelNugget,
+    steelNugget,
+    quicksilverNugget,
+    blackSteelNugget,
+    celenegilNugget,
+    haderothNugget,
+    tartariteNugget,
+    shadowSteelNugget,
+    amordrineNugget,
+    desichalkosNugget
+] as IIngredient[];
+var metalIngots        = [
+    aluminumIngot,
+    copperIngot,
+    tinIngot,
+    zincIngot,
+    ironIngot,
+    goldIngot,
+    silverIngot,
+    leadIngot,
+    platinumIngot,
+    nickelIngot,
+    prometheumIngot,
+    infuscoliumIngot,
+    ignatiusIngot,
+    astralSilverIngot,
+    carmotIngot,
+    deepIronIngot,
+    oureclaseIngot,
+    orichalcumIngot,
+    mithrilIngot,
+    rubraciumIngot,
+    atlarusIngot,
+    adamantineIngot,
+    shadowIronIngot,
+    ceruclaseIngot,
+    alduoriteIngot,
+    lemuriteIngot,
+    midasiumIngot,
+    kalendriteIngot,
+    inolashiteIngot,
+    cobaltIngot,
+    arditeIngot,
+    manyullynIngot,
+    sanguiniteIngot,
+    vyroxeresIngot,
+    vulcaniteIngot,
+    titaniumIngot,
+    eximiteIngot,
+    meutoiteIngot,
+    electrumIngot,
+    aluminumBrassIngot,
+    brassIngot,
+    hepatizonIngot,
+    bronzeIngot,
+    angmallenIngot,
+    invarIngot,
+    damascusSteelIngot,
+    steelIngot,
+    quicksilverIngot,
+    blackSteelIngot,
+    celenegilIngot,
+    haderothIngot,
+    tartariteIngot,
+    shadowSteelIngot,
+    amordrineIngot,
+    desichalkosIngot
+] as IIngredient[];
+*/
 
 # FURNACE TWEAKS
 #----------------
@@ -411,4 +644,3 @@ recipes.remove(cryotheumDust);
 recipes.addShapeless(cryotheumDust * 2, [ , ,
                                          , ]);
 */
-
