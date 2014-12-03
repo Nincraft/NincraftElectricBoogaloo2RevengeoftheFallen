@@ -122,6 +122,7 @@ Current Mod Versions
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
 - **Thaumcraft** v4.2.1.4
+- **Thaumic Exploration** v1.1-31
 - **Thaumic Tinkerer** v2.5-157
 - **Thaumic Warden** v1.1.1
 - **Thermal Expansion** v4.0.0B5-13
