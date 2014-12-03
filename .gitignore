@@ -16,6 +16,12 @@ screenshots/
 stats/
 betterrecords/libs
 betterrecords/localLibrary.json
+config/DIAdvancedCompotibility.cfg
+config/InvTweaks.cfg
+config/InvTweaksRules.txt
+config/InvTweaksTree.txt
+config/MapWriterBlockColourOverrides.txt
+config/MapWriterBlockColours.txt
 
 *.lck
 *.rar
