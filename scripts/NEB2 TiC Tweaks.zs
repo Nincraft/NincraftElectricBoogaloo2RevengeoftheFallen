@@ -7,22 +7,31 @@ import mods.tconstruct.Casting;
 
 # COMMON VARIABLES
 #------------------
-var endPowder          = <HardcoreEnderExpansion:end_powder>;
-var blazePowder        = <minecraft:blaze_powder>;
-var blizzPowder        = <ThermalFoundation:material:1025>;
-var steelBlockTiC      = <TConstruct:MetalBlock:9>;
-var redstoneBlock      = <minecraft:redstone_block>;
-var glowstoneBlock     = <minecraft:glowstone>;
-var emptySocket        = <AWWayofTime:emptySocket>;
-var filledSocket       = <AWWayofTime:bloodSocket>;
+var endPowder           = <HardcoreEnderExpansion:end_powder>;
+var blazePowder         = <minecraft:blaze_powder>;
+var blizzPowder         = <ThermalFoundation:material:1025>;
+var steelBlockTiC       = <TConstruct:MetalBlock:9>;
+var redstoneBlock       = <minecraft:redstone_block>;
+var glowstoneBlock      = <minecraft:glowstone>;
+var emptySocket         = <AWWayofTime:emptySocket>;
+var filledSocket        = <AWWayofTime:bloodSocket>;
+
+# Mini Hearts & Canisters
+var canisterEmpty       = <TConstruct:heartCanister:0>;
+var miniRedHeart        = <TConstruct:heartCanister:1>;
+var canisterRedHeart    = <TConstruct:heartCanister:2>;
+var miniYellowHeart     = <TConstruct:heartCanister:3>;
+var canisterYellowHeart = <TConstruct:heartCanister:4>;
+var miniGreenHeart      = <TConstruct:heartCanister:5>;
+var canisterGreenHeart  = <TConstruct:heartCanister:6>;
 
 #Buckets
-var bucket             = <minecraft:bucket>;
-var bucketRedstone     = <ThermalFoundation:bucket>;
-var bucketGlowstone    = <ThermalFoundation:bucket:1>;
-var bucketEnder        = <ThermalFoundation:bucket:2>;
-var bucketPyrotheum    = <ThermalFoundation:bucket:3>;
-var bucketCryotheum    = <ThermalFoundation:bucket:4>;
+var bucket              = <minecraft:bucket>;
+var bucketRedstone      = <ThermalFoundation:bucket>;
+var bucketGlowstone     = <ThermalFoundation:bucket:1>;
+var bucketEnder         = <ThermalFoundation:bucket:2>;
+var bucketPyrotheum     = <ThermalFoundation:bucket:3>;
+var bucketCryotheum     = <ThermalFoundation:bucket:4>;
 
 # Ores
 var aluminumOre        = <ore:oreAluminum>;
@@ -481,6 +490,12 @@ var metalIngots        = [
     desichalkosIngot
 ] as IIngredient[];
 */
+
+# RECIPE TWEAKS
+#---------------
+
+# Remove Downgrade Recipe
+recipes.remove(miniRedHeart);
 
 # FURNACE TWEAKS
 #----------------
