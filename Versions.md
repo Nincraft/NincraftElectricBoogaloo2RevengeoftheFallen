@@ -39,6 +39,7 @@ Current Mod Versions
 - **Chisel** v1.5.7
 - **ComputerCraft** v1.65
 - **CoroUtil** v1.0
+- **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11

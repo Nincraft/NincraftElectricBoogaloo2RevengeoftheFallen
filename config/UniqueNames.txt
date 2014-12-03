@@ -1188,6 +1188,7 @@ ThermalFoundation:FluidRedstone
 ThermalFoundation:FluidSteam
 ThermalFoundation:Ore
 ThermalFoundation:Storage
+Torcherino:tile.torcherino
 Translocator:craftingGrid
 Translocator:translocator
 TwilightForest:tile.AuroraDoubleSlab
@@ -2418,6 +2419,10 @@ ComputerCraft:diskExpanded
 ComputerCraft:pocketComputer
 ComputerCraft:printout
 ComputerCraft:treasureDisk
+CosmeticArmor:skinBoots
+CosmeticArmor:skinChestplate
+CosmeticArmor:skinHelmet
+CosmeticArmor:skinLeggings
 EE3:alchemicalBag
 EE3:alchemicalChest
 EE3:alchemicalDust
@@ -4701,6 +4706,7 @@ ThermalFoundation:Storage
 ThermalFoundation:bucket
 ThermalFoundation:lexicon
 ThermalFoundation:material
+Torcherino:tile.torcherino
 Translocator:craftingGrid
 Translocator:diamondNugget
 Translocator:translocator
