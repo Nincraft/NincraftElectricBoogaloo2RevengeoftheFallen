@@ -4,8 +4,11 @@ import mods.pneumaticcraft.Pressure;
 
 # COMMON VARIABLES
 #------------------
-var rawSilicon = <GalacticraftCore:item.basicItem:2>;
-var silicon = <EnderIO:itemMaterial>;
+var rawSilicon             = <GalacticraftCore:item.basicItem:2>;
+var silicon                = <EnderIO:itemMaterial>;
+var heavyDutyPlateT1       = <GalacticraftCore:item.heavyPlating>;
+var heavyDutyPlateT2       = <GalacticraftMars:item.null:3>;
+var heavyDutyPlateT3       = <GalacticraftMars:item.itemBasicAsteroids>;
 
 # Compressed Metals
 var compressedCopper       = <GalacticraftCore:item.basicItem:6>;
@@ -31,6 +34,13 @@ var anyTitaniumIngot       = <ore:ingotTitanium>;
 
 # ORE DICTIONARY
 #----------------
+
+# Add Metal Blocks to Ore Dictionary
+<ore:blockCopper>.add(<GalacticraftCore:tile.gcBlockCore:9>);
+<ore:blockTin>.add(<GalacticraftCore:tile.gcBlockCore:10>);
+<ore:blockAluminum>.add(<GalacticraftCore:tile.gcBlockCore:11>);
+
+# Merge Compressed Iron
 var anyCompressedIronIngot = <ore:ingotIronCompressed>;
 var anyCompressedIron      = <ore:compressedIron>;
 
@@ -49,6 +59,18 @@ recipes.remove(<GalacticraftCore:tile.machine2>);
 
 # PRESSURE CHAMBER TWEAKS
 #-------------------------
+
+# Heavy-Duty Plates
+Pressure.addRecipe([compressedSteel, compressedAluminum, compressedBronze], 2.75,
+                   [heavyDutyPlateT1], false);
+
+Pressure.addRecipe([heavyDutyPlateT1, compressedMeteoricIron], 3.25,
+                   [heavyDutyPlateT2], false);
+
+Pressure.addRecipe([heavyDutyPlateT2, compressedDesh], 3.75,
+                   [heavyDutyPlateT3], false);
+
+# Compressed Metal Plates
 for copperIngot in anyCopperIngot.items {
     Pressure.addRecipe([copperIngot], 1.5, [compressedCopper], false);
 }
