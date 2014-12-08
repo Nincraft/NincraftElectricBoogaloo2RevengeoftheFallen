@@ -21,7 +21,7 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.2.5
+- **AOBD** v2.3.5
 - **Applied Energistics 2** rv1 Stable 1
 - **AsieLib** v0.3.2
 - **Armor Status HUD** v1.27
@@ -33,7 +33,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.2.0b
-- **Botania** r1.2-129
+- **Botania** r1.3-141
 - **Carpenter's Blocks** v3.3.0
 - **Chisel** v1.5.7
 - **ComputerCraft** v1.65
@@ -50,7 +50,7 @@ Current Mod Versions
 - **Equivalent Exchange 3** v0.2.362
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
-- **Extra Utilities** v1.1.0k
+- **Extra Utilities** v1.2.0
 - **Flaxbeard's Steam Power** v0.26.4
 - **FMPIntegration** v1.2.2
 - **Galacticraft Core** v3.0.4.203
@@ -109,7 +109,7 @@ Current Mod Versions
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
-- **Simply Jetpacks** v1.2.0
+- **Simply Jetpacks** v1.3.0
 - **Sparkly Pants** v0.21
 - **Special Mobs** v3.0.2
 - **Stackie** v1.5.1.28
