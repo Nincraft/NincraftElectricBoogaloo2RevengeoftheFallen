@@ -27,9 +27,9 @@ Current Mod Versions
 - **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.1
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.8.2
-- **BiblioWoods (BoP)** v1.8
-- **BiblioWoods (Natura)** v1.4
+- **BiblioCraft** v1.9.1
+- **BiblioWoods (BoP)** v1.9
+- **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.2.0b
@@ -47,11 +47,11 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Equivalent Exchange 3** v0.2.362
+- **Equivalent Exchange 3** v0.2.369
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.0
-- **Flaxbeard's Steam Power** v0.26.4
+- **Flaxbeard's Steam Power** v0.27.2
 - **FMPIntegration** v1.2.2
 - **Galacticraft Core** v3.0.6.232
 - **Galacticraft Planets** v3.0.6.232
@@ -101,7 +101,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.1.51
 - **ProjectRed Lighting** v4.5.1.51
 - **ProjectRed World** v4.5.1.51
-- **Random Things** v2.1.9
+- **Random Things** v2.2.2
 - **RedstoneArsenal** v1.1.0B4-10
 - **Reliquary** v1.2.137
 - **Resonant Engine** v2.0.0.144
