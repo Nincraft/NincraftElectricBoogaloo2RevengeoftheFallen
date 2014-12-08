@@ -16,7 +16,7 @@ Current API Versions
 - **IndustrialCraft 2 Experimental** v2.2.633
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.4.203
+- **MicDoodleCore** v3.0.6.232
 
 Current Mod Versions
 =
@@ -53,8 +53,8 @@ Current Mod Versions
 - **Extra Utilities** v1.2.0
 - **Flaxbeard's Steam Power** v0.26.4
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.4.203
-- **Galacticraft Planets** v3.0.4.203
+- **Galacticraft Core** v3.0.6.232
+- **Galacticraft Planets** v3.0.6.232
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
