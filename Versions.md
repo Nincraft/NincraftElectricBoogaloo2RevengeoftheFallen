@@ -5,7 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **Baubles** v1.0.1.8
-- **bspkrs Core** v6.13
+- **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.3.23
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.0B6-32
@@ -24,7 +24,7 @@ Current Mod Versions
 - **AOBD** v2.3.5
 - **Applied Energistics 2** rv1 Stable 1
 - **AsieLib** v0.3.2
-- **Armor Status HUD** v1.27
+- **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.1
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.8.2
@@ -35,7 +35,7 @@ Current Mod Versions
 - **Blood Magic** v1.2.0b
 - **Botania** r1.3-141
 - **Carpenter's Blocks** v3.3.0
-- **Chisel** v1.5.7
+- **Chisel** v2.1.3
 - **ComputerCraft** v1.65
 - **CoroUtil** v1.0
 - **Damage Indicators Mod** v3.2.0
