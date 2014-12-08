@@ -1,12 +1,12 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1231
+- **Forge** v10.13.2.1258
 
 Current API Versions
 =
 - **AppleCore** v1.0.1
 - **Baubles** v1.0.1.8
-- **bspkrs Core** v6.13
+- **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.3.23
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.0B6-32
@@ -17,26 +17,26 @@ Current API Versions
 - **IndustrialCraft 2 Experimental** v2.2.633
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.4.203
+- **MicDoodleCore** v3.0.6.232
 
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.2.5
+- **AOBD** v2.3.5
 - **Applied Energistics 2** rv1 Stable 1
 - **AsieLib** v0.3.2
-- **Armor Status HUD** v1.27
+- **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.1
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.8.2
-- **BiblioWoods (BoP)** v1.8
-- **BiblioWoods (Natura)** v1.4
+- **BiblioCraft** v1.9.1
+- **BiblioWoods (BoP)** v1.9
+- **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.0RC9
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.2.0b
-- **Botania** r1.2-129
+- **Botania** r1.3-141
 - **Carpenter's Blocks** v3.3.0
-- **Chisel** v1.5.7
+- **Chisel** v2.1.3
 - **ComputerCraft** v1.65
 - **CoroUtil** v1.0
 - **Cosmetic Armor** v1.0.5.B8
@@ -49,14 +49,14 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
 - **Ender Storage** v1.4.5.19
-- **Equivalent Exchange 3** v0.2.362
+- **Equivalent Exchange 3** v0.2.369
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
-- **Extra Utilities** v1.1.0k
-- **Flaxbeard's Steam Power** v0.26.4
+- **Extra Utilities** v1.2.0
+- **Flaxbeard's Steam Power** v0.27.2
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.4.203
-- **Galacticraft Planets** v3.0.4.203
+- **Galacticraft Core** v3.0.6.232
+- **Galacticraft Planets** v3.0.6.232
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
@@ -99,14 +99,14 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10b
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.2.14-29
 - **Poor Ores** v1.3.1
+- **PneumaticCraft** v1.4.3-40
 - **ProjectRed Base** v4.5.1.51
 - **ProjectRed Compat** v4.5.1.51
 - **ProjectRed Integration** v4.5.1.51
 - **ProjectRed Lighting** v4.5.1.51
 - **ProjectRed World** v4.5.1.51
-- **Random Things** v2.1.9
+- **Random Things** v2.2.2
 - **RedstoneArsenal** v1.1.0B4-10
 - **Reliquary** v1.2.137
 - **Resonant Engine** v2.0.0.144
@@ -115,7 +115,7 @@ Current Mod Versions
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
-- **Simply Jetpacks** v1.2.0
+- **Simply Jetpacks** v1.3.0
 - **Sparkly Pants** v0.21
 - **Special Mobs** v3.0.2
 - **Stackie** v1.5.1.28
