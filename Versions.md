@@ -95,7 +95,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10b
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.2.14-29
+- **PneumaticCraft** v1.4.3-40
 - **ProjectRed Base** v4.5.1.51
 - **ProjectRed Compat** v4.5.1.51
 - **ProjectRed Integration** v4.5.1.51
