@@ -20,3 +20,143 @@ Now I am after a blank line
 
 **Begin book text after asterisks**
 ****************************************************************************
+
+NEB2 Beta v1.4.2~
+Just a small update to keep up with Forge/mods.~
+~
+Mods Updated:~
+- AOBD~
+- BiblioCraft~
+- Botania~
+- Chisel~
+- EE3~
+- Extra Utilities~
+- Flaxbeard's Steam Power~
+- Galacticraft~
+- PneumaticCraft~
+- Random Things~
+- Simply Jetpacks~
+~~~
+NEB2 Beta v1.4.1~
+Better Records was preventing joining the server, it has been removed for now. WAWLA added too much info so we've reverted to a working version.  Source code (zip)~
+~~~
+NEB2 Beta v1.4.0~
+~
+New Mods~
+- Better Records~
+- DecoCraft~
+- Greg's Lighting~
+- MFFS~
+- Mystcraft~
+- ProjectRed~
+- Stackie~
+~
+Things Changed~
+- Disabled early game morph flight.  In order to actually fly in morph, each player must kill their own wither.~
+- Minetweaker scripts are now correctly being pulled into the pack.  Lots of recipes have been changed.~
+- Removed DimensionGuard, too many issues at the current time~
+~
+Major Bug Fixes~
+- #107: Can't get fluids in or out of tanks with a bucket~
+- #109: Actually Pull MineTweaker Scripts During Builds~
+- #117: Server crashes from certain Infernal mobs~
+- #121: Applying modifications in TiC~
+~~~
+NEB2 Beta v1.3.0~
+~
+New Mods~
+- Better Title Screen~
+- ComputerCraft~
+- Dark Menagerie~
+- DimensionGuard~
+- Oceancraft~
+- Pam's HarvestCraft~
+- Sparkly Pants~
+- Special Mobs~
+- Sync~
+~
+Major Config Changes~
+- Quarries can not be placed in the Nether~
+~~~
+NEB2 Beta v1.2.1~
+Just a general update to keep up with the mods in our pack.~
+~
+Updated Mods~
+- Baubles~
+- Better Foliage~
+- BiblioCraft~
+- Biomes O' Plenty~
+- Flaxbeard's Steam Power~
+- Waila~
+~~~
+NEB2 Beta v1.2.0~
+Lots of new stuff in this release.~
+~
+New Mods~
+- Garden Stuff~
+- Iguana's Tinker Tweaks~
+- OpenBlocks~
+- OpenModsLib~
+- Reliquary~
+- TabulaRasa~
+- Thaumic Warden~
+~
+Updated Mods~
+- Botania~
+- EnderIO~
+- Equivalent Exchange 3~
+- Random Things~
+~
+Major Config Changes~
+- Iguana's Tinker Tweaks ore progression harvest levels implemented~
+- Imported TestPackPleaseIgnore's configs for Mekanism, Infernal Mobs, Ender IO, MFR, and Thermal Expansion~
+- Imported Blood n Bones ExtraTiC alloy ratios~
+- Changed ore generation~
+- Enabled some harder recipes~
+~
+Minor Config Changes~
+- Nether Ores no longer have chain reaction explosions~
+- Silk Touching Nether Ores still cause Pigmen to attack you~
+~~~
+NEB2 Beta v1.1.1~
+~
+Major Bug Fixes~
+- Fixes crash issues with Flaxbeard's~
+- Actually adds Local Weather~
+~~~
+NEB2 Beta v1.1.0~
+~
+Mods Added~
+- Admin Command Toolbox~
+- Flaxbeard's Steam Power~
+- Hatstand~
+- Local Weather & Storms 2~
+- OPIS~
+- PiP~
+- Steve's Carts~
+- Thaumic Tinkerer~
+~
+Mods Updated~
+- Extra Utilities~
+- Galacticraft 3~
+- PneumaticCraft~
+- Tinkers' Stleelworks~
+~
+Mods Removed~
+- Iguana's Tinker Tweaks~
+- Journeymap~
+- Lycanite's Mobs~
+- Witchery~
+~
+Major Config Changes~
+- Nerfed Lycanite's Mob Spawns~
+- Unify TiC & "Vanilla" tool harvest levels~
+- Added Manganese Ore to worldgen~
+- Nerfed Big Reactor crafting recipes~
+~
+Minor Config Changes~
+- Lowered AE2 Crusher ore doubling chance to 50%~
+~~~
+NEB2 Beta v1.0.0~
+Initial Release~
+~~~
