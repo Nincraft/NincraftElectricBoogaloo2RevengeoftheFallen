@@ -79,6 +79,7 @@ Current Mod Versions
 - **Minefactory Reloaded** v2.8.0RC3-591
 - **MineTweaker** v3.0.9B
 - **MobiusCore** v1.2.3
+- **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.6-22
 - **Morph** v0.9.1
 - **Morpheus** v1.5.19
