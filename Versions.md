@@ -116,7 +116,6 @@ Current Mod Versions
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
 - **Simply Jetpacks** v1.3.0
-- **Sparkly Pants** v0.21
 - **Special Mobs** v3.0.2
 - **Stackie** v1.5.1.28
 - **Statues** v2.1.4
