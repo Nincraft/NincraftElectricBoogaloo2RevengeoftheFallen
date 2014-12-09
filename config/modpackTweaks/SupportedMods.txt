@@ -14,51 +14,11 @@
 **Three asterisks and a number will skip that amount of lines following**
 
 
-**Linked means there is a link to the wiki/website, but I (gr8pefish) still want to document it in-game if I have time**
-**Incomplete means there is some documentation, but not as much as I would like**
+**Linked means there is a link to the wiki/website, but should still document it in-game if we have time**
+**Incomplete means there is some documentation, but there could be more**
 **If you alter this code please update this to-do. Or if you are working on one, put your name next to it. Thanks!**
 **TO DO:**
-**additional builcraft objects**
-**applied energistics [Linked]**
-**bibliocraft [Linked]** (Entry written, requires check if sufficient)
-**big reactors [Linked]**
-**blood magic [Linked]**
-**buildcraft [Incomplete]**
-**computercraft [Linked]**
-**engineers toolbox [Linked]**
-**extra cells [Linked]**
-**extra bees**
-**extra trees**
-**factorization [Linked]**
-**forestry-machines [Linked]**
-**forestry-bees [Linked]**
-**forestry-trees [Linked]**
-**gregtech? [linked] (Maybe just a basics guide?)**
-**hardcore ender expansion [Linked]**
-**industrial craft [Burn477?] (posted in r/TPPI)**
-**logistics pipes [Linked]**
-**magical crops [Linked]**
-**mekanism [Linked]**
-**MFFS [Linked]** (Entry written, requires check if sufficient)
-**MPS [Linked]**
-**MPSA [Linked]**
-**MystCraft-WritingAges [Linked]**
-**MystCraft-General [Linked]**
-**Nuclear control [Linked]**
-**Open blocks**
-**portal gun [Linked]**
-**project red [Linked]**
-**quarry plus**
-**railcraft-rails [Linked]**
-**railcraft-other [Linked]**
-**redstone arsenal [Incomplete]**
-**reliquary {Linked}**
-**steve's carts [Linked]**
-**steve's factory manager [Linked]**
-**thermal expansion (incomplete)**
-**twilight forest [Linked]**
-**witchery [Incomplete?]**
-
+**ADD MODS TO DO HERE**
 
 ***15
 Example:
