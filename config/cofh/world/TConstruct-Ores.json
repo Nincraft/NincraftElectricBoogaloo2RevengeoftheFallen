@@ -3,8 +3,8 @@
         "template": "uniform",
         "block": [
             {
-                "name": "TConstruct:SearedBrick",
-                "metadata": 5,
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 7,
                 "weight": 95
             },
             {
