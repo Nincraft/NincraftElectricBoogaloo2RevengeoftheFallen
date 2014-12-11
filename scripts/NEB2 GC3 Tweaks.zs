@@ -35,6 +35,15 @@ var anyTitaniumIngot       = <ore:ingotTitanium>;
 # ORE DICTIONARY
 #----------------
 
+# Add Ores to Ore Dictionary
+<ore:oreMeteoricIron>.add(<GalacticraftCore:tile.fallenMeteor>);
+<ore:oreDesh>.add(<GalacticraftMars:tile.mars:2>);
+<ore:oreTitanium>.add(<GalacticraftMars:tile.asteroidsBlock:4>);
+
+# Add Raw Metals to Ore Dictionary
+<ore:clumpMeteoricIron>.add(<GalacticraftCore:item.meteoricIronRaw>);
+<ore:clumpDesh>.add(<GalacticraftMars:item.null>);
+
 # Add Metal Blocks to Ore Dictionary
 <ore:blockCopper>.add(<GalacticraftCore:tile.gcBlockCore:9>);
 <ore:blockTin>.add(<GalacticraftCore:tile.gcBlockCore:10>);
