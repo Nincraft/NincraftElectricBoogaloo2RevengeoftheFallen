@@ -261,6 +261,13 @@ var vulcaniteNugget          = <aobd:nuggetVulcanite>;
 var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
 
 # Blocks
+var copperBlock              = <ThermalFoundation:Storage:0>;
+var tinBlock                 = <ThermalFoundation:Storage:1>;
+var silverBlock              = <ThermalFoundation:Storage:2>;
+var leadBlock                = <ThermalFoundation:Storage:3>;
+var nickelBlock              = <ThermalFoundation:Storage:4>;
+var platinumBlock            = <ThermalFoundation:Storage:5>;
+var mithrilBlock             = <ThermalFoundation:Storage:6>;
 var steelBlock               = <TConstruct:MetalBlock:9>;
 var redstoneBlock            = <minecraft:redstone_block>;
 var glowstoneBlock           = <minecraft:glowstone>;
