@@ -1165,7 +1165,6 @@ Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 20);
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
 
-/*
 # Disable Smeltery Melting to Require High Oven
 Smeltery.removeMelting(anyCobaltOre);
 Smeltery.removeMelting(anyArditeOre);
@@ -1219,7 +1218,6 @@ Smeltery.removeMelting(anyDesichalkosDust);
 Smeltery.removeMelting(anyHaderothDust);
 Smeltery.removeMelting(anyDamascusSteelDust);
 Smeltery.removeMelting(anyInvarDust);
-*/
 
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
