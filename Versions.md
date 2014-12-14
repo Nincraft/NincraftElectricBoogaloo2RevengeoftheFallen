@@ -60,10 +60,12 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
+- **GregTech** v5.06.06
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.0.6
+- **IndustrialCraft 2** v2.2.654
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B6-13
 - **InventoryTweaks** v1.58 147
@@ -109,7 +111,7 @@ Current Mod Versions
 - **ProjectRed World** v4.5.1.51
 - **Random Things** v2.2.2
 - **RedstoneArsenal** v1.1.0B4-10
-- **Reliquary** v1.2.137
+- **Reliquary** v1.2.223
 - **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
 - **SciMCLib** v0.0.0.1
