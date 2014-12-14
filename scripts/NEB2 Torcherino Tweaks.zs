@@ -3,7 +3,7 @@
 var soulFragment = <ExtraUtilities:mini-soul>;
 var clock        = <minecraft:clock>;
 var anyTorch     = <ore:anyTorch>;
-var torcherino   = <Torcherino:tile.torcherino>;
+var torcherino   = <Torcherino:tile.speed_torch>;
 
 # RECIPE TWEAKS
 #---------------
