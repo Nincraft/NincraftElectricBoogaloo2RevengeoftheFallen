@@ -83,6 +83,7 @@ var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
 var titaniumDust             = <aobd:dustTitanium>;
 
+/*
 # Tiny Dusts
 var adamantineTinyDust       = <aobd:dustTinyAdamantine>;
 var alduoriteTinyDust        = <aobd:dustTinyAlduorite>;
@@ -139,6 +140,7 @@ var titaniumTinyDust         = <aobd:dustTinyTitanium>;
 var vulcaniteTinyDust        = <aobd:dustTinyVulcanite>;
 var vyroxeresTinyDust        = <aobd:dustTinyVyroxeres>;
 var zincTinyDust             = <aobd:dustTinyZinc>;
+*/
 
 # Ingots
 var ironIngot                = <minecraft:iron_ingot>;
@@ -225,6 +227,8 @@ var arditeNugget             = <TConstruct:materials:29>;
 var manyullynNugget          = <TConstruct:materials:30>;
 var steelNugget              = <TConstruct:materials:33>;
 var quicksilverNugget        = <Thaumcraft:ItemResource:3>;
+
+/*
 var adamantineNugget         = <aobd:nuggetAdamantine>;
 var alduoriteNugget          = <aobd:nuggetAlduorite>;
 var amordrineNugget          = <aobd:nuggetAmordrine>;
@@ -259,6 +263,7 @@ var tartariteNugget          = <aobd:nuggetTartarite>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
 var vulcaniteNugget          = <aobd:nuggetVulcanite>;
 var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
+*/
 
 # Blocks
 var copperBlock              = <ThermalFoundation:Storage:0>;
@@ -1172,6 +1177,7 @@ Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 20);
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
 
+/*
 # Disable Smeltery Melting to Require High Oven
 Smeltery.removeMelting(anyCobaltOre);
 Smeltery.removeMelting(anyArditeOre);
@@ -1225,6 +1231,7 @@ Smeltery.removeMelting(anyDesichalkosDust);
 Smeltery.removeMelting(anyHaderothDust);
 Smeltery.removeMelting(anyDamascusSteelDust);
 Smeltery.removeMelting(anyInvarDust);
+*/
 
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
@@ -1342,6 +1349,7 @@ recipes.remove(cryotheumDust);
 recipes.addShapeless(cryotheumDust * 2, [ , , , ]);
 */
 
+/*
 # DUST TO/FROM TINY DUST RECIPES
 #--------------------------------
 for i, tinyDust in metalTinyDusts {
@@ -1358,7 +1366,9 @@ for i, dust in metalDusts {
         [tinyDust, tinyDust, tinyDust],
         [tinyDust, tinyDust, tinyDust]]);
 }
+*/
 
+/*
 # NUGGET TO/FROM INGOT RECIPES
 #------------------------------
 for i, nugget in metalNuggets {
@@ -1378,3 +1388,4 @@ for i, nugget in metalNuggets {
         [nuggetOreDict, nuggetOreDict, nuggetOreDict],
         [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);
 }
+*/
