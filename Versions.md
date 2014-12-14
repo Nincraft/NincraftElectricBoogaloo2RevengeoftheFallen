@@ -36,6 +36,7 @@ Current Mod Versions
 - **Blood Magic** v1.2.0b
 - **Botania** r1.3-141
 - **Carpenter's Blocks** v3.3.0
+- **Caveworld** v1.8.3
 - **Chisel** v2.1.3
 - **ComputerCraft** v1.65
 - **CoroUtil** v1.0
