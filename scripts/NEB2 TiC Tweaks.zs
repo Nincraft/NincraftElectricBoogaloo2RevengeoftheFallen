@@ -1170,17 +1170,17 @@ furnace.remove(anyDesichalkosIngot);
 Smeltery.addMelting(redstoneDust, moltenRedstone * 100, 200, redstoneBlock);
 Smeltery.addMelting(redstoneBlock, moltenRedstone * 900, 200, redstoneBlock);
 
-Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 400);
+Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 40);
 
-Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 360);
+Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 40);
 
 # Glowstone
 Smeltery.addMelting(glowstoneDust, moltenGlowstone * 250, 200, glowstoneBlock);
 Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock);
 
-Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 160);
+Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40);
 
-Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 160);
+Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
