@@ -81,7 +81,7 @@ var amordrineDust            = <Metallurgy:nether.dust:12>;
 var eximiteDust              = <Metallurgy:ender.dust:0>;
 var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
-var titaniumDust             = <aobd:dustTitanium>;
+#var titaniumDust             = <aobd:dustTitanium>;
 
 /*
 # Tiny Dusts
@@ -136,7 +136,7 @@ var silverTinyDust           = <aobd:dustTinySilver>;
 var steelTinyDust            = <aobd:dustTinySteel>;
 var tartariteTinyDust        = <aobd:dustTinyTartarite>;
 var tinTinyDust              = <aobd:dustTinyTin>;
-var titaniumTinyDust         = <aobd:dustTinyTitanium>;
+#var titaniumTinyDust         = <aobd:dustTinyTitanium>;
 var vulcaniteTinyDust        = <aobd:dustTinyVulcanite>;
 var vyroxeresTinyDust        = <aobd:dustTinyVyroxeres>;
 var zincTinyDust             = <aobd:dustTinyZinc>;
@@ -166,7 +166,7 @@ var manyullynIngot           = <TConstruct:materials:5>;
 var aluminumBrassIngot       = <TConstruct:materials:14>;
 var steelIngot               = <TConstruct:materials:16>;
 var aluminumIngot            = <GalacticraftCore:item.basicItem:5>;
-var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
+#var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
 var adamantineIngot          = <Metallurgy:adamantine.ingot>;
 var alduoriteIngot           = <Metallurgy:alduorite.ingot>;
 var amordrineIngot           = <Metallurgy:amordrine.ingot>;
@@ -260,7 +260,7 @@ var sanguiniteNugget         = <aobd:nuggetSanguinite>;
 var shadowIronNugget         = <aobd:nuggetShadowIron>;
 var shadowSteelNugget        = <aobd:nuggetShadowSteel>;
 var tartariteNugget          = <aobd:nuggetTartarite>;
-var titaniumNugget           = <aobd:nuggetTitanium>;
+#var titaniumNugget           = <aobd:nuggetTitanium>;
 var vulcaniteNugget          = <aobd:nuggetVulcanite>;
 var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
 */
@@ -339,7 +339,7 @@ var anySanguiniteOre         = <ore:oreSanguinite>;
 var anyShadowIronOre         = <ore:oreShadowIron>;
 var anySilverOre             = <ore:oreSilver>;
 var anyTinOre                = <ore:oreTin>;
-var anyTitaniumOre           = <ore:oreTitanium>;
+#var anyTitaniumOre           = <ore:oreTitanium>;
 var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
 var anyZincOre               = <ore:oreZinc>;
@@ -396,7 +396,7 @@ var anySilverTinyDust        = <ore:dustTinySilver>;
 var anySteelTinyDust         = <ore:dustTinySteel>;
 var anyTartariteTinyDust     = <ore:dustTinyTartarite>;
 var anyTinTinyDust           = <ore:dustTinyTin>;
-var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
+#var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
@@ -454,7 +454,7 @@ var anySilverDust            = <ore:dustSilver>;
 var anySteelDust             = <ore:dustSteel>;
 var anyTartariteDust         = <ore:dustTartarite>;
 var anyTinDust               = <ore:dustTin>;
-var anyTitaniumDust          = <ore:dustTitanium>;
+#var anyTitaniumDust          = <ore:dustTitanium>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
 var anyZincDust              = <ore:dustZinc>;
@@ -511,7 +511,7 @@ var anySilverNugget          = <ore:nuggetSilver>;
 var anySteelNugget           = <ore:nuggetSteel>;
 var anyTartariteNugget       = <ore:nuggetTartarite>;
 var anyTinNugget             = <ore:nuggetTin>;
-var anyTitaniumNugget        = <ore:nuggetTitanium>;
+#var anyTitaniumNugget        = <ore:nuggetTitanium>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
 var anyZincNugget            = <ore:nuggetZinc>;
@@ -568,7 +568,7 @@ var anySilverIngot           = <ore:ingotSilver>;
 var anySteelIngot            = <ore:ingotSteel>;
 var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTinIngot              = <ore:ingotTin>;
-var anyTitaniumIngot         = <ore:ingotTitanium>;
+#var anyTitaniumIngot         = <ore:ingotTitanium>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
 var anyZincIngot             = <ore:ingotZinc>;
@@ -625,7 +625,7 @@ var anySilverBlock           = <ore:blockSilver>;
 var anySteelBlock            = <ore:blockSteel>;
 var anyTartariteBlock        = <ore:blockTartarite>;
 var anyTinBlock              = <ore:blockTin>;
-var anyTitaniumBlock         = <ore:blockTitanium>;
+#var anyTitaniumBlock         = <ore:blockTitanium>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
@@ -684,7 +684,7 @@ var metalTinyDusts           = [
     steelTinyDust,
     tartariteTinyDust,
     tinTinyDust,
-    titaniumTinyDust,
+    #titaniumTinyDust,
     vulcaniteTinyDust,
     vyroxeresTinyDust,
     zincTinyDust
@@ -741,7 +741,7 @@ var metalDusts               = [
     steelDust,
     tartariteDust,
     tinDust,
-    titaniumDust,
+    #titaniumDust,
     vulcaniteDust,
     vyroxeresDust,
     zincDust
@@ -798,7 +798,7 @@ var metalNuggets             = [
     steelNugget,
     tartariteNugget,
     tinNugget,
-    titaniumNugget,
+    #titaniumNugget,
     vulcaniteNugget,
     vyroxeresNugget,
     zincNugget
@@ -855,7 +855,7 @@ var metalIngots              = [
     steelIngot,
     tartariteIngot,
     tinIngot,
-    titaniumIngot,
+    #titaniumIngot,
     vulcaniteIngot,
     vyroxeresIngot,
     zincIngot
@@ -912,7 +912,7 @@ var metalTinyDustsOreDict    = [
     anySteelTinyDust,
     anyTartariteTinyDust,
     anyTinTinyDust,
-    anyTitaniumTinyDust,
+    #anyTitaniumTinyDust,
     anyVulcaniteTinyDust,
     anyVyroxeresTinyDust,
     anyZincTinyDust
@@ -969,7 +969,7 @@ var metalDustsOreDict        = [
     anySteelDust,
     anyTartariteDust,
     anyTinDust,
-    anyTitaniumDust,
+    #anyTitaniumDust,
     anyVulcaniteDust,
     anyVyroxeresDust,
     anyZincDust
@@ -1026,7 +1026,7 @@ var metalNuggetsOreDict      = [
     anySteelNugget,
     anyTartariteNugget,
     anyTinNugget,
-    anyTitaniumNugget,
+    #anyTitaniumNugget,
     anyVulcaniteNugget,
     anyVyroxeresNugget,
     anyZincNugget
@@ -1083,7 +1083,7 @@ var metalIngotsOreDict       = [
     anySteelIngot,
     anyTartariteIngot,
     anyTinIngot,
-    anyTitaniumIngot,
+    #anyTitaniumIngot,
     anyVulcaniteIngot,
     anyVyroxeresIngot,
     anyZincIngot
@@ -1134,7 +1134,7 @@ furnace.remove(anyManyullynIngot);
 furnace.remove(anySanguiniteIngot);
 furnace.remove(anyVyroxeresIngot);
 furnace.remove(anyVulcaniteIngot);
-furnace.remove(anyTitaniumIngot);
+#furnace.remove(anyTitaniumIngot);
 furnace.remove(anyEximiteIngot);
 furnace.remove(anyMeutoiteIngot);
 furnace.remove(anyElectrumIngot);
