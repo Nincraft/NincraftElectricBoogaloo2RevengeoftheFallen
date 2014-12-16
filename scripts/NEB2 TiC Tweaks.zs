@@ -1374,15 +1374,15 @@ for i, dust in metalDusts {
 for i, nugget in metalNuggets {
     var nuggetOreDict = metalNuggetsOreDict[i];
     var ingot         = metalIngots[i];
-	var ingotOreDict  = metalIngotsOreDict[i];
+    var ingotOreDict  = metalIngotsOreDict[i];
     
-	/*recipes.removeShapeless(<*>, [ingotOreDict]);*/
+    #recipes.removeShapeless(<*>, [ingotOreDict]);
     recipes.addShapeless(nugget * 9, [ingotOreDict]);
 
-	/*recipes.removeShaped(<*>, [
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);*/
+    #recipes.removeShaped(<*>, [
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);
     recipes.addShaped(ingot, [
         [nuggetOreDict, nuggetOreDict, nuggetOreDict],
         [nuggetOreDict, nuggetOreDict, nuggetOreDict],
