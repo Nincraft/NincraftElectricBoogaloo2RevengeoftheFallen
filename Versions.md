@@ -68,7 +68,7 @@ Current Mod Versions
 - **Iguana's Tinker Tweaks** v2.0.6
 - **IndustrialCraft 2** v2.2.654
 - **Infernal Mobs** v1.5.9
-- **INpureCore** v1.0.0B6-13
+- **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.1.4
