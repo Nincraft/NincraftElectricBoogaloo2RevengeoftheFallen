@@ -296,12 +296,13 @@ var bucketCryotheum          = <ThermalFoundation:bucket:4>;
 
 # Liquids
 var blood                    = <liquid:blood>;
-var moltenSteel              = <liquid:steel.molten>;
-var moltenManyullyn          = <liquid:manyullyn.molten>;
-var moltenRedstone           = <liquid:redstone>;
-var moltenGlowstone          = <liquid:glowstone>;
-var moltenPyrotheum          = <liquid:pyrotheum>;
 var moltenCryotheum          = <liquid:cryotheum>;
+var moltenGlowstone          = <liquid:glowstone>;
+var moltenHepatizon          = <liquid:hepatizon.molten>;
+var moltenManyullyn          = <liquid:manyullyn.molten>;
+var moltenPyrotheum          = <liquid:pyrotheum>;
+var moltenRedstone           = <liquid:redstone>;
+var moltenSteel              = <liquid:steel.molten>;
 
 # ORE DICTIONARY
 #----------------
@@ -354,6 +355,9 @@ var anyAngmallenTinyDust     = <ore:dustTinyAngmallen>;
 var anyArditeTinyDust        = <ore:dustTinyArdite>;
 var anyAstralSilverTinyDust  = <ore:dustTinyAstralSilver>;
 var anyAtlarusTinyDust       = <ore:dustTinyAtlarus>;
+var anyBismuthBronzeTinyDust = <ore:dustTinyBismuthBronze>;
+var anyBismuthTinyDust       = <ore:dustTinyBismuth>;
+var anyBlackBronzeTinyDust   = <ore:dustTinyBlackBronze>;
 var anyBlackSteelTinyDust    = <ore:dustTinyBlackSteel>;
 var anyBrassTinyDust         = <ore:dustTinyBrass>;
 var anyBronzeTinyDust        = <ore:dustTinyBronze>;
@@ -396,7 +400,9 @@ var anySilverTinyDust        = <ore:dustTinySilver>;
 var anySteelTinyDust         = <ore:dustTinySteel>;
 var anyTartariteTinyDust     = <ore:dustTinyTartarite>;
 var anyTinTinyDust           = <ore:dustTinyTin>;
-#var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
+var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
+var anyTungstenTinyDust      = <ore:dustTinyTungsten>;
+var anyTungstensteelTinyDust = <ore:dustTinyTungstensteel>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
@@ -411,6 +417,9 @@ var anyAngmallenDust         = <ore:dustAngmallen>;
 var anyArditeDust            = <ore:dustArdite>;
 var anyAstralSilverDust      = <ore:dustAstralSilver>;
 var anyAtlarusDust           = <ore:dustAtlarus>;
+var anyBismuthBronzeDust     = <ore:dustBismuthBronze>;
+var anyBismuthDust           = <ore:dustBismuth>;
+var anyBlackBronzeDust       = <ore:dustBlackBronze>;
 var anyBlackSteelDust        = <ore:dustBlackSteel>;
 var anyBrassDust             = <ore:dustBrass>;
 var anyBronzeDust            = <ore:dustBronze>;
@@ -454,7 +463,9 @@ var anySilverDust            = <ore:dustSilver>;
 var anySteelDust             = <ore:dustSteel>;
 var anyTartariteDust         = <ore:dustTartarite>;
 var anyTinDust               = <ore:dustTin>;
-#var anyTitaniumDust          = <ore:dustTitanium>;
+var anyTitaniumDust          = <ore:dustTitanium>;
+var anyTungstenDust          = <ore:dustTungsten>;
+var anyTungstensteelDust     = <ore:dustTungstensteel>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
 var anyZincDust              = <ore:dustZinc>;
@@ -469,6 +480,9 @@ var anyAngmallenNugget       = <ore:nuggetAngmallen>;
 var anyArditeNugget          = <ore:nuggetArdite>;
 var anyAstralSilverNugget    = <ore:nuggetAstralSilver>;
 var anyAtlarusNugget         = <ore:nuggetAtlarus>;
+var anyBismuthBronzeNugget   = <ore:nuggetBismuthBronze>;
+var anyBismuthNugget         = <ore:nuggetBismuth>;
+var anyBlackBronzeNugget     = <ore:nuggetBlackBronze>;
 var anyBlackSteelNugget      = <ore:nuggetBlackSteel>;
 var anyBrassNugget           = <ore:nuggetBrass>;
 var anyBronzeNugget          = <ore:nuggetBronze>;
@@ -511,7 +525,9 @@ var anySilverNugget          = <ore:nuggetSilver>;
 var anySteelNugget           = <ore:nuggetSteel>;
 var anyTartariteNugget       = <ore:nuggetTartarite>;
 var anyTinNugget             = <ore:nuggetTin>;
-#var anyTitaniumNugget        = <ore:nuggetTitanium>;
+var anyTitaniumNugget        = <ore:nuggetTitanium>;
+var anyTungstenNugget        = <ore:nuggetTungsten>;
+var anyTungstensteelNugget   = <ore:nuggetTungstensteel>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
 var anyZincNugget            = <ore:nuggetZinc>;
@@ -526,6 +542,9 @@ var anyAngmallenIngot        = <ore:ingotAngmallen>;
 var anyArditeIngot           = <ore:ingotArdite>;
 var anyAstralSilverIngot     = <ore:ingotAstralSilver>;
 var anyAtlarusIngot          = <ore:ingotAtlarus>;
+var anyBismuthBronzeIngot    = <ore:ingotBismuthBronze>;
+var anyBismuthIngot          = <ore:ingotBismuth>;
+var anyBlackBronzeIngot      = <ore:ingotBlackBronze>;
 var anyBlackSteelIngot       = <ore:ingotBlackSteel>;
 var anyBrassIngot            = <ore:ingotBrass>;
 var anyBronzeIngot           = <ore:ingotBronze>;
@@ -568,7 +587,9 @@ var anySilverIngot           = <ore:ingotSilver>;
 var anySteelIngot            = <ore:ingotSteel>;
 var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTinIngot              = <ore:ingotTin>;
-#var anyTitaniumIngot         = <ore:ingotTitanium>;
+var anyTitaniumIngot         = <ore:ingotTitanium>;
+var anyTungstenIngot         = <ore:ingotTungsten>;
+var anyTungstensteelIngot    = <ore:ingotTungstensteel>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
 var anyZincIngot             = <ore:ingotZinc>;
@@ -583,6 +604,9 @@ var anyAngmallenBlock        = <ore:blockAngmallen>;
 var anyArditeBlock           = <ore:blockArdite>;
 var anyAstralSilverBlock     = <ore:blockAstralSilver>;
 var anyAtlarusBlock          = <ore:blockAtlarus>;
+var anyBismuthBronzeBlock    = <ore:blockBismuthBronze>;
+var anyBismuthBlock          = <ore:blockBismuth>;
+var anyBlackBronzeBlock      = <ore:blockBlackBronze>;
 var anyBlackSteelBlock       = <ore:blockBlackSteel>;
 var anyBrassBlock            = <ore:blockBrass>;
 var anyBronzeBlock           = <ore:blockBronze>;
@@ -625,10 +649,25 @@ var anySilverBlock           = <ore:blockSilver>;
 var anySteelBlock            = <ore:blockSteel>;
 var anyTartariteBlock        = <ore:blockTartarite>;
 var anyTinBlock              = <ore:blockTin>;
-#var anyTitaniumBlock         = <ore:blockTitanium>;
+var anyTitaniumBlock         = <ore:blockTitanium>;
+var anyTungstenBlock         = <ore:blockTungsten>;
+var anyTungstensteelBlock    = <ore:blockTungstensteel>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
+
+# Unify Hepatizon & Black Bronze
+anyBlackBronzeTinyDust.addAll(anyHepatizonTinyDust);
+anyBlackBronzeDust.addAll(anyHepatizonDust);
+anyBlackBronzeNugget.addAll(anyHepatizonNugget);
+anyBlackBronzeIngot.addAll(anyHepatizonIngot);
+anyBlackBronzeBlock.addAll(anyHepatizonBlock);
+
+anyBlackBronzeTinyDust.mirror(anyHepatizonTinyDust);
+anyBlackBronzeDust.mirror(anyHepatizonDust);
+anyBlackBronzeNugget.mirror(anyHepatizonNugget);
+anyBlackBronzeIngot.mirror(anyHepatizonIngot);
+anyBlackBronzeBlock.mirror(anyHepatizonBlock);
 
 # ITEM LISTS
 #------------
@@ -691,8 +730,6 @@ var metalTinyDusts           = [
     vyroxeresTinyDust,
     zincTinyDust
 ] as IItemStack[];
-*/
-
 var metalDusts               = [
     adamantineDust,
     alduoriteDust,
@@ -750,8 +787,6 @@ var metalDusts               = [
     vyroxeresDust,
     zincDust
 ] as IItemStack[];
-
-/*
 var metalNuggets             = [
     adamantineNugget,
     alduoriteNugget,
@@ -809,8 +844,6 @@ var metalNuggets             = [
     vyroxeresNugget,
     zincNugget
 ] as IItemStack[];
-*/
-
 var metalIngots              = [
     adamantineIngot,
     alduoriteIngot,
@@ -1096,6 +1129,7 @@ var metalIngotsOreDict       = [
     anyVyroxeresIngot,
     anyZincIngot
 ] as IIngredient[];
+*/
 
 # RECIPE TWEAKS
 #---------------
@@ -1142,7 +1176,7 @@ furnace.remove(anyManyullynIngot);
 furnace.remove(anySanguiniteIngot);
 furnace.remove(anyVyroxeresIngot);
 furnace.remove(anyVulcaniteIngot);
-#furnace.remove(anyTitaniumIngot);
+furnace.remove(anyTitaniumIngot);
 furnace.remove(anyEximiteIngot);
 furnace.remove(anyMeutoiteIngot);
 furnace.remove(anyElectrumIngot);
@@ -1184,6 +1218,24 @@ Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
+
+# Use GT's Black Steel Recipe
+Smeltery.removeAlloy(moltenHepatizon);
+#Smeltery.addAlloy(moltenHepatizon * ?, [moltenCopper * ?, moltenTin * ?, moltenGold * ?, moltenSilver * ?]);
+#Smeltery.addAlloy(moltenHepatizon * ?, [moltenCopper * ?, moltenTin * ?, moltenElectrum * ?]);
+#Smeltery.addAlloy(moltenHepatizon * ?, [moltenBronze * ?, moltenGold * ?, moltenSilver * ?]);
+#Smeltery.addAlloy(moltenHepatizon * ?, [moltenBronze * ?, moltenElectrum * ?]);
+
+# Add Bismuth Smeltery Support
+#Smeltery.addMelting(bismuthNugget, moltenBismuth * 16, 400, bismuthBlock);
+#Smeltery.addMelting(bismuthTinyDust, moltenBismuth * 16, 400, bismuthBlock);
+#Smeltery.addMelting(bismuthIngot, moltenBismuth * 144, 400, bismuthBlock);
+#Smeltery.addMelting(bismuthDust, moltenBismuth * 144, 400, bismuthBlock);
+#Smeltery.addMelting(bismuthBlock, moltenBismuth * 1296, 400, bismuthBlock);
+
+# Add Bismuth Bronze
+#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenCopper * ?, moltenTin * ?, moltenBismuth * ?, moltenZinc * ?]);
+#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenBronze * ?, moltenBismuth * ?, moltenZinc * ?]);
 
 /*
 # Disable Smeltery Melting to Require High Oven
