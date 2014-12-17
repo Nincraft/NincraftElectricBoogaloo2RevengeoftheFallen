@@ -81,7 +81,7 @@ var amordrineDust            = <Metallurgy:nether.dust:12>;
 var eximiteDust              = <Metallurgy:ender.dust:0>;
 var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
-var titaniumDust             = <aobd:dustTitanium>;
+#var titaniumDust             = <aobd:dustTitanium>;
 
 /*
 # Tiny Dusts
@@ -136,7 +136,7 @@ var silverTinyDust           = <aobd:dustTinySilver>;
 var steelTinyDust            = <aobd:dustTinySteel>;
 var tartariteTinyDust        = <aobd:dustTinyTartarite>;
 var tinTinyDust              = <aobd:dustTinyTin>;
-var titaniumTinyDust         = <aobd:dustTinyTitanium>;
+#var titaniumTinyDust         = <aobd:dustTinyTitanium>;
 var vulcaniteTinyDust        = <aobd:dustTinyVulcanite>;
 var vyroxeresTinyDust        = <aobd:dustTinyVyroxeres>;
 var zincTinyDust             = <aobd:dustTinyZinc>;
@@ -166,7 +166,7 @@ var manyullynIngot           = <TConstruct:materials:5>;
 var aluminumBrassIngot       = <TConstruct:materials:14>;
 var steelIngot               = <TConstruct:materials:16>;
 var aluminumIngot            = <GalacticraftCore:item.basicItem:5>;
-var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
+#var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
 var adamantineIngot          = <Metallurgy:adamantine.ingot>;
 var alduoriteIngot           = <Metallurgy:alduorite.ingot>;
 var amordrineIngot           = <Metallurgy:amordrine.ingot>;
@@ -260,7 +260,7 @@ var sanguiniteNugget         = <aobd:nuggetSanguinite>;
 var shadowIronNugget         = <aobd:nuggetShadowIron>;
 var shadowSteelNugget        = <aobd:nuggetShadowSteel>;
 var tartariteNugget          = <aobd:nuggetTartarite>;
-var titaniumNugget           = <aobd:nuggetTitanium>;
+#var titaniumNugget           = <aobd:nuggetTitanium>;
 var vulcaniteNugget          = <aobd:nuggetVulcanite>;
 var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
 */
@@ -339,7 +339,7 @@ var anySanguiniteOre         = <ore:oreSanguinite>;
 var anyShadowIronOre         = <ore:oreShadowIron>;
 var anySilverOre             = <ore:oreSilver>;
 var anyTinOre                = <ore:oreTin>;
-var anyTitaniumOre           = <ore:oreTitanium>;
+#var anyTitaniumOre           = <ore:oreTitanium>;
 var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
 var anyZincOre               = <ore:oreZinc>;
@@ -396,7 +396,7 @@ var anySilverTinyDust        = <ore:dustTinySilver>;
 var anySteelTinyDust         = <ore:dustTinySteel>;
 var anyTartariteTinyDust     = <ore:dustTinyTartarite>;
 var anyTinTinyDust           = <ore:dustTinyTin>;
-var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
+#var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
@@ -454,7 +454,7 @@ var anySilverDust            = <ore:dustSilver>;
 var anySteelDust             = <ore:dustSteel>;
 var anyTartariteDust         = <ore:dustTartarite>;
 var anyTinDust               = <ore:dustTin>;
-var anyTitaniumDust          = <ore:dustTitanium>;
+#var anyTitaniumDust          = <ore:dustTitanium>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
 var anyZincDust              = <ore:dustZinc>;
@@ -511,7 +511,7 @@ var anySilverNugget          = <ore:nuggetSilver>;
 var anySteelNugget           = <ore:nuggetSteel>;
 var anyTartariteNugget       = <ore:nuggetTartarite>;
 var anyTinNugget             = <ore:nuggetTin>;
-var anyTitaniumNugget        = <ore:nuggetTitanium>;
+#var anyTitaniumNugget        = <ore:nuggetTitanium>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
 var anyZincNugget            = <ore:nuggetZinc>;
@@ -568,7 +568,7 @@ var anySilverIngot           = <ore:ingotSilver>;
 var anySteelIngot            = <ore:ingotSteel>;
 var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTinIngot              = <ore:ingotTin>;
-var anyTitaniumIngot         = <ore:ingotTitanium>;
+#var anyTitaniumIngot         = <ore:ingotTitanium>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
 var anyZincIngot             = <ore:ingotZinc>;
@@ -625,13 +625,15 @@ var anySilverBlock           = <ore:blockSilver>;
 var anySteelBlock            = <ore:blockSteel>;
 var anyTartariteBlock        = <ore:blockTartarite>;
 var anyTinBlock              = <ore:blockTin>;
-var anyTitaniumBlock         = <ore:blockTitanium>;
+#var anyTitaniumBlock         = <ore:blockTitanium>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
 
 # ITEM LISTS
 #------------
+
+/*
 var metalTinyDusts           = [
     adamantineTinyDust,
     alduoriteTinyDust,
@@ -684,11 +686,13 @@ var metalTinyDusts           = [
     steelTinyDust,
     tartariteTinyDust,
     tinTinyDust,
-    titaniumTinyDust,
+    #titaniumTinyDust,
     vulcaniteTinyDust,
     vyroxeresTinyDust,
     zincTinyDust
 ] as IItemStack[];
+*/
+
 var metalDusts               = [
     adamantineDust,
     alduoriteDust,
@@ -741,11 +745,13 @@ var metalDusts               = [
     steelDust,
     tartariteDust,
     tinDust,
-    titaniumDust,
+    #titaniumDust,
     vulcaniteDust,
     vyroxeresDust,
     zincDust
 ] as IItemStack[];
+
+/*
 var metalNuggets             = [
     adamantineNugget,
     alduoriteNugget,
@@ -798,11 +804,13 @@ var metalNuggets             = [
     steelNugget,
     tartariteNugget,
     tinNugget,
-    titaniumNugget,
+    #titaniumNugget,
     vulcaniteNugget,
     vyroxeresNugget,
     zincNugget
 ] as IItemStack[];
+*/
+
 var metalIngots              = [
     adamantineIngot,
     alduoriteIngot,
@@ -855,7 +863,7 @@ var metalIngots              = [
     steelIngot,
     tartariteIngot,
     tinIngot,
-    titaniumIngot,
+    #titaniumIngot,
     vulcaniteIngot,
     vyroxeresIngot,
     zincIngot
@@ -912,7 +920,7 @@ var metalTinyDustsOreDict    = [
     anySteelTinyDust,
     anyTartariteTinyDust,
     anyTinTinyDust,
-    anyTitaniumTinyDust,
+    #anyTitaniumTinyDust,
     anyVulcaniteTinyDust,
     anyVyroxeresTinyDust,
     anyZincTinyDust
@@ -969,7 +977,7 @@ var metalDustsOreDict        = [
     anySteelDust,
     anyTartariteDust,
     anyTinDust,
-    anyTitaniumDust,
+    #anyTitaniumDust,
     anyVulcaniteDust,
     anyVyroxeresDust,
     anyZincDust
@@ -1026,7 +1034,7 @@ var metalNuggetsOreDict      = [
     anySteelNugget,
     anyTartariteNugget,
     anyTinNugget,
-    anyTitaniumNugget,
+    #anyTitaniumNugget,
     anyVulcaniteNugget,
     anyVyroxeresNugget,
     anyZincNugget
@@ -1083,7 +1091,7 @@ var metalIngotsOreDict       = [
     anySteelIngot,
     anyTartariteIngot,
     anyTinIngot,
-    anyTitaniumIngot,
+    #anyTitaniumIngot,
     anyVulcaniteIngot,
     anyVyroxeresIngot,
     anyZincIngot
@@ -1134,7 +1142,7 @@ furnace.remove(anyManyullynIngot);
 furnace.remove(anySanguiniteIngot);
 furnace.remove(anyVyroxeresIngot);
 furnace.remove(anyVulcaniteIngot);
-furnace.remove(anyTitaniumIngot);
+#furnace.remove(anyTitaniumIngot);
 furnace.remove(anyEximiteIngot);
 furnace.remove(anyMeutoiteIngot);
 furnace.remove(anyElectrumIngot);
@@ -1162,17 +1170,17 @@ furnace.remove(anyDesichalkosIngot);
 Smeltery.addMelting(redstoneDust, moltenRedstone * 100, 200, redstoneBlock);
 Smeltery.addMelting(redstoneBlock, moltenRedstone * 900, 200, redstoneBlock);
 
-Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 20);
+Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 40);
 
-Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 20);
+Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 40);
 
 # Glowstone
 Smeltery.addMelting(glowstoneDust, moltenGlowstone * 250, 200, glowstoneBlock);
 Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock);
 
-Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 20);
+Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40);
 
-Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 20);
+Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
@@ -1242,6 +1250,7 @@ recipes.addShapeless(aluminumBrassDust * 9, [anyCopperDust, anyCopperDust, anyCo
                                              anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
                                              anyAluminumDust]);
 
+/*
 recipes.addShapeless(aluminumBrassDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
                                          anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
                                          anyAluminumTinyDust]);
@@ -1255,12 +1264,14 @@ recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopper
 recipes.addShapeless(hepatizonDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
                                      anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
                                      anyElectrumTinyDust]);
+*/
 
 # Angmallen Blend: 3 Gold, 2 Iron
 recipes.remove(anyAngmallenDust);
 recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
                                          anyIronDust, anyIronDust]);
 
+/*
 recipes.addShapeless(angmallenTinyDust * 5, [anyGoldTinyDust, anyGoldTinyDust, anyGoldTinyDust,
                                              anyIronTinyDust, anyIronTinyDust]);
 
@@ -1287,51 +1298,67 @@ recipes.addShapeless(blackSteelDust * 3, [anyDeepIronDust, anyDeepIronDust,
 
 recipes.addShapeless(blackSteelTinyDust * 3, [anyDeepIronTinyDust, anyDeepIronTinyDust,
                                               anyInfuscoliumTinyDust]);
+*/
 
 # Celenegil Blend: 3 Platinum, 1 Orichalcum
 recipes.remove(anyCelenegilDust);
 recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyOrichalcumDust]);
 
+/*
 recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
                                              anyOrichalcumTinyDust]);
+*/
 
 # Haderoth Blend: 2 Mithril, 1 Rubracium
 recipes.remove(anyHaderothDust);
 recipes.addShapeless(haderothDust * 3, [anyMithrilDust, anyMithrilDust,
                                         anyRubraciumDust]);
 
+/*
 recipes.addShapeless(haderothTinyDust * 3, [anyMithrilTinyDust, anyMithrilTinyDust,
                                             anyRubraciumTinyDust]);
+*/
 
 # Tartarite Blend: 2 Adamantine, 1 Atlarus
 recipes.remove(anyTartariteDust);
 recipes.addShapeless(tartariteDust * 3, [anyAdamantineDust, anyAdamantineDust,
                                          anyAtlarusDust]);
 
+/*
 recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
                                              anyAtlarusTinyDust]);
+*/
 
 # Shadow Steel Blend: 2 Shadow Iron, 1 Lemurite
 recipes.remove(anyShadowSteelDust);
 recipes.addShapeless(shadowSteelDust * 3, [anyShadowIronDust, anyShadowIronDust,
                                            anyLemuriteDust]);
 
+/*
+recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowIronTinyDust,
+                                               anyLemuriteTinyDust]);
+*/
+
 # Inolashite Blend: 2 Ceruclase, 1 Alduorite
 recipes.remove(anyInolashiteDust);
 recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
                                           anyAlduoriteDust]);
 
+/*
 recipes.addShapeless(inolashiteTinyDust * 3, [anyCeruclaseTinyDust, anyCeruclaseTinyDust,
                                               anyAlduoriteTinyDust]);
+*/
 
 # Amordrine Blend: 3 Platinum, 1 Kalendrite
 recipes.remove(anyAmordrineDust);
 recipes.addShapeless(amordrineDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyKalendriteDust]);
 
+/*
 recipes.addShapeless(amordrineTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
                                              anyKalendriteTinyDust]);
+*/
 
 # Enderium Blend: 2 End Powder, 1 Ceruclase, 1 Quicksilver, 1 Resonant Ender Bucket
 recipes.remove(enderiumDust);
@@ -1374,15 +1401,15 @@ for i, dust in metalDusts {
 for i, nugget in metalNuggets {
     var nuggetOreDict = metalNuggetsOreDict[i];
     var ingot         = metalIngots[i];
-	var ingotOreDict  = metalIngotsOreDict[i];
+    var ingotOreDict  = metalIngotsOreDict[i];
     
-	/*recipes.removeShapeless(<*>, [ingotOreDict]);*/
+    #recipes.removeShapeless(<*>, [ingotOreDict]);
     recipes.addShapeless(nugget * 9, [ingotOreDict]);
 
-	/*recipes.removeShaped(<*>, [
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);*/
+    #recipes.removeShaped(<*>, [
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
+    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);
     recipes.addShaped(ingot, [
         [nuggetOreDict, nuggetOreDict, nuggetOreDict],
         [nuggetOreDict, nuggetOreDict, nuggetOreDict],
