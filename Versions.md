@@ -89,10 +89,11 @@ Current Mod Versions
 - **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
 - **NEI Addons** v1.12.2.9
-- **NEI Plugins** v1.1.0.7
+- **NEI Integration** v1.0.3
 - **Nether Ores** v2.3.0RC3-84
 - **Nincrafty Things** v1.3-alpha
 - **Not Enough Items** v1.0.3.49
+- **Not Enough Resources** v0.1.0.75
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-434
 - **OpenComputers** v1.3.6
@@ -140,8 +141,8 @@ Current Mod Versions
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.2
 - **Universal Electricity** v4.0.0.83
-- **WAILA** v1.5.5
-- **WAWLA** v1.0.6
+- **WAILA** v1.5.6a
+- **WAWLA** v1.0.9
 - **Weather** v2.3.5
 
 Disabled Mods (For Now)
