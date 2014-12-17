@@ -905,7 +905,9 @@ Natura:willow
 NetherOres:netherOresBlockHellfish
 NetherOres:tile.netherores.ore.0
 NetherOres:tile.netherores.ore.1
+NincraftyThings:moltenLapisBlock
 NincraftyThings:moltenNincodiumBlock
+NincraftyThings:nincodiumBlock
 OpenBlocks:autoanvil
 OpenBlocks:autoenchantmenttable
 OpenBlocks:beartrap
@@ -4233,8 +4235,11 @@ Natura:willow
 NetherOres:netherOresBlockHellfish
 NetherOres:tile.netherores.ore.0
 NetherOres:tile.netherores.ore.1
+NincraftyThings:bucketLapis
 NincraftyThings:bucketNincodium
+NincraftyThings:moltenLapisBlock
 NincraftyThings:moltenNincodiumBlock
+NincraftyThings:nincodiumBlock
 NincraftyThings:nincodiumBoots
 NincraftyThings:nincodiumChestplate
 NincraftyThings:nincodiumHelmet
