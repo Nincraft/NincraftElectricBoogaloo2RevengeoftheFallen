@@ -96,10 +96,10 @@ Current Mod Versions
 - **Not Enough Items** v1.0.3.49
 - **Not Enough Resources** v0.1.0.75
 - **Oceancraft** v1.4.1
-- **OpenBlocks** v1.3-snapshot-434
+- **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.3.6
 - **Open Eye** v0.6
-- **OpenModsLib** v0.6-snapshot-224
+- **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10b
