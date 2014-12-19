@@ -417,6 +417,24 @@ var searedStone              = <liquid:stone.seared>;
 var steam                    = <liquid:steam>;
 var water                    = <liquid:water>;
 
+# TiC Metal Patterns
+var ingotMetalPattern        = <TConstruct:metalPattern:0>;
+#var MetalPattern             = <TConstruct:metalPattern:1>;
+#var MetalPattern             = <TConstruct:metalPattern:2>;
+#var MetalPattern             = <TConstruct:metalPattern:3>;
+#var MetalPattern             = <TConstruct:metalPattern:4>;
+#var MetalPattern             = <TConstruct:metalPattern:5>;
+#var MetalPattern             = <TConstruct:metalPattern:6>;
+#var MetalPattern             = <TConstruct:metalPattern:7>;
+#var MetalPattern             = <TConstruct:metalPattern:8>;
+#var MetalPattern             = <TConstruct:metalPattern:9>;
+#var MetalPattern             = <TConstruct:metalPattern:10>;
+#var MetalPattern             = <TConstruct:metalPattern:11>;
+#var MetalPattern             = <TConstruct:metalPattern:12>;
+#var MetalPattern             = <TConstruct:metalPattern:13>;
+#var MetalPattern             = <TConstruct:metalPattern:14>;
+#var MetalPattern             = <TConstruct:metalPattern:15>;
+
 # GregTech Molds
 var plateMold                = <gregtech:gt.metaitem.01:32301>;
 var gearMold                 = <gregtech:gt.metaitem.01:32303>;
@@ -1340,15 +1358,24 @@ Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40
 
 Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
+# Bismuth Bronze
+#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenCopper * ?, moltenTin * ?, moltenBismuth * ?, moltenZinc * ?]);
+#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenBronze * ?, moltenBismuth * ?, moltenZinc * ?]);
+
+#Casting.addTableRecipe(bismuthBronzeIngot, moltenBismuthBronze * 144, ingotMetalPattern, false, 40);
+
+#Casting.addBasinRecipe(bismuthBronzeBlock, moltenBismuthBronze * 1296, null, false, 40);
+
+# Fluxed Electrum
+Smeltery.addAlloy(moltenFluxedElectrum * 144, [moltenGold * 72, moltenSilver * 72, moltenRedstone * 200]);
+Smeltery.addAlloy(moltenFluxedElectrum * 144, [moltenElectrum * 144, moltenRedstone * 200]);
+
+#Casting.addTableRecipe(fluxedElectrumIngot, moltenFluxedElectrum * 144, ingotMetalPattern, false, 40);
+
+#Casting.addBasinRecipe(fluxedElectrumBlock, moltenFluxedElectrum * 1296, null, false, 40);
+
 # Bucket Melts to Steel
 Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
-
-# Use GT's Black Steel Recipe
-Smeltery.removeAlloy(moltenHepatizon);
-#Smeltery.addAlloy(moltenHepatizon * ?, [moltenCopper * ?, moltenTin * ?, moltenGold * ?, moltenSilver * ?]);
-#Smeltery.addAlloy(moltenHepatizon * ?, [moltenCopper * ?, moltenTin * ?, moltenElectrum * ?]);
-#Smeltery.addAlloy(moltenHepatizon * ?, [moltenBronze * ?, moltenGold * ?, moltenSilver * ?]);
-#Smeltery.addAlloy(moltenHepatizon * ?, [moltenBronze * ?, moltenElectrum * ?]);
 
 # Add Bismuth Smeltery Support
 #Smeltery.addMelting(bismuthNugget, moltenBismuth * 16, 400, bismuthBlock);
@@ -1357,9 +1384,20 @@ Smeltery.removeAlloy(moltenHepatizon);
 #Smeltery.addMelting(bismuthDust, moltenBismuth * 144, 400, bismuthBlock);
 #Smeltery.addMelting(bismuthBlock, moltenBismuth * 1296, 400, bismuthBlock);
 
-# Add Bismuth Bronze
-#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenCopper * ?, moltenTin * ?, moltenBismuth * ?, moltenZinc * ?]);
-#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenBronze * ?, moltenBismuth * ?, moltenZinc * ?]);
+# Black Bronze Alloy Ratios
+Smeltery.removeAlloy(moltenHepatizon);
+Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenGold * 72, moltenSilver * 72]);
+Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
+
+# Black Steel Alloy Ratios
+Smeltery.removeAlloy(moltenBlackSteel);
+Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenCopper * 128, moltenGold * 8, moltenSilver * 8, moltenNickel * 144]);
+Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenCopper * 128, moltenElectrum * 16 moltenNickel * 144]);
+Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 144, moltenNickel * 144]);
+
+# Aluminum Brass Ratio
+Smeltery.removeAlloy(moltenAluminumBrass);
+Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
 
 /*
 # Disable Smeltery Melting to Require High Oven
@@ -1454,6 +1492,12 @@ recipes.addShapeless(blackSteelDust * 3, [anySteelDust, anySteelDust, anySteelDu
 recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyOrichalcumDust]);
 
+/*
+# Cryotheum Blend: TBD
+recipes.remove(cryotheumDust);
+recipes.addShapeless(cryotheumDust * 2, [ , , , ]);
+*/
+
 recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDust,
                                              anyBronzeDust, anyBronzeDust]);
 
@@ -1525,15 +1569,7 @@ recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowI
 
 recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
                                              anyAtlarusTinyDust]);
-*/
 
-/*
-# Cryotheum Blend: TBD
-recipes.remove(cryotheumDust);
-recipes.addShapeless(cryotheumDust * 2, [ , , , ]);
-*/
-
-/*
 # DUST TO/FROM TINY DUST RECIPES
 #--------------------------------
 for i, tinyDust in metalTinyDusts {
