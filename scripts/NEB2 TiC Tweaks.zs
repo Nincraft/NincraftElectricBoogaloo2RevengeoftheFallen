@@ -7,6 +7,7 @@ import mods.tconstruct.Casting;
 
 # COMMON VARIABLES
 #------------------
+var dryingRack               = <TConstruct:Armor.DryingRack>;
 var emptySocket              = <AWWayofTime:emptySocket>;
 var filledSocket             = <AWWayofTime:bloodSocket>;
 
@@ -296,16 +297,134 @@ var bucketCryotheum          = <ThermalFoundation:bucket:4>;
 
 # Liquids
 var blood                    = <liquid:blood>;
+var enderGoo                 = <liquid:endergoo>;
+var glue                     = <liquid:glue>;
+var lava                     = <liquid:lava>;
+var lifeEssence              = <liquid:life essence>;
+var liquifactedCoal          = <liquid:coal>;
+var moltenAdamantine         = <liquid:adamantine.molten>;
+var moltenAlduorite          = <liquid:alduorite.molten>;
+var moltenAluminum           = <liquid:aluminum.molten>;
+var moltenAluminumBrass      = <liquid:aluminumbrass.molten>;
+var moltenAlumite            = <liquid:alumite.molten>;
+var moltenAmordrine          = <liquid:amordrine.molten>;
+var moltenAngmallen          = <liquid:angmallen.molten>;
+var moltenAntimony           = <liquid:molten.antimony>;
+var moltenArdite             = <liquid:ardite.molten>;
+var moltenAstralSilver       = <liquid:astral.silver.molten>;
+var moltenAtlarus            = <liquid:atlarus.molten>;
+var moltenBismuth            = <liquid:molten.bismuth>;
+var moltenBismuthBronze      = <liquid:molten.bismuthbronze>;
+var moltenBlaze              = <liquid:molten.blaze>;
+var moltenBlutonium          = <liquid:molten.blutonium>;
+var moltenBrass              = <liquid:brass.molten>;
+var moltenCobalt             = <liquid:cobalt.molten>;
+var moltenBlackSteel         = <liquid:black.steel.molten>;
+var moltenBlueSteel          = <liquid:molten.bluesteel>;
+var moltenBronze             = <liquid:bronze.molten>;
+var moltenCarmot             = <liquid:carmot.molten>;
+var moltenCelenegil          = <liquid:celenegil.molten>;
+var moltenCeruclase          = <liquid:ceruclase.molten>;
+var moltenConductiveRedMetal = <liquid:molten conductive redmetal>;
+var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
+var moltenCupronickel        = <liquid:molten.cupronickel>;
+var moltenCyanite            = <liquid:cyanite>;
+var moltenDamascusSteel      = <liquid:damascus.steel.molten>;
+var moltenDeepIron           = <liquid:deep.iron.molten>;
+var moltenDesh               = <liquid:molten.desh>;
+var moltenDesichalkos        = <liquid:desichalkos.molten>;
+var moltenElectricalSteel    = <liquid:molten.electricalsteel>;
+var moltenElectrum           = <liquid:electrum.molten>;
+var moltenElementium         = <liquid:molten.elvenelementium>;
+var moltenEmerald            = <liquid:emerald.liquid>;
+var moltenEnder              = <liquid:ender>;
+var moltenEnderium           = <liquid:molten.enderium>;
+var moltenEnergeticAlloy     = <liquid:molten.energeticalloy>;
+var moltenEximite            = <liquid:eximite.molten>;
+var moltenFairy              = <liquid:fairy.molten>;
+var moltenFluxedElectrum     = <liquid:molten.electrumflux>;
+var moltenFluxedObsidian     = <liquid:molten.obsidianflux>;
+var moltenGlass              = <liquid:glass.molten>;
+var moltenGold               = <liquid:gold.molten>;
 var moltenGlowstone          = <liquid:glowstone>;
+var moltenHaderoth           = <liquid:haderoth.molten>;
 var moltenHepatizon          = <liquid:hepatizon.molten>;
+var moltenInfuscolium        = <liquid:infuscolium.molten>;
+var moltenIgnatius           = <liquid:ignatius.molten>;
+var moltenInolashite         = <liquid:inolashite.molten>;
+var moltenInvar              = <liquid:invar.molten>;
+var moltenIridium            = <liquid:molten.iridium>;
+var moltenIron               = <liquid:iron.molten>;
+var moltenIronwood           = <liquid:molten.ironwood>;
+var moltenKalendrite         = <liquid:kalendrite.molten>;
+var moltenKanthal            = <liquid:molten.kanthal>;
+var moltenKnightmetal        = <liquid:molten.knightmetal>;
+var moltenLead               = <liquid:lead.molten>;
+var moltenLemurite           = <liquid:lemurite.molten>;
+var moltenLudicrite          = <liquid:molten.ludicrite>;
+var moltenLumium             = <liquid:molten.lumium>;
+var moltenManasteel          = <liquid:molten.manasteel>;
+var moltenManganese          = <liquid:manganese.molten>;
 var moltenManyullyn          = <liquid:manyullyn.molten>;
+var moltenMeteoricIron       = <liquid:molten.meteoriciron>;
+var moltenMeutoite           = <liquid:meutoite.molten>;
+var moltenMidasium           = <liquid:midasium.molten>;
+var moltenMithril            = <liquid:mithril.molten>;
+var moltenNickel             = <liquid:nickel.molten>;
+var moltenNincodium          = <liquid:moltennincodium>;
+var moltenObsidian           = <liquid:obsidian.molten>;
+var moltenOrichalcum         = <liquid:orichalcum.molten>;
+var moltenOsmiridium         = <liquid:molten.osmiridium>;
+var moltenOsmium             = <liquid:osmium.molten>;
+var moltenOureclase          = <liquid:oureclase.molten>;
+var moltenPhasedIron         = <liquid:molten.phasediron>;
+var moltenPulsatingIron      = <liquid:molten.pulsatingiron>;
+var moltenPigIron            = <liquid:pigiron.molten>;
+var moltenPlastic            = <liquid:plastic>;
+var moltenPlatinum           = <liquid:platinum.molten>;
+var moltenPokefennium        = <liquid:pokefennium.molten>;
+var moltenPrometheum         = <liquid:prometheum.molten>;
 var moltenPyrotheum          = <liquid:pyrotheum>;
+var moltenQuicksilver        = <liquid:quicksilver.molten>;
+var moltenRedAlloy           = <liquid:molten.redalloy>;
+var moltenRedSteel           = <liquid:molten.redsteel>;
 var moltenRedstone           = <liquid:redstone>;
+var moltenRoseGold           = <liquid:molten.rosegold>;
+var moltenRubber             = <liquid:molten.rubber>;
+var moltenrubracium          = <liquid:rubracium.molten>;
+var moltenSanguinite         = <liquid:sanguinite.molten>;
+var moltenShadowIron         = <liquid:shadow.iron.molten>;
+var moltenShadowSteel        = <liquid:shadow.steel.molten>;
+var moltenSignalum           = <liquid:molten.signalum>;
+var moltenSilver             = <liquid:silver.molten>;
 var moltenSteel              = <liquid:steel.molten>;
+var moltenStainlessSteel     = <liquid:molten.stainlessteel>;
+var moltenSterlingSilver     = <liquid:molten.sterlingsilver>;
+var moltenTartarite          = <liquid:tartarite.molten>;
+var moltenTerrasteel         = <liquid:molten.terrasteel>;
+var moltenThaumium           = <liquid:molten.thaumium>;
+var moltenTin                = <liquid:tin.molten>;
+var moltenTitanium           = <liquid:molten.titanium>;
+var moltenTungsten           = <liquid:molten.tungsten>;
+var moltenTungstensteel      = <liquid:molten.tungstensteel>;
+var moltenVibrantAlloy       = <liquid:molten.vibrantalloy>;
+var moltenVulcanite          = <liquid:vulcanite.molten>;
+var moltenVyroxeres          = <liquid:vyroxeres.molten>;
+var moltenYellorium          = <liquid:yellorium>;
+var moltenZinc               = <liquid:zinc.molten>;
+var searedStone              = <liquid:stone.seared>;
+var steam                    = <liquid:steam>;
+var water                    = <liquid:water>;
+
+# GregTech Molds
+var plateMold                = <gregtech:gt.metaitem.01:32301>;
+var gearMold                 = <gregtech:gt.metaitem.01:32303>;
+var nuggetMold               = <gregtech:gt.metaitem.01:32309>;
 
 # ORE DICTIONARY
 #----------------
+var anyWoodSlab              = <ore:slabWood>;
 
 # Ores
 var anyAdamantineOre         = <ore:oreAdamantine>;
@@ -1137,6 +1256,11 @@ var metalIngotsOreDict       = [
 # Remove Downgrade Recipe
 recipes.remove(miniRedHeart);
 
+# Drying Rack
+recipes.removeShaped(dryingRack);
+recipes.addShaped(dryingRack, [
+    [anyWoodSlab, anyWoodSlab, anyWoodSlab]]);
+
 # FURNACE TWEAKS
 #----------------
 
@@ -1296,132 +1420,113 @@ Smeltery.removeMelting(anyInvarDust);
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
 
-# Aluminum Brass Blend: 8 Copper, 1 Aluminum
+# Remove Existing Blend Recipes
 recipes.remove(anyAluminumBrassDust);
+recipes.remove(anyAmordrineDust);
+recipes.remove(anyAngmallenDust);
+recipes.remove(anyBlackSteelDust);
+recipes.remove(anyCelenegilDust);
+recipes.remove(anyDamascusSteelDust);
+recipes.remove(anyHaderothDust);
+recipes.remove(anyHepatizonDust);
+recipes.remove(anyInolashiteDust);
+recipes.remove(anyQuicksilverDust);
+recipes.remove(anyShadowSteelDust);
+recipes.remove(anyTartariteDust);
+recipes.remove(enderiumDust);
+recipes.remove(pyrotheumDust);
+
+# DUST BLEND RATIOS
+
 recipes.addShapeless(aluminumBrassDust * 9, [anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
                                              anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
                                              anyAluminumDust]);
 
-/*
-recipes.addShapeless(aluminumBrassDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
-                                         anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
-                                         anyAluminumTinyDust]);
-
-# Hepatizon Blend: 8 Copper, 1 Electrum
-recipes.remove(anyHepatizonDust);
-recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
-                                         anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
-                                         anyElectrumDust]);
-
-recipes.addShapeless(hepatizonDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
-                                     anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
-                                     anyElectrumTinyDust]);
-*/
-
-# Angmallen Blend: 3 Gold, 2 Iron
-recipes.remove(anyAngmallenDust);
-recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
-                                         anyIronDust, anyIronDust]);
-
-/*
-recipes.addShapeless(angmallenTinyDust * 5, [anyGoldTinyDust, anyGoldTinyDust, anyGoldTinyDust,
-                                             anyIronTinyDust, anyIronTinyDust]);
-
-# Damascus Steel Blend: 3 Iron, 2 Bronze
-recipes.remove(anyDamascusSteelDust);
-recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDust,
-                                             anyBronzeDust, anyBronzeDust]);
-
-recipes.addShapeless(damascusSteelTinyDust * 5, [anyIronTinyDust, anyIronTinyDust, anyIronTinyDust,
-                                                 anyBronzeTinyDust, anyBronzeTinyDust]);
-
-# Quicksilver Blend: 3 Silver, 1 Mithril
-recipes.remove(anyQuicksilverDust);
-recipes.addShapeless(quicksilverDust * 4, [anySilverDust, anySilverDust, anySilverDust,
-                                           anyMithrilDust]);
-
-recipes.addShapeless(quicksilverTinyDust * 4, [anySilverTinyDust, anySilverTinyDust, anySilverTinyDust,
-                                               anyMithrilTinyDust]);
-
-# Black Steel Blend: 2 Deep Iron, 1 Infuscolium
-recipes.remove(anyBlackSteelDust);
-recipes.addShapeless(blackSteelDust * 3, [anyDeepIronDust, anyDeepIronDust,
-                                          anyInfuscoliumDust]);
-
-recipes.addShapeless(blackSteelTinyDust * 3, [anyDeepIronTinyDust, anyDeepIronTinyDust,
-                                              anyInfuscoliumTinyDust]);
-*/
-
-# Celenegil Blend: 3 Platinum, 1 Orichalcum
-recipes.remove(anyCelenegilDust);
-recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
-                                         anyOrichalcumDust]);
-
-/*
-recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
-                                             anyOrichalcumTinyDust]);
-*/
-
-# Haderoth Blend: 2 Mithril, 1 Rubracium
-recipes.remove(anyHaderothDust);
-recipes.addShapeless(haderothDust * 3, [anyMithrilDust, anyMithrilDust,
-                                        anyRubraciumDust]);
-
-/*
-recipes.addShapeless(haderothTinyDust * 3, [anyMithrilTinyDust, anyMithrilTinyDust,
-                                            anyRubraciumTinyDust]);
-*/
-
-# Tartarite Blend: 2 Adamantine, 1 Atlarus
-recipes.remove(anyTartariteDust);
-recipes.addShapeless(tartariteDust * 3, [anyAdamantineDust, anyAdamantineDust,
-                                         anyAtlarusDust]);
-
-/*
-recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
-                                             anyAtlarusTinyDust]);
-*/
-
-# Shadow Steel Blend: 2 Shadow Iron, 1 Lemurite
-recipes.remove(anyShadowSteelDust);
-recipes.addShapeless(shadowSteelDust * 3, [anyShadowIronDust, anyShadowIronDust,
-                                           anyLemuriteDust]);
-
-/*
-recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowIronTinyDust,
-                                               anyLemuriteTinyDust]);
-*/
-
-# Inolashite Blend: 2 Ceruclase, 1 Alduorite
-recipes.remove(anyInolashiteDust);
-recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
-                                          anyAlduoriteDust]);
-
-/*
-recipes.addShapeless(inolashiteTinyDust * 3, [anyCeruclaseTinyDust, anyCeruclaseTinyDust,
-                                              anyAlduoriteTinyDust]);
-*/
-
-# Amordrine Blend: 3 Platinum, 1 Kalendrite
-recipes.remove(anyAmordrineDust);
 recipes.addShapeless(amordrineDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyKalendriteDust]);
 
-/*
-recipes.addShapeless(amordrineTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
-                                             anyKalendriteTinyDust]);
-*/
+recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
+                                         anyIronDust, anyIronDust]);
 
-# Enderium Blend: 2 End Powder, 1 Ceruclase, 1 Quicksilver, 1 Resonant Ender Bucket
-recipes.remove(enderiumDust);
+recipes.addShapeless(blackSteelDust * 3, [anySteelDust, anySteelDust, anySteelDust,
+                                          anyHepatizonDust, anyNickelDust]);
+
+recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
+                                         anyOrichalcumDust]);
+
+recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDust,
+                                             anyBronzeDust, anyBronzeDust]);
+
 recipes.addShapeless(enderiumDust * 2, [endPowder, endPowder,
                                         anyCeruclaseDust, anyQuicksilverDust,
                                         bucketEnder]);
 
-# Pyrotheum Blend: 1 Vulcanite, 1 Blaze Powder, 1 Shadow Iron, 1 Aluminum
-recipes.remove(pyrotheumDust);
+recipes.addShapeless(haderothDust * 3, [anyMithrilDust, anyMithrilDust,
+                                        anyRubraciumDust]);
+
+recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
+                                         anyCopperDust, anyCopperDust, anyCopperDust, anyCopperDust,
+                                         anyElectrumDust]);
+
+recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
+                                          anyAlduoriteDust]);
+
 recipes.addShapeless(pyrotheumDust * 2, [anyVulcaniteDust, blazePowder,
                                          anyShadowIronDust, anyAluminumDust]);
+
+/*
+recipes.addShapeless(quicksilverDust * 4, [anySilverDust, anySilverDust, anySilverDust,
+                                           anyMithrilDust]);
+*/
+
+recipes.addShapeless(shadowSteelDust * 3, [anyShadowIronDust, anyShadowIronDust,
+                                           anyLemuriteDust]);
+
+recipes.addShapeless(tartariteDust * 3, [anyAdamantineDust, anyAdamantineDust,
+                                         anyAtlarusDust]);
+
+/*
+# TINY DUST RATIOS
+
+recipes.addShapeless(aluminumBrassDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                         anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                         anyAluminumTinyDust]);
+
+recipes.addShapeless(amordrineTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
+                                             anyKalendriteTinyDust]);
+
+recipes.addShapeless(angmallenTinyDust * 5, [anyGoldTinyDust, anyGoldTinyDust, anyGoldTinyDust,
+                                             anyIronTinyDust, anyIronTinyDust]);
+
+recipes.addShapeless(blackSteelTinyDust * 3, [anyDeepIronTinyDust, anyDeepIronTinyDust,
+                                              anyInfuscoliumTinyDust]);
+
+recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
+                                             anyOrichalcumTinyDust]);
+
+recipes.addShapeless(damascusSteelTinyDust * 5, [anyIronTinyDust, anyIronTinyDust, anyIronTinyDust,
+                                                 anyBronzeTinyDust, anyBronzeTinyDust]);
+
+recipes.addShapeless(haderothTinyDust * 3, [anyMithrilTinyDust, anyMithrilTinyDust,
+                                            anyRubraciumTinyDust]);
+
+recipes.addShapeless(hepatizonDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                     anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                     anyElectrumTinyDust]);
+
+recipes.addShapeless(inolashiteTinyDust * 3, [anyCeruclaseTinyDust, anyCeruclaseTinyDust,
+                                              anyAlduoriteTinyDust]);
+
+recipes.addShapeless(quicksilverTinyDust * 4, [anySilverTinyDust, anySilverTinyDust, anySilverTinyDust,
+                                               anyMithrilTinyDust]);
+
+recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowIronTinyDust,
+                                               anyLemuriteTinyDust]);
+
+recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
+                                             anyAtlarusTinyDust]);
+*/
+
 /*
 # Cryotheum Blend: TBD
 recipes.remove(cryotheumDust);

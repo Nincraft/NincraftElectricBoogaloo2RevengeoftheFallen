@@ -62,6 +62,9 @@ anyTorch.add(torchWood);
 anyTorch.add(torchCarpenters);
 anyTorch.add(torchStone);
 
+# Unify Diamond Nuggets
+<ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
+
 # RECIPE REMOVAL
 #----------------
 recipes.removeShaped(bread);

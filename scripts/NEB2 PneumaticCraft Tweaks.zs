@@ -13,6 +13,9 @@ var charcoal          = <minecraft:coal:1>;
 var anySawdust        = <ore:dustWood>;
 var compressedSawdust = <ThermalExpansion:material:513>;
 
+var anyDiamondNugget  = <ore:nuggetDiamond>;
+var diamond           = <minecraft:diamond>;
+
 # PRESSURE CHAMBER TWEAKS
 #-------------------------
 
@@ -30,4 +33,12 @@ for charcoalDust in anyCharcoalDust.items {
 recipes.removeShaped(compressedSawdust);
 for sawdust in anySawdust.items {
     Pressure.addRecipe([sawdust * 8], 1.0, [compressedSawdust], false);
+}
+
+# Diamond Nuggets -> Diamond
+recipes.removeShapeless(diamond, [<*>,<*>,<*>,
+                                  <*>,<*>,<*>,
+                                  <*>,<*>,<*>]);
+for diamondNugget in anyDiamondNugget {
+	Pressure.addRecipe([diamondNugget * 9], 4.0, [diamond], false);
 }
