@@ -146,6 +146,11 @@ Current Mod Versions
 - **WAWLA** v1.0.9
 - **Weather** v2.3.5
 
+Developer Mods
+=
+- **MineTweaker RecipeMaker** v1.0.0.2
+- **VersionChecker** v1.1.7
+
 Disabled Mods (For Now)
 
 - Alternate Terrain Generation

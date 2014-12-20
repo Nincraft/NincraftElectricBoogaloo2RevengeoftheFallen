@@ -30,11 +30,13 @@
             <directory>scripts</directory>
             <outputDirectory>/scripts</outputDirectory>
         </fileSet>
-    </fileSets>
-    <files>
-        <file>
-            <source>client/servers.dat</source>
+        <fileSet>
+            <directory>client</directory>
             <outputDirectory>/</outputDirectory>
-        </file>
-    </files>
+        </fileSet>
+        <fileSet>
+            <directory>modsdev</directory>
+            <outputDirectory>/mods</outputDirectory>
+        </fileSet>
+    </fileSets>
 </assembly>
