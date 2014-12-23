@@ -1,164 +1,50 @@
 {
-    "copper": {
-        "template": "normal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 0,
-                "weight": 98
-            },
-            {
-                "name": "BiomesOPlenty:gemOre",
-                "metadata": 10,
-                "weight": 2
-            }
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 12,
-        "numClusters": 6,
-        "meanHeight": 58,
-        "maxVariance": 7,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
-    "tin": {
-        "template": "normal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 1
-        },
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 6,
-        "meanHeight": 37,
-        "maxVariance": 7,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
-    "silver": {
-        "template": "normal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 10
-            }
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 9,
-        "numClusters": 5,
-        "meanHeight": 24,
-        "maxVariance": 6,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
-    "lead": {
-        "template": "normal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 10
-            }
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 10,
-        "numClusters": 5,
-        "meanHeight": 28,
-        "maxVariance": 6,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
-    "nickel": {
-        "template": "uniform",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 4,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 5,
-                "weight": 10
-            }
-        ],
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 3,
-        "minHeight": 6,
-        "maxHeight": 16,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
     "mithril": {
-        "template": "normal",
+        "template": {
+            "type": "fractal",
+            "sparse": false
+        },
         "block": {
             "name": "ThermalFoundation:Ore",
             "metadata": 6
         },
         "material": "minecraft:stone",
-        "clusterSize": 3,
-        "numClusters": 3,
-        "meanHeight": 24,
-        "maxVariance": 8,
+        "clusterSize": 8,
+        "numClusters": 64,
+        "chunkChance": 64,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
-            216,
-            193
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
         ],
-        "dimensionRestriction": "whitelist",
+        "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
             -19,
-            0,
-            7
+            -6,
+            -5,
+            -1,
+            1
         ]
     }
 }
