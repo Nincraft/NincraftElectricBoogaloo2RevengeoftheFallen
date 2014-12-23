@@ -7,6 +7,7 @@ import mods.tconstruct.Casting;
 
 # COMMON VARIABLES
 #------------------
+var blazeRod                 = <minecraft:blaze_rod>;
 var dryingRack               = <TConstruct:Armor.DryingRack>;
 var emptySocket              = <AWWayofTime:emptySocket>;
 var filledSocket             = <AWWayofTime:bloodSocket>;
@@ -1358,6 +1359,19 @@ Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40
 
 Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
+# End Powder -> Ender Goo
+Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
+
+# Blaze Rod
+Smeltery.addMelting(blazeRod, moltenBlaze * 100, 750, <minecraft:dirt>);
+Smeltery.addMelting(blazePowder, moltenBlaze * 16, 750, <minecraft:dirt>);
+
+# Enderium Alloy
+Smeltery.addAlloy(moltenEnderium * 288, [enderGoo * 200, moltenCeruclase * 144, moltenMeutoite * 144, moltenEnder * 1000]);
+
+# Blazing Pyrotheum
+Smeltery.addAlloy(moltenPyrotheum * 288, [moltenVulcanite * 144, moltenBlaze * 100, moltenShadowIron * 144, moltenAluminum * 144]);
+
 # Bismuth Bronze
 #Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenCopper * ?, moltenTin * ?, moltenBismuth * ?, moltenZinc * ?]);
 #Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenBronze * ?, moltenBismuth * ?, moltenZinc * ?]);
@@ -1502,7 +1516,7 @@ recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDu
                                              anyBronzeDust, anyBronzeDust]);
 
 recipes.addShapeless(enderiumDust * 2, [endPowder, endPowder,
-                                        anyCeruclaseDust, anyQuicksilverDust,
+                                        anyCeruclaseDust, anyMeutoiteDust,
                                         bucketEnder]);
 
 recipes.addShapeless(haderothDust * 3, [anyMithrilDust, anyMithrilDust,
