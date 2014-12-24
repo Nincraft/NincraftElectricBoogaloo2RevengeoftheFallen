@@ -26,7 +26,7 @@ meatCooked.add(<Steamcraft:steamedChicken>);
 meatCooked.add(<Steamcraft:steamedPorkchop>);
 meatCooked.add(<TwilightForest:item.venisonCooked>);
 meatCooked.add(<TwilightForest:item.meefSteak>);
-meatCooked.add(<MineFactoryReloaded:item.mfr.meat.ingot.cooked>);
+meatCooked.add(<MineFactoryReloaded:meat.ingot.cooked>);
 
 # Cooked Fish
 var fishCooked = <ore:listAllfishcooked>;
@@ -39,7 +39,7 @@ var meatRaw    = <ore:listAllmeatraw>;
 meatRaw.add(<TwilightForest:item.hydraChop>);
 meatRaw.add(<TwilightForest:item.meefRaw>);
 meatRaw.add(<TwilightForest:item.venisonRaw>);
-meatRaw.add(<MineFactoryReloaded:item.mfr.meat.ingot.raw>);
+meatRaw.add(<MineFactoryReloaded:meat.ingot.raw>);
 
 # Juice
 var juice      = <ore:listAlljuice>;
