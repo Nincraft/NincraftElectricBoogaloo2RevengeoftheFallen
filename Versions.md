@@ -31,7 +31,7 @@ Current Mod Versions
 - **BiblioCraft** v1.9.1
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.0RC9
+- **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.2.0b
 - **Botania** r1.3-141
