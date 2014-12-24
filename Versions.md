@@ -97,7 +97,7 @@ Current Mod Versions
 - **Not Enough Resources** v0.1.0.75
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.3.6
+- **OpenComputers** v1.4.3.21 Beta 1
 - **Open Eye** v0.6
 - **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
