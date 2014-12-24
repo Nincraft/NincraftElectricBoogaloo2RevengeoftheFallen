@@ -7,7 +7,7 @@ import mods.mekanism.Infuser;
 
 # COMMON VARIABLES
 #------------------
-var mfrPlasticSheets       = <MineFactoryReloaded:item.mfr.plastic.sheet>;
+var mfrPlasticSheets       = <MineFactoryReloaded:plastic.sheet>;
 var electrumIngot          = <ore:ingotElectrum>;
 var goldDust               = <ore:dustGold>;
 var compass                = <minecraft:compass>;
