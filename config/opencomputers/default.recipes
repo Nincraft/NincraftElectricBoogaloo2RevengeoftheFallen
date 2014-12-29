@@ -6,6 +6,26 @@ analyzer {
           ["oc:materialTransistor", nuggetGold, ""]
           ["oc:materialCircuitBoardPrinted", nuggetGold, ""]]
 }
+droneCase1 {
+  input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
+          ["oc:circuitChip1", "oc:microcontrollerCase1", "oc:circuitChip1"]
+          [{block="minecraft:end_stone"}, "oc:componentBus2", {block="minecraft:end_stone"}]]
+}
+droneCase2 {
+  input: [[{block="minecraft:end_stone"}, compass, {block="minecraft:end_stone"}]
+          ["oc:circuitChip2", "oc:microcontrollerCase2", "oc:circuitChip2"]
+          [{block="minecraft:end_stone"}, "oc:componentBus3", {block="minecraft:end_stone"}]]
+}
+microcontrollerCase1 {
+  input: [[nuggetIron, "oc:circuitChip1", nuggetIron]
+          [redstone, chest, redstone]
+          [nuggetIron, "oc:materialCircuitBoardPrinted", nuggetIron]]
+}
+microcontrollerCase2 {
+  input: [[nuggetGold, "oc:circuitChip3", nuggetGold]
+          [blockRedstone, chest, blockRedstone]
+          [nuggetGold, "oc:materialCircuitBoardPrinted", nuggetGold]]
+}
 terminal {
   input: [[nuggetIron, "oc:solarGeneratorUpgrade", nuggetIron]
           ["oc:circuitChip3", "oc:screen2", "oc:wlanCard"]
@@ -38,7 +58,7 @@ ram1 {
           ["", "oc:materialCircuitBoardPrinted", ""]]
 }
 ram2 {
-  input: [["oc:circuitChip1", "oc:circuitChip1", "oc:circuitChip1"]
+  input: [["oc:circuitChip1", "oc:circuitChip2", "oc:circuitChip1"]
           ["", "oc:materialCircuitBoardPrinted", ""]]
 }
 ram3 {
@@ -46,7 +66,7 @@ ram3 {
           ["", "oc:materialCircuitBoardPrinted", ""]]
 }
 ram4 {
-  input: [["oc:circuitChip2", "oc:circuitChip2", "oc:circuitChip2"]
+  input: [["oc:circuitChip2", "oc:circuitChip3", "oc:circuitChip2"]
           ["", "oc:materialCircuitBoardPrinted", ""]]
 }
 ram5 {
@@ -55,9 +75,14 @@ ram5 {
 }
 ram6 {
   input: [["oc:circuitChip3", "oc:circuitChip3", "oc:circuitChip3"]
-          ["", "oc:materialCircuitBoardPrinted", ""]]
+          ["oc:circuitChip2", "oc:materialCircuitBoardPrinted", "oc:circuitChip2"]]
 }
 
+eeprom {
+  input: [[nuggetGold, "oc:materialTransistor", nuggetGold]
+          [paper, "oc:circuitChip1", paper]
+          [nuggetGold, torchRedstoneActive, nuggetGold]]
+}
 floppy {
   input: [[nuggetIron, lever, nuggetIron]
           [paper, "oc:materialDisk", paper]
@@ -82,9 +107,13 @@ openOS {
   type: shapeless
   input: ["oc:floppy", book]
 }
+luaBios {
+  type: shapeless
+  input: ["oc:eeprom", book]
+}
 
 abstractBusCard {
-  input: [["StargateTech2:block.busCable", {item="StargateTech2:item.naquadah", subID=3}, ""]
+  input: [[{block="StargateTech2:block.busCable"}, {item="StargateTech2:naquadah", subID=3}, ""]
           ["", "oc:materialCard", ""]]
 }
 graphicsCard1 {
@@ -156,6 +185,21 @@ craftingUpgrade {
           ["oc:circuitChip1", workbench, "oc:circuitChip1"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
+databaseUpgrade1 {
+  input: [[ingotIron, "oc:analyzer", ingotIron]
+          ["oc:circuitChip1", "oc:hdd1", "oc:circuitChip1"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
+databaseUpgrade2 {
+  input: [[ingotIron, "oc:analyzer", ingotIron]
+          ["oc:circuitChip2", "oc:hdd2", "oc:circuitChip2"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
+databaseUpgrade3 {
+  input: [[ingotIron, "oc:analyzer", ingotIron]
+          ["oc:circuitChip3", "oc:hdd3", "oc:circuitChip3"]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
 experienceUpgrade {
   input: [[ingotGold, "", ingotGold]
           ["oc:circuitChip2", emerald, "oc:circuitChip2"]
@@ -175,6 +219,11 @@ inventoryControllerUpgrade {
   input: [[ingotGold, "oc:analyzer", ingotGold]
           [dispenser, "oc:circuitChip2", craftingPiston]
           [ingotGold, "oc:materialCircuitBoardPrinted", ingotGold]]
+}
+leashUpgrade {
+  input: [[ingotIron, lead, ingotIron]
+          [lead, "oc:materialCU", lead]
+          [ingotIron, lead, ingotIron]]
 }
 navigationUpgrade {
   input: [[ingotGold, compass, ingotGold]
@@ -366,6 +415,11 @@ adapter {
           ["oc:cable", "oc:circuitChip1", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
+assembler {
+  input: [[ingotIron, workbench, ingotIron]
+          [craftingPiston, "oc:circuitChip2", craftingPiston]
+          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
+}
 cable {
   input: [["", nuggetIron, ""]
           [nuggetIron, redstone, nuggetIron]
@@ -441,19 +495,19 @@ powerDistributor {
           ["oc:cable", "oc:circuitChip1", "oc:cable"]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
-rack {
+serverRack {
   input: [["oc:circuitChip2", "oc:wlanCard", "oc:circuitChip2"]
           [fenceIron, chest, fenceIron]
           ["oc:switch", "oc:materialCircuitBoardPrinted", "oc:powerDistributor"]]
 }
+raid {
+  input: [[nuggetIron, "oc:cpu3", nuggetIron]
+          ["oc:ram1", "oc:diskDrive", "oc:ram1"]
+          [nuggetIron, "oc:circuitChip2", nuggetIron]]
+}
 redstone {
   input: [[ingotIron, "oc:circuitChip3", ingotIron]
           [blockRedstone, "oc:redstoneCard1", blockRedstone]
-          [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
-}
-robotAssembler {
-  input: [[ingotIron, workbench, ingotIron]
-          [craftingPiston, "oc:circuitChip2", craftingPiston]
           [ingotIron, "oc:materialCircuitBoardPrinted", ingotIron]]
 }
 switch {
@@ -475,4 +529,9 @@ screen3 {
   input: [[obsidian, yellowDust, obsidian]
           [yellowDust, "oc:circuitChip3", glass]
           [obsidian, yellowDust, obsidian]]
+}
+
+appengTunnel {
+  type: shapeless
+  input: [{item="appliedenergistics2:item.ItemMultiPart", subID=460}, "oc:adapter"]
 }
