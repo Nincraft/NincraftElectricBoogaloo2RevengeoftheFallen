@@ -31,12 +31,10 @@
             <directory>scripts</directory>
             <outputDirectory>/scripts</outputDirectory>
         </fileSet>
-    </fileSets>
-    <files>
-        <file>
-            <source>server/server.properties</source>
+        <fileSet>
+            <directory>server</directory>
             <outputDirectory>/</outputDirectory>
             <filtered>true</filtered>
-        </file>
-    </files>
+        </fileSet>
+    </fileSets>
 </assembly>

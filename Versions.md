@@ -9,8 +9,8 @@ Current API Versions
 - **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.3.23
 - **CodeChickenLib** v1.1.1.99
-- **CoFHCore** v3.0.0B6-32
-- **CoFHLib** v1.0.0B6-26
+- **CoFHCore** v3.0.0B9-40
+- **CoFHLib** v1.0.0B8-34
 - **CookieCore** v1.2.0
 - **Forge Multipart** v1.1.0.310
 - **iChunUtil** v4.0.0
@@ -31,7 +31,7 @@ Current Mod Versions
 - **BiblioCraft** v1.9.1
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.0RC9
+- **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.2.0b
 - **Botania** r1.3-141
@@ -80,7 +80,7 @@ Current Mod Versions
 - **Mekanism Tools** v7.1.0.92
 - **Metallurgy** v4.0.4.43
 - **MFFS** v4.1.0.33
-- **Minefactory Reloaded** v2.8.0RC3-591
+- **Minefactory Reloaded** v2.8.0RC6-5
 - **MineTweaker** v3.0.9B
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
@@ -91,13 +91,13 @@ Current Mod Versions
 - **Natura** v2.2.0 b1
 - **NEI Addons** v1.12.2.9
 - **NEI Integration** v1.0.3
-- **Nether Ores** v2.3.0RC3-84
+- **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3-alpha
 - **Not Enough Items** v1.0.3.49
 - **Not Enough Resources** v0.1.0.75
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.3.6
+- **OpenComputers** v1.4.3.21 Beta 1
 - **Open Eye** v0.6
 - **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
@@ -113,7 +113,7 @@ Current Mod Versions
 - **ProjectRed Lighting** v4.5.1.51
 - **ProjectRed World** v4.5.1.51
 - **Random Things** v2.2.2
-- **RedstoneArsenal** v1.1.0B4-10
+- **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
 - **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
@@ -131,8 +131,8 @@ Current Mod Versions
 - **Thaumic Exploration** v1.1-31
 - **Thaumic Tinkerer** v2.5-157
 - **Thaumic Warden** v1.1.1
-- **Thermal Expansion** v4.0.0B5-13
-- **Thermal Foundation** v1.0.0.B3-8
+- **Thermal Expansion** v4.0.0B8-23
+- **Thermal Foundation** v1.0.0.RC1-13
 - **TiCTooltips** v1.1.11b
 - **Tinker's Construct** v1.7.1c
 - **Tinker's Mechworks** v0.2.8
@@ -145,6 +145,11 @@ Current Mod Versions
 - **WAILA** v1.5.6a
 - **WAWLA** v1.0.9
 - **Weather** v2.3.5
+
+Developer Mods
+=
+- **MineTweaker RecipeMaker** v1.0.0.2
+- **VersionChecker** v1.1.7
 
 Disabled Mods (For Now)
 
