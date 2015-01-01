@@ -83,6 +83,9 @@ var amordrineDust            = <Metallurgy:nether.dust:12>;
 var eximiteDust              = <Metallurgy:ender.dust:0>;
 var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
+var fluxedElectrumDust       = <RedstoneArsenal:material>;
+var bismuthDust              = <gregtech:gt.metaitem.01:2090>;
+var bismuthBronzeDust        = <gregtech:gt.metaitem.01:2353>;
 #var titaniumDust             = <aobd:dustTitanium>;
 
 /*
@@ -203,6 +206,9 @@ var shadowSteelIngot         = <Metallurgy:shadow.steel.ingot>;
 var tartariteIngot           = <Metallurgy:tartarite.ingot>;
 var vulcaniteIngot           = <Metallurgy:vulcanite.ingot>;
 var vyroxeresIngot           = <Metallurgy:vyroxeres.ingot>;
+var fluxedElectrumIngot      = <RedstoneArsenal:material:32>;
+var bismuthIngot             = <gregtech:gt.metaitem.01:11090>;
+var bismuthBronzeIngot       = <gregtech:gt.metaitem.01:11353>;
 
 # Nuggets
 var goldNugget               = <minecraft:gold_nugget>;
@@ -278,6 +284,7 @@ var mithrilBlock             = <ThermalFoundation:Storage:6>;
 var steelBlock               = <TConstruct:MetalBlock:9>;
 var redstoneBlock            = <minecraft:redstone_block>;
 var glowstoneBlock           = <minecraft:glowstone>;
+var fluxedElectrumBlock      = <RedstoneArsenal:Storage>;
 
 # Mini Hearts & Canisters
 var canisterEmpty            = <TConstruct:heartCanister:0>;
@@ -301,7 +308,7 @@ var blood                    = <liquid:blood>;
 var enderGoo                 = <liquid:endergoo>;
 var glue                     = <liquid:glue>;
 var lava                     = <liquid:lava>;
-var lifeEssence              = <liquid:life essence>;
+#var lifeEssence              = <liquid:life essence>;
 var liquifactedCoal          = <liquid:coal>;
 var moltenAdamantine         = <liquid:adamantine.molten>;
 var moltenAlduorite          = <liquid:alduorite.molten>;
@@ -326,7 +333,7 @@ var moltenBronze             = <liquid:bronze.molten>;
 var moltenCarmot             = <liquid:carmot.molten>;
 var moltenCelenegil          = <liquid:celenegil.molten>;
 var moltenCeruclase          = <liquid:ceruclase.molten>;
-var moltenConductiveRedMetal = <liquid:molten conductive redmetal>;
+#var moltenConductiveRedMetal = <liquid:molten conductive redmetal>;
 var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
 var moltenCupronickel        = <liquid:molten.cupronickel>;
@@ -400,7 +407,7 @@ var moltenShadowSteel        = <liquid:shadow.steel.molten>;
 var moltenSignalum           = <liquid:molten.signalum>;
 var moltenSilver             = <liquid:silver.molten>;
 var moltenSteel              = <liquid:steel.molten>;
-var moltenStainlessSteel     = <liquid:molten.stainlessteel>;
+var moltenStainlessSteel     = <liquid:molten.stainlesssteel>;
 var moltenSterlingSilver     = <liquid:molten.sterlingsilver>;
 var moltenTartarite          = <liquid:tartarite.molten>;
 var moltenTerrasteel         = <liquid:molten.terrasteel>;
@@ -417,6 +424,9 @@ var moltenZinc               = <liquid:zinc.molten>;
 var searedStone              = <liquid:stone.seared>;
 var steam                    = <liquid:steam>;
 var water                    = <liquid:water>;
+
+# Ores
+var bismuthOre               = <gregtech:gt.blockores:90>;
 
 # TiC Metal Patterns
 var ingotMetalPattern        = <TConstruct:metalPattern:0>;
@@ -1372,45 +1382,34 @@ Smeltery.addAlloy(moltenEnderium * 288, [enderGoo * 200, moltenCeruclase * 144, 
 # Blazing Pyrotheum
 Smeltery.addAlloy(moltenPyrotheum * 288, [moltenVulcanite * 144, moltenBlaze * 100, moltenShadowIron * 144, moltenAluminum * 144]);
 
+# Bismuth
+Smeltery.addMelting(bismuthIngot, moltenBismuth * 144, 400, bismuthOre);
+Smeltery.addMelting(bismuthDust, moltenBismuth * 144, 400, bismuthOre);
+
+Casting.addTableRecipe(bismuthIngot, moltenBismuth * 144, ingotMetalPattern, false, 40);
+
 # Bismuth Bronze
-#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenCopper * ?, moltenTin * ?, moltenBismuth * ?, moltenZinc * ?]);
-#Smeltery.addAlloy(moltenBismuthBronze * ?, [moltenBronze * ?, moltenBismuth * ?, moltenZinc * ?]);
+Smeltery.addAlloy(moltenBismuthBronze * 720, [moltenBismuth * 144, moltenBrass * 576]);
 
-#Casting.addTableRecipe(bismuthBronzeIngot, moltenBismuthBronze * 144, ingotMetalPattern, false, 40);
-
-#Casting.addBasinRecipe(bismuthBronzeBlock, moltenBismuthBronze * 1296, null, false, 40);
+Casting.addTableRecipe(bismuthBronzeIngot, moltenBismuthBronze * 144, ingotMetalPattern, false, 40);
 
 # Fluxed Electrum
-Smeltery.addAlloy(moltenFluxedElectrum * 144, [moltenGold * 72, moltenSilver * 72, moltenRedstone * 200]);
 Smeltery.addAlloy(moltenFluxedElectrum * 144, [moltenElectrum * 144, moltenRedstone * 200]);
 
-#Casting.addTableRecipe(fluxedElectrumIngot, moltenFluxedElectrum * 144, ingotMetalPattern, false, 40);
+Casting.addTableRecipe(fluxedElectrumIngot, moltenFluxedElectrum * 144, ingotMetalPattern, false, 40);
 
-#Casting.addBasinRecipe(fluxedElectrumBlock, moltenFluxedElectrum * 1296, null, false, 40);
-
-# Bucket Melts to Steel
-Smeltery.addMelting(bucket, moltenSteel * 432, 700, steelBlock);
-
-# Add Bismuth Smeltery Support
-#Smeltery.addMelting(bismuthNugget, moltenBismuth * 16, 400, bismuthBlock);
-#Smeltery.addMelting(bismuthTinyDust, moltenBismuth * 16, 400, bismuthBlock);
-#Smeltery.addMelting(bismuthIngot, moltenBismuth * 144, 400, bismuthBlock);
-#Smeltery.addMelting(bismuthDust, moltenBismuth * 144, 400, bismuthBlock);
-#Smeltery.addMelting(bismuthBlock, moltenBismuth * 1296, 400, bismuthBlock);
+Casting.addBasinRecipe(fluxedElectrumBlock, moltenFluxedElectrum * 1296, null, false, 40);
 
 # Black Bronze Alloy Ratios
-Smeltery.removeAlloy(moltenHepatizon);
-Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenGold * 72, moltenSilver * 72]);
+#Smeltery.removeAlloy(moltenHepatizon);
 Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
 
 # Black Steel Alloy Ratios
-Smeltery.removeAlloy(moltenBlackSteel);
-Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenCopper * 128, moltenGold * 8, moltenSilver * 8, moltenNickel * 144]);
-Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenCopper * 128, moltenElectrum * 16 moltenNickel * 144]);
+#Smeltery.removeAlloy(moltenBlackSteel);
 Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 144, moltenNickel * 144]);
 
 # Aluminum Brass Ratio
-Smeltery.removeAlloy(moltenAluminumBrass);
+#Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
 
 /*
@@ -1583,43 +1582,4 @@ recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowI
 
 recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
                                              anyAtlarusTinyDust]);
-
-# DUST TO/FROM TINY DUST RECIPES
-#--------------------------------
-for i, tinyDust in metalTinyDusts {
-    var dust          = metalDustsOreDict[i];
-
-    recipes.addShapeless(tinyDust * 9, [dust]);
-}
-
-for i, dust in metalDusts {
-    var tinyDust      = metalTinyDustsOreDict[i];
-
-    recipes.addShaped(dust, [
-        [tinyDust, tinyDust, tinyDust],
-        [tinyDust, tinyDust, tinyDust],
-        [tinyDust, tinyDust, tinyDust]]);
-}
-*/
-
-/*
-# NUGGET TO/FROM INGOT RECIPES
-#------------------------------
-for i, nugget in metalNuggets {
-    var nuggetOreDict = metalNuggetsOreDict[i];
-    var ingot         = metalIngots[i];
-    var ingotOreDict  = metalIngotsOreDict[i];
-    
-    #recipes.removeShapeless(<*>, [ingotOreDict]);
-    recipes.addShapeless(nugget * 9, [ingotOreDict]);
-
-    #recipes.removeShaped(<*>, [
-    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-    #    [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);
-    recipes.addShaped(ingot, [
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict],
-        [nuggetOreDict, nuggetOreDict, nuggetOreDict]]);
-}
 */

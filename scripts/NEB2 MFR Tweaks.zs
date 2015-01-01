@@ -7,7 +7,7 @@ import minetweaker.item.IItemStack;
 var plasticBlock          = <MineFactoryReloaded:plastic>;
 var plasticPipe           = <MineFactoryReloaded:cable.plastic>;
 var rawRubber             = <MineFactoryReloaded:rubber.raw>;
-var stickeyResin          = <IC2:itemHarz>;
+var stickyResin           = <IC2:itemHarz>;
 
 # PneumaticCraft Plastic Sheets
 var blackPlasticSheet     = <PneumaticCraft:plastic:0>;

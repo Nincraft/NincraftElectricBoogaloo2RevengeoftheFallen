@@ -36,9 +36,6 @@ for sawdust in anySawdust.items {
 }
 
 # Diamond Nuggets -> Diamond
-recipes.removeShapeless(diamond, [<*>,<*>,<*>,
-                                  <*>,<*>,<*>,
-                                  <*>,<*>,<*>]);
-for diamondNugget in anyDiamondNugget {
+for diamondNugget in anyDiamondNugget.items {
 	Pressure.addRecipe([diamondNugget * 9], 4.0, [diamond], false);
 }
