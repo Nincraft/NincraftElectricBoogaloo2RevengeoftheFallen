@@ -4,6 +4,12 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
+var plasticBlock          = <MineFactoryReloaded:plastic>;
+var plasticPipe           = <MineFactoryReloaded:cable.plastic>;
+var rawRubber             = <MineFactoryReloaded:rubber.raw>;
+var stickyResin           = <IC2:itemHarz>;
+
+# PneumaticCraft Plastic Sheets
 var blackPlasticSheet     = <PneumaticCraft:plastic:0>;
 var redPlasticSheet       = <PneumaticCraft:plastic:1>;
 var greenPlasticSheet     = <PneumaticCraft:plastic:2>;
@@ -45,8 +51,29 @@ var allPlasticSheets      = [
 # ORE DICTIONARY
 #----------------
 
-# Plastic
+# Register MFR Plastic Pipe
+var anyPlasticPipe        = <ore:pipePlastic>;
+anyPlasticPipe.add(plasticPipe);
+
+# Unify Plastic Sheets
 var anyPlasticSheet       = <ore:sheetPlastic>;
 for i, sheet in allPlasticSheets {
     anyPlasticSheet.add(sheet);
 }
+
+# Unify Raw Rubbers
+var anyRawRubber          = <ore:itemRawRubber>;
+var anyRubberDust         = <ore:itemRawRubber>;
+
+anyRawRubber.add(stickyResin);
+
+anyRubberDust.addAll(anyRawRubber);
+anyRubberDust.mirror(anyRawRubber);
+
+# RECIPE TWEAKS
+#---------------
+
+# Plastic Blocks Require Plastic Ingots
+recipes.removeShaped(plasticBlock, [
+    [anyPlasticSheet, anyPlasticSheet],
+    [anyPlasticSheet, anyPlasticSheet]]);

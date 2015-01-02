@@ -56,6 +56,11 @@ var anyCompressedIron      = <ore:compressedIron>;
 anyCompressedIronIngot.addAll(anyCompressedIron);
 anyCompressedIronIngot.mirror(anyCompressedIron);
 
+# Merge Silicon Wafers
+var anyBasicWafer          = <ore:waferBasic>;
+var anyAdvancedWafer       = <ore:waferAdvanced>;
+var anySolarWafer          = <ore:waferSolar>;
+
 # RECIPE TWEAKS
 #---------------
 
