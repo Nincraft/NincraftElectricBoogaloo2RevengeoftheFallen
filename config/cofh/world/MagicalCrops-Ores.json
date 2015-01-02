@@ -5,7 +5,7 @@
             "sparse": false
         },
         "block": "magicalcrops:magicalcrops_EssenceOre",
-		"material": "stone",
+		"material": "minecraft:stone",
         "clusterSize": 16,
         "numClusters": 128,
         "chunkChance": 128,
