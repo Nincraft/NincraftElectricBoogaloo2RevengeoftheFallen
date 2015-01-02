@@ -119,26 +119,6 @@
             7
         ]
     },
-    "zinc": {
-        "template": "normal",
-        "block": {
-            "name": "Metallurgy:precious.ore",
-            "metadata": 0
-        },
-        "clusterSize": 4,
-        "numClusters": 6,
-        "meanHeight": 60,
-        "maxVariance": 6,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
     "vyroxeres": {
         "template": "uniform",
         "block": {
@@ -200,53 +180,6 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
-        ]
-    },
-    "magnesium": {
-        "template": "uniform",
-        "block": [
-            {
-                "name": "Metallurgy:utility.ore",
-                "metadata": 0,
-                "weight": 92
-            },
-            {
-                "name": "BiomesOPlenty:gemOre",
-                "metadata": 4,
-                "weight": 8
-            }
-        ],
-        "clusterSize": 4,
-        "numClusters": 4,
-        "minHeight": 1,
-        "maxHeight": 127,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
-        ]
-    },
-    "manganese": {
-        "template": "uniform",
-        "block": {
-            "name": "Metallurgy:base.ore",
-            "metadata": 2
-        },
-        "clusterSize": 1,
-        "numClusters": 2,
-        "minHeight": 20,
-        "maxHeight": 40,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1,
-            7
         ]
     }
 }
