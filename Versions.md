@@ -94,6 +94,7 @@ Current Mod Versions
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3-alpha
 - **Not Enough Items** v1.0.3.49
+- **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.4.3.21 Beta 1
@@ -152,7 +153,6 @@ Developer Mods
 
 Disabled Mods (For Now)
 
-- **Not Enough Resources** v0.1.0.75
 - Alternate Terrain Generation
 - Drama Splash
 - Lycanite's Mobs
