@@ -1,19 +1,20 @@
 <assembly>
-    <id>bin</id>
+    <id>server</id>
     <formats>
         <format>zip</format>
     </formats>
-    <includeBaseDirectory>false</includeBaseDirectory>
     <fileSets>
-        <fileSet>
-            <directory>bin</directory>
-            <outputDirectory>/bin</outputDirectory>
-        </fileSet>
         <fileSet>
             <directory>mods</directory>
             <outputDirectory>/mods</outputDirectory>
             <excludes>
+                <exclude>*ArmorStatusHUD*</exclude>
+                <exclude>*DamageIndicators*</exclude>
+                <exclude>*DynamicLights*</exclude>
                 <exclude>*ShadersModCore*</exclude>
+                <exclude>*Shatter*</exclude>
+                <exclude>*VersionChecker*</exclude>
+                <exclude>*BetterTitleScreen*</exclude>
                 <exclude>*.disabled</exclude>
             </excludes>
         </fileSet>
@@ -31,13 +32,15 @@
             <outputDirectory>/scripts</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>client</directory>
+            <directory>server</directory>
             <outputDirectory>/</outputDirectory>
+            <filtered>true</filtered>
         </fileSet>
         <fileSet>
             <directory>modsdev</directory>
             <outputDirectory>/mods</outputDirectory>
             <excludes>
+                <exclude>*VersionChecker*</exclude>
                 <exclude>*.disabled</exclude>
             </excludes>
         </fileSet>

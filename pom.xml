@@ -96,5 +96,31 @@
 				</plugins>
 			</build>
 		</profile>
+		<profile>
+			<id>server-dev</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-assembly-plugin</artifactId>
+						<version>2.5</version>
+						<executions>
+							<execution>
+								<phase>package</phase>
+								<goals>
+									<goal>single</goal>
+								</goals>
+								<configuration>
+									<descriptors>
+										<descriptor>src/main/resources/assembly-server-dev.xml</descriptor>
+									</descriptors>
+								</configuration>
+							</execution>
+						</executions>
+						<configuration/>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
 	</profiles>
 </project>
