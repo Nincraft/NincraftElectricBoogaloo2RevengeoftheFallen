@@ -49,7 +49,7 @@ Current Mod Versions
 - **Doom-like Dungeon** v1.4.0
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
-- **EnderIO** v2.0.8.221
+- **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.369
 - **Extra Cells** v2.1.12b9
@@ -93,7 +93,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.3
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.1-alpha
-- **Not Enough Items** v1.0.4.83
+- **Not Enough Items** v1.0.3.62
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
