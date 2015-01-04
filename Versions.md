@@ -5,13 +5,13 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.0.1
-- **Baubles** v1.0.1.8
+- **Baubles** v1.0.1.10
 - **bspkrs Core** v6.15
-- **CodeChickenCore** v1.0.3.23
+- **CodeChickenCore** v1.0.4.29
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.0B9-40
 - **CoFHLib** v1.0.0B8-34
-- **CookieCore** v1.2.0
+- **CookieCore** v1.3.0
 - **Forge Multipart** v1.1.0.310
 - **iChunUtil** v4.0.0
 - **IndustrialCraft 2 Experimental** v2.2.633
@@ -24,17 +24,17 @@ Current Mod Versions
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.3.5
 - **Applied Energistics 2** rv1 Stable 1
-- **AsieLib** v0.3.2
+- **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.1
+- **Better Foliage** v1.0.3
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.9.1
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
-- **Blood Magic** v1.2.0b
-- **Botania** r1.3-141
+- **Blood Magic** v1.3.0a
+- **Botania** r1.3-148
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.1.3
