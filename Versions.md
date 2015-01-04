@@ -50,7 +50,7 @@ Current Mod Versions
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
 - **EnderIO** v2.0.8.221
-- **Ender Storage** v1.4.5.19
+- **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.369
 - **Extra Cells** v2.1.12b9
 - **ExtraTiC** v1.0.3
@@ -93,7 +93,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.3
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.1-alpha
-- **Not Enough Items** v1.0.3.49
+- **Not Enough Items** v1.0.4.83
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
@@ -133,8 +133,8 @@ Current Mod Versions
 - **Thaumic Warden** v1.1.1
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
-- **TiCTooltips** v1.1.11b
-- **Tinker's Construct** v1.7.1c
+- **TiCTooltips** v1.2.0
+- **Tinker's Construct** v1.8.1
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.3
 - **Torcherino** v1.7.10-rc2
