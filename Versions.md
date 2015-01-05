@@ -75,9 +75,9 @@ Current Mod Versions
 - **JABBA** v1.1.4
 - **LunatriusCore** v1.1.2.14
 - **Magical Crops** v0.1
-- **Mekanism** v7.1.0.92
-- **Mekanism Generators** v7.1.0.92
-- **Mekanism Tools** v7.1.0.92
+- **Mekanism** v7.1.1.127
+- **Mekanism Generators** v7.1.1.127
+- **Mekanism Tools** v7.1.1.127
 - **Metallurgy** v4.0.4.43
 - **MFFS** v4.1.0.33
 - **Minefactory Reloaded** v2.8.0RC6-5
