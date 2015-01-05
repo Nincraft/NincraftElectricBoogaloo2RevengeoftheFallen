@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1272
+- **Forge** v10.13.2.1277
 
 Current API Versions
 =
