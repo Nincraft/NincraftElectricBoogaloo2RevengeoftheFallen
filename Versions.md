@@ -65,7 +65,7 @@ Current Mod Versions
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
-- **Iguana's Tinker Tweaks** v2.0.6
+- **Iguana's Tinker Tweaks** v2.1.1
 - **IndustrialCraft 2** v2.2.654
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B7-19
