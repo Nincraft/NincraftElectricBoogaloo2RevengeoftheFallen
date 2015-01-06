@@ -1292,7 +1292,7 @@ recipes.addShaped(dryingRack, [
 
 # FURNACE TWEAKS
 #----------------
-
+/*
 # Disable vanilla furnace ore melting
 furnace.remove(anyAluminumIngot);
 furnace.remove(anyCopperIngot);
@@ -1349,7 +1349,7 @@ furnace.remove(anyTartariteIngot);
 furnace.remove(anyShadowSteelIngot);
 furnace.remove(anyAmordrineIngot);
 furnace.remove(anyDesichalkosIngot);
-
+*/
 # SMELTERY TWEAKS
 #-----------------
 
