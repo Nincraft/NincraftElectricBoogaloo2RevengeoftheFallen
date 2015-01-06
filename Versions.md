@@ -13,7 +13,7 @@ Current API Versions
 - **CoFHLib** v1.0.0B8-34
 - **CookieCore** v1.3.0
 - **Forge Multipart** v1.1.0.310
-- **iChunUtil** v4.0.0
+- **iChunUtil** v4.1.3
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
 - **MicDoodleCore** v3.0.6.232
@@ -51,9 +51,9 @@ Current Mod Versions
 - **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.369
-- **Extra Cells** v2.1.12b9
+- **Extra Cells** v2.1.34b31
 - **ExtraTiC** v1.0.3
-- **Extra Utilities** v1.2.0
+- **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.2
 - **FMPIntegration** v1.2.2
 - **Galacticraft Core** v3.0.6.232
@@ -71,7 +71,7 @@ Current Mod Versions
 - **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
-- **JABBA** v1.1.4
+- **JABBA** v1.2.0a
 - **LunatriusCore** v1.1.2.14
 - **Magical Crops** v0.1
 - **Mekanism** v7.1.1.127
@@ -92,7 +92,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.3
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.1-alpha
-- **Not Enough Items** v1.0.3.62
+- **Not Enough Items** v1.0.4.83
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
@@ -110,7 +110,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.1.51
 - **ProjectRed Lighting** v4.5.1.51
 - **ProjectRed World** v4.5.1.51
-- **Random Things** v2.2.2
+- **Random Things** v2.2.3
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
 - **Resonant Engine** v2.0.0.144
@@ -119,16 +119,14 @@ Current Mod Versions
 - **ServerTools-BACKUP** v2.1.0.11
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
-- **Simply Jetpacks** v1.3.0
+- **Simply Jetpacks** v1.3.2
 - **Special Mobs** v3.0.2
 - **Stackie** v1.5.1.28
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.1.4
-- **Thaumic Exploration** v1.1-31
-- **Thaumic Tinkerer** v2.5-157
-- **Thaumic Warden** v1.1.1
+- **Thaumcraft** v4.2.3.0
+- **Thaumic Tinkerer** v2.5-162
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
 - **TiCTooltips** v1.2.0
