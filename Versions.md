@@ -27,13 +27,13 @@ Current Mod Versions
 - **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.3
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.9.1
+- **BiblioCraft** v1.9.2
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.3.0a
-- **Botania** r1.3-148
+- **Botania** r1.3-149
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.1.3
@@ -50,7 +50,7 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.369
+- **Equivalent Exchange 3** v0.2.372
 - **Extra Cells** v2.1.34b31
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
@@ -80,7 +80,7 @@ Current Mod Versions
 - **Metallurgy** v4.0.4.43
 - **MFFS** v4.1.0.33
 - **Minefactory Reloaded** v2.8.0RC6-5
-- **MineTweaker** v3.0.9B
+- **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.6-22
@@ -132,7 +132,7 @@ Current Mod Versions
 - **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.1
 - **Tinker's Mechworks** v0.2.8
-- **Tinker's Steelworks** v1.0.3
+- **Tinker's Steelworks** v1.0.6
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
