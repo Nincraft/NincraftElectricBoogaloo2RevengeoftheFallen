@@ -63,7 +63,7 @@ for i, sheet in allPlasticSheets {
 
 # Unify Raw Rubbers
 var anyRawRubber          = <ore:itemRawRubber>;
-var anyRubberDust         = <ore:itemRawRubber>;
+var anyRubberDust         = <ore:dustRubber>;
 
 anyRawRubber.add(stickyResin);
 
