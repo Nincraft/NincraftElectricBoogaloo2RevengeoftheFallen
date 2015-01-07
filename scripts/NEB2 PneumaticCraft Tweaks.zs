@@ -13,7 +13,7 @@ var charcoal          = <minecraft:coal:1>;
 var anySawdust        = <ore:dustWood>;
 var compressedSawdust = <ThermalExpansion:material:513>;
 
-var anyDiamondNugget  = <ore:nuggetDiamond>;
+var anyDiamondNugget  = <ore:diamondNugget>;
 var diamond           = <minecraft:diamond>;
 
 # PRESSURE CHAMBER TWEAKS
