@@ -5,9 +5,9 @@
             "sparse": false
         },
         "block": "magicalcrops:magicalcrops_EssenceOre",
-		"material": "minecraft:stone",
-        "clusterSize": 16,
-        "numClusters": 128,
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 64,
         "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 64,
@@ -37,7 +37,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
-			-19,
+            -19,
             -6,
             -5,
             -1,
