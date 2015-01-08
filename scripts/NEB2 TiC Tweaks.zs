@@ -818,35 +818,71 @@ Casting.addTableRecipe(fluxedElectrumIngot, moltenFluxedElectrum * 144, ingotMet
 Casting.addBasinRecipe(fluxedElectrumBlock, moltenFluxedElectrum * 1296, null, false, 40);
 
 # Black Bronze Alloy Ratios
-#Smeltery.removeAlloy(moltenHepatizon);
+Smeltery.removeAlloy(moltenHepatizon);
 Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
 
 # Black Steel Alloy Ratios
-#Smeltery.removeAlloy(moltenBlackSteel);
+Smeltery.removeAlloy(moltenBlackSteel);
 Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 144, moltenNickel * 144]);
 
 # Aluminum Brass Ratio
-#Smeltery.removeAlloy(moltenAluminumBrass);
+Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
 
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
 
 # Remove Existing Blend Recipes
-recipes.remove(anyAluminumBrassDust);
-recipes.remove(anyAmordrineDust);
-recipes.remove(anyAngmallenDust);
-recipes.remove(anyBlackSteelDust);
-recipes.remove(anyCelenegilDust);
-recipes.remove(anyDamascusSteelDust);
-recipes.remove(anyHaderothDust);
-recipes.remove(anyHepatizonDust);
-recipes.remove(anyInolashiteDust);
-recipes.remove(anyQuicksilverDust);
-recipes.remove(anyShadowSteelDust);
-recipes.remove(anyTartariteDust);
-recipes.remove(enderiumDust);
-recipes.remove(pyrotheumDust);
+for dust in anyAluminumBrassDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyAmordrineDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyAngmallenDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyBlackBronzeDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyBlackSteelDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyBrassDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyBronzeDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyCelenegilDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyDamascusSteelDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyHaderothDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyInolashiteDust.items {
+    recipes.removeShapeless(dust);
+}
+/*
+for dust in anyQuicksilverDust.items {
+    recipes.removeShapeless(dust);
+}
+*/
+for dust in anyShadowSteelDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in anyTartariteDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in enderiumDust.items {
+    recipes.removeShapeless(dust);
+}
+for dust in pyrotheumDust.items {
+    recipes.removeShapeless(dust);
+}
 
 # DUST BLEND RATIOS
 
@@ -860,8 +896,14 @@ recipes.addShapeless(amordrineDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPl
 recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
                                          anyIronDust, anyIronDust]);
 
-recipes.addShapeless(blackSteelDust * 3, [anySteelDust, anySteelDust, anySteelDust,
+recipes.addShapeless(blackSteelDust * 5, [anySteelDust, anySteelDust, anySteelDust,
                                           anyHepatizonDust, anyNickelDust]);
+
+recipes.addShapeless(brassDust * 4, [anyCopperDust, anyCopperDust, anyCopperDust,
+                                     anyZincDust]);
+
+recipes.addShapeless(bronzeDust * 4, [anyCopperDust, anyCopperDust, anyCopperDust,
+                                      anyTinDust]);
 
 recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyOrichalcumDust]);
