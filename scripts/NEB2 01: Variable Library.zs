@@ -1244,58 +1244,58 @@ val torchWood                          = <minecraft:torch>;
 #--------------------------------------
 # APPLIED ENERGISTICS 2: ITEMS
 #--------------------------------------
-val storageCell1k            = <appliedenergistics2:item.ItemBasicStorageCell.1k>;
-val storageCell4k            = <appliedenergistics2:item.ItemBasicStorageCell.4k>;
-val storageCell16k           = <appliedenergistics2:item.ItemBasicStorageCell.16k>;
-val storageCell64k           = <appliedenergistics2:item.ItemBasicStorageCell.64k>;
-val logicProcessor           = <appliedenergistics2:item.ItemMultiMaterial:22>;
-val calculationProcessor     = <appliedenergistics2:item.ItemMultiMaterial:23>;
-val engineeringProcessor     = <appliedenergistics2:item.ItemMultiMaterial:24>;
-val spatialComponent2Cubed   = <appliedenergistics2:item.ItemMultiMaterial:32>;
-val spatialComponent16Cubed  = <appliedenergistics2:item.ItemMultiMaterial:33>;
-val spatialComponent128Cubed = <appliedenergistics2:item.ItemMultiMaterial:34>;
-val storageComponent1k       = <appliedenergistics2:item.ItemMultiMaterial:35>;
-val storageComponent4k       = <appliedenergistics2:item.ItemMultiMaterial:36>;
-val storageComponent16k      = <appliedenergistics2:item.ItemMultiMaterial:37>;
-val storageComponent64k      = <appliedenergistics2:item.ItemMultiMaterial:38>;
-val wirelessReceiver         = <appliedenergistics2:item.ItemMultiMaterial:41>;
-val formationCore            = <appliedenergistics2:item.ItemMultiMaterial:43>;
-val annihilationCore         = <appliedenergistics2:item.ItemMultiMaterial:44>;
-val glassCable               = <appliedenergistics2:item.ItemMultiPart:16>;
-val coveredCable             = <appliedenergistics2:item.ItemMultiPart:36>;
-val smartCable               = <appliedenergistics2:item.ItemMultiPart:56>;
-val denseCable               = <appliedenergistics2:item.ItemMultiPart:76>;
-val quartzFiber              = <appliedenergistics2:item.ItemMultiPart:140>;
-val meTerminal               = <appliedenergistics2:item.ItemMultiPart:380>;
-val spatialCell2Cubed        = <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>;
-val spatialCell16Cubed       = <appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>;
-val spatialCell128Cubed      = <appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>;
+val storageCell1k                      = <appliedenergistics2:item.ItemBasicStorageCell.1k>;
+val storageCell4k                      = <appliedenergistics2:item.ItemBasicStorageCell.4k>;
+val storageCell16k                     = <appliedenergistics2:item.ItemBasicStorageCell.16k>;
+val storageCell64k                     = <appliedenergistics2:item.ItemBasicStorageCell.64k>;
+val logicProcessor                     = <appliedenergistics2:item.ItemMultiMaterial:22>;
+val calculationProcessor               = <appliedenergistics2:item.ItemMultiMaterial:23>;
+val engineeringProcessor               = <appliedenergistics2:item.ItemMultiMaterial:24>;
+val spatialComponent2Cubed             = <appliedenergistics2:item.ItemMultiMaterial:32>;
+val spatialComponent16Cubed            = <appliedenergistics2:item.ItemMultiMaterial:33>;
+val spatialComponent128Cubed           = <appliedenergistics2:item.ItemMultiMaterial:34>;
+val storageComponent1k                 = <appliedenergistics2:item.ItemMultiMaterial:35>;
+val storageComponent4k                 = <appliedenergistics2:item.ItemMultiMaterial:36>;
+val storageComponent16k                = <appliedenergistics2:item.ItemMultiMaterial:37>;
+val storageComponent64k                = <appliedenergistics2:item.ItemMultiMaterial:38>;
+val wirelessReceiver                   = <appliedenergistics2:item.ItemMultiMaterial:41>;
+val formationCore                      = <appliedenergistics2:item.ItemMultiMaterial:43>;
+val annihilationCore                   = <appliedenergistics2:item.ItemMultiMaterial:44>;
+val glassCable                         = <appliedenergistics2:item.ItemMultiPart:16>;
+val coveredCable                       = <appliedenergistics2:item.ItemMultiPart:36>;
+val smartCable                         = <appliedenergistics2:item.ItemMultiPart:56>;
+val denseCable                         = <appliedenergistics2:item.ItemMultiPart:76>;
+val quartzFiber                        = <appliedenergistics2:item.ItemMultiPart:140>;
+val meTerminal                         = <appliedenergistics2:item.ItemMultiPart:380>;
+val spatialCell2Cubed                  = <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>;
+val spatialCell16Cubed                 = <appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>;
+val spatialCell128Cubed                = <appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>;
 
 #--------------------------------------
 # APPLIED ENERGISTICS 2: BLOCKS
 #--------------------------------------
-val cellWorkbench            = <appliedenergistics2:tile.BlockCellWorkbench>;
-val charger                  = <appliedenergistics2:tile.BlockCharger>;
-val meChest                  = <appliedenergistics2:tile.BlockChest>;
-val matterCondenser          = <appliedenergistics2:tile.BlockCondenser>;
-val meController             = <appliedenergistics2:tile.BlockController>;
-val meDrive                  = <appliedenergistics2:tile.BlockDrive>;
-val energyCell               = <appliedenergistics2:tile.BlockEnergyCell>;
-val inscriber                = <appliedenergistics2:tile.BlockInscriber>;
-val meInterface              = <appliedenergistics2:tile.BlockInterface>;
-val quantumLinkChamber       = <appliedenergistics2:tile.BlockQuantumLinkChamber>;
-val quantumRing              = <appliedenergistics2:tile.BlockQuantumRing>;
-val certusQuartzBlock        = <appliedenergistics2:tile.BlockQuartz>;
-val quartzGlass              = <appliedenergistics2:tile.BlockQuartzGlass>;
-val growthAccelerator        = <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>;
-val skyCompass               = <appliedenergistics2:tile.BlockSkyCompass>;
-val securityTerminal         = <appliedenergistics2:tile.BlockSecurity>;
-val skyStone                 = <appliedenergistics2:tile.BlockSkyStone:0>;
-val skyStoneBlock            = <appliedenergistics2:tile.BlockSkyStone:1>;
-val skyStoneBrick            = <appliedenergistics2:tile.BlockSkyStone:2>;
-val skyStoneSmallBrick       = <appliedenergistics2:tile.BlockSkyStone:3>;
-val spatialPylon             = <appliedenergistics2:tile.BlockSpatialPylon>;
-val wirelessAccessPoint      = <appliedenergistics2:tile.BlockWireless>;
+val cellWorkbench                      = <appliedenergistics2:tile.BlockCellWorkbench>;
+val charger                            = <appliedenergistics2:tile.BlockCharger>;
+val meChest                            = <appliedenergistics2:tile.BlockChest>;
+val matterCondenser                    = <appliedenergistics2:tile.BlockCondenser>;
+val meController                       = <appliedenergistics2:tile.BlockController>;
+val meDrive                            = <appliedenergistics2:tile.BlockDrive>;
+val energyCell                         = <appliedenergistics2:tile.BlockEnergyCell>;
+val inscriber                          = <appliedenergistics2:tile.BlockInscriber>;
+val meInterface                        = <appliedenergistics2:tile.BlockInterface>;
+val quantumLinkChamber                 = <appliedenergistics2:tile.BlockQuantumLinkChamber>;
+val quantumRing                        = <appliedenergistics2:tile.BlockQuantumRing>;
+val certusQuartzBlock                  = <appliedenergistics2:tile.BlockQuartz>;
+val quartzGlass                        = <appliedenergistics2:tile.BlockQuartzGlass>;
+val growthAccelerator                  = <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>;
+val skyCompass                         = <appliedenergistics2:tile.BlockSkyCompass>;
+val securityTerminal                   = <appliedenergistics2:tile.BlockSecurity>;
+val skyStone                           = <appliedenergistics2:tile.BlockSkyStone:0>;
+val skyStoneBlock                      = <appliedenergistics2:tile.BlockSkyStone:1>;
+val skyStoneBrick                      = <appliedenergistics2:tile.BlockSkyStone:2>;
+val skyStoneSmallBrick                 = <appliedenergistics2:tile.BlockSkyStone:3>;
+val spatialPylon                       = <appliedenergistics2:tile.BlockSpatialPylon>;
+val wirelessAccessPoint                = <appliedenergistics2:tile.BlockWireless>;
 
 #--------------------------------------
 # MISCELLANEOUS
