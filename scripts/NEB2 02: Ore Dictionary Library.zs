@@ -480,10 +480,10 @@ val anyRedSteelFrame                   = <ore:frameGtRedSteel>;
 #--------------------------------------
 # CIRCUITS
 #--------------------------------------
-val anyBasicCircuit          = <ore:circuitBasic>;
-val anyAdvancedCircuit       = <ore:circuitAdvanced>;
-val anyEliteCircuit          = <ore:circuitElite>;
-val anyUltimateCircuit       = <ore:circuitUltimate>;
+val anyBasicCircuit                    = <ore:circuitBasic>;
+val anyAdvancedCircuit                 = <ore:circuitAdvanced>;
+val anyEliteCircuit                    = <ore:circuitElite>;
+val anyUltimateCircuit                 = <ore:circuitUltimate>;
 
 #--------------------------------------
 # MISCELLANOUS
