@@ -787,5 +787,4 @@ val allCraftingToolWrenches            = [
     <ThermalExpansion:wrench>,
     <appliedenergistics2:item.ToolCertusQuartzWrench>,
     <appliedenergistics2:item.ToolNetherQuartzWrench>
-
 ] as IItemStack[];
