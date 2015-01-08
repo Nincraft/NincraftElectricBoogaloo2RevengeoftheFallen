@@ -140,20 +140,44 @@ anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
 anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
 anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
 
-# Add Hammers to Ore Dictionary
-anyCraftingToolHardHammer.add(<JABBA:hammer>);
-anyCraftingToolHardHammer.add(<Steamcraft:hammer>);
-anyCraftingToolHardHammer.add(<TConstruct:hammer>);
-anyCraftingToolSoftHammer.add(<MineFactoryReloaded:hammer>);
+# Add Swords to Ore Dictionary
+for sword in allCraftingToolSwords {
+    anyCraftingToolSword.add(sword);
+    anyCraftingToolBlade.add(sword);
+}
+
+# Add Knives to Ore Dictionary
+for knife in allCraftingToolKnives {
+    anyCraftingToolKnife.add(knife);
+    anyCraftingToolBlade.add(knife);
+}
+
+# Add Shovels to Ore Dictionary
+for shovel in allCraftingToolShovels {
+    anyCraftingToolShovel.add(shovel);
+}
+
+# Add Pickaxes to Ore Dictionary
+for pickaxe in allCraftingToolPickaxes {
+    anyCraftingToolPickaxe.add(pickaxe);
+}
+
+# Add Axes to Ore Dictionary
+for axe in allCraftingToolAxes {
+    anyCraftingToolAxe(axe);
+}
+
+# Add Hard Hammers to Ore Dictionary
+for hammer in allCraftingToolHardHammers {
+    anyCraftingToolHardHammer.add(hammer);
+}
+
+# Add Soft Hammers to Ore Dictionary
+for hammer in allCraftingToolSoftHammers {
+    anyCraftingToolSoftHammer.add(hammer);
+}
 
 # Add Wrenches to Ore Dictionary
-anyCraftingToolWrench.add(<EnderIO:itemYetaWrench>);
-anyCraftingToolWrench.add(<GalacticraftCore:item.standardWrench>);
-anyCraftingToolWrench.add(<PneumaticCraft:pneumaticWrench>);
-anyCraftingToolWrench.add(<RedstoneArsenal:tool.battleWrenchFlux>);
-anyCraftingToolWrench.add(<RedstoneArsenal:tool.wrenchFlux>);
-anyCraftingToolWrench.add(<Steamcraft:wrench>);
-anyCraftingToolWrench.add(<ThermalExpansion:tool.battleWrenchInvar>);
-anyCraftingToolWrench.add(<ThermalExpansion:wrench>);
-anyCraftingToolWrench.add(<appliedenergistics2:item.ToolCertusQuartzWrench>);
-anyCraftingToolWrench.add(<appliedenergistics2:item.ToolNetherQuartzWrench>);
+for wrench in allCraftingToolWrenches {
+    anyCraftingToolWrench.add(wrench);
+}
