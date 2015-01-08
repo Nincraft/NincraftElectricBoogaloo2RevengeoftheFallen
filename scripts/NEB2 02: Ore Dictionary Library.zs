@@ -505,6 +505,7 @@ val anyPestleAndMortar                 = <ore:pestleAndMortar>;
 val anyPlasticPipe                     = <ore:pipePlastic>;
 val anyPlasticSheet                    = <ore:sheetPlastic>;
 val anyPinkPetal                       = <ore:petalPink>;
+val anyRawMeat                         = <ore:listAllmeatraw>;
 val anyRawRubber                       = <ore:itemRawRubber>;
 val anySolarWafer                      = <ore:waferSolar>;
 val anySugarCharcoal                   = <ore:itemCharcoalSugar>;
