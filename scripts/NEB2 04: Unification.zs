@@ -139,3 +139,21 @@ anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
 anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
 anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
 anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
+
+# Add Hammers to Ore Dictionary
+anyCraftingToolHardHammer.add(<JABBA:hammer>);
+anyCraftingToolHardHammer.add(<Steamcraft:hammer>);
+anyCraftingToolHardHammer.add(<TConstruct:hammer>);
+anyCraftingToolSoftHammer.add(<MineFactoryReloaded:hammer>);
+
+# Add Wrenches to Ore Dictionary
+anyCraftingToolWrench.add(<EnderIO:itemYetaWrench>);
+anyCraftingToolWrench.add(<GalacticraftCore:item.standardWrench>);
+anyCraftingToolWrench.add(<PneumaticCraft:pneumaticWrench>);
+anyCraftingToolWrench.add(<RedstoneArsenal:tool.battleWrenchFlux>);
+anyCraftingToolWrench.add(<RedstoneArsenal:tool.wrenchFlux>);
+anyCraftingToolWrench.add(<Steamcraft:wrench>);
+anyCraftingToolWrench.add(<ThermalExpansion:tool.battleWrenchInvar>);
+anyCraftingToolWrench.add(<ThermalExpansion:wrench>);
+anyCraftingToolWrench.add(<appliedenergistics2:item.ToolCertusQuartzWrench>);
+anyCraftingToolWrench.add(<appliedenergistics2:item.ToolNetherQuartzWrench>);
