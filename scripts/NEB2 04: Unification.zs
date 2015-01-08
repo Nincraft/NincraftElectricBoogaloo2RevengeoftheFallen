@@ -27,58 +27,34 @@ anyRubberDust.addAll(anyRawRubber);
 anyRubberDust.mirror(anyRawRubber);
 
 # Add Various Cooked Meats to Ore Dictionary
-anyCookedMeat.add(<Steamcraft:steamedBeef>);
-anyCookedMeat.add(<Steamcraft:steamedChicken>);
-anyCookedMeat.add(<Steamcraft:steamedPorkchop>);
-anyCookedMeat.add(<TwilightForest:item.venisonCooked>);
-anyCookedMeat.add(<TwilightForest:item.meefSteak>);
-anyCookedMeat.add(<MineFactoryReloaded:meat.ingot.cooked>);
+for cookedMeat in allCookedMeats {
+    anyCookedMeat.add(cookedMeat);
+}
 
 # Add Various Cooked Fish to Ore Dictionary
-anyCookedFish.add(<Steamcraft:steamedFish>);
+for cookedFish in allCookedFish {
+    anyCookedFish.add(cookedFish);
+}
 
 # Add Various Raw Meats to Ore Dictionary
-anyRawMeat.add(<TwilightForest:item.hydraChop>);
-anyRawMeat.add(<TwilightForest:item.meefRaw>);
-anyRawMeat.add(<TwilightForest:item.venisonRaw>);
-anyRawMeat.add(<MineFactoryReloaded:meat.ingot.raw>);
+for rawMeat in allRawMeats {
+    anyRawMeat.add(rawMeat);
+}
 
 # Add Various Juices to Ore Dictionary
-anyJuice.add(<harvestcraft:grapefruitjuiceItem>);
+for juice in allJuices {
+    anyJuice.add(juice);
+}
 
 # Add Various Ice Creams to Ore Dictionary
-anyIceCream.add(<harvestcraft:icecreamItem>);
-anyIceCream.add(<harvestcraft:chocolateicecreamItem>);
-anyIceCream.add(<harvestcraft:mochaicecreamItem>);
-anyIceCream.add(<harvestcraft:bananasplitItem>);
-anyIceCream.add(<harvestcraft:caramelicecreamItem>);
-anyIceCream.add(<harvestcraft:mintchocolatechipicemcreamItem>);
-anyIceCream.add(<harvestcraft:strawberryicecreamItem>);
-anyIceCream.add(<harvestcraft:vanillaicecreamItem>);
+for iceCream in allIceCreams {
+    anyIceCream.add(iceCream);
+}
 
 # Add Various Jellies to Ore Dictionary
-anyJelly.add(<harvestcraft:grapejellyItem>);
-anyJelly.add(<harvestcraft:applejellyItem>);
-anyJelly.add(<harvestcraft:blackberryjellyItem>);
-anyJelly.add(<harvestcraft:blueberryjellyItem>);
-anyJelly.add(<harvestcraft:cherryjellyItem>);
-anyJelly.add(<harvestcraft:cranberryjellyItem>);
-anyJelly.add(<harvestcraft:kiwijellyItem>);
-anyJelly.add(<harvestcraft:lemonjellyItem>);
-anyJelly.add(<harvestcraft:limejellyItem>);
-anyJelly.add(<harvestcraft:mangojellyItem>);
-anyJelly.add(<harvestcraft:orangejellyItem>);
-anyJelly.add(<harvestcraft:papayajellyItem>);
-anyJelly.add(<harvestcraft:peachjellyItem>);
-anyJelly.add(<harvestcraft:pomegranatejellyItem>);
-anyJelly.add(<harvestcraft:raspberryjellyItem>);
-anyJelly.add(<harvestcraft:starfruitjellyItem>);
-anyJelly.add(<harvestcraft:strawberryjellyItem>);
-anyJelly.add(<harvestcraft:watermelonjellyItem>);
-anyJelly.add(<harvestcraft:apricotjellyItem>);
-anyJelly.add(<harvestcraft:figjellyItem>);
-anyJelly.add(<harvestcraft:grapefruitjellyItem>);
-anyJelly.add(<harvestcraft:persimmonjellyItem>);
+for jelly in allJellies {
+    anyJelly.add(jelly);
+}
 
 # Correct Salt Dust's Ore Dictionary
 anySaltOre.add(<harvestcraft:salt>);
