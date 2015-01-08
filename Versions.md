@@ -61,7 +61,7 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
-- **GregTech** v5.06.06
+- **GregTech** v5.07.07
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
