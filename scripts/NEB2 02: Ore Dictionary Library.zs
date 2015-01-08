@@ -463,10 +463,11 @@ val anyGearSignalum                    = <ore:gearSignalum>;
 #--------------------------------------
 # GREGTECH: CRAFTING TOOLS
 #--------------------------------------
-val anyCraftingToolSoftHammer          = <ore:craftingToolSaw>;
-val anyCraftingToolHardHammer          = <ore:craftingToolSaw>;
 val anyCraftingToolBlade               = <ore:craftingToolBlade>;
+val anyCraftingToolHardHammer          = <ore:craftingToolHardHammer>;
+val anyCraftingToolMortar              = <ore:craftingToolMortar>;
 val anyCraftingToolSaw                 = <ore:craftingToolSaw>;
+val anyCraftingToolSoftHammer          = <ore:craftingToolSoftHammer>;
 val anyCraftingToolSword               = <ore:craftingToolSword>;
 val anyCraftingToolWrench              = <ore:craftingToolWrench>;
 
