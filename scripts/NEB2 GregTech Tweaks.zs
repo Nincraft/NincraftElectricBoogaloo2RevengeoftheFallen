@@ -1,3 +1,11 @@
+/*
+# DISABLED FOR NOW UNTIL WE CAN FIGURE OUT
+# WHAT TO DO ABOUT RECIPES DESTROYING THE CRAFTING TOOL
+
+# MOD IMPORTS
+#-------------
+import minetweaker.item.IItemStack;
+
 # ITEM LISTS
 #------------
 var allCraftingToolSwords              = [
@@ -356,7 +364,7 @@ var allCraftingToolAxes                = [
     <TConstruct:battleaxe>,
     <TConstruct:hatchet>,
     <TConstruct:lumberaxe>,
-    <Thaumcraft:ItemaxeElemental>,
+    <Thaumcraft:ItemAxeElemental>,
     <Thaumcraft:ItemAxeThaumium>,
     <Thaumcraft:ItemAxeVoid>,
     <ThaumicTinkerer:ichorAxe>,
@@ -392,7 +400,6 @@ var allCraftingToolSaws                = [
 
 var allCraftingToolHardHammers         = [
     <JABBA:hammer>,
-    <Steamcraft:hammer>,
     <TConstruct:hammer>
 ] as IItemStack[];
 
@@ -415,46 +422,56 @@ var allCraftingToolWrenches            = [
 
 # ORE DICTIONARY
 #----------------
+var anyCraftingToolAxe        = <ore:craftingToolAxe>;
+var anyCraftingToolBlade      = <ore:craftingToolBlade>;
+var anyCraftingToolHardHammer = <ore:craftingToolHardHammer>;
+var anyCraftingToolKnife      = <ore:craftingToolKnife>;
+var anyCraftingToolPickaxe    = <ore:craftingToolPickaxe>;
+var anyCraftingToolSaw        = <ore:craftingToolSaw>;
+var anyCraftingToolShovel     = <ore:craftingToolShovel>;
+var anyCraftingToolSoftHammer = <ore:craftingToolSoftHammer>;
+var anyCraftingToolSword      = <ore:craftingToolSword>;
+var anyCraftingToolWrench     = <ore:craftingToolWrench>;
 
 # Add Swords to Ore Dictionary
-for sword in allCraftingToolSwords {
+for i, sword in allCraftingToolSwords {
     anyCraftingToolSword.add(sword);
     anyCraftingToolBlade.add(sword);
 }
 
 # Add Knives to Ore Dictionary
-for knife in allCraftingToolKnives {
+for i, knife in allCraftingToolKnives {
     anyCraftingToolKnife.add(knife);
     anyCraftingToolBlade.add(knife);
 }
 
 # Add Shovels to Ore Dictionary
-for shovel in allCraftingToolShovels {
+for i, shovel in allCraftingToolShovels {
     anyCraftingToolShovel.add(shovel);
 }
 
 # Add Pickaxes to Ore Dictionary
-for pickaxe in allCraftingToolPickaxes {
+for i, pickaxe in allCraftingToolPickaxes {
     anyCraftingToolPickaxe.add(pickaxe);
 }
 
 # Add Axes to Ore Dictionary
-for axe in allCraftingToolAxes {
-    anyCraftingToolAxe(axe);
+for i, axe in allCraftingToolAxes {
+    anyCraftingToolAxe.add(axe);
 }
 
 # Add Hard Hammers to Ore Dictionary
-for hammer in allCraftingToolHardHammers {
-    anyCraftingToolHardHammer.add(hammer);
+for i, hardHammer in allCraftingToolHardHammers {
+    anyCraftingToolHardHammer.add(hardHammer);
 }
 
 # Add Soft Hammers to Ore Dictionary
-for hammer in allCraftingToolSoftHammers {
-    anyCraftingToolSoftHammer.add(hammer);
+for i, softHammer in allCraftingToolSoftHammers {
+    anyCraftingToolSoftHammer.add(softHammer);
 }
 
 # Add Wrenches to Ore Dictionary
-for wrench in allCraftingToolWrenches {
+for i, wrench in allCraftingToolWrenches {
     anyCraftingToolWrench.add(wrench);
 }
-
+*/
