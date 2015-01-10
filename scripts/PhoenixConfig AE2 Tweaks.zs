@@ -148,7 +148,7 @@ recipes.addShaped(growthAccelerator, [
 recipes.remove(inscriber);
 recipes.addShaped(inscriber, [
     [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot],
-    [anyPlasticSheet, pneumaticServo,           anyEliteCircuit],
+    [anyPlasticSheet, pneumaticServo,            anyEliteCircuit],
     [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot]]);
 
 # Wireless Access Point
@@ -189,16 +189,16 @@ recipes.addShaped(meController, [
 # ME Drive
 recipes.remove(meDrive);
 recipes.addShaped(meDrive, [
-    [certusQuartzBlock,  smartCable,       anyFluixPearl],
-    [storageComponent1k, reinforcedCache,  storageComponent1k],
-    [anyFluixPearl,      smartCable,       certusQuartzBlock]]);
+    [certusQuartzBlock,  smartCable,      anyFluixPearl],
+    [storageComponent1k, reinforcedCache, storageComponent1k],
+    [anyFluixPearl,      smartCable,      certusQuartzBlock]]);
 
 # ME Chest
 recipes.remove(meChest);
 recipes.addShaped(meChest, [
-    [anyElectrumIngot, meTerminal,           anyElectrumIngot],
-    [coveredCable,     reinforcedStrongbox,  coveredCable],
-    [anyPlatinumIngot, anyFluixCrystal,      anyPlatinumIngot]]);
+    [anyElectrumIngot, meTerminal,          anyElectrumIngot],
+    [coveredCable,     reinforcedStrongbox, coveredCable],
+    [anyPlatinumIngot, anyFluixCrystal,     anyPlatinumIngot]]);
 
 # ME Interface
 recipes.remove(meInterface);
@@ -211,8 +211,8 @@ recipes.addShaped(meInterface, [
 recipes.remove(cellWorkbench);
 recipes.addShaped(cellWorkbench, [
     [anyPlasticSheet, calculationProcessor, anyPlasticSheet],
-    [anyCobaltIngot,  electricChest,         anyCobaltIngot],
-    [anyCobaltIngot,  anyCobaltIngot,        anyCobaltIngot]]);
+    [anyCobaltIngot,  electricChest,        anyCobaltIngot],
+    [anyCobaltIngot,  anyCobaltIngot,       anyCobaltIngot]]);
 
 # Dense Cable
 recipes.remove(denseCable);
@@ -244,21 +244,16 @@ recipes.addShaped(securityTerminal, [
 
 # Glass Cable
 recipes.remove(glassCable);
-recipes.addShaped(glassCable * 5, [
+recipes.addShaped(glassCable * 6, [
     [quartzGlass,     anyPlasticSheet, quartzGlass],
-    [anyFluixCrystal, quartzFiber,      anyFluixCrystal],
-    [quartzGlass,     anyPlasticSheet, quartzGlass]]);
-
-recipes.addShaped(glassCable * 5, [
-    [quartzGlass,     anyPlasticSheet, quartzGlass],
-    [anyFluixCrystal, quartzFiber,      anyFluixCrystal],
+    [anyFluixCrystal, quartzFiber,     anyFluixCrystal],
     [quartzGlass,     anyPlasticSheet, quartzGlass]]);
 
 # Covered Cable
 recipes.remove(coveredCable);
 recipes.addShaped(coveredCable, [
     [anyPlasticSheet, anyPlasticSheet, anyPlasticSheet],
-    [anyPlasticSheet, glassCable,       anyPlasticSheet],
+    [anyPlasticSheet, glassCable,      anyPlasticSheet],
     [anyPlasticSheet, anyPlasticSheet, anyPlasticSheet]]);
 
 # Smart Cable
