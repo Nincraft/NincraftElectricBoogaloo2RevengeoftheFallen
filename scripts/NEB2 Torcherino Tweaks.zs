@@ -2,8 +2,11 @@
 #------------------
 var soulFragment = <ExtraUtilities:mini-soul>;
 var clock        = <minecraft:clock>;
-var anyTorch     = <ore:anyTorch>;
 var torcherino   = <Torcherino:tile.speed_torch>;
+
+# ORE DICTIONARY
+#----------------
+var anyTorch     = <ore:torch>;
 
 # RECIPE TWEAKS
 #---------------

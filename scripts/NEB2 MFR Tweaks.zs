@@ -4,6 +4,7 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
+var redNetCable           = <MineFactoryReloaded:cable.redstone>;
 var plasticBlock          = <MineFactoryReloaded:plastic>;
 var plasticPipe           = <MineFactoryReloaded:cable.plastic>;
 var rawRubber             = <MineFactoryReloaded:rubber.raw>;
@@ -50,25 +51,24 @@ var allPlasticSheets      = [
 
 # ORE DICTIONARY
 #----------------
+var anyPlasticPipe        = <ore:pipePlastic>;
+var anyPlasticSheet       = <ore:sheetPlastic>;
+var anyRawRubber          = <ore:itemRawRubber>;
+var anyRedstoneAlloyIngot = <ore:ingotRedstoneAlloy>;
+var anyRubberDust         = <ore:dustRubber>;
 
 # Register MFR Plastic Pipe
-var anyPlasticPipe        = <ore:pipePlastic>;
 anyPlasticPipe.add(plasticPipe);
 
 # Unify Plastic Sheets
-var anyPlasticSheet       = <ore:sheetPlastic>;
 for i, sheet in allPlasticSheets {
     anyPlasticSheet.add(sheet);
 }
 
 # Unify Raw Rubbers
-var anyRawRubber          = <ore:itemRawRubber>;
-var anyRubberDust         = <ore:dustRubber>;
-
 anyRawRubber.add(stickyResin);
-
-anyRubberDust.addAll(anyRawRubber);
-anyRubberDust.mirror(anyRawRubber);
+anyRawRubber.addAll(anyRubberDust);
+anyRawRubber.mirror(anyRubberDust);
 
 # RECIPE TWEAKS
 #---------------
@@ -77,3 +77,9 @@ anyRubberDust.mirror(anyRawRubber);
 recipes.removeShaped(plasticBlock, [
     [anyPlasticSheet, anyPlasticSheet],
     [anyPlasticSheet, anyPlasticSheet]]);
+
+recipes.remove(redNetCable);
+recipes.addShaped(redNetCable * 8, [
+    [anyPlasticSheet,       anyPlasticSheet,       anyPlasticSheet],
+    [anyRedstoneAlloyIngot, anyRedstoneAlloyIngot, anyRedstoneAlloyIngot],
+    [anyPlasticSheet,       anyPlasticSheet,       anyPlasticSheet]]);

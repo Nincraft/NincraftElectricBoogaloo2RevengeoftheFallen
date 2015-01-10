@@ -3,388 +3,318 @@
 
 # MOD IMPORTS
 #-------------
-import mods.mekanism.Infuser;
+#import mods.mekanism.Infuser;
 
 # COMMON VARIABLES
 #------------------
-var mfrPlasticSheets       = <MineFactoryReloaded:plastic.sheet>;
-var electrumIngot          = <ore:ingotElectrum>;
-var goldDust               = <ore:dustGold>;
-var compass                = <minecraft:compass>;
-var controlCircuitAdv      = <Mekanism:ControlCircuit:1>;
-var controlCircuitElite    = <Mekanism:ControlCircuit:2>;
-var controlCircuitUltimate = <Mekanism:ControlCircuit:3>;
-var quartzGlass            = <appliedenergistics2:tile.BlockQuartzGlass>;
-var gearSignalum           = <ThermalFoundation:material:138>;
-var teleportationCore      = <Mekanism:TeleportationCore>;
-var redstoneDust           = <minecraft:redstone>;
-var glowstoneDust          = <minecraft:glowstone_dust>;
-var enderiumIngot          = <ore:ingotEnderium>;
-var fluxedElectrumDust     = <RedstoneArsenal:material>;
-var certusQuartz           = <appliedenergistics2:item.ItemMultiMaterial>;
+var compass                  = <minecraft:compass>;
 
-var skyCompass             = <appliedenergistics2:tile.BlockSkyCompass>;
-var charger                = <appliedenergistics2:tile.BlockCharger>;
-var growthAccelerator      = <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>;
-var inscriber              = <appliedenergistics2:tile.BlockInscriber>;
-var wirelessAccessPoint    = <appliedenergistics2:tile.BlockWireless>;
-var quantumRing            = <appliedenergistics2:tile.BlockQuantumRing>;
-var quantumLinkChamber     = <appliedenergistics2:tile.BlockQuantumLinkChamber>;
-var spatialPylon           = <appliedenergistics2:tile.BlockSpatialPylon>;
-var meController           = <appliedenergistics2:tile.BlockController>;
-var meDrive                = <appliedenergistics2:tile.BlockDrive>;
-var meChest                = <appliedenergistics2:tile.BlockChest>;
-var meInterface            = <appliedenergistics2:tile.BlockInterface>;
-var cellWorkbench          = <appliedenergistics2:tile.BlockCellWorkbench>;
-var denseCable             = <appliedenergistics2:item.ItemMultiPart:76>;
-var matterCondenser        = <appliedenergistics2:tile.BlockCondenser>;
-var energyCell             = <appliedenergistics2:tile.BlockEnergyCell>;
-var securityTerminal       = <appliedenergistics2:tile.BlockSecurity>;
-var glassCable             = <appliedenergistics2:item.ItemMultiPart:16>;
-var coveredCable           = <appliedenergistics2:item.ItemMultiPart:36>;
-var smartCable             = <appliedenergistics2:item.ItemMultiPart:56>;
-var storageCell1k          = <appliedenergistics2:item.ItemBasicStorageCell.1k>;
-var storageCell4k          = <appliedenergistics2:item.ItemBasicStorageCell.4k>;
-var storageCell16k         = <appliedenergistics2:item.ItemBasicStorageCell.16k>;
-var storageCell64k         = <appliedenergistics2:item.ItemBasicStorageCell.64k>;
-var spatialCell2Cubed      = <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>;
-var spatialCell16Cubed     = <appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>;
-var spatialCell128Cubed    = <appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>;
+var electricChest            = <Mekanism:MachineBlock:13>;
+var teleportationCore        = <Mekanism:TeleportationCore>;
+
+var reinforcedCache          = <ThermalExpansion:Cache:3>;
+var resonantMachineFrame     = <ThermalExpansion:Frame:3>;
+var leadstoneEnergyCellFrame = <ThermalExpansion:Frame:4>;
+var redstoneEnergyCellFrame  = <ThermalExpansion:Frame:5>;
+var tesseractFrame           = <ThermalExpansion:Frame:7>;
+var tesseractFrameFull       = <ThermalExpansion:Frame:8>;
+var pneumaticServo           = <ThermalExpansion:material:0>;
+var redstoneReceptionCoil    = <ThermalExpansion:material:1>;
+var redstoneTransmissionCoil = <ThermalExpansion:material:2>;
+var redstoneConductanceCoil  = <ThermalExpansion:material:3>;
+var signalumLock             = <ThermalExpansion:material:16>;
+var richSlag                 = <ThermalExpansion:material:515>;
+var reinforcedStrongbox      = <ThermalExpansion:Strongbox:3>;
+
+var storageCell1k            = <appliedenergistics2:item.ItemBasicStorageCell.1k>;
+var storageCell4k            = <appliedenergistics2:item.ItemBasicStorageCell.4k>;
+var storageCell16k           = <appliedenergistics2:item.ItemBasicStorageCell.16k>;
+var storageCell64k           = <appliedenergistics2:item.ItemBasicStorageCell.64k>;
+var logicProcessor           = <appliedenergistics2:item.ItemMultiMaterial:22>;
+var calculationProcessor     = <appliedenergistics2:item.ItemMultiMaterial:23>;
+var engineeringProcessor     = <appliedenergistics2:item.ItemMultiMaterial:24>;
+var spatialComponent2Cubed   = <appliedenergistics2:item.ItemMultiMaterial:32>;
+var spatialComponent16Cubed  = <appliedenergistics2:item.ItemMultiMaterial:33>;
+var spatialComponent128Cubed = <appliedenergistics2:item.ItemMultiMaterial:34>;
+var storageComponent1k       = <appliedenergistics2:item.ItemMultiMaterial:35>;
+var storageComponent4k       = <appliedenergistics2:item.ItemMultiMaterial:36>;
+var storageComponent16k      = <appliedenergistics2:item.ItemMultiMaterial:37>;
+var storageComponent64k      = <appliedenergistics2:item.ItemMultiMaterial:38>;
+var wirelessReceiver         = <appliedenergistics2:item.ItemMultiMaterial:41>;
+var formationCore            = <appliedenergistics2:item.ItemMultiMaterial:43>;
+var annihilationCore         = <appliedenergistics2:item.ItemMultiMaterial:44>;
+var glassCable               = <appliedenergistics2:item.ItemMultiPart:16>;
+var coveredCable             = <appliedenergistics2:item.ItemMultiPart:36>;
+var smartCable               = <appliedenergistics2:item.ItemMultiPart:56>;
+var denseCable               = <appliedenergistics2:item.ItemMultiPart:76>;
+var quartzFiber              = <appliedenergistics2:item.ItemMultiPart:140>;
+var meTerminal               = <appliedenergistics2:item.ItemMultiPart:380>;
+var spatialCell2Cubed        = <appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>;
+var spatialCell16Cubed       = <appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>;
+var spatialCell128Cubed      = <appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>;
+var cellWorkbench            = <appliedenergistics2:tile.BlockCellWorkbench>;
+var charger                  = <appliedenergistics2:tile.BlockCharger>;
+var meChest                  = <appliedenergistics2:tile.BlockChest>;
+var matterCondenser          = <appliedenergistics2:tile.BlockCondenser>;
+var meController             = <appliedenergistics2:tile.BlockController>;
+var meDrive                  = <appliedenergistics2:tile.BlockDrive>;
+var energyCell               = <appliedenergistics2:tile.BlockEnergyCell>;
+var inscriber                = <appliedenergistics2:tile.BlockInscriber>;
+var meInterface              = <appliedenergistics2:tile.BlockInterface>;
+var quantumLinkChamber       = <appliedenergistics2:tile.BlockQuantumLinkChamber>;
+var quantumRing              = <appliedenergistics2:tile.BlockQuantumRing>;
+var certusQuartzBlock        = <appliedenergistics2:tile.BlockQuartz>;
+var quartzGlass              = <appliedenergistics2:tile.BlockQuartzGlass>;
+var growthAccelerator        = <appliedenergistics2:tile.BlockQuartzGrowthAccelerator>;
+var skyCompass               = <appliedenergistics2:tile.BlockSkyCompass>;
+var securityTerminal         = <appliedenergistics2:tile.BlockSecurity>;
+var skyStone                 = <appliedenergistics2:tile.BlockSkyStone:0>;
+var skyStoneBlock            = <appliedenergistics2:tile.BlockSkyStone:1>;
+var skyStoneBrick            = <appliedenergistics2:tile.BlockSkyStone:2>;
+var skyStoneSmallBrick       = <appliedenergistics2:tile.BlockSkyStone:3>;
+var spatialPylon             = <appliedenergistics2:tile.BlockSpatialPylon>;
+var wirelessAccessPoint      = <appliedenergistics2:tile.BlockWireless>;
+
+# ORE DICTIONARY
+#----------------
+var anyFluixPearl            = <ore:pearlFluix>;
+var anyPlasticSheet          = <ore:sheetPlastic>;
+var anyGearSignalum          = <ore:gearSignalum>;
+var anyHardenedGlass         = <ore:blockGlassHardened>;
+var anyFluxedElectrumNugget  = <ore:nuggetElectrumFlux>;
+
+# Quartz
+var anyCertusQuartz          = <ore:gemCertusQuartz>;
+var anyChargedCertusQuartz   = <ore:gemChargedCertusQuartz>;
+var anyNetherQuartz          = <ore:gemNetherQuartz>;
+var anyFluixCrystal          = <ore:gemFluix>;
+
+# Dusts
+var anyFluxedElectrumDust    = <ore:dustElectrumFlux>;
+var anyGoldDust              = <ore:dustGold>;
+var anyRedstoneDust          = <ore:dustRedstone>;
+var anyGlowstoneDust         = <ore:dustGlowstone>;
+var anyFluixDust             = <ore:dustFluix>;
+
+# Ingots
+var anyAlumiteIngot          = <ore:ingotAlumite>;
+var anyCobaltIngot           = <ore:ingotCobalt>;
+var anyElectrumIngot         = <ore:ingotElectrum>;
+var anyEnderiumIngot         = <ore:ingotEnderium>;
+var anyObsidianIngot         = <ore:ingotObsidian>;
+var anyPlatinumIngot         = <ore:ingotPlatinum>;
+var anyRefinedGlowstoneIngot = <ore:ingotRefinedGlowstone>;
+var anySteelIngot            = <ore:ingotSteel>;
+
+# Circuits
+var anyAdvancedCircuit       = <ore:circuitAdvanced>;
+var anyEliteCircuit          = <ore:circuitElite>;
+var anyUltimateCircuit       = <ore:circuitUltimate>;
+
+anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
+anyCertusQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:11>);
+
+anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
+anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
+
+anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
+anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
+
+# RECIPE TWEAKS
+#---------------
 
 # Meteorite Compass
-#-------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------------
 recipes.remove(skyCompass);
 recipes.addShaped(skyCompass, [
-    [electrumIngot, <ThermalExpansion:material:1>, electrumIngot],
-    [certusQuartz, compass, certusQuartz],
-    [electrumIngot, <ThermalExpansion:material:1>, electrumIngot]]);
-
-# Quartz Glass
-#--------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#--------------
-#recipes.remove(quartzGlass);
-#Infuser.addRecipe("OBSIDIAN", 200, certusQuartz * 3, quartzGlass * 4);
+    [anyElectrumIngot, redstoneReceptionCoil, anyElectrumIngot],
+    [anyCertusQuartz,  compass,               anyCertusQuartz],
+    [anyElectrumIngot, redstoneReceptionCoil, anyElectrumIngot]]);
 
 # Charger
-#---------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#---------
 recipes.remove(charger);
 recipes.addShaped(charger, [
-    [<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:12>, electrumIngot],
-    [controlCircuitAdv, <ThermalExpansion:material:3>, null],
-    [<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:12>, electrumIngot]]);
+    [anySteelIngot,      anyFluixCrystal,         anyElectrumIngot],
+    [anyAdvancedCircuit, redstoneConductanceCoil, null],
+    [anySteelIngot,      anyFluixCrystal,         anyElectrumIngot]]);
 
 # Growth Accelerator
-#--------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#--------------------
 recipes.remove(growthAccelerator);
 recipes.addShaped(growthAccelerator, [
-    [<TConstruct:materials:15>, <ThermalExpansion:material:515>, <TConstruct:materials:15>],
-    [<appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalExpansion:Frame:7>, <appliedenergistics2:item.ItemMultiMaterial:12>],
-    [<TConstruct:materials:15>, <ThermalExpansion:material:515>, <TConstruct:materials:15>]]);
+    [anyAlumiteIngot, richSlag,       anyAlumiteIngot],
+    [anyFluixCrystal, tesseractFrame, anyFluixCrystal],
+    [anyAlumiteIngot, richSlag,       anyAlumiteIngot]]);
 
 # Inscriber
-#-----------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-----------
 recipes.remove(inscriber);
 recipes.addShaped(inscriber, [
-    [gearSignalum, <ThermalExpansion:material:2>, <Mekanism:Ingot:4>],
-    [mfrPlasticSheets, <ThermalExpansion:material>, controlCircuitElite],
-    [gearSignalum, <ThermalExpansion:material:2>, <Mekanism:Ingot:4>]]);
+    [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot],
+    [anyPlasticSheet, pneumaticServo,            anyEliteCircuit],
+    [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot]]);
 
 # Wireless Access Point
-#-----------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-----------------------
 recipes.remove(wirelessAccessPoint);
 recipes.addShaped(wirelessAccessPoint, [
-    [<ThermalExpansion:material:1>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ThermalExpansion:material:1>],
-    [<appliedenergistics2:item.ItemMultiMaterial:23>, smartCable, <appliedenergistics2:item.ItemMultiMaterial:23>],
-    [<appliedenergistics2:tile.BlockSkyStone:1>, teleportationCore, <appliedenergistics2:tile.BlockSkyStone:1>]]);
+    [redstoneReceptionCoil, wirelessReceiver,  redstoneReceptionCoil],
+    [calculationProcessor,  smartCable,        calculationProcessor],
+    [skyStoneBlock,         teleportationCore, skyStoneBlock]]);
 
 # Quantum Ring
-#--------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#--------------
 recipes.remove(quantumRing);
 recipes.addShaped(quantumRing, [
-    [<appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>],
-    [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>],
-    [<appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>]]);
+    [anyFluixPearl,    anyHardenedGlass,     anyFluixPearl],
+    [anyHardenedGlass, resonantMachineFrame, anyHardenedGlass],
+    [anyFluixPearl,    anyHardenedGlass,     anyFluixPearl]]);
 
 # Quantum Link Chamber
-#----------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#----------------------
 recipes.remove(quantumLinkChamber);
 recipes.addShaped(quantumLinkChamber, [
-    [teleportationCore, quartzGlass, teleportationCore],
-    [quartzGlass, <ThermalExpansion:Frame:8>, quartzGlass],
-    [teleportationCore, quartzGlass, teleportationCore]]);
+    [teleportationCore, quartzGlass,        teleportationCore],
+    [quartzGlass,       tesseractFrameFull, quartzGlass],
+    [teleportationCore, quartzGlass,        teleportationCore]]);
 
 # Spatial Pylon
-#---------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#---------------
 recipes.remove(spatialPylon);
 recipes.addShaped(spatialPylon, [
-    [quartzGlass, <appliedenergistics2:item.ItemMultiMaterial:32>, quartzGlass],
-    [<appliedenergistics2:item.ItemMultiMaterial:32>, <ThermalExpansion:Frame:5>, <appliedenergistics2:item.ItemMultiMaterial:32>],
-    [quartzGlass, <appliedenergistics2:item.ItemMultiMaterial:32>, quartzGlass]]);
+    [quartzGlass,            spatialComponent2Cubed,  quartzGlass],
+    [spatialComponent2Cubed, redstoneEnergyCellFrame, spatialComponent2Cubed],
+    [quartzGlass,            spatialComponent2Cubed,  quartzGlass]]);
 
 # ME Controller
-#---------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#---------------
 recipes.remove(meController);
 recipes.addShaped(meController, [
-    [<appliedenergistics2:tile.BlockSkyStone:1>, <ThermalExpansion:material:1>, <appliedenergistics2:tile.BlockSkyStone:1>],
-    [denseCable, controlCircuitUltimate, denseCable],
-    [<appliedenergistics2:tile.BlockSkyStone:1>, <ThermalExpansion:material:2>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
+    [skyStoneBlock, redstoneReceptionCoil,    skyStoneBlock],
+    [denseCable,    anyUltimateCircuit,       denseCable],
+    [skyStoneBlock, redstoneTransmissionCoil, skyStoneBlock]]);
 
 # ME Drive
-#----------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#----------
 recipes.remove(meDrive);
 recipes.addShaped(meDrive, [
-    [<appliedenergistics2:tile.BlockQuartz>, smartCable, <appliedenergistics2:item.ItemMultiMaterial:9>],
-    [<appliedenergistics2:item.ItemMultiMaterial:35>, <ThermalExpansion:Cache:3>, <appliedenergistics2:item.ItemMultiMaterial:35>],
-    [<appliedenergistics2:item.ItemMultiMaterial:9>, smartCable, <appliedenergistics2:tile.BlockQuartz>]]);
+    [certusQuartzBlock,  smartCable,      anyFluixPearl],
+    [storageComponent1k, reinforcedCache, storageComponent1k],
+    [anyFluixPearl,      smartCable,      certusQuartzBlock]]);
 
 # ME Chest
-#----------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#----------
 recipes.remove(meChest);
 recipes.addShaped(meChest, [
-    [electrumIngot, <appliedenergistics2:item.ItemMultiPart:380>, electrumIngot],
-    [coveredCable, <ThermalExpansion:Strongbox:3>, coveredCable],
-    [<ThermalFoundation:material:69>, <appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalFoundation:material:69>]]);
+    [anyElectrumIngot, meTerminal,          anyElectrumIngot],
+    [coveredCable,     reinforcedStrongbox, coveredCable],
+    [anyPlatinumIngot, anyFluixCrystal,     anyPlatinumIngot]]);
 
 # ME Interface
-#--------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#--------------
 recipes.remove(meInterface);
 recipes.addShaped(meInterface, [
-    [<Mekanism:Ingot:4>, quartzGlass, <Mekanism:Ingot:4>],
-    [<appliedenergistics2:item.ItemMultiMaterial:43>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:44>],
-    [<Mekanism:Ingot:4>, quartzGlass, <Mekanism:Ingot:4>]]);
+    [anySteelIngot, quartzGlass,        anySteelIngot],
+    [formationCore, storageComponent1k, annihilationCore],
+    [anySteelIngot, quartzGlass,        anySteelIngot]]);
 
 # Cell Workbench
-#----------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#----------------
 recipes.remove(cellWorkbench);
 recipes.addShaped(cellWorkbench, [
-    [mfrPlasticSheets, <appliedenergistics2:item.ItemMultiMaterial:23>, mfrPlasticSheets],
-    [<TConstruct:materials:3>, <Mekanism:MachineBlock:13>, <TConstruct:materials:3>],
-    [<TConstruct:materials:3>, <TConstruct:materials:3>, <TConstruct:materials:3>]]);
+    [anyPlasticSheet, calculationProcessor, anyPlasticSheet],
+    [anyCobaltIngot,  electricChest,        anyCobaltIngot],
+    [anyCobaltIngot,  anyCobaltIngot,       anyCobaltIngot]]);
 
 # Dense Cable
-#-------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------
 recipes.remove(denseCable);
 recipes.addShaped(denseCable, [
-    [glowstoneDust, smartCable, redstoneDust],
-    [smartCable, <appliedenergistics2:item.ItemMultiMaterial:1>, smartCable],
-    [redstoneDust, smartCable, glowstoneDust]]);
+    [anyGlowstoneDust, smartCable,             anyRedstoneDust],
+    [smartCable,       anyChargedCertusQuartz, smartCable],
+    [anyRedstoneDust,  smartCable,             anyGlowstoneDust]]);
 
 # Matter Condenser
-#------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#------------------
 recipes.remove(matterCondenser);
 recipes.addShaped(matterCondenser, [
-    [<TConstruct:materials:15>, <ThermalExpansion:Glass>, <TConstruct:materials:15>],
-    [<ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>],
-    [<TConstruct:materials:15>, <ThermalExpansion:Glass>, <TConstruct:materials:15>]]);
+    [anyAlumiteIngot,  anyHardenedGlass, anyAlumiteIngot],
+    [anyHardenedGlass, anyFluixPearl,    anyHardenedGlass],
+    [anyAlumiteIngot,  anyHardenedGlass, anyAlumiteIngot]]);
 
 # Energy Cell
-#-------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------
 recipes.remove(energyCell);
 recipes.addShaped(energyCell, [
-    [electrumIngot, <RedstoneArsenal:material:64>, electrumIngot],
-    [<RedstoneArsenal:material:64>, <ThermalExpansion:Frame:4>, <RedstoneArsenal:material:64>],
-    [electrumIngot, <RedstoneArsenal:material:64>, electrumIngot]]);
+    [anyElectrumIngot,        anyFluxedElectrumNugget,  anyElectrumIngot],
+    [anyFluxedElectrumNugget, leadstoneEnergyCellFrame, anyFluxedElectrumNugget],
+    [anyElectrumIngot,        anyFluxedElectrumNugget,  anyElectrumIngot]]);
 
 # Security Terminal
-#-------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------------
 recipes.remove(securityTerminal);
 recipes.addShaped(securityTerminal, [
-    [<ThermalExpansion:material:16>, meChest, <ThermalExpansion:material:16>],
-    [smartCable, <appliedenergistics2:item.ItemMultiMaterial:38>, smartCable],
-    [<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:24>, <Mekanism:Ingot:4>]]);
+    [signalumLock,  meChest,              signalumLock],
+    [smartCable,    storageComponent64k,  smartCable],
+    [anySteelIngot, engineeringProcessor, anySteelIngot]]);
 
 # Glass Cable
-#-------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------
 recipes.remove(glassCable);
-recipes.addShaped(glassCable * 5, [
-    [quartzGlass, mfrPlasticSheets, quartzGlass],
-    [<appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiPart:140>, <appliedenergistics2:item.ItemMultiMaterial:7>],
-    [quartzGlass, mfrPlasticSheets, quartzGlass]]);
-
-recipes.addShaped(glassCable * 5, [
-    [quartzGlass, mfrPlasticSheets, quartzGlass],
-    [<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiPart:140>, <appliedenergistics2:item.ItemMultiMaterial:12>],
-    [quartzGlass, mfrPlasticSheets, quartzGlass]]);
+recipes.addShaped(glassCable * 6, [
+    [quartzGlass,     anyPlasticSheet, quartzGlass],
+    [anyFluixCrystal, quartzFiber,     anyFluixCrystal],
+    [quartzGlass,     anyPlasticSheet, quartzGlass]]);
 
 # Covered Cable
-#---------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#---------------
 recipes.remove(coveredCable);
 recipes.addShaped(coveredCable, [
-    [mfrPlasticSheets, mfrPlasticSheets, mfrPlasticSheets],
-    [mfrPlasticSheets, glassCable, mfrPlasticSheets],
-    [mfrPlasticSheets, mfrPlasticSheets, mfrPlasticSheets]]);
+    [anyPlasticSheet, anyPlasticSheet, anyPlasticSheet],
+    [anyPlasticSheet, glassCable,      anyPlasticSheet],
+    [anyPlasticSheet, anyPlasticSheet, anyPlasticSheet]]);
 
 # Smart Cable
-#-------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------
 recipes.remove(smartCable);
 recipes.addShaped(smartCable * 3, [
-    [<Mekanism:Ingot:3>, redstoneDust, <Mekanism:Ingot:3>],
-    [coveredCable, coveredCable, coveredCable],
-    [<Mekanism:Ingot:3>, redstoneDust, <Mekanism:Ingot:3>]]);
+    [anyRefinedGlowstoneIngot, anyRedstoneDust, anyRefinedGlowstoneIngot],
+    [coveredCable,             coveredCable,    coveredCable],
+    [anyRefinedGlowstoneIngot, anyRedstoneDust, anyRefinedGlowstoneIngot]]);
 
 # 1K Storage Cell
-#-----------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-----------------
 recipes.remove(storageCell1k);
 recipes.addShaped(storageCell1k, [
-    [quartzGlass, redstoneDust, quartzGlass],
-    [redstoneDust, <appliedenergistics2:item.ItemMultiMaterial:35>, redstoneDust],
-    [<Mekanism:Ingot:4>, <Mekanism:Ingot:4>, <Mekanism:Ingot:4>]]);
+    [quartzGlass,     anyRedstoneDust,    quartzGlass],
+    [anyRedstoneDust, storageComponent1k, anyRedstoneDust],
+    [anySteelIngot,   anySteelIngot,      anySteelIngot]]);
 
 # 4K Storage Cell
-#---------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#---------------
 recipes.remove(storageCell4k);
 recipes.addShaped(storageCell4k, [
-    [quartzGlass, glowstoneDust, quartzGlass],
-    [glowstoneDust, <appliedenergistics2:item.ItemMultiMaterial:36>, glowstoneDust],
-    [<TConstruct:materials:15>, <TConstruct:materials:15>, <TConstruct:materials:15>]]);
+    [quartzGlass,      anyGlowstoneDust,   quartzGlass],
+    [anyGlowstoneDust, storageComponent4k, anyGlowstoneDust],
+    [anyAlumiteIngot,  anyAlumiteIngot,    anyAlumiteIngot]]);
 
 # 16K Storage Cell
-#------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#------------------
 recipes.remove(storageCell16k);
 recipes.addShaped(storageCell16k, [
-    [quartzGlass, <appliedenergistics2:item.ItemMultiMaterial:8>, quartzGlass],
-    [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-    [<Mekanism:Ingot>, <Mekanism:Ingot>, <Mekanism:Ingot>]]);
+    [quartzGlass,      anyFluixDust,        quartzGlass],
+    [anyFluixDust,     storageComponent16k, anyFluixDust],
+    [anyObsidianIngot, anyObsidianIngot,    anyObsidianIngot]]);
 
 # 64K Storage Cell
-#------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#------------------
 recipes.remove(storageCell64k);
 recipes.addShaped(storageCell64k, [
-    [quartzGlass, fluxedElectrumDust, quartzGlass],
-    [fluxedElectrumDust, <appliedenergistics2:item.ItemMultiMaterial:38>, fluxedElectrumDust],
-    [enderiumIngot, enderiumIngot, enderiumIngot]]);
+    [quartzGlass,           anyFluxedElectrumDust, quartzGlass],
+    [anyFluxedElectrumDust, storageComponent64k,   anyFluxedElectrumDust],
+    [anyEnderiumIngot,      anyEnderiumIngot,      anyEnderiumIngot]]);
 
 # 2^3 Spatial Cell
-#------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#------------------
 recipes.remove(spatialCell2Cubed);
 recipes.addShaped(spatialCell2Cubed, [
-    [quartzGlass, glowstoneDust, quartzGlass],
-    [glowstoneDust, <appliedenergistics2:item.ItemMultiMaterial:32>, glowstoneDust],
-    [<TConstruct:materials:15>, <TConstruct:materials:15>, <TConstruct:materials:15>]]);
+    [quartzGlass,      anyGlowstoneDust,       quartzGlass],
+    [anyGlowstoneDust, spatialComponent2Cubed, anyGlowstoneDust],
+    [anyAlumiteIngot,  anyAlumiteIngot,        anyAlumiteIngot]]);
 
 # 16^3 Spatial Cell
-#-------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#-------------------
 recipes.remove(spatialCell16Cubed);
 recipes.addShaped(spatialCell16Cubed, [
-    [quartzGlass, <appliedenergistics2:item.ItemMultiMaterial:8>, quartzGlass],
-    [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-    [<Mekanism:Ingot>, <Mekanism:Ingot>, <Mekanism:Ingot>]]);
+    [quartzGlass,      anyFluixDust,            quartzGlass],
+    [anyFluixDust,     spatialComponent16Cubed, anyFluixDust],
+    [anyObsidianIngot, anyObsidianIngot,        anyObsidianIngot]]);
 
 # 128^3 Spatial Cell
-#--------------------
-# [ , , ]
-# [ , , ]
-# [ , , ]
-#--------------------
 recipes.remove(spatialCell128Cubed);
 recipes.addShaped(spatialCell128Cubed, [
-    [quartzGlass, fluxedElectrumDust, quartzGlass],
-    [fluxedElectrumDust, <appliedenergistics2:item.ItemMultiMaterial:34>, fluxedElectrumDust],
-    [enderiumIngot, enderiumIngot, enderiumIngot]]);
+    [quartzGlass,           anyFluxedElectrumDust,    quartzGlass],
+    [anyFluxedElectrumDust, spatialComponent128Cubed, anyFluxedElectrumDust],
+    [anyEnderiumIngot,      anyEnderiumIngot,         anyEnderiumIngot]]);
+
+# METALLURGIC INFUSER TWEAKS
+#----------------------------
+
+# Quartz Glass
+#recipes.remove(quartzGlass);
+#Infuser.addRecipe("OBSIDIAN", 200, anyCertusQuartz * 3, quartzGlass * 4);
