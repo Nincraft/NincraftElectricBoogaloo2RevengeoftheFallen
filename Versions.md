@@ -44,7 +44,7 @@ Current Mod Versions
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
-- **DimensionGuard** v1.0.3
+- **DimensionGuard** v1.2.1
 - **Doom-like Dungeon** v1.4.0
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
@@ -61,7 +61,7 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
-- **GregTech** v5.06.06
+- **GregTech** v5.07.07
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
@@ -84,6 +84,7 @@ Current Mod Versions
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.6-22
+- **More Planets** v1.1.4-beta
 - **Morph** v0.9.1
 - **Morpheus** v1.5.19
 - **Mystcraft** v0.11.0.00
