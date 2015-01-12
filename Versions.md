@@ -91,7 +91,7 @@ Current Mod Versions
 - **NEI Addons** v1.12.2.9
 - **NEI Integration** v1.0.3
 - **Nether Ores** v2.3.0RC4-4
-- **Nincrafty Things** v1.3.1-alpha
+- **Nincrafty Things** v1.3.2-alpha
 - **Not Enough Items** v1.0.3.62
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
