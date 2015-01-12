@@ -17,7 +17,7 @@ screenshots/
 stats/
 betterrecords/libs
 betterrecords/localLibrary.json
-config/DIAdvancedCompotibility.cfg
+config/DIAdvancedCompatibility.cfg
 config/InvTweaks.cfg
 config/InvTweaksRules.txt
 config/InvTweaksTree.txt
@@ -33,6 +33,7 @@ GregTech.lang
 *.lck
 *.rar
 1213309934
+icon.png
 nicknames.json
 options.txt
 optionsshaders.txt
