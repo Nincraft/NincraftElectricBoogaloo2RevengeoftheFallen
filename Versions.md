@@ -64,7 +64,7 @@ Current Mod Versions
 - **Hardcore Ender Expansion** v1.6.4
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
-- **Iguana's Tinker Tweaks** v2.1.1
+- **Iguana's Tinker Tweaks** v2.1.2
 - **IndustrialCraft 2** v2.2.654
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B7-19
@@ -96,7 +96,7 @@ Current Mod Versions
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.4.3.21 Beta 1
+- **OpenComputers** v1.4.4a.25
 - **Open Eye** v0.6
 - **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
@@ -130,7 +130,7 @@ Current Mod Versions
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
 - **TiCTooltips** v1.2.0
-- **Tinker's Construct** v1.8.1
+- **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.6
 - **Torcherino** v1.7.10-rc2
