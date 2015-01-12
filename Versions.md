@@ -44,7 +44,7 @@ Current Mod Versions
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.4.0
+- **Doom-like Dungeon** v1.5.4
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
 - **EnderIO** v2.2.6.317
