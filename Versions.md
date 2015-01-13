@@ -125,7 +125,7 @@ Current Mod Versions
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.0
+- **Thaumcraft** v4.2.3.2
 - **Thaumic Tinkerer** v2.5-162
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
