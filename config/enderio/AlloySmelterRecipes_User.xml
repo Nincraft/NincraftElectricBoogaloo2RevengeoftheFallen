@@ -26,6 +26,19 @@ ore dictionary.
 -->
 
 <AlloySmelterRecipes>
+  
+  <recipeGroup name="Thermal Expansion">
+    <recipe name="Enderium Base" energyCost="4000">
+      <input>
+        <itemStack modID="HardcoreEnderExpansion" itemName="end_powder" number="2" />
+        <itemStack oreDictionary="ingotCeruclase" />
+        <itemStack oreDictionary="ingotMeutoite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotEnderiumBase" number="4" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
   <vanillaFurnaceRecipes>
     <exclude>
