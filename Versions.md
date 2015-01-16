@@ -23,7 +23,7 @@ Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.3.6
-- **Applied Energistics 2** rv1 Stable 1
+- **Applied Energistics 2** rv2 Beta 7
 - **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.3
@@ -50,7 +50,7 @@ Current Mod Versions
 - **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.374
-- **Extra Cells** v2.1.34b31
+- **Extra Cells** v2.2.34b58
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.3
