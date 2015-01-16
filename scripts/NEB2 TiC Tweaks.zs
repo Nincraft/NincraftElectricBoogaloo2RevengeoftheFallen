@@ -744,17 +744,17 @@ var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
 
 # Unify Hepatizon & Black Bronze
-anyBlackBronzeTinyDust.addAll(anyHepatizonTinyDust);
-anyBlackBronzeDust.addAll(anyHepatizonDust);
-anyBlackBronzeNugget.addAll(anyHepatizonNugget);
-anyBlackBronzeIngot.addAll(anyHepatizonIngot);
-anyBlackBronzeBlock.addAll(anyHepatizonBlock);
+#anyBlackBronzeTinyDust.addAll(anyHepatizonTinyDust);
+#anyBlackBronzeDust.addAll(anyHepatizonDust);
+#anyBlackBronzeNugget.addAll(anyHepatizonNugget);
+#anyBlackBronzeIngot.addAll(anyHepatizonIngot);
+#anyBlackBronzeBlock.addAll(anyHepatizonBlock);
 
-anyBlackBronzeTinyDust.mirror(anyHepatizonTinyDust);
-anyBlackBronzeDust.mirror(anyHepatizonDust);
-anyBlackBronzeNugget.mirror(anyHepatizonNugget);
-anyBlackBronzeIngot.mirror(anyHepatizonIngot);
-anyBlackBronzeBlock.mirror(anyHepatizonBlock);
+#anyBlackBronzeTinyDust.mirror(anyHepatizonTinyDust);
+#anyBlackBronzeDust.mirror(anyHepatizonDust);
+#anyBlackBronzeNugget.mirror(anyHepatizonNugget);
+#anyBlackBronzeIngot.mirror(anyHepatizonIngot);
+#anyBlackBronzeBlock.mirror(anyHepatizonBlock);
 
 # RECIPE TWEAKS
 #---------------

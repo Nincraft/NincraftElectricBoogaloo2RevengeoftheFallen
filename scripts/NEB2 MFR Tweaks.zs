@@ -67,8 +67,8 @@ for i, sheet in allPlasticSheets {
 
 # Unify Raw Rubbers
 anyRawRubber.add(stickyResin);
-anyRawRubber.addAll(anyRubberDust);
-anyRawRubber.mirror(anyRubberDust);
+#anyRawRubber.addAll(anyRubberDust);
+#anyRawRubber.mirror(anyRubberDust);
 
 # RECIPE TWEAKS
 #---------------

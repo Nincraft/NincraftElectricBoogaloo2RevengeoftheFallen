@@ -53,8 +53,8 @@ var anyTitaniumIngot       = <ore:ingotTitanium>;
 var anyCompressedIronIngot = <ore:ingotIronCompressed>;
 var anyCompressedIron      = <ore:compressedIron>;
 
-anyCompressedIronIngot.addAll(anyCompressedIron);
-anyCompressedIronIngot.mirror(anyCompressedIron);
+#anyCompressedIronIngot.addAll(anyCompressedIron);
+#anyCompressedIronIngot.mirror(anyCompressedIron);
 
 # Merge Silicon Wafers
 var anyBasicWafer          = <ore:waferBasic>;
