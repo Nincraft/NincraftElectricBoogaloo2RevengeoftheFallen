@@ -15,6 +15,7 @@ Current API Versions
 - **CoroUtil** v1.1.1
 - **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
+- **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
 - **MicDoodleCore** v3.0.6.250
@@ -61,7 +62,7 @@ Current Mod Versions
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
 - **GregTech** v5.07.07
-- **Hardcore Ender Expansion** v1.6.4
+- **Hardcore Ender Expansion** v1.6.7
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.2
@@ -71,7 +72,6 @@ Current Mod Versions
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
-- **LunatriusCore** v1.1.2.14
 - **Magical Crops** v0.1
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
@@ -85,7 +85,7 @@ Current Mod Versions
 - **ModTweaker** v0.6-22
 - **More Planets** v1.1.4-beta
 - **Morph** v0.9.1
-- **Morpheus** v1.5.19
+- **Morpheus** v1.5.26
 - **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
@@ -104,11 +104,11 @@ Current Mod Versions
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.4.3-40
-- **ProjectRed Base** v4.5.1.51
-- **ProjectRed Compat** v4.5.1.51
-- **ProjectRed Integration** v4.5.1.51
-- **ProjectRed Lighting** v4.5.1.51
-- **ProjectRed World** v4.5.1.51
+- **ProjectRed Base** v4.5.8.59
+- **ProjectRed Compat** v4.5.8.59
+- **ProjectRed Integration** v4.5.8.59
+- **ProjectRed Lighting** v4.5.8.59
+- **ProjectRed World** v4.5.8.59
 - **Random Things** v2.2.3
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
@@ -119,8 +119,8 @@ Current Mod Versions
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
 - **Simply Jetpacks** v1.3.2
-- **Special Mobs** v3.0.2
-- **Stackie** v1.5.1.28
+- **Special Mobs** v3.0.3
+- **Stackie** v1.5.1.30
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
