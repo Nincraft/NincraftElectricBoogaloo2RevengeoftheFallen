@@ -4,7 +4,7 @@ Current Forge Version
 
 Current API Versions
 =
-- **AppleCore** v1.0.1
+- **AppleCore** v1.0.2
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.4.29
@@ -12,16 +12,17 @@ Current API Versions
 - **CoFHCore** v3.0.0B9-40
 - **CoFHLib** v1.0.0B8-34
 - **CookieCore** v1.3.0
-- **Forge Multipart** v1.1.0.310
+- **CoroUtil** v1.1.1
+- **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.6.232
+- **MicDoodleCore** v3.0.6.250
 
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.3.5
+- **AOBD** v2.3.6
 - **Applied Energistics 2** rv1 Stable 1
 - **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
@@ -33,11 +34,10 @@ Current Mod Versions
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.3.0a
-- **Botania** r1.3-149
+- **Botania** r1.3-151
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.1.3
-- **CoroUtil** v1.0
 - **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
@@ -49,14 +49,14 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.372
+- **Equivalent Exchange 3** v0.2.374
 - **Extra Cells** v2.1.34b31
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
-- **Flaxbeard's Steam Power** v0.27.2
+- **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.6.232
-- **Galacticraft Planets** v3.0.6.232
+- **Galacticraft Core** v3.0.6.250
+- **Galacticraft Planets** v3.0.6.250
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
@@ -65,7 +65,7 @@ Current Mod Versions
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.2
-- **IndustrialCraft 2** v2.2.654
+- **IndustrialCraft 2** v2.2.660
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
@@ -88,8 +88,7 @@ Current Mod Versions
 - **Morpheus** v1.5.19
 - **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
-- **NEI Addons** v1.12.2.9
-- **NEI Integration** v1.0.3
+- **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.2-alpha
 - **Not Enough Items** v1.0.3.62
@@ -101,7 +100,7 @@ Current Mod Versions
 - **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
 - **Pam's Clay Spawn** v1.7.2a
-- **Pam's HarvestCraft** v1.7.10b
+- **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.4.3-40
@@ -140,7 +139,7 @@ Current Mod Versions
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.6a
 - **WAWLA** v1.0.9
-- **Weather** v2.3.5
+- **Weather** v2.3.7
 
 Developer Mods
 =
