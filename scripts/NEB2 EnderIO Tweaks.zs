@@ -56,8 +56,8 @@ var anyPlasticSheet          = <ore:sheetPlastic>;
 var anyHardenedGlass         = <ore:blockGlassHardened>;
 
 # Unify Redstone Alloy Ingots
-anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
-anyRedstoneAlloyIngot.mirror(<ore:ingotRedAlloy>);
+#anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
+#anyRedstoneAlloyIngot.mirror(<ore:ingotRedAlloy>);
 
 # RECIPE TWEAKS
 #---------------

@@ -111,14 +111,14 @@ var anyAdvancedCircuit       = <ore:circuitAdvanced>;
 var anyEliteCircuit          = <ore:circuitElite>;
 var anyUltimateCircuit       = <ore:circuitUltimate>;
 
-anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
-anyCertusQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:11>);
+#anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
+#anyCertusQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:11>);
 
-anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
-anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
+#anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
+#anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
 
-anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
-anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
+#anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
+#anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
 
 # RECIPE TWEAKS
 #---------------

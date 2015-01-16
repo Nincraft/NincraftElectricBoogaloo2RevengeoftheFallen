@@ -29,10 +29,10 @@ var anyIronDust            = <ore:dustIron>;
 var anyManganeseDust       = <ore:dustManganese>;
 
 var anyObsidianIngot       = <ore:ingotObsidian>;
-anyObsidianIngot.add(mekObsidianIngot);
+#anyObsidianIngot.add(mekObsidianIngot);
 
 var anyObsidianDust        = <ore:dustObsidian>;
-anyObsidianDust.add(reinforcedObsidianDust);
+#anyObsidianDust.add(reinforcedObsidianDust);
 
 # RECIPE TWEAKS
 #---------------
