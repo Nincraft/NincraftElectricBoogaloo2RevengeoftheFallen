@@ -1,10 +1,10 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1277
+- **Forge** v10.13.2.1286
 
 Current API Versions
 =
-- **AppleCore** v1.0.1
+- **AppleCore** v1.0.2
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.4.29
@@ -12,17 +12,19 @@ Current API Versions
 - **CoFHCore** v3.0.0B9-40
 - **CoFHLib** v1.0.0B8-34
 - **CookieCore** v1.3.0
-- **Forge Multipart** v1.1.0.310
+- **CoroUtil** v1.1.1
+- **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
+- **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.6.232
+- **MicDoodleCore** v3.0.7.252
 
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.3.5
-- **Applied Energistics 2** rv1 Stable 1
+- **AOBD** v2.3.6
+- **Applied Energistics 2** rv2 Beta 7
 - **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.3
@@ -33,46 +35,43 @@ Current Mod Versions
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.3.0a
-- **Botania** r1.3-149
+- **Botania** r1.3-151
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.1.3
-- **ComputerCraft** v1.65
-- **CoroUtil** v1.0
 - **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.4.0
+- **Doom-like Dungeon** v1.5.4
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
 - **EnderIO** v2.2.6.317
 - **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.372
-- **Extra Cells** v2.1.34b31
+- **Equivalent Exchange 3** v0.2.374
+- **Extra Cells** v2.2.34b58
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
-- **Flaxbeard's Steam Power** v0.27.2
+- **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.6.232
-- **Galacticraft Planets** v3.0.6.232
+- **Galacticraft Core** v3.0.7.252
+- **Galacticraft Planets** v3.0.7.252
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
 - **GregTech** v5.07.07
-- **Hardcore Ender Expansion** v1.6.4
+- **Hardcore Ender Expansion** v1.6.7
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
-- **Iguana's Tinker Tweaks** v2.1.1
-- **IndustrialCraft 2** v2.2.654
+- **Iguana's Tinker Tweaks** v2.1.2
+- **IndustrialCraft 2** v2.2.660
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
-- **LunatriusCore** v1.1.2.14
 - **Magical Crops** v0.1
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
@@ -86,31 +85,30 @@ Current Mod Versions
 - **ModTweaker** v0.6-22
 - **More Planets** v1.1.4-beta
 - **Morph** v0.9.1
-- **Morpheus** v1.5.19
+- **Morpheus** v1.5.26
 - **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
-- **NEI Addons** v1.12.2.9
-- **NEI Integration** v1.0.3
+- **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0RC4-4
-- **Nincrafty Things** v1.3.1-alpha
+- **Nincrafty Things** v1.3.2-alpha
 - **Not Enough Items** v1.0.3.62
 - **Not Enough Resources** v0.1.0.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.4.3.21 Beta 1
+- **OpenComputers** v1.4.4a.25
 - **Open Eye** v0.6
 - **OpenModsLib** v0.6-snapshot-269
 - **Opis** v1.2.3
 - **Pam's Clay Spawn** v1.7.2a
-- **Pam's HarvestCraft** v1.7.10b
+- **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.4.3-40
-- **ProjectRed Base** v4.5.1.51
-- **ProjectRed Compat** v4.5.1.51
-- **ProjectRed Integration** v4.5.1.51
-- **ProjectRed Lighting** v4.5.1.51
-- **ProjectRed World** v4.5.1.51
+- **PneumaticCraft** v1.5.2-50
+- **ProjectRed Base** v4.5.8.59
+- **ProjectRed Compat** v4.5.8.59
+- **ProjectRed Integration** v4.5.8.59
+- **ProjectRed Lighting** v4.5.8.59
+- **ProjectRed World** v4.5.8.59
 - **Random Things** v2.2.3
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
@@ -121,17 +119,17 @@ Current Mod Versions
 - **ServerTools-CORE** v2.1.0.55
 - **Shatter** v4.0.0
 - **Simply Jetpacks** v1.3.2
-- **Special Mobs** v3.0.2
-- **Stackie** v1.5.1.28
+- **Special Mobs** v3.0.3
+- **Stackie** v1.5.1.30
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.0
+- **Thaumcraft** v4.2.3.2
 - **Thaumic Tinkerer** v2.5-162
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
 - **TiCTooltips** v1.2.0
-- **Tinker's Construct** v1.8.1
+- **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.6
 - **Torcherino** v1.7.10-rc2
@@ -141,7 +139,7 @@ Current Mod Versions
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.6a
 - **WAWLA** v1.0.9
-- **Weather** v2.3.5
+- **Weather** v2.3.7
 
 Developer Mods
 =
