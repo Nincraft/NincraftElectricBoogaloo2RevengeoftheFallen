@@ -57,8 +57,8 @@ for i, essenceOut in essencesArr2 {
 }
 
 # Essence Downgrade Recipes
-for i, essenceOut in essencesArr2 {
-    var essenceIn = essencesArr[i];
+for i, essenceOut in essencesArr {
+    var essenceIn = essencesArr2[i];
 
     recipes.addShapeless(essenceOut * 3, [essenceIn]);
 }
