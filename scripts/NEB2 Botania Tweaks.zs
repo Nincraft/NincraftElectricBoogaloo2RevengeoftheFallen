@@ -4,14 +4,25 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
-var livingRock         = <Botania:livingrock>;
-var manaDiamond        = <Botania:manaResource:0>;
-var manaPearl          = <Botania:manaResource:1>;
-var runicAltar         = <Botania:altar>;
+var livingRock          = <Botania:livingrock>;
+var manasteelIngot      = <Botania:manaResource:0>;
+var manaPearl           = <Botania:manaResource:1>;
+var manaDiamond         = <Botania:manaResource:2>;
+var livingwoodTwig      = <Botania:manaResource:3>;
+var terrasteelIngot     = <Botania:manaResource:4>;
+var gaiaSpirit          = <Botania:manaResource:5>;
+var redstoneRoot        = <Botania:manaResource:6>;
+var elementiumIngot     = <Botania:manaResource:7>;
+var pixieDust           = <Botania:manaResource:8>;
+var dragonstone         = <Botania:manaResource:9>;
+var prismarineShard     = <Botania:manaResource:10>;
+var craftingPlaceholder = <Botania:manaResource:11>;
+var redString           = <Botania:manaResource:12>;
+var runicAltar          = <Botania:runeAltar>;
 
 # ITEM LISTS
 #------------
-var botaniaDyes        = [
+var botaniaDyes         = [
     <Botania:dye:0>,
     <Botania:dye:1>,
     <Botania:dye:2>,
@@ -29,7 +40,7 @@ var botaniaDyes        = [
     <Botania:dye:14>,
     <Botania:dye:15>
 ] as IItemStack[];
-var botaniaPetals      = [
+var botaniaPetals       = [
     <Botania:petal:0>,
     <Botania:petal:1>,
     <Botania:petal:2>,
@@ -52,12 +63,12 @@ var botaniaPetals      = [
 #----------------
 
 # Tools
-var anyMortarAndPestle = <ore:toolMortarandpestle>;
-var anyPestleAndMortar = <ore:pestleAndMortar>;
+var anyMortarAndPestle  = <ore:toolMortarandpestle>;
+var anyPestleAndMortar  = <ore:pestleAndMortar>;
 
 # Ingots
-var anyIronwoodIngot   = <ore:ingotIronwood>;
-var anyPrometheumIngot = <ore:ingotPrometheum>;
+var anyIronWoodIngot    = <ore:ingotIronWood>;
+var anyPrometheumIngot  = <ore:ingotPrometheum>;
 
 anyMortarAndPestle.addAll(anyPestleAndMortar);
 anyPestleAndMortar.mirror(anyMortarAndPestle);
@@ -78,8 +89,8 @@ recipes.removeShaped(runicAltar);
 recipes.addShaped(runicAltar, [
     [livingRock,       livingRock,         livingRock],
     [livingRock,       manaDiamond,        livingRock],
-    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
+    [anyIronWoodIngot, anyPrometheumIngot, anyIronWoodIngot]]);
 recipes.addShaped(runicAltar, [
     [livingRock,       livingRock,         livingRock],
     [livingRock,       manaPearl,          livingRock],
-    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
+    [anyIronWoodIngot, anyPrometheumIngot, anyIronWoodIngot]]);
