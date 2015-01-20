@@ -54,7 +54,7 @@ var allPlasticSheets      = [
 var anyPlasticPipe        = <ore:pipePlastic>;
 var anyPlasticSheet       = <ore:sheetPlastic>;
 var anyRawRubber          = <ore:itemRawRubber>;
-var anyRedstoneAlloyIngot = <ore:ingotRedstoneAlloy>;
+var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
 var anyRubberDust         = <ore:dustRubber>;
 
 # Register MFR Plastic Pipe
