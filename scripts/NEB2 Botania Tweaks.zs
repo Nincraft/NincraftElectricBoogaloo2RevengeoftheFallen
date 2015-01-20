@@ -4,12 +4,14 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
-var mortarAndPestle = <ore:toolMortarandpestle>;
-var pestleAndMortar = <ore:pestleAndMortar>;
+var livingRock         = <Botania:livingrock>;
+var manaDiamond        = <Botania:manaResource:0>;
+var manaPearl          = <Botania:manaResource:1>;
+var runicAltar         = <Botania:altar>;
 
 # ITEM LISTS
 #------------
-var botaniaDyes = [
+var botaniaDyes        = [
     <Botania:dye:0>,
     <Botania:dye:1>,
     <Botania:dye:2>,
@@ -27,7 +29,7 @@ var botaniaDyes = [
     <Botania:dye:14>,
     <Botania:dye:15>
 ] as IItemStack[];
-var botaniaPetals = [
+var botaniaPetals      = [
     <Botania:petal:0>,
     <Botania:petal:1>,
     <Botania:petal:2>,
@@ -48,8 +50,17 @@ var botaniaPetals = [
 
 # ORE DICTIONARY
 #----------------
-mortarAndPestle.addAll(pestleAndMortar);
-pestleAndMortar.mirror(mortarAndPestle);
+
+# Tools
+var anyMortarAndPestle = <ore:toolMortarandpestle>;
+var anyPestleAndMortar = <ore:pestleAndMortar>;
+
+# Ingots
+var anyIronwoodIngot   = <ore:ingotIronwood>;
+var anyPrometheumIngot = <ore:ingotPrometheum>;
+
+anyMortarAndPestle.addAll(anyPestleAndMortar);
+anyPestleAndMortar.mirror(anyMortarAndPestle);
 
 # RECIPE TWEAKS
 #---------------
@@ -59,5 +70,16 @@ for i, botaniaDye in botaniaDyes {
     var botaniaPetal = botaniaPetals[i];
     
     recipes.remove(botaniaDye);
-    recipes.addShapeless(botaniaDye, [botaniaPetal, mortarAndPestle]);
+    recipes.addShapeless(botaniaDye, [botaniaPetal, anyMortarAndPestle.reuse()]);
 }
+
+# Runic Altar
+recipes.removeShaped(runicAltar);
+recipes.addShaped(runicAltar, [
+    [livingRock,       livingRock,         livingRock],
+    [livingRock,       manaDiamond,        livingRock],
+    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
+recipes.addShaped(runicAltar, [
+    [livingRock,       livingRock,         livingRock],
+    [livingRock,       manaPearl,          livingRock],
+    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
