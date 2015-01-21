@@ -15,6 +15,7 @@ Current API Versions
 - **CoroUtil** v1.1.1
 - **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
+- **IndustrialCraft 2 API** v2.2.660
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
@@ -61,12 +62,10 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
-- **GregTech** v5.07.07
 - **Hardcore Ender Expansion** v1.6.7
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.2
-- **IndustrialCraft 2** v2.2.660
 - **Infernal Mobs** v1.5.9
 - **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
