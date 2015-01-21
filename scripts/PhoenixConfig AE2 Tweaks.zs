@@ -84,10 +84,11 @@ var anyHardenedGlass         = <ore:blockGlassHardened>;
 var anyFluxedElectrumNugget  = <ore:nuggetElectrumFlux>;
 
 # Quartz
-var anyCertusQuartz          = <ore:gemCertusQuartz>;
-var anyChargedCertusQuartz   = <ore:gemChargedCertusQuartz>;
-var anyNetherQuartz          = <ore:gemNetherQuartz>;
-var anyFluixCrystal          = <ore:gemFluix>;
+var anyQuartz                = <ore:gemQuartz>;
+var anyCertusQuartz          = <ore:crystalCertusQuartz>;
+var anyChargedCertusQuartz   = <ore:crystalChargedCertusQuartz>;
+var anyNetherQuartz          = <ore:crystalNetherQuartz>;
+var anyFluixCrystal          = <ore:crystalFluix>;
 
 # Dusts
 var anyFluxedElectrumDust    = <ore:dustElectrumFlux>;
@@ -111,14 +112,13 @@ var anyAdvancedCircuit       = <ore:circuitAdvanced>;
 var anyEliteCircuit          = <ore:circuitElite>;
 var anyUltimateCircuit       = <ore:circuitUltimate>;
 
-#anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
-#anyCertusQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:11>);
+anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
+anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
+anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
 
-#anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
-#anyNetherQuartz.remove(<appliedenergistics2:item.ItemMultiMaterial:10>);
-
-#anyChargedCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:1>);
-#anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
+anyQuartz.addAll(anyCertusQuartz);
+anyQuartz.addAll(anyChargedCertusQuartz);
+anyQuartz.addAll(anyNetherQuartz);
 
 # RECIPE TWEAKS
 #---------------

@@ -8,7 +8,6 @@ var redNetCable           = <MineFactoryReloaded:cable.redstone>;
 var plasticBlock          = <MineFactoryReloaded:plastic>;
 var plasticPipe           = <MineFactoryReloaded:cable.plastic>;
 var rawRubber             = <MineFactoryReloaded:rubber.raw>;
-var stickyResin           = <IC2:itemHarz>;
 
 # PneumaticCraft Plastic Sheets
 var blackPlasticSheet     = <PneumaticCraft:plastic:0>;
@@ -64,11 +63,6 @@ anyPlasticPipe.add(plasticPipe);
 for i, sheet in allPlasticSheets {
     anyPlasticSheet.add(sheet);
 }
-
-# Unify Raw Rubbers
-anyRawRubber.add(stickyResin);
-#anyRawRubber.addAll(anyRubberDust);
-#anyRawRubber.mirror(anyRubberDust);
 
 # RECIPE TWEAKS
 #---------------

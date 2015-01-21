@@ -1,3 +1,6 @@
+/*
+DISABLED UNTIL WE CAN FIND A REPLACEMENT FOR RED/BLUE STEEL
+
 # COMMON VARIABLES
 #------------------
 var bucket              = <minecraft:bucket>;
@@ -98,3 +101,4 @@ recipes.addShaped(turbineRotorShaft, [
     [anyCyaniteIngot],
     [anyBlueSteelPlate],
     [anyBlueSteelPlate]]);
+*/
