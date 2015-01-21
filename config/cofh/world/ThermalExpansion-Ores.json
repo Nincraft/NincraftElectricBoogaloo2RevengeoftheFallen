@@ -4,16 +4,27 @@
             "type": "fractal",
             "sparse": false
         },
-        "block": "ThermalFoundation:Ore",
-        "material": "stone",
-        "clusterSize": 8,
-        "numClusters": 250,
-        "chunkChance": 100,
-        "minHeight": 32,
-        "veinHeight": 64,
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 0,
+                "weight": 98
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 10,
+                "weight": 2
+            }
+        ],
+        "material": "minecraft:stone",
+        "clusterSize": 16,
+        "numClusters": 384,
+        "chunkChance": 96,
+        "minHeight": 24,
+        "veinHeight": 32,
         "veinDiameter": 64,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -21,10 +32,11 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
-            1
+            1,
+            7
         ]
     },
     "tin": {
@@ -36,14 +48,15 @@
             "name": "ThermalFoundation:Ore",
             "metadata": 1
         },
-        "clusterSize": 8,
-        "numClusters": 250,
-        "chunkChance": 100,
+        "material": "minecraft:stone",
+        "clusterSize": 12,
+        "numClusters": 192,
+        "chunkChance": 128,
         "minHeight": 32,
-        "veinHeight": 64,
+        "veinHeight": 32,
         "veinDiameter": 64,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -51,10 +64,11 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
-            1
+            1,
+            7
         ]
     },
     "silver": {
@@ -71,17 +85,18 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 3,
-                "weight": 2
+                "weight": 20
             }
         ],
+        "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 200,
-        "chunkChance": 100,
+        "numClusters": 192,
+        "chunkChance": 128,
         "minHeight": 16,
         "veinHeight": 32,
         "veinDiameter": 32,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -89,10 +104,11 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
-            1
+            1,
+            7
         ]
     },
     "lead": {
@@ -112,14 +128,15 @@
                 "weight": 10
             }
         ],
+        "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 200,
-        "chunkChance": 100,
+        "numClusters": 192,
+        "chunkChance": 128,
         "minHeight": 16,
         "veinHeight": 32,
         "veinDiameter": 32,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -127,24 +144,34 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
-            1
+            1,
+            7
         ]
     },
     "nickel": {
         "template": "fractal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 4
-        },
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 95
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 5
+            }
+        ],
+        "material": "minecraft:stone",
         "clusterSize": 4,
-        "numClusters": 200,
-        "chunkChance": 200,
+        "numClusters": 192,
+        "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 32,
-        "veinDiameter": 80,
+        "veinDiameter": 64,
         "verticalDensity": 20,
         "horizontalDensity": 10,
         "retrogen": "true",
@@ -154,10 +181,11 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
-            1
+            1,
+            7
         ]
     },
     "mithril": {
@@ -168,7 +196,7 @@
         },
         "material": "minecraft:stone",
         "clusterSize": 8,
-        "numClusters": 128,
+        "numClusters": 192,
         "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 32,
@@ -195,14 +223,12 @@
                 "entry": "Sacred Springs"
             }
         ],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
             -100,
             -19,
-            -6,
-            -5,
-            -1,
-            1
+            0,
+            7
         ]
     }
 }
