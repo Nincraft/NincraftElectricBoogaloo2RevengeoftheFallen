@@ -1,0 +1,50 @@
+{
+    "certusQuartz": {
+        "template": {
+            "type": "fractal",
+            "sparse": false
+        },
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 93
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 7
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 200,
+        "chunkChance": 150,
+        "minHeight": 5,
+        "veinHeight": 80,
+        "veinDiameter": 65,
+        "verticalDensity": 15,
+        "horizontalDensity": 15,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Plains"
+            },
+            {
+                "type": "name",
+                "entry": "ExtremeHills"
+            },
+            {
+                "type": "dictionary",
+                "entry": [
+                    "SANDY",
+                    "DRY"
+                ]
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+}

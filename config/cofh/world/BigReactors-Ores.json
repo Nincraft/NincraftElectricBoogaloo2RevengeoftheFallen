@@ -7,7 +7,7 @@
         "block": "BigReactors:YelloriteOre",
 		"material": "stone",
         "clusterSize": 4,
-        "numClusters": 128,
+        "numClusters": 256,
         "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 64,
