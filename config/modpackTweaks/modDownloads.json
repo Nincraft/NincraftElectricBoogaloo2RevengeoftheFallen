@@ -3,5 +3,10 @@
 		"name": "FastCraft (OPTIONAL)",
 		"url": "http://forum.industrial-craft.net/index.php?page=Thread&postID=176565#post176565",
 		"modid": "FastCraft"
+	},
+	{
+		"name": "Journey Map (OPTIONAL)",
+		"url": "http://journeymap.techbrew.net/download/",
+		"modid": "journeymap"
 	}
 ]
