@@ -1,9 +1,6 @@
 {
     "oureclase": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "Metallurgy:fantasy.ore",
@@ -16,7 +13,7 @@
                 "weight": 10
             }
         ],
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 128,
         "chunkChance": 64,
@@ -36,10 +33,7 @@
         ]
     },
     "carmot": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "Metallurgy:fantasy.ore",
@@ -52,7 +46,7 @@
                 "weight": 10
             }
         ],
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 128,
         "chunkChance": 64,
@@ -132,15 +126,12 @@
         ]
     },
     "atlarus": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "Metallurgy:fantasy.ore",
             "metadata": 14
         },
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 4,
         "numClusters": 128,
         "chunkChance": 64,
@@ -167,20 +158,17 @@
         ]
     },
     "vyroxeres": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "Metallurgy:nether.ore",
             "metadata": 4
         },
-        "material": "minecraft:netherrack",
+        "material": "netherrack",
         "clusterSize": 8,
-        "numClusters": 256,
+        "numClusters": 128,
         "chunkChance": 128,
         "minHeight": 1,
-        "veinHeight": 128,
+        "veinHeight": 64,
         "veinDiameter": 64,
         "verticalDensity": 16,
         "horizontalDensity": 16,
@@ -203,10 +191,10 @@
             "name": "Metallurgy:nether.ore",
             "metadata": 0
         },
-        "material": "minecraft:netherrack",
+        "material": "netherrack",
         "genFluid": "lava",
-        "clusterSize": 8,
-        "numClusters": 16,
+        "clusterSize": 1,
+        "numClusters": 64,
         "minHeight": 1,
         "maxHeight": 32,
         "retrogen": "true",
@@ -228,10 +216,10 @@
             "name": "Metallurgy:nether.ore",
             "metadata": 8
         },
-        "material": "minecraft:netherrack",
+        "material": "netherrack",
         "genFluid": "lava",
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 1,
+        "numClusters": 64,
         "minHeight": 1,
         "maxHeight": 32,
         "retrogen": "true",
@@ -248,23 +236,17 @@
         ]
     },
     "sanguinite": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "underfluid",
         "block": {
             "name": "Metallurgy:nether.ore",
             "metadata": 9
         },
-        "material": "minecraft:netherrack",
-        "clusterSize": 8,
-        "numClusters": 256,
-        "chunkChance": 128,
+        "material": "netherrack",
+        "genFluid": "hell_blood",
+        "clusterSize": 1,
+        "numClusters": 64,
         "minHeight": 1,
-        "veinHeight": 128,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
+        "maxHeight": 128,
         "retrogen": "true",
         "biomeRestriction": "whitelist",
         "biomes": [
@@ -279,10 +261,7 @@
         ]
     },
     "zinc": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "Metallurgy:precious.ore",
             "metadata": 0
@@ -291,7 +270,7 @@
         "clusterSize": 8,
         "numClusters": 192,
         "chunkChance": 128,
-        "minHeight": 32,
+        "minHeight": 16,
         "veinHeight": 32,
         "veinDiameter": 64,
         "verticalDensity": 16,
@@ -303,8 +282,32 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
+            -1,
+            1,
+            7
+        ]
+    },
+    "sulfur": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 0
+        },
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 1,
+        "numClusters": 64,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
             -1,
             1,
             7
@@ -315,7 +318,7 @@
         "block": [
             {
                 "name": "Metallurgy:utility.ore",
-                "metadata": 0,
+                "metadata": 3,
                 "weight": 92
             },
             {
@@ -340,8 +343,6 @@
         "dimensions": [
             -100,
             -19,
-            -6,
-            -5,
             -1,
             1,
             7
@@ -351,14 +352,14 @@
         "template": "underfluid",
         "block": {
             "name": "Metallurgy:utility.ore",
-            "metadata": 0
+            "metadata": 4
         },
         "material": "stone",
         "genFluid": "oil",
-        "clusterSize": 8,
-        "numClusters": 8,
+        "clusterSize": 1,
+        "numClusters": 64,
         "minHeight": 1,
-        "maxHeight": 64,
+        "maxHeight": 32,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
@@ -366,34 +367,6 @@
         "dimensions": [
             -100,
             -19,
-            -6,
-            -5,
-            -1,
-            1,
-            7
-        ]
-    },
-    "sulfur": {
-        "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:utility.ore",
-            "metadata": 1
-        },
-        "material": "stone",
-        "genFluid": "lava",
-        "clusterSize": 8,
-        "numClusters": 8,
-        "minHeight": 1,
-        "maxHeight": 16,
-        "retrogen": "true",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -6,
-            -5,
             -1,
             1,
             7

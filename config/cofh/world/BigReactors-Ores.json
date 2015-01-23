@@ -1,9 +1,6 @@
 {
     "yellorite": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": "BigReactors:YelloriteOre",
 		"material": "stone",
         "clusterSize": 4,
@@ -27,8 +24,8 @@
 		],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -6,
             -5,
+            -4,
             -1,
 			1,
 			7

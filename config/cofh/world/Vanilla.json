@@ -89,11 +89,7 @@
         ]
     },
     "iron": {
-        "template": {
-            "type": "fractal",
-            "generator": "large-vein",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "iron_ore",
@@ -118,10 +114,10 @@
         "material": "stone",
         "clusterSize": 12,
         "numClusters": 384,
-        "chunkChance": 96,
+        "chunkChance": 192,
         "minHeight": 24,
         "veinHeight": 32,
-        "veinDiameter": 64,
+        "veinDiameter": 96,
         "verticalDensity": 16,
         "horizontalDensity": 16,
         "retrogen": "true",
@@ -249,6 +245,7 @@
         "material": "netherrack",
         "clusterSize": 12,
         "numClusters": 384,
+        "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 64,
         "veinDiameter": 64,

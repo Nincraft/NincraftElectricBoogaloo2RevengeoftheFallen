@@ -1,9 +1,6 @@
 {
     "aluminum": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "GalacticraftCore:tile.gcBlockCore",
@@ -38,18 +35,20 @@
         ],
         "material": "stone",
         "clusterSize": 8,
-        "numClusters": 250,
-        "chunkChance": 100,
+        "numClusters": 256,
+        "chunkChance": 128,
         "minHeight": 48,
         "veinHeight": 24,
         "veinDiameter": 64,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
         "retrogen": "true",
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -5,
+            -4,
             -1,
             1,
             7

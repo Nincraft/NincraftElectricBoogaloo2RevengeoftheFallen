@@ -1,50 +1,39 @@
 {
     "certusQuartz": {
         "template": {
-            "type": "fractal",
-            "sparse": false
+            "type": "uniform",
+            "generator": "geode"
         },
         "block": [
             {
                 "name": "appliedenergistics2:tile.OreQuartz",
-                "weight": 93
+                "weight": 25
             },
             {
                 "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "weight": 7
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
             }
         ],
-        "clusterSize": 8,
-        "numClusters": 200,
-        "chunkChance": 150,
-        "minHeight": 5,
-        "veinHeight": 80,
-        "veinDiameter": 65,
-        "verticalDensity": 15,
-        "horizontalDensity": 15,
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 4,
+        "chunkChance": 4,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "crust": "stone",
+        "hollow": true,
         "retrogen": "true",
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "name",
-                "entry": "Plains"
-            },
-            {
-                "type": "name",
-                "entry": "ExtremeHills"
-            },
-            {
-                "type": "dictionary",
-                "entry": [
-                    "SANDY",
-                    "DRY"
-                ]
-            }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -1,
             1
         ]
-    },
+    }
 }

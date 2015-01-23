@@ -1,9 +1,6 @@
 {
     "copper": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
@@ -16,13 +13,13 @@
                 "weight": 2
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 16,
+        "material": "stone",
+        "clusterSize": 12,
         "numClusters": 384,
-        "chunkChance": 96,
+        "chunkChance": 192,
         "minHeight": 24,
         "veinHeight": 32,
-        "veinDiameter": 64,
+        "veinDiameter": 96,
         "verticalDensity": 16,
         "horizontalDensity": 16,
         "retrogen": "true",
@@ -40,19 +37,16 @@
         ]
     },
     "tin": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "ThermalFoundation:Ore",
             "metadata": 1
         },
-        "material": "minecraft:stone",
-        "clusterSize": 12,
+        "material": "stone",
+        "clusterSize": 8,
         "numClusters": 192,
         "chunkChance": 128,
-        "minHeight": 32,
+        "minHeight": 16,
         "veinHeight": 32,
         "veinDiameter": 64,
         "verticalDensity": 16,
@@ -72,10 +66,7 @@
         ]
     },
     "silver": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
@@ -88,7 +79,7 @@
                 "weight": 20
             }
         ],
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 192,
         "chunkChance": 128,
@@ -112,10 +103,7 @@
         ]
     },
     "lead": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
@@ -128,7 +116,7 @@
                 "weight": 10
             }
         ],
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 192,
         "chunkChance": 128,
@@ -165,7 +153,7 @@
                 "weight": 5
             }
         ],
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 4,
         "numClusters": 192,
         "chunkChance": 128,
@@ -194,7 +182,7 @@
             "name": "ThermalFoundation:Ore",
             "metadata": 6
         },
-        "material": "minecraft:stone",
+        "material": "stone",
         "clusterSize": 8,
         "numClusters": 192,
         "chunkChance": 128,
