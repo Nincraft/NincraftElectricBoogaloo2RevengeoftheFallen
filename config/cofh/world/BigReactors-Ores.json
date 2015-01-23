@@ -2,16 +2,16 @@
     "yellorite": {
         "template": "fractal",
         "block": "BigReactors:YelloriteOre",
-		"material": "stone",
-        "clusterSize": 4,
-        "numClusters": 256,
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
         "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 64,
         "veinDiameter": 64,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -21,14 +21,14 @@
                     "WASTELAND"
                 ]
             }
-		],
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -5,
             -4,
             -1,
-			1,
-			7
+            1,
+            7
         ]
     }
 }
