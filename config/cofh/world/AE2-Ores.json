@@ -33,6 +33,38 @@
         "dimensions": [
             -1,
             1
+        ],
+        "enabled":false
+    },
+    "TEMPCertusQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 25
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
         ]
     }
 }

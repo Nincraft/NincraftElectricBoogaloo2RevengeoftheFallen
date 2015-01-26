@@ -96,7 +96,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             7
-        ]
+        ],
+        "enabled":false
     },
     "adamantine": {
         "template": {
@@ -123,7 +124,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             7
-        ]
+        ],
+        "enabled":false
     },
     "atlarus": {
         "template": "fractal",
@@ -208,7 +210,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
-        ]
+        ],
+        "enabled":false
     },
     "vulcanite": {
         "template": "underfluid",
@@ -233,7 +236,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
-        ]
+        ],
+        "enabled":false
     },
     "sanguinite": {
         "template": "underfluid",
@@ -258,7 +262,8 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
-        ]
+        ],
+        "enabled":false
     },
     "zinc": {
         "template": "fractal",
@@ -311,7 +316,8 @@
             -1,
             1,
             7
-        ]
+        ],
+        "enabled":false
     },
     "magnesium": {
         "template": "fractal",
@@ -356,6 +362,177 @@
         },
         "material": "stone",
         "genFluid": "oil",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "TEMPOrichalcum": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 11
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Highlands"
+            },
+            {
+                "type": "name",
+                "entry": "Highlands Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPAdamantine": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 13
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Thornlands"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPIgnatius": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 0
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPVulcanite": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 8
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPSanguinite": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 9
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPSulfur": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 0
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "TEMPBitumen": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 4
+        },
+        "material": "stone",
         "clusterSize": 4,
         "numClusters": 16,
         "minHeight": 1,

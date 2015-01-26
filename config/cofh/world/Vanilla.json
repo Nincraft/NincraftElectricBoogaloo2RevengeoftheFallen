@@ -186,7 +186,7 @@
             7
         ]
     },
-    "diamond": {
+    "diamondGeode": {
         "template": {
             "type": "uniform",
             "generator": "geode"
@@ -211,7 +211,8 @@
             -1,
             1,
             7
-        ]
+        ],
+        "enabled": false
     },
     "lapis": {
         "template": "fractal",
@@ -262,6 +263,28 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
+        ]
+    },
+    "diamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -5,
+            -4,
+            -1,
+            1,
+            7
         ]
     }
 }
