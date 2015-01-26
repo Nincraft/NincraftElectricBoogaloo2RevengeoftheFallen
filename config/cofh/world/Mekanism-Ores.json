@@ -1,0 +1,24 @@
+{
+    "osmium": {
+        "template": "fractal",
+        "block": "Mekanism:OreBlock",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 256,
+        "minHeight": 1,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1,
+            7
+        ]
+    }
+}

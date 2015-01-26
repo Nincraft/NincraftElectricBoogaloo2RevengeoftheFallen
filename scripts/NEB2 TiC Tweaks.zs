@@ -84,9 +84,7 @@ var eximiteDust              = <Metallurgy:ender.dust:0>;
 var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
 var fluxedElectrumDust       = <RedstoneArsenal:material>;
-var bismuthDust              = <gregtech:gt.metaitem.01:2090>;
-var bismuthBronzeDust        = <gregtech:gt.metaitem.01:2353>;
-var titaniumDust             = <gregtech:gt.metaitem.01:2028>;
+var titaniumDust             = <aobd:dustTitanium>;
 
 # Ingots
 var ironIngot                = <minecraft:iron_ingot>;
@@ -112,7 +110,7 @@ var manyullynIngot           = <TConstruct:materials:5>;
 var aluminumBrassIngot       = <TConstruct:materials:14>;
 var steelIngot               = <TConstruct:materials:16>;
 var aluminumIngot            = <GalacticraftCore:item.basicItem:5>;
-var titaniumIngot            = <gregtech:gt.metaitem.01:11028>;
+var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
 var adamantineIngot          = <Metallurgy:adamantine.ingot>;
 var alduoriteIngot           = <Metallurgy:alduorite.ingot>;
 var amordrineIngot           = <Metallurgy:amordrine.ingot>;
@@ -148,8 +146,6 @@ var tartariteIngot           = <Metallurgy:tartarite.ingot>;
 var vulcaniteIngot           = <Metallurgy:vulcanite.ingot>;
 var vyroxeresIngot           = <Metallurgy:vyroxeres.ingot>;
 var fluxedElectrumIngot      = <RedstoneArsenal:material:32>;
-var bismuthIngot             = <gregtech:gt.metaitem.01:11090>;
-var bismuthBronzeIngot       = <gregtech:gt.metaitem.01:11353>;
 
 # Nuggets
 var goldNugget               = <minecraft:gold_nugget>;
@@ -176,39 +172,39 @@ var arditeNugget             = <TConstruct:materials:29>;
 var manyullynNugget          = <TConstruct:materials:30>;
 var steelNugget              = <TConstruct:materials:33>;
 var quicksilverNugget        = <Thaumcraft:ItemResource:3>;
+var adamantineNugget         = <aobd:nuggetAdamantine>;
 var alduoriteNugget          = <aobd:nuggetAlduorite>;
+var astralSilverNugget       = <aobd:nuggetAstralSilver>;
 var atlarusNugget            = <aobd:nuggetAtlarus>;
 var carmotNugget             = <aobd:nuggetCarmot>;
 var ceruclaseNugget          = <aobd:nuggetCeruclase>;
+var deepIronNugget           = <aobd:nuggetDeepIron>;
 var eximiteNugget            = <aobd:nuggetEximite>;
 var ignatiusNugget           = <aobd:nuggetIgnatius>;
 var infuscoliumNugget        = <aobd:nuggetInfuscolium>;
 var kalendriteNugget         = <aobd:nuggetKalendrite>;
 var lemuriteNugget           = <aobd:nuggetLemurite>;
 var meutoiteNugget           = <aobd:nuggetMeutoite>;
+var midasiumNugget           = <aobd:nuggetMidasium>;
 var orichalcumNugget         = <aobd:nuggetOrichalcum>;
 var oureclaseNugget          = <aobd:nuggetOureclase>;
 var prometheumNugget         = <aobd:nuggetPrometheum>;
 var rubraciumNugget          = <aobd:nuggetRubracium>;
 var sanguiniteNugget         = <aobd:nuggetSanguinite>;
+var shadowIronNugget         = <aobd:nuggetShadowIron>;
+var titaniumNugget           = <aobd:nuggetTitanium>;
 var vulcaniteNugget          = <aobd:nuggetVulcanite>;
 var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
 var yelloriumNugget          = <aobd:nuggetYellorium>;
-var adamantineNugget         = <gregtech:gt.metaitem.01:9319>;
-var astralSilverNugget       = <gregtech:gt.metaitem.01:9333>;
-var blackBronzeNugget        = <gregtech:gt.metaitem.01:9352>;
-var blackSteelNugget         = <gregtech:gt.metaitem.01:9334>;
-var damascusSteelNugget      = <gregtech:gt.metaitem.01:9335>;
-var deepIronNugget           = <gregtech:gt.metaitem.01:9829>;
-var midasiumNugget           = <gregtech:gt.metaitem.01:9332>;
-var titaniumNugget           = <gregtech:gt.metaitem.01:9028>;
+#var blackBronzeNugget        = <aobd:nuggetYellorium>;
+#var blackSteelNugget         = <gregtech:gt.metaitem.01:9334>;
+#var damascusSteelNugget      = <gregtech:gt.metaitem.01:9335>;
 #var amordrineNugget          = <aobd:nuggetAmordrine>;
 #var angmallenNugget          = <aobd:nuggetAngmallen>;
 #var celenegilNugget          = <aobd:nuggetCelenegil>;
 #var desichalkosNugget        = <aobd:nuggetDesichalkos>;
 #var haderothNugget           = <aobd:nuggetHaderoth>;
 #var inolashiteNugget         = <aobd:nuggetInolashite>;
-#var shadowIronNugget         = <aobd:nuggetShadowIron>;
 #var shadowSteelNugget        = <aobd:nuggetShadowSteel>;
 #var tartariteNugget          = <aobd:nuggetTartarite>;
 
@@ -247,7 +243,6 @@ var blood                    = <liquid:blood>;
 var enderGoo                 = <liquid:endergoo>;
 var glue                     = <liquid:glue>;
 var lava                     = <liquid:lava>;
-#var lifeEssence              = <liquid:life essence>;
 var liquifactedCoal          = <liquid:coal>;
 var moltenAdamantine         = <liquid:adamantine.molten>;
 var moltenAlduorite          = <liquid:alduorite.molten>;
@@ -256,18 +251,12 @@ var moltenAluminumBrass      = <liquid:aluminumbrass.molten>;
 var moltenAlumite            = <liquid:alumite.molten>;
 var moltenAmordrine          = <liquid:amordrine.molten>;
 var moltenAngmallen          = <liquid:angmallen.molten>;
-var moltenAntimony           = <liquid:molten.antimony>;
 var moltenArdite             = <liquid:ardite.molten>;
 var moltenAstralSilver       = <liquid:astral.silver.molten>;
 var moltenAtlarus            = <liquid:atlarus.molten>;
-var moltenBismuth            = <liquid:molten.bismuth>;
-var moltenBismuthBronze      = <liquid:molten.bismuthbronze>;
-var moltenBlaze              = <liquid:molten.blaze>;
-var moltenBlutonium          = <liquid:molten.blutonium>;
 var moltenBrass              = <liquid:brass.molten>;
 var moltenCobalt             = <liquid:cobalt.molten>;
 var moltenBlackSteel         = <liquid:black.steel.molten>;
-var moltenBlueSteel          = <liquid:molten.bluesteel>;
 var moltenBronze             = <liquid:bronze.molten>;
 var moltenCarmot             = <liquid:carmot.molten>;
 var moltenCelenegil          = <liquid:celenegil.molten>;
@@ -275,23 +264,15 @@ var moltenCeruclase          = <liquid:ceruclase.molten>;
 #var moltenConductiveRedMetal = <liquid:molten conductive redmetal>;
 var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
-var moltenCupronickel        = <liquid:molten.cupronickel>;
 var moltenCyanite            = <liquid:cyanite>;
 var moltenDamascusSteel      = <liquid:damascus.steel.molten>;
 var moltenDeepIron           = <liquid:deep.iron.molten>;
-var moltenDesh               = <liquid:molten.desh>;
 var moltenDesichalkos        = <liquid:desichalkos.molten>;
-var moltenElectricalSteel    = <liquid:molten.electricalsteel>;
 var moltenElectrum           = <liquid:electrum.molten>;
-var moltenElementium         = <liquid:molten.elvenelementium>;
 var moltenEmerald            = <liquid:emerald.liquid>;
 var moltenEnder              = <liquid:ender>;
-var moltenEnderium           = <liquid:molten.enderium>;
-var moltenEnergeticAlloy     = <liquid:molten.energeticalloy>;
 var moltenEximite            = <liquid:eximite.molten>;
 var moltenFairy              = <liquid:fairy.molten>;
-var moltenFluxedElectrum     = <liquid:molten.electrumflux>;
-var moltenFluxedObsidian     = <liquid:molten.obsidianflux>;
 var moltenGlass              = <liquid:glass.molten>;
 var moltenGold               = <liquid:gold.molten>;
 var moltenGlowstone          = <liquid:glowstone>;
@@ -301,20 +282,12 @@ var moltenInfuscolium        = <liquid:infuscolium.molten>;
 var moltenIgnatius           = <liquid:ignatius.molten>;
 var moltenInolashite         = <liquid:inolashite.molten>;
 var moltenInvar              = <liquid:invar.molten>;
-var moltenIridium            = <liquid:molten.iridium>;
 var moltenIron               = <liquid:iron.molten>;
-var moltenIronwood           = <liquid:molten.ironwood>;
 var moltenKalendrite         = <liquid:kalendrite.molten>;
-var moltenKanthal            = <liquid:molten.kanthal>;
-var moltenKnightmetal        = <liquid:molten.knightmetal>;
 var moltenLead               = <liquid:lead.molten>;
 var moltenLemurite           = <liquid:lemurite.molten>;
-var moltenLudicrite          = <liquid:molten.ludicrite>;
-var moltenLumium             = <liquid:molten.lumium>;
-var moltenManasteel          = <liquid:molten.manasteel>;
 var moltenManganese          = <liquid:manganese.molten>;
 var moltenManyullyn          = <liquid:manyullyn.molten>;
-var moltenMeteoricIron       = <liquid:molten.meteoriciron>;
 var moltenMeutoite           = <liquid:meutoite.molten>;
 var moltenMidasium           = <liquid:midasium.molten>;
 var moltenMithril            = <liquid:mithril.molten>;
@@ -322,11 +295,8 @@ var moltenNickel             = <liquid:nickel.molten>;
 var moltenNincodium          = <liquid:moltennincodium>;
 var moltenObsidian           = <liquid:obsidian.molten>;
 var moltenOrichalcum         = <liquid:orichalcum.molten>;
-var moltenOsmiridium         = <liquid:molten.osmiridium>;
 var moltenOsmium             = <liquid:osmium.molten>;
 var moltenOureclase          = <liquid:oureclase.molten>;
-var moltenPhasedIron         = <liquid:molten.phasediron>;
-var moltenPulsatingIron      = <liquid:molten.pulsatingiron>;
 var moltenPigIron            = <liquid:pigiron.molten>;
 var moltenPlastic            = <liquid:plastic>;
 var moltenPlatinum           = <liquid:platinum.molten>;
@@ -334,28 +304,15 @@ var moltenPokefennium        = <liquid:pokefennium.molten>;
 var moltenPrometheum         = <liquid:prometheum.molten>;
 var moltenPyrotheum          = <liquid:pyrotheum>;
 var moltenQuicksilver        = <liquid:quicksilver.molten>;
-var moltenRedAlloy           = <liquid:molten.redalloy>;
-var moltenRedSteel           = <liquid:molten.redsteel>;
 var moltenRedstone           = <liquid:redstone>;
-var moltenRoseGold           = <liquid:molten.rosegold>;
-var moltenRubber             = <liquid:molten.rubber>;
 var moltenrubracium          = <liquid:rubracium.molten>;
 var moltenSanguinite         = <liquid:sanguinite.molten>;
 var moltenShadowIron         = <liquid:shadow.iron.molten>;
 var moltenShadowSteel        = <liquid:shadow.steel.molten>;
-var moltenSignalum           = <liquid:molten.signalum>;
 var moltenSilver             = <liquid:silver.molten>;
 var moltenSteel              = <liquid:steel.molten>;
-var moltenStainlessSteel     = <liquid:molten.stainlesssteel>;
-var moltenSterlingSilver     = <liquid:molten.sterlingsilver>;
 var moltenTartarite          = <liquid:tartarite.molten>;
-var moltenTerrasteel         = <liquid:molten.terrasteel>;
-var moltenThaumium           = <liquid:molten.thaumium>;
 var moltenTin                = <liquid:tin.molten>;
-var moltenTitanium           = <liquid:molten.titanium>;
-var moltenTungsten           = <liquid:molten.tungsten>;
-var moltenTungstensteel      = <liquid:molten.tungstensteel>;
-var moltenVibrantAlloy       = <liquid:molten.vibrantalloy>;
 var moltenVulcanite          = <liquid:vulcanite.molten>;
 var moltenVyroxeres          = <liquid:vyroxeres.molten>;
 var moltenYellorium          = <liquid:yellorium>;
@@ -364,31 +321,33 @@ var searedStone              = <liquid:stone.seared>;
 var steam                    = <liquid:steam>;
 var water                    = <liquid:water>;
 
-# Ores
-var bismuthOre               = <gregtech:gt.blockores:90>;
-
 # TiC Metal Patterns
-var ingotMetalPattern        = <TConstruct:metalPattern:0>;
-#var MetalPattern             = <TConstruct:metalPattern:1>;
-#var MetalPattern             = <TConstruct:metalPattern:2>;
-#var MetalPattern             = <TConstruct:metalPattern:3>;
-#var MetalPattern             = <TConstruct:metalPattern:4>;
-#var MetalPattern             = <TConstruct:metalPattern:5>;
-#var MetalPattern             = <TConstruct:metalPattern:6>;
-#var MetalPattern             = <TConstruct:metalPattern:7>;
-#var MetalPattern             = <TConstruct:metalPattern:8>;
-#var MetalPattern             = <TConstruct:metalPattern:9>;
-#var MetalPattern             = <TConstruct:metalPattern:10>;
-#var MetalPattern             = <TConstruct:metalPattern:11>;
-#var MetalPattern             = <TConstruct:metalPattern:12>;
-#var MetalPattern             = <TConstruct:metalPattern:13>;
-#var MetalPattern             = <TConstruct:metalPattern:14>;
-#var MetalPattern             = <TConstruct:metalPattern:15>;
-
-# GregTech Molds
-var plateMold                = <gregtech:gt.metaitem.01:32301>;
-var gearMold                 = <gregtech:gt.metaitem.01:32303>;
-var nuggetMold               = <gregtech:gt.metaitem.01:32309>;
+var ingotMetalPattern         = <TConstruct:metalPattern:0>;
+var toolRodMetalPattern       = <TConstruct:metalPattern:1>;
+var pickaxeHeadMetalPattern   = <TConstruct:metalPattern:2>;
+var shovelHeadMetalPattern    = <TConstruct:metalPattern:3>;
+var AxeHeadMetalPattern       = <TConstruct:metalPattern:4>;
+var swordBladeMetalPattern    = <TConstruct:metalPattern:5>;
+var wideGuardMetalPattern     = <TConstruct:metalPattern:6>;
+var handGuardMetalPattern     = <TConstruct:metalPattern:7>;
+var crossbarMetalPattern      = <TConstruct:metalPattern:8>;
+var bindingMetalPattern       = <TConstruct:metalPattern:9>;
+var panHeadMetalPattern       = <TConstruct:metalPattern:10>;
+var wideboardMetalPattern     = <TConstruct:metalPattern:11>;
+var knifeBladeMetalPattern    = <TConstruct:metalPattern:12>;
+var chiselHeadMetalPattern    = <TConstruct:metalPattern:13>;
+var toughRodMetalPattern      = <TConstruct:metalPattern:14>;
+var toughBindingMetalPattern  = <TConstruct:metalPattern:15>;
+var largePlateMetalPattern    = <TConstruct:metalPattern:16>;
+var broadaxeHeadMetalPattern  = <TConstruct:metalPattern:17>;
+var scytheHeadMetalPattern    = <TConstruct:metalPattern:18>;
+var excavatorHeadMetalPattern = <TConstruct:metalPattern:19>;
+var largeBladeMetalPattern    = <TConstruct:metalPattern:20>;
+var hammerHeadMetalPattern    = <TConstruct:metalPattern:21>;
+var fullGuardMetalPattern     = <TConstruct:metalPattern:22>;
+var arrowheadMetalPattern     = <TConstruct:metalPattern:25>;
+var gemMetalPattern           = <TConstruct:metalPattern:26>;
+var nuggetMetalPattern        = <TConstruct:metalPattern:27>;
 
 # ORE DICTIONARY
 #----------------
@@ -427,11 +386,12 @@ var anySanguiniteOre         = <ore:oreSanguinite>;
 var anyShadowIronOre         = <ore:oreShadowIron>;
 var anySilverOre             = <ore:oreSilver>;
 var anyTinOre                = <ore:oreTin>;
-#var anyTitaniumOre           = <ore:oreTitanium>;
+var anyTitaniumOre           = <ore:oreTitanium>;
 var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
 var anyZincOre               = <ore:oreZinc>;
 
+/*
 # Tiny Dusts
 var anyAdamantineTinyDust    = <ore:dustTinyAdamantine>;
 var anyAlduoriteTinyDust     = <ore:dustTinyAlduorite>;
@@ -442,9 +402,6 @@ var anyAngmallenTinyDust     = <ore:dustTinyAngmallen>;
 var anyArditeTinyDust        = <ore:dustTinyArdite>;
 var anyAstralSilverTinyDust  = <ore:dustTinyAstralSilver>;
 var anyAtlarusTinyDust       = <ore:dustTinyAtlarus>;
-var anyBismuthBronzeTinyDust = <ore:dustTinyBismuthBronze>;
-var anyBismuthTinyDust       = <ore:dustTinyBismuth>;
-var anyBlackBronzeTinyDust   = <ore:dustTinyBlackBronze>;
 var anyBlackSteelTinyDust    = <ore:dustTinyBlackSteel>;
 var anyBrassTinyDust         = <ore:dustTinyBrass>;
 var anyBronzeTinyDust        = <ore:dustTinyBronze>;
@@ -488,11 +445,10 @@ var anySteelTinyDust         = <ore:dustTinySteel>;
 var anyTartariteTinyDust     = <ore:dustTinyTartarite>;
 var anyTinTinyDust           = <ore:dustTinyTin>;
 var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
-var anyTungstenTinyDust      = <ore:dustTinyTungsten>;
-var anyTungstensteelTinyDust = <ore:dustTinyTungstensteel>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
+*/
 
 # Dusts
 var anyAdamantineDust        = <ore:dustAdamantine>;
@@ -504,9 +460,6 @@ var anyAngmallenDust         = <ore:dustAngmallen>;
 var anyArditeDust            = <ore:dustArdite>;
 var anyAstralSilverDust      = <ore:dustAstralSilver>;
 var anyAtlarusDust           = <ore:dustAtlarus>;
-var anyBismuthBronzeDust     = <ore:dustBismuthBronze>;
-var anyBismuthDust           = <ore:dustBismuth>;
-var anyBlackBronzeDust       = <ore:dustBlackBronze>;
 var anyBlackSteelDust        = <ore:dustBlackSteel>;
 var anyBrassDust             = <ore:dustBrass>;
 var anyBronzeDust            = <ore:dustBronze>;
@@ -551,8 +504,6 @@ var anySteelDust             = <ore:dustSteel>;
 var anyTartariteDust         = <ore:dustTartarite>;
 var anyTinDust               = <ore:dustTin>;
 var anyTitaniumDust          = <ore:dustTitanium>;
-var anyTungstenDust          = <ore:dustTungsten>;
-var anyTungstensteelDust     = <ore:dustTungstensteel>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
 var anyZincDust              = <ore:dustZinc>;
@@ -567,9 +518,6 @@ var anyAngmallenNugget       = <ore:nuggetAngmallen>;
 var anyArditeNugget          = <ore:nuggetArdite>;
 var anyAstralSilverNugget    = <ore:nuggetAstralSilver>;
 var anyAtlarusNugget         = <ore:nuggetAtlarus>;
-var anyBismuthBronzeNugget   = <ore:nuggetBismuthBronze>;
-var anyBismuthNugget         = <ore:nuggetBismuth>;
-var anyBlackBronzeNugget     = <ore:nuggetBlackBronze>;
 var anyBlackSteelNugget      = <ore:nuggetBlackSteel>;
 var anyBrassNugget           = <ore:nuggetBrass>;
 var anyBronzeNugget          = <ore:nuggetBronze>;
@@ -613,8 +561,6 @@ var anySteelNugget           = <ore:nuggetSteel>;
 var anyTartariteNugget       = <ore:nuggetTartarite>;
 var anyTinNugget             = <ore:nuggetTin>;
 var anyTitaniumNugget        = <ore:nuggetTitanium>;
-var anyTungstenNugget        = <ore:nuggetTungsten>;
-var anyTungstensteelNugget   = <ore:nuggetTungstensteel>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
 var anyZincNugget            = <ore:nuggetZinc>;
@@ -629,9 +575,6 @@ var anyAngmallenIngot        = <ore:ingotAngmallen>;
 var anyArditeIngot           = <ore:ingotArdite>;
 var anyAstralSilverIngot     = <ore:ingotAstralSilver>;
 var anyAtlarusIngot          = <ore:ingotAtlarus>;
-var anyBismuthBronzeIngot    = <ore:ingotBismuthBronze>;
-var anyBismuthIngot          = <ore:ingotBismuth>;
-var anyBlackBronzeIngot      = <ore:ingotBlackBronze>;
 var anyBlackSteelIngot       = <ore:ingotBlackSteel>;
 var anyBrassIngot            = <ore:ingotBrass>;
 var anyBronzeIngot           = <ore:ingotBronze>;
@@ -675,8 +618,6 @@ var anySteelIngot            = <ore:ingotSteel>;
 var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTinIngot              = <ore:ingotTin>;
 var anyTitaniumIngot         = <ore:ingotTitanium>;
-var anyTungstenIngot         = <ore:ingotTungsten>;
-var anyTungstensteelIngot    = <ore:ingotTungstensteel>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
 var anyZincIngot             = <ore:ingotZinc>;
@@ -691,9 +632,6 @@ var anyAngmallenBlock        = <ore:blockAngmallen>;
 var anyArditeBlock           = <ore:blockArdite>;
 var anyAstralSilverBlock     = <ore:blockAstralSilver>;
 var anyAtlarusBlock          = <ore:blockAtlarus>;
-var anyBismuthBronzeBlock    = <ore:blockBismuthBronze>;
-var anyBismuthBlock          = <ore:blockBismuth>;
-var anyBlackBronzeBlock      = <ore:blockBlackBronze>;
 var anyBlackSteelBlock       = <ore:blockBlackSteel>;
 var anyBrassBlock            = <ore:blockBrass>;
 var anyBronzeBlock           = <ore:blockBronze>;
@@ -737,24 +675,9 @@ var anySteelBlock            = <ore:blockSteel>;
 var anyTartariteBlock        = <ore:blockTartarite>;
 var anyTinBlock              = <ore:blockTin>;
 var anyTitaniumBlock         = <ore:blockTitanium>;
-var anyTungstenBlock         = <ore:blockTungsten>;
-var anyTungstensteelBlock    = <ore:blockTungstensteel>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
-
-# Unify Hepatizon & Black Bronze
-#anyBlackBronzeTinyDust.addAll(anyHepatizonTinyDust);
-#anyBlackBronzeDust.addAll(anyHepatizonDust);
-#anyBlackBronzeNugget.addAll(anyHepatizonNugget);
-#anyBlackBronzeIngot.addAll(anyHepatizonIngot);
-#anyBlackBronzeBlock.addAll(anyHepatizonBlock);
-
-#anyBlackBronzeTinyDust.mirror(anyHepatizonTinyDust);
-#anyBlackBronzeDust.mirror(anyHepatizonDust);
-#anyBlackBronzeNugget.mirror(anyHepatizonNugget);
-#anyBlackBronzeIngot.mirror(anyHepatizonIngot);
-#anyBlackBronzeBlock.mirror(anyHepatizonBlock);
 
 # RECIPE TWEAKS
 #---------------
@@ -789,34 +712,6 @@ Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 # End Powder -> Ender Goo
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
 
-# Blaze Rod
-Smeltery.addMelting(blazeRod, moltenBlaze * 100, 750, <minecraft:dirt>);
-Smeltery.addMelting(blazePowder, moltenBlaze * 16, 750, <minecraft:dirt>);
-
-# Enderium Alloy
-Smeltery.addAlloy(moltenEnderium * 288, [enderGoo * 200, moltenCeruclase * 144, moltenMeutoite * 144, moltenEnder * 1000]);
-
-# Blazing Pyrotheum
-Smeltery.addAlloy(moltenPyrotheum * 288, [moltenVulcanite * 144, moltenBlaze * 100, moltenShadowIron * 144, moltenAluminum * 144]);
-
-# Bismuth
-Smeltery.addMelting(bismuthIngot, moltenBismuth * 144, 400, bismuthOre);
-Smeltery.addMelting(bismuthDust, moltenBismuth * 144, 400, bismuthOre);
-
-Casting.addTableRecipe(bismuthIngot, moltenBismuth * 144, ingotMetalPattern, false, 40);
-
-# Bismuth Bronze
-Smeltery.addAlloy(moltenBismuthBronze * 720, [moltenBismuth * 144, moltenBrass * 576]);
-
-Casting.addTableRecipe(bismuthBronzeIngot, moltenBismuthBronze * 144, ingotMetalPattern, false, 40);
-
-# Fluxed Electrum
-Smeltery.addAlloy(moltenFluxedElectrum * 144, [moltenElectrum * 144, moltenRedstone * 200]);
-
-Casting.addTableRecipe(fluxedElectrumIngot, moltenFluxedElectrum * 144, ingotMetalPattern, false, 40);
-
-Casting.addBasinRecipe(fluxedElectrumBlock, moltenFluxedElectrum * 1296, null, false, 40);
-
 # Black Bronze Alloy Ratios
 #Smeltery.removeAlloy(moltenHepatizon);
 Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
@@ -828,6 +723,66 @@ Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 
 # Aluminum Brass Ratio
 #Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
+
+# Quicksilver Ratio
+#Smeltery.removeAlloy(moltenQuicksilver);
+Smeltery.addAlloy(moltenQuicksilver * 576, [moltenSilver * 432, moltenMithril * 144]);
+
+/*
+# Disable Smeltery Melting to Require High Oven
+Smeltery.removeMelting(anyCobaltOre);
+Smeltery.removeMelting(anyArditeOre);
+Smeltery.removeMelting(anyOrichalcumOre);
+Smeltery.removeMelting(anyAdamantineOre);
+Smeltery.removeMelting(anyKalendriteOre);
+Smeltery.removeMelting(anySanguiniteOre);
+Smeltery.removeMelting(anyVulcaniteOre);
+Smeltery.removeMelting(anyTitaniumOre);
+Smeltery.removeMelting(anyEximiteOre);
+Smeltery.removeMelting(anyMeutoiteOre);
+
+Smeltery.removeMelting(anyCobaltIngot);
+Smeltery.removeMelting(anyArditeIngot);
+Smeltery.removeMelting(anyManyullynIngot);
+Smeltery.removeMelting(anyOrichalcumIngot);
+Smeltery.removeMelting(anyAdamantineIngot);
+Smeltery.removeMelting(anyKalendriteIngot);
+Smeltery.removeMelting(anySanguiniteIngot);
+Smeltery.removeMelting(anyVulcaniteIngot);
+Smeltery.removeMelting(anyTitaniumIngot);
+Smeltery.removeMelting(anyEximiteIngot);
+Smeltery.removeMelting(anyMeutoiteIngot);
+Smeltery.removeMelting(anySteelIngot);
+Smeltery.removeMelting(anyBlackSteelIngot);
+Smeltery.removeMelting(anyShadowSteelIngot);
+Smeltery.removeMelting(anyTartariteIngot);
+Smeltery.removeMelting(anyAmordrineIngot);
+Smeltery.removeMelting(anyDesichalkosIngot);
+Smeltery.removeMelting(anyHaderothIngot);
+Smeltery.removeMelting(anyDamascusSteelIngot);
+Smeltery.removeMelting(anyInvarIngot);
+
+Smeltery.removeMelting(anyCobaltDust);
+Smeltery.removeMelting(anyArditeDust);
+Smeltery.removeMelting(anyManyullynDust);
+Smeltery.removeMelting(anyOrichalcumDust);
+Smeltery.removeMelting(anyAdamantineDust);
+Smeltery.removeMelting(anyKalendriteDust);
+Smeltery.removeMelting(anySanguiniteDust);
+Smeltery.removeMelting(anyVulcaniteDust);
+Smeltery.removeMelting(anyTitaniumDust);
+Smeltery.removeMelting(anyEximiteDust);
+Smeltery.removeMelting(anyMeutoiteDust);
+Smeltery.removeMelting(anySteelDust);
+Smeltery.removeMelting(anyBlackSteelDust);
+Smeltery.removeMelting(anyShadowSteelDust);
+Smeltery.removeMelting(anyTartariteDust);
+Smeltery.removeMelting(anyAmordrineDust);
+Smeltery.removeMelting(anyDesichalkosDust);
+Smeltery.removeMelting(anyHaderothDust);
+Smeltery.removeMelting(anyDamascusSteelDust);
+Smeltery.removeMelting(anyInvarDust);
+*/
 
 # ALLOY DUST BLEND TWEAKS
 #-------------------------
@@ -892,10 +847,8 @@ recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
 recipes.addShapeless(pyrotheumDust * 2, [anyVulcaniteDust, blazePowder,
                                          anyShadowIronDust, anyAluminumDust]);
 
-/*
 recipes.addShapeless(quicksilverDust * 4, [anySilverDust, anySilverDust, anySilverDust,
                                            anyMithrilDust]);
-*/
 
 recipes.addShapeless(shadowSteelDust * 3, [anyShadowIronDust, anyShadowIronDust,
                                            anyLemuriteDust]);

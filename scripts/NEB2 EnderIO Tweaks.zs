@@ -7,6 +7,7 @@ var enderIO                  = <EnderIO:blockEnderIo>;
 var travelAnchor             = <EnderIO:blockTravelAnchor>;
 var poweredSpawner           = <EnderIO:blockPoweredSpawner>;
 var conduitBinder            = <EnderIO:itemMaterial:1>;
+var machineChassis           = <EnderIO:itemMachinePart:0>;
 
 # Conduits
 var redstoneConduit          = <EnderIO:itemRedstoneConduit:0>;
@@ -56,8 +57,8 @@ var anyPlasticSheet          = <ore:sheetPlastic>;
 var anyHardenedGlass         = <ore:blockGlassHardened>;
 
 # Unify Redstone Alloy Ingots
-#anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
-#anyRedstoneAlloyIngot.mirror(<ore:ingotRedAlloy>);
+anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
+<ore:ingotRedAlloy>.mirror(anyRedstoneAlloyIngot);
 
 # RECIPE TWEAKS
 #---------------
@@ -68,22 +69,22 @@ var resonantInductionSmelter = inductionSmelter.onlyWithTag({Level:3 as byte});
 recipes.remove(alloySmelter);
 recipes.addShapedMirrored(alloySmelter, [
     [anyEnderiumIngot,        anyEnderiumIngot, anyEnderiumIngot],
-    [resonantRedstoneFurnace, anyEnderiumFrame, resonantInductionSmelter],
+    [resonantRedstoneFurnace, machineChassis,   resonantInductionSmelter],
     [anyEnderiumIngot,        anyEnderiumIngot, anyEnderiumIngot]]);
 
 # Nerf SAG Mill
 var resonantPulverizer       = pulverizer.onlyWithTag({Level:3 as byte});
 recipes.remove(sagMill);
 recipes.addShaped(sagMill, [
-    [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot],
-    [resonantPulverizer, anyEnderiumFrame, resonantPulverizer],
-    [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot]]);
+    [anyEnderiumIngot,   anyEnderiumIngot, anyEnderiumIngot],
+    [resonantPulverizer, machineChassis,   resonantPulverizer],
+    [anyEnderiumIngot,   anyEnderiumIngot, anyEnderiumIngot]]);
 
 # Nerf Farming Station
 recipes.remove(farmingStation);
 recipes.addShapedMirrored(farmingStation, [
     [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot],
-    [harvester,        anyEnderiumFrame, planter],
+    [harvester,        machineChassis,   planter],
     [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot]]);
 
 # Make Conduits Cost Other Mod Pipes

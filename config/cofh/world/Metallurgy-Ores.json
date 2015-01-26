@@ -1,9 +1,6 @@
 {
     "oureclase": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "Metallurgy:fantasy.ore",
@@ -16,16 +13,16 @@
                 "weight": 10
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 128,
-        "chunkChance": 64,
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 32,
         "veinDiameter": 32,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
@@ -36,32 +33,29 @@
         ]
     },
     "carmot": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": [
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 6,
-                "weight": 90
+                "weight": 80
             },
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 4,
-                "weight": 10
+                "weight": 20
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 128,
-        "chunkChance": 64,
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 32,
         "veinDiameter": 32,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "whitelist",
@@ -73,23 +67,21 @@
     },
     "orichalcum": {
         "template": {
-            "type": "fractal",
-            "sparse": false
+            "type": "uniform",
+            "generator": "geode"
         },
         "block": {
             "name": "Metallurgy:fantasy.ore",
             "metadata": 11
         },
         "material": "TwilightForest:tile.TFDeadrock",
-        "clusterSize": 6,
-        "numClusters": 256,
-        "chunkChance": 64,
+        "clusterSize": 8,
+        "numClusters": 4,
         "minHeight": 1,
-        "veinHeight": 64,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": "true",
+        "maxHeight": 64,
+        "crust": "stone",
+        "hollow": true,
+        "retrogen": true,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -104,27 +96,24 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             7
-        ]
+        ],
+        "enabled":false
     },
     "adamantine": {
         "template": {
-            "type": "fractal",
-            "sparse": false
+            "type": "uniform",
+            "generator": "geode"
         },
         "block": {
             "name": "Metallurgy:fantasy.ore",
             "metadata": 13
         },
         "material": "TwilightForest:tile.TFDeadrock",
-        "clusterSize": 6,
-        "numClusters": 128,
-        "chunkChance": 64,
+        "clusterSize": 8,
+        "numClusters": 2,
         "minHeight": 1,
-        "veinHeight": 32,
-        "veinDiameter": 32,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": "true",
+        "maxHeight": 64,
+        "retrogen": true,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -135,27 +124,25 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             7
-        ]
+        ],
+        "enabled":false
     },
     "atlarus": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "Metallurgy:fantasy.ore",
             "metadata": 14
         },
-        "material": "minecraft:stone",
-        "clusterSize": 4,
-        "numClusters": 128,
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 32,
         "chunkChance": 64,
         "minHeight": 1,
         "veinHeight": 32,
         "veinDiameter": 32,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -173,24 +160,21 @@
         ]
     },
     "vyroxeres": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": {
             "name": "Metallurgy:nether.ore",
             "metadata": 4
         },
-        "material": "minecraft:netherrack",
-        "clusterSize": 8,
-        "numClusters": 256,
+        "material": "netherrack",
+        "clusterSize": 32,
+        "numClusters": 32,
         "chunkChance": 128,
         "minHeight": 1,
-        "veinHeight": 128,
+        "veinHeight": 64,
         "veinDiameter": 64,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -203,25 +187,286 @@
             -1
         ]
     },
-    "vulcanite": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
+    "ignatius": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 0
         },
+        "material": "netherrack",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "vulcanite": {
+        "template": "underfluid",
         "block": {
             "name": "Metallurgy:nether.ore",
             "metadata": 8
         },
-        "material": "minecraft:netherrack",
-        "clusterSize": 8,
-        "numClusters": 256,
-        "chunkChance": 128,
+        "material": "netherrack",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
         "minHeight": 1,
-        "veinHeight": 128,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "sanguinite": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 9
+        },
+        "material": "netherrack",
+        "genFluid": "hell_blood",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "zinc": {
+        "template": "fractal",
+        "block": {
+            "name": "Metallurgy:precious.ore",
+            "metadata": 0
+        },
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 32,
         "veinDiameter": 64,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -5,
+            -4,
+            -1,
+            1,
+            7
+        ]
+    },
+    "sulfur": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 0
+        },
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "magnesium": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 3,
+                "weight": 92
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 4,
+                "weight": 8
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 64,
+        "chunkChance": 128,
+        "minHeight": 48,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "bitumen": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 4
+        },
+        "material": "stone",
+        "genFluid": "oil",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "TEMPOrichalcum": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 11
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Highlands"
+            },
+            {
+                "type": "name",
+                "entry": "Highlands Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPAdamantine": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 13
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Thornlands"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPIgnatius": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 0
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPVulcanite": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 8
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -234,25 +479,18 @@
             -1
         ]
     },
-    "sanguinite": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+    "TEMPSanguinite": {
+        "template": "uniform",
         "block": {
             "name": "Metallurgy:nether.ore",
             "metadata": 9
         },
-        "material": "minecraft:netherrack",
-        "clusterSize": 8,
-        "numClusters": 256,
-        "chunkChance": 128,
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
         "minHeight": 1,
-        "veinHeight": 128,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": "true",
+        "maxHeight": 128,
+        "retrogen": true,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -263,6 +501,52 @@
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
+        ]
+    },
+    "TEMPSulfur": {
+        "template": "underfluid",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 0
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "TEMPBitumen": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:utility.ore",
+            "metadata": 4
+        },
+        "material": "stone",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
         ]
     }
 }

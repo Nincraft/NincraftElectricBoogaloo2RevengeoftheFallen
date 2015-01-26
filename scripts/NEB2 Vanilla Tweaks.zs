@@ -5,38 +5,39 @@ import minetweaker.item.IIngredient;
 
 # COMMON VARIABLES
 #------------------
-var ironToughRod          = <TConstruct:toughRod:2>;
+var bow                   = <minecraft:bow>;
 var bricks                = <minecraft:brick_block>;
 var bread                 = <minecraft:bread>;
-var bow                   = <minecraft:bow>;
+var bucket                = <minecraft:bucket>;
+var carpentersBlock       = <CarpentersBlocks:blockCarpentersBlock>;
 var clayBall              = <minecraft:clay_ball>;
 var clayBlock             = <minecraft:clay>;
-var bucket                = <minecraft:bucket>;
-var flint                 = <minecraft:flint>;
-var flintNSteel           = <minecraft:flint_and_steel>;
 var dispenser             = <minecraft:dispenser>;
 var dropper               = <minecraft:dropper>;
+var flint                 = <minecraft:flint>;
+var flintNSteel           = <minecraft:flint_and_steel>;
+var ironToughRod          = <TConstruct:toughRod:2>;
 var piston                = <minecraft:piston>;
-var carpentersBlock       = <CarpentersBlocks:blockCarpentersBlock>;
 var torchberries          = <TwilightForest:item.torchberries>;
-var torchWood             = <minecraft:torch>;
 var torchCarpenters       = <CarpentersBlocks:blockCarpentersTorch>;
+var torchWood             = <minecraft:torch>;
 var torchStone            = <TConstruct:decoration.stonetorch>;
 
 # ORE DICTIONARY
 #----------------
+var anyBitumenDust        = <ore:dustBitumen>;
 var anyCoal               = <ore:coal>;
-var anyCharcoal           = <ore:charcoal>;
-var anyWoodStick          = <ore:stickWood>;
-var anyStoneRod           = <ore:rodStone>;
-var anySteelIngot         = <ore:ingotSteel>;
-var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
 var anyCobblestone        = <ore:cobblestone>;
-var anyWoodSlab           = <ore:slabWood>;
-var anySulfurDust         = <ore:dustSulfur>;
+var anyCharcoal           = <ore:charcoal>;
 var anyPhosphorusDust     = <ore:dustPhosphorus>;
-var anySugarCharcoal      = <ore:itemCharcoalSugar>;
 var anyRawRubber          = <ore:itemRawRubber>;
+var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
+var anySteelIngot         = <ore:ingotSteel>;
+var anyStoneRod           = <ore:rodStone>;
+var anySugarCharcoal      = <ore:itemCharcoalSugar>;
+var anySulfurDust         = <ore:dustSulfur>;
+var anyWoodSlab           = <ore:slabWood>;
+var anyWoodStick          = <ore:stickWood>;
 
 # ITEM LISTS
 #------------
@@ -63,6 +64,10 @@ anyTorch.add(torchStone);
 
 # Unify Diamond Nuggets
 <ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
+
+# FURNACE TWEAKS
+#----------------
+furnace.setFuel(anyBitumenDust, 800);
 
 # RECIPE TWEAKS
 #----------------

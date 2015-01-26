@@ -1,20 +1,17 @@
 {
     "essenceore": {
-        "template": {
-            "type": "fractal",
-            "sparse": false
-        },
+        "template": "fractal",
         "block": "magicalcrops:magicalcrops_EssenceOre",
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 64,
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 32,
         "chunkChance": 128,
         "minHeight": 1,
-        "veinHeight": 64,
-        "veinDiameter": 64,
+        "veinHeight": 32,
+        "veinDiameter": 32,
         "verticalDensity": 16,
         "horizontalDensity": 16,
-        "retrogen": "true",
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
             {
@@ -38,8 +35,8 @@
         "dimensions": [
             -100,
             -19,
-            -6,
             -5,
+            -4,
             -1,
             1
         ]
