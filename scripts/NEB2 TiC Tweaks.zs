@@ -11,6 +11,8 @@ var blazeRod                 = <minecraft:blaze_rod>;
 var dryingRack               = <TConstruct:Armor.DryingRack>;
 var emptySocket              = <AWWayofTime:emptySocket>;
 var filledSocket             = <AWWayofTime:bloodSocket>;
+var emptyIlluminatorFrame    = <ThermalExpansion:Frame:9>;
+var fullIlluminatorFrame     = <ThermalExpansion:Light>;
 
 # Dusts
 var redstoneDust             = <minecraft:redstone>;
@@ -708,6 +710,8 @@ Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock)
 Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40);
 
 Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
+
+Casting.addBasinRecipe(fullIlluminatorFrame, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
 
 # End Powder -> Ender Goo
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
