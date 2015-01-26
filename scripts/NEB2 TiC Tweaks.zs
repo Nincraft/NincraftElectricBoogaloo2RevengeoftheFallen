@@ -713,6 +713,16 @@ Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
 Casting.addBasinRecipe(fullIlluminatorFrame, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
 
+# Blazing Pyrotheum
+Smeltery.addMelting(pyrotheumDust, moltenPyrotheum * 1000, 750, <minecraft:dirt>);
+
+Casting.addTableRecipe(bucketPyrotheum, moltenPyrotheum * 1000, bucket, true, 40);
+
+# Gelid Cryotheum
+Smeltery.addMelting(cryotheumDust, moltenCryotheum * 1000, 750, <minecraft:snow>);
+
+Casting.addTableRecipe(bucketCryotheum, moltenCryotheum * 1000, bucket, true, 40);
+
 # End Powder -> Ender Goo
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
 
