@@ -39,6 +39,9 @@ var redstoneFurnace          = <ThermalExpansion:Machine:0>;
 var pulverizer               = <ThermalExpansion:Machine:1>;
 var inductionSmelter         = <ThermalExpansion:Machine:3>;
 
+# Thermal Expansion Frames
+var redstoneCellFrame        = <ThermalExpansion:Frame:6>;
+
 # MineFactory Machines
 var planter                  = <MineFactoryReloaded:machine.0:0>;
 var harvester                = <MineFactoryReloaded:machine.0:2>;
@@ -64,28 +67,27 @@ anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
 #---------------
 
 # Nerf Alloy Smelter
-var resonantRedstoneFurnace  = redstoneFurnace.onlyWithTag({Level:3 as byte});
-var resonantInductionSmelter = inductionSmelter.onlyWithTag({Level:3 as byte});
+var basicRedstoneFurnace     = redstoneFurnace.onlyWithTag({Level:0 as byte});
 recipes.remove(alloySmelter);
-recipes.addShapedMirrored(alloySmelter, [
-    [anyEnderiumIngot,        anyEnderiumIngot, anyEnderiumIngot],
-    [resonantRedstoneFurnace, machineChassis,   resonantInductionSmelter],
-    [anyEnderiumIngot,        anyEnderiumIngot, anyEnderiumIngot]]);
+recipes.addShaped(alloySmelter, [
+    [anyEnderiumIngot,     basicRedstoneFurnace, anyEnderiumIngot],
+    [basicRedstoneFurnace, machineChassis,       basicRedstoneFurnace],
+    [anyEnderiumIngot,     redstoneCellFrame,    anyEnderiumIngot]]);
 
 # Nerf SAG Mill
-var resonantPulverizer       = pulverizer.onlyWithTag({Level:3 as byte});
+var basicPulverizer          = pulverizer.onlyWithTag({Level:0 as byte});
 recipes.remove(sagMill);
 recipes.addShaped(sagMill, [
-    [anyEnderiumIngot,   anyEnderiumIngot, anyEnderiumIngot],
-    [resonantPulverizer, machineChassis,   resonantPulverizer],
-    [anyEnderiumIngot,   anyEnderiumIngot, anyEnderiumIngot]]);
+    [anyEnderiumIngot,     anyEnderiumIngot,  anyEnderiumIngot],
+    [basicPulverizer,      machineChassis,    basicPulverizer],
+    [anyEnderiumIngot,     redstoneCellFrame, anyEnderiumIngot]]);
 
 # Nerf Farming Station
 recipes.remove(farmingStation);
 recipes.addShapedMirrored(farmingStation, [
-    [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot],
-    [harvester,        machineChassis,   planter],
-    [anyEnderiumIngot, anyEnderiumIngot, anyEnderiumIngot]]);
+    [anyEnderiumIngot, anyEnderiumIngot,  anyEnderiumIngot],
+    [harvester,        machineChassis,    planter],
+    [anyEnderiumIngot, redstoneCellFrame, anyEnderiumIngot]]);
 
 # Make Conduits Cost Other Mod Pipes
 recipes.remove(redstoneConduit);
