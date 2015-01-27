@@ -42,6 +42,7 @@ var anyIgnatiusIngot        = <ore:ingotIgnatius>;
 var anyIronIngot            = <ore:ingotIron>;
 var anyMeutoiteIngot        = <ore:ingotMeutoite>;
 var anyPulsatingIronIngot   = <ore:ingotPhasedIron>;
+var anyRedAlloyIngot        = <ore:ingotRedAlloy>;
 var anySteelIngot           = <ore:ingotSteel>;
 var anyTitaniumIngot        = <ore:ingotTitanium>;
 var anyVibrantAlloyIngot    = <ore:ingotPhasedGold>;
@@ -53,16 +54,16 @@ var anyVoidmetalIngot       = <ore:ingotVoid>;
 # Survivalist Generator
 recipes.remove(survivalistGenerator);
 recipes.addShaped(survivalistGenerator, [
-    [anyCobblestone,         anyCobblestone, anyCobblestone],
-    [anyCobblestone,         furnace,        anyCobblestone],
-    [anyConductiveIronIngot, leadCellFrame,  anyConductiveIronIngot]]);
+    [anyCobblestone,   anyCobblestone, anyCobblestone],
+    [anyCobblestone,   furnace,        anyCobblestone],
+    [anyRedAlloyIngot, leadCellFrame,  anyRedAlloyIngot]]);
 
 # Furnace Generator
 recipes.remove(furnaceGenerator);
 recipes.addShaped(furnaceGenerator, [
-    [anyIronIngot,           anyIronIngot,  anyIronIngot],
-    [anyIronIngot,           furnace,       anyIronIngot],
-    [anyConductiveIronIngot, leadCellFrame, anyConductiveIronIngot]]);
+    [anyIronIngot,     anyIronIngot,  anyIronIngot],
+    [anyIronIngot,     furnace,       anyIronIngot],
+    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
 
 # Lava Generator
 recipes.remove(lavaGenerator);
@@ -88,9 +89,9 @@ recipes.addShaped(heatedRedstoneGenerator, [
 # Culinary Generator
 recipes.remove(foodGenerator);
 recipes.addShaped(foodGenerator, [
-    [anyBricks,              anyBricks,     anyBricks],
-    [anyBricks,              cauldron,      anyBricks],
-    [anyConductiveIronIngot, leadCellFrame, anyConductiveIronIngot]]);
+    [anyBricks,        anyBricks,     anyBricks],
+    [anyBricks,        cauldron,      anyBricks],
+    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
 
 # Potion Generator
 recipes.remove(potionGenerator);
