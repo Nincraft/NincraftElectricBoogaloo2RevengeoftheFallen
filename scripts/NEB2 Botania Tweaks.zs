@@ -1,6 +1,12 @@
 # MOD IMPORTS
 #-------------
 import minetweaker.item.IItemStack;
+#import mods.botania.Apothecary;
+#import mods.botania.ElvenTrade;
+#import mods.botania.Lexicon;
+#import mods.botania.ManaInfusion;
+#import mods.botania.Orechid;
+#import mods.botania.RuneAltar;
 
 # COMMON VARIABLES
 #------------------
@@ -19,6 +25,14 @@ var prismarineShard     = <Botania:manaResource:10>;
 var craftingPlaceholder = <Botania:manaResource:11>;
 var redString           = <Botania:manaResource:12>;
 var runicAltar          = <Botania:runeAltar>;
+var terraPlate          = <Botania:terraPlate>;
+
+# Botania Runes
+var waterRune           = <Botania:rune:0>;
+var fireRune            = <Botania:rune:1>;
+var earthRune           = <Botania:rune:2>;
+var airRune             = <Botania:rune:3>;
+var manaRune            = <Botania:rune:8>;
 
 # ITEM LISTS
 #------------
@@ -70,6 +84,10 @@ var anyPestleAndMortar  = <ore:pestleAndMortar>;
 var anyIronWoodIngot    = <ore:ingotIronWood>;
 var anyPrometheumIngot  = <ore:ingotPrometheum>;
 
+# Blocks
+var anyLapisBlock       = <ore:blockLapis>;
+var anyMithrilBlock     = <ore:blockMithril>;
+
 anyMortarAndPestle.addAll(anyPestleAndMortar);
 anyPestleAndMortar.mirror(anyMortarAndPestle);
 
@@ -83,6 +101,13 @@ for i, botaniaDye in botaniaDyes {
     recipes.remove(botaniaDye);
     recipes.addShapeless(botaniaDye, [botaniaPetal, anyMortarAndPestle.reuse()]);
 }
+
+# Terrestrial Agglomeration Plate
+recipes.removeShaped(terraPlate);
+recipes.addShaped(terraPlate, [
+    [anyLapisBlock, anyLapisBlock,   anyLapisBlock],
+    [waterRune,     anyMithrilBlock, fireRune],
+    [earthRune,     manaRune,        airRune]]);
 
 # Runic Altar
 recipes.removeShaped(runicAltar);
