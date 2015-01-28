@@ -41,9 +41,6 @@ anyObsidianDust.add(reinforcedObsidianDust);
 var cardboardBox           = <Mekanism:CardboardBox>;
 recipes.remove(cardboardBox);
 
-# Remove Easy Basic Circuit Infuser Recipes
-Infuser.removeRecipe(basicCircuit);
-
 # Enriched Iron: 8 Iron, 1 Manganese
 recipes.remove(enrichedIron);
 Infuser.removeRecipe(enrichedIron);
