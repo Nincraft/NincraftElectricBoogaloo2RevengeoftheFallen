@@ -1,9 +1,8 @@
-# Originally Taken from PhoenixConfigs
-# https://github.com/PhoenixTeamMC/PhoenixConfig/blob/master/PhoenixTeam/Skele's%20AE2%20recipes.zs
-
-# MOD IMPORTS
-#-------------
-#import mods.mekanism.Infuser;
+/*
+ * NEB2 APPLIED ENERGISTICS 2 TWEAKS
+ * Originally Taken from PhoenixConfigs (https://github.com/PhoenixTeamMC/PhoenixConfig)
+ * https://github.com/PhoenixTeamMC/PhoenixConfig/blob/master/PhoenixTeam/Skele's%20AE2%20recipes.zs
+ */
 
 # COMMON VARIABLES
 #------------------
@@ -99,6 +98,7 @@ var anyFluixDust             = <ore:dustFluix>;
 
 # Ingots
 var anyAlumiteIngot          = <ore:ingotAlumite>;
+var anyAngmallenIngot        = <ore:ingotAngmallen>;
 var anyCobaltIngot           = <ore:ingotCobalt>;
 var anyElectrumIngot         = <ore:ingotElectrum>;
 var anyEnderiumIngot         = <ore:ingotEnderium>;
@@ -126,9 +126,9 @@ anyQuartz.addAll(anyNetherQuartz);
 # Meteorite Compass
 recipes.remove(skyCompass);
 recipes.addShaped(skyCompass, [
-    [anyElectrumIngot, redstoneReceptionCoil, anyElectrumIngot],
-    [anyCertusQuartz,  compass,               anyCertusQuartz],
-    [anyElectrumIngot, redstoneReceptionCoil, anyElectrumIngot]]);
+    [null,             anyPlatinumIngot, null],
+    [anyPlatinumIngot, anyCertusQuartz,  anyPlatinumIngot],
+    [null,             anyPlatinumIngot, null]]);
 
 # Charger
 recipes.remove(charger);
@@ -147,9 +147,9 @@ recipes.addShaped(growthAccelerator, [
 # Inscriber
 recipes.remove(inscriber);
 recipes.addShaped(inscriber, [
-    [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot],
-    [anyPlasticSheet, pneumaticServo,            anyEliteCircuit],
-    [anyGearSignalum,  redstoneTransmissionCoil, anySteelIngot]]);
+    [anyGearSignalum, redstoneTransmissionCoil, anySteelIngot],
+    [anyPlasticSheet, pneumaticServo,           anyEliteCircuit],
+    [anyGearSignalum, redstoneTransmissionCoil, anySteelIngot]]);
 
 # Wireless Access Point
 recipes.remove(wirelessAccessPoint);
@@ -196,9 +196,9 @@ recipes.addShaped(meDrive, [
 # ME Chest
 recipes.remove(meChest);
 recipes.addShaped(meChest, [
-    [anyElectrumIngot, meTerminal,          anyElectrumIngot],
-    [coveredCable,     reinforcedStrongbox, coveredCable],
-    [anyPlatinumIngot, anyFluixCrystal,     anyPlatinumIngot]]);
+    [anyAngmallenIngot, meTerminal,          anyAngmallenIngot],
+    [coveredCable,      reinforcedStrongbox, coveredCable],
+    [anyPlatinumIngot,  anyFluixCrystal,     anyPlatinumIngot]]);
 
 # ME Interface
 recipes.remove(meInterface);
@@ -311,10 +311,3 @@ recipes.addShaped(spatialCell128Cubed, [
     [quartzGlass,           anyFluxedElectrumDust,    quartzGlass],
     [anyFluxedElectrumDust, spatialComponent128Cubed, anyFluxedElectrumDust],
     [anyEnderiumIngot,      anyEnderiumIngot,         anyEnderiumIngot]]);
-
-# METALLURGIC INFUSER TWEAKS
-#----------------------------
-
-# Quartz Glass
-#recipes.remove(quartzGlass);
-#Infuser.addRecipe("OBSIDIAN", 200, anyCertusQuartz * 3, quartzGlass * 4);
