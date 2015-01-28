@@ -81,7 +81,7 @@ var anyMortarAndPestle  = <ore:toolMortarandpestle>;
 var anyPestleAndMortar  = <ore:pestleAndMortar>;
 
 # Ingots
-var anyIronWoodIngot    = <ore:ingotIronWood>;
+var anyIronwoodIngot    = <ore:ironwood>;
 var anyPrometheumIngot  = <ore:ingotPrometheum>;
 
 # Blocks
@@ -114,8 +114,8 @@ recipes.removeShaped(runicAltar);
 recipes.addShaped(runicAltar, [
     [livingRock,       livingRock,         livingRock],
     [livingRock,       manaDiamond,        livingRock],
-    [anyIronWoodIngot, anyPrometheumIngot, anyIronWoodIngot]]);
+    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
 recipes.addShaped(runicAltar, [
     [livingRock,       livingRock,         livingRock],
     [livingRock,       manaPearl,          livingRock],
-    [anyIronWoodIngot, anyPrometheumIngot, anyIronWoodIngot]]);
+    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
