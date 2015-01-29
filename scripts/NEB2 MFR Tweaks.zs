@@ -27,6 +27,24 @@ var magentaPlasticSheet   = <PneumaticCraft:plastic:13>;
 var orangePlasticSheet    = <PneumaticCraft:plastic:14>;
 var whitePlasticSheet     = <PneumaticCraft:plastic:15>;
 
+# Laser Foci
+var whiteLaserFocus       = <MineFactoryReloaded:laserfocus:0>;
+var orangeLaserFocus      = <MineFactoryReloaded:laserfocus:1>;
+var magentaLaserFocus     = <MineFactoryReloaded:laserfocus:2>;
+var lightBlueLaserFocus   = <MineFactoryReloaded:laserfocus:3>;
+var yellowLaserFocus      = <MineFactoryReloaded:laserfocus:4>;
+var limeLaserFocus        = <MineFactoryReloaded:laserfocus:5>;
+var pinkLaserFocus        = <MineFactoryReloaded:laserfocus:6>;
+var grayLaserFocus        = <MineFactoryReloaded:laserfocus:7>;
+var lightGrayLaserFocus   = <MineFactoryReloaded:laserfocus:8>;
+var cyanLaserFocus        = <MineFactoryReloaded:laserfocus:9>;
+var purpleLaserFocus      = <MineFactoryReloaded:laserfocus:10>;
+var blueLaserFocus        = <MineFactoryReloaded:laserfocus:11>;
+var brownLaserFocus       = <MineFactoryReloaded:laserfocus:12>;
+var greenLaserFocus       = <MineFactoryReloaded:laserfocus:13>;
+var redLaserFocus         = <MineFactoryReloaded:laserfocus:14>;
+var blackLaserFocus       = <MineFactoryReloaded:laserfocus:15>;
+
 # ITEM LISTS
 #------------
 var allPlasticSheets      = [
@@ -47,6 +65,24 @@ var allPlasticSheets      = [
     orangePlasticSheet,
     whitePlasticSheet
 ] as IItemStack[];
+var allLaserFoci          = [
+    blackLaserFocus,
+    redLaserFocus,
+    greenLaserFocus,
+    brownLaserFocus,
+    blueLaserFocus,
+    purpleLaserFocus,
+    cyanLaserFocus,
+    lightGreyLaserFocus,
+    greyLaserFocus,
+    pinkLaserFocus,
+    limeLaserFocus,
+    yellowLaserFocus,
+    lightBlueLaserFocus,
+    magentaLaserFocus,
+    orangeLaserFocus,
+    whiteLaserFocus
+] as IItemStack[];
 
 # ORE DICTIONARY
 #----------------
@@ -66,6 +102,11 @@ for i, sheet in allPlasticSheets {
 
 # RECIPE TWEAKS
 #---------------
+
+# Disable Laser Foci
+for laserFocus in allLaserFoci {
+    recipes.remove(laserFocus);
+}
 
 # Plastic Blocks Require Plastic Ingots
 recipes.removeShaped(plasticBlock, [
