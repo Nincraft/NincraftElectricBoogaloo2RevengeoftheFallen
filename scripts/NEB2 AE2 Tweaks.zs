@@ -1,8 +1,6 @@
-/*
- * NEB2 APPLIED ENERGISTICS 2 TWEAKS
- * Originally Taken from PhoenixConfigs (https://github.com/PhoenixTeamMC/PhoenixConfig)
- * https://github.com/PhoenixTeamMC/PhoenixConfig/blob/master/PhoenixTeam/Skele's%20AE2%20recipes.zs
- */
+# NEB2 APPLIED ENERGISTICS 2 TWEAKS
+# Originally Taken from PhoenixConfigs (https://github.com/PhoenixTeamMC/PhoenixConfig)
+# https://github.com/PhoenixTeamMC/PhoenixConfig/blob/master/PhoenixTeam/Skele's%20AE2%20recipes.zs
 
 # COMMON VARIABLES
 #------------------
