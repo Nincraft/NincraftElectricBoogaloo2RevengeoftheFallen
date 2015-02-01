@@ -66,22 +66,22 @@ var allPlasticSheets      = [
     whitePlasticSheet
 ] as IItemStack[];
 var allLaserFoci          = [
-    blackLaserFocus,
-    redLaserFocus,
-    greenLaserFocus,
-    brownLaserFocus,
-    blueLaserFocus,
-    purpleLaserFocus,
-    cyanLaserFocus,
-    lightGreyLaserFocus,
-    greyLaserFocus,
-    pinkLaserFocus,
-    limeLaserFocus,
-    yellowLaserFocus,
-    lightBlueLaserFocus,
-    magentaLaserFocus,
+    whiteLaserFocus,
     orangeLaserFocus,
-    whiteLaserFocus
+    magentaLaserFocus,
+    lightBlueLaserFocus,
+    yellowLaserFocus,
+    limeLaserFocus,
+    pinkLaserFocus,
+    grayLaserFocus,
+    lightGrayLaserFocus,
+    cyanLaserFocus,
+    purpleLaserFocus,
+    blueLaserFocus,
+    brownLaserFocus,
+    greenLaserFocus,
+    redLaserFocus,
+    blackLaserFocus
 ] as IItemStack[];
 
 # ORE DICTIONARY
