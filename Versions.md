@@ -19,7 +19,7 @@ Current API Versions
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.7.252
+- **MicDoodleCore** v3.0.8.257
 
 Current Mod Versions
 =
@@ -57,8 +57,8 @@ Current Mod Versions
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.7.252
-- **Galacticraft Planets** v3.0.7.252
+- **Galacticraft Core** v3.0.8.257
+- **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
@@ -82,7 +82,7 @@ Current Mod Versions
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.6-22
-- **More Planets** v1.1.4-beta
+- **More Planets** v1.1.9-beta
 - **Morph** v0.9.1
 - **Morpheus** v1.5.26
 - **Mystcraft** v0.11.0.00
