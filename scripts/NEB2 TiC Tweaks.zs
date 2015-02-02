@@ -692,6 +692,43 @@ recipes.removeShaped(dryingRack);
 recipes.addShaped(dryingRack, [
     [anyWoodSlab, anyWoodSlab, anyWoodSlab]]);
 
+/*
+# FURNACE TWEAKS
+#----------------
+furnace.remove(<*>, anyOrichalcumOre);
+furnace.remove(<*>, anyAdamantineOre);
+furnace.remove(<*>, anyKalendriteOre);
+furnace.remove(<*>, anySanguiniteOre);
+furnace.remove(<*>, anyVulcaniteOre);
+furnace.remove(<*>, anyTitaniumOre);
+furnace.remove(<*>, anyEximiteOre);
+furnace.remove(<*>, anyMeutoiteOre);
+
+furnace.remove(<*>, anyCobaltDust);
+furnace.remove(<*>, anyArditeDust);
+furnace.remove(<*>, anyManyullynDust);
+furnace.remove(<*>, anyOrichalcumDust);
+furnace.remove(<*>, anyAdamantineDust);
+furnace.remove(<*>, anyKalendriteDust);
+furnace.remove(<*>, anySanguiniteDust);
+furnace.remove(<*>, anyVulcaniteDust);
+furnace.remove(<*>, anyTitaniumDust);
+furnace.remove(<*>, anyEximiteDust);
+furnace.remove(<*>, anyMeutoiteDust);
+furnace.remove(<*>, anySteelDust);
+furnace.remove(<*>, anyBlackSteelDust);
+furnace.remove(<*>, anyShadowSteelDust);
+furnace.remove(<*>, anyTartariteDust);
+furnace.remove(<*>, anyAmordrineDust);
+furnace.remove(<*>, anyDesichalkosDust);
+furnace.remove(<*>, anyHaderothDust);
+furnace.remove(<*>, anyDamascusSteelDust);
+furnace.remove(<*>, anyInvarDust);
+
+# REDSTONE FURNACE TWEAKS
+#-------------------------
+*/
+
 # SMELTERY TWEAKS
 #-----------------
 
@@ -737,10 +774,6 @@ Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 
 # Aluminum Brass Ratio
 #Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
-
-# Quicksilver Ratio
-#Smeltery.removeAlloy(moltenQuicksilver);
-Smeltery.addAlloy(moltenQuicksilver * 576, [moltenSilver * 432, moltenMithril * 144]);
 
 /*
 # Disable Smeltery Melting to Require High Oven
