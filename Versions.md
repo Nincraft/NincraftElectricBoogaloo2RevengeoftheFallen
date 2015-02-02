@@ -24,7 +24,7 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.3.6
+- **AOBD** v2.4.0
 - **Applied Energistics 2** rv2 Beta 7
 - **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
@@ -36,7 +36,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
 - **Blood Magic** v1.3.0a
-- **Botania** r1.3-151
+- **Botania** r1.4-154
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.1.3
