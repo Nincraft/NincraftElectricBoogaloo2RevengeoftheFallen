@@ -1,6 +1,3 @@
-/*
-DISABLED UNTIL WE CAN FIND A REPLACEMENT FOR RED/BLUE STEEL
-
 # COMMON VARIABLES
 #------------------
 var bucket              = <minecraft:bucket>;
@@ -32,19 +29,15 @@ var cyaniteReprocessor  = <BigReactors:BRDevice:0>;
 
 # ORE DICTIONARY
 #----------------
-var anyBlueSteelIngot   = <ore:ingotBlueSteel>;
-var anyBlueSteelPlate   = <ore:plateBlueSteel>;
-var anyBlueSteelFrame   = <ore:frameGtBlueSteel>;
-
-var anyRedSteelIngot    = <ore:ingotRedSteel>;
-var anyRedSteelPlate    = <ore:plateRedSteel>;
-var anyRedSteelFrame    = <ore:frameGtRedSteel>;
-
-var anyGraphiteIngot    = <ore:ingotGraphite>;
-var anyUraniumIngot     = <ore:ingotUranium>;
-var anyCyaniteIngot     = <ore:ingotCyanite>;
-var anyPlutoniumIngot   = <ore:ingotPlutonium>;
 var anyNetherQuartz     = <ore:gemNetherQuartz>;
+
+# Ingots
+var anyBlackSteelIngot  = <ore:ingotBlackSteel>;
+var anyBlutoniumIngot   = <ore:ingotBlutonium>;
+var anyCyaniteIngot     = <ore:ingotCyanite>;
+var anyGraphiteIngot    = <ore:ingotGraphite>;
+var anyShadowSteelIngot = <ore:ingotShadowSteel>;
+var anyYelloriumIngot   = <ore:ingotYellorium>;
 
 # RECIPE TWEAKS
 #---------------
@@ -55,17 +48,17 @@ recipes.remove(reactorFuelRod);
 recipes.remove(reactorCoolantPort);
 
 recipes.addShaped(reactorCasing * 4, [
-    [anyRedSteelIngot, anyGraphiteIngot, anyRedSteelIngot],
-    [anyGraphiteIngot, anyUraniumIngot,  anyGraphiteIngot],
-    [anyRedSteelIngot, anyGraphiteIngot, anyRedSteelIngot]]);
+    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot],
+    [anyGraphiteIngot,   anyUraniumIngot,  anyGraphiteIngot],
+    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot]]);
 recipes.addShaped(reactorFuelRod, [
-    [anyRedSteelIngot, anyGraphiteIngot, anyRedSteelIngot],
-    [anyRedSteelIngot, anyUraniumIngot,  anyRedSteelIngot],
-    [anyRedSteelIngot, anyGraphiteIngot, anyRedSteelIngot]]);
+    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot],
+    [anyBlackSteelIngot, anyUraniumIngot,  anyBlackSteelIngot],
+    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot]]);
 recipes.addShaped(reactorCoolantPort, [
-    [reactorCasing,    null,   reactorCasing],
-    [anyRedSteelIngot, bucket, anyRedSteelIngot],
-    [reactorCasing,    piston, reactorCasing]]);
+    [reactorCasing,      null,   reactorCasing],
+    [anyBlackSteelIngot, bucket, anyBlackSteelIngot],
+    [reactorCasing,      piston, reactorCasing]]);
 
 # Turbine Parts Require Blue Steel
 recipes.remove(turbineHousing);
@@ -74,31 +67,28 @@ recipes.remove(turbineRotorBlade);
 recipes.remove(turbineRotorShaft);
 
 recipes.addShaped(turbineHousing * 4, [
-    [anyBlueSteelIngot, anyGraphiteIngot, anyBlueSteelIngot],
-    [anyNetherQuartz,   anyCyaniteIngot,  anyNetherQuartz],
-    [anyBlueSteelIngot, anyGraphiteIngot, anyBlueSteelIngot]]);
+    [anyShadowSteelIngot, anyGraphiteIngot, anyShadowSteelIngot],
+    [anyNetherQuartz,     anyCyaniteIngot,  anyNetherQuartz],
+    [anyShadowSteelIngot, anyGraphiteIngot, anyShadowSteelIngot]]);
 recipes.addShaped(turbineFluidPort, [
-    [turbineHousing,    null,   turbineHousing],
-    [anyBlueSteelIngot, bucket, anyBlueSteelIngot],
-    [turbineHousing,    piston, turbineHousing]]);
+    [turbineHousing,      null,   turbineHousing],
+    [anyShadowSteelIngot, bucket, anyShadowSteelIngot],
+    [turbineHousing,      piston, turbineHousing]]);
 
 recipes.addShaped(turbineRotorBlade, [
-    [anyBlueSteelIngot, anyCyaniteIngot, anyBlueSteelIngot]]);
+    [anyShadowSteelIngot, anyCyaniteIngot, anyShadowSteelIngot]]);
 recipes.addShaped(turbineRotorBlade, [
-    [anyBlueSteelIngot],
+    [anyShadowSteelIngot],
     [anyCyaniteIngot],
-    [anyBlueSteelIngot]]);
+    [anyShadowSteelIngot]]);
 
+recipes.addShapedMirrored(turbineRotorShaft, [
+    [anyCyaniteIngot, anyShadowSteelIngot, anyShadowSteelIngot]]);
 recipes.addShaped(turbineRotorShaft, [
-    [anyCyaniteIngot, anyBlueSteelPlate, anyBlueSteelPlate]]);
-recipes.addShaped(turbineRotorShaft, [
-    [anyBlueSteelPlate, anyBlueSteelPlate, anyCyaniteIngot]]);
-recipes.addShaped(turbineRotorShaft, [
-    [anyBlueSteelPlate],
-    [anyBlueSteelPlate],
+    [anyShadowSteelIngot],
+    [anyShadowSteelIngot],
     [anyCyaniteIngot]]);
 recipes.addShaped(turbineRotorShaft, [
     [anyCyaniteIngot],
-    [anyBlueSteelPlate],
-    [anyBlueSteelPlate]]);
-*/
+    [anyShadowSteelIngot],
+    [anyShadowSteelIngot]]);
