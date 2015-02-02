@@ -129,7 +129,7 @@ Current Mod Versions
 - **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
-- **Tinker's Steelworks** v1.0.6
+- **Tinker's Steelworks** v1.0.7
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
