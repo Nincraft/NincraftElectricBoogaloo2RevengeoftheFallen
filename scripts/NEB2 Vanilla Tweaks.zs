@@ -23,8 +23,22 @@ var torchCarpenters       = <CarpentersBlocks:blockCarpentersTorch>;
 var torchWood             = <minecraft:torch>;
 var torchStone            = <TConstruct:decoration.stonetorch>;
 
+# ITEM LISTS
+#------------
+var torchHandles          = [
+    anyWoodStick,
+    carpentersBlock,
+    anyStoneRod
+] as IIngredient[];
+var allTorches            = [
+    torchWood,
+    torchCarpenters,
+    torchStone
+] as IItemStack[];
+
 # ORE DICTIONARY
 #----------------
+var anyAluminumIngot      = <ore:ingotAluminum>;
 var anyBitumenDust        = <ore:dustBitumen>;
 var anyCoal               = <ore:coal>;
 var anyCobblestone        = <ore:cobblestone>;
@@ -38,19 +52,6 @@ var anySugarCharcoal      = <ore:itemCharcoalSugar>;
 var anySulfurDust         = <ore:dustSulfur>;
 var anyWoodSlab           = <ore:slabWood>;
 var anyWoodStick          = <ore:stickWood>;
-
-# ITEM LISTS
-#------------
-var torchHandles          = [
-    anyWoodStick,
-    carpentersBlock,
-    anyStoneRod
-] as IIngredient[];
-var allTorches            = [
-    torchWood,
-    torchCarpenters,
-    torchStone
-] as IItemStack[];
 
 # Register Clay Bricks
 var clayBricks            = <ore:bricksClay>;
@@ -79,7 +80,7 @@ recipes.removeShaped(bread);
 recipes.remove(piston);
 recipes.addShaped(piston, [
     [anyWoodSlab,    anyWoodSlab,           anyWoodSlab],
-    [anyCobblestone, ironToughRod,          anyCobblestone],
+    [anyCobblestone, anyAluminumIngot,      anyCobblestone],
     [anyCobblestone, anyRedstoneAlloyIngot, anyCobblestone]]);
 
 # Dispenser
@@ -140,12 +141,6 @@ for i, handle in torchHandles
 
 # Clay Block -> Clay Balls
 recipes.addShapeless(clayBall * 4, [clayBlock]);
-
-# Bucket Costs Steel
-recipes.remove(bucket);
-recipes.addShaped(bucket, [
-    [anySteelIngot, null,          anySteelIngot],
-    [null,          anySteelIngot, null      ]]);
 
 # Flint & Steel Costs Steel
 recipes.remove(flintNSteel);
