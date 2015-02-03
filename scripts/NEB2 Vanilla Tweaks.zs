@@ -23,19 +23,6 @@ var torchCarpenters       = <CarpentersBlocks:blockCarpentersTorch>;
 var torchWood             = <minecraft:torch>;
 var torchStone            = <TConstruct:decoration.stonetorch>;
 
-# ITEM LISTS
-#------------
-var torchHandles          = [
-    anyWoodStick,
-    carpentersBlock,
-    anyStoneRod
-] as IIngredient[];
-var allTorches            = [
-    torchWood,
-    torchCarpenters,
-    torchStone
-] as IItemStack[];
-
 # ORE DICTIONARY
 #----------------
 var anyAluminumIngot      = <ore:ingotAluminum>;
@@ -65,6 +52,19 @@ anyTorch.add(torchStone);
 
 # Unify Diamond Nuggets
 <ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
+
+# ITEM LISTS
+#------------
+var torchHandles          = [
+    anyWoodStick,
+    carpentersBlock,
+    anyStoneRod
+] as IIngredient[];
+var allTorches            = [
+    torchWood,
+    torchCarpenters,
+    torchStone
+] as IItemStack[];
 
 # FURNACE TWEAKS
 #----------------

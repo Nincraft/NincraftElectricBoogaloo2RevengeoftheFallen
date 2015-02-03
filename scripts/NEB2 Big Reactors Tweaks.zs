@@ -48,13 +48,13 @@ recipes.remove(reactorFuelRod);
 recipes.remove(reactorCoolantPort);
 
 recipes.addShaped(reactorCasing * 4, [
-    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot],
-    [anyGraphiteIngot,   anyUraniumIngot,  anyGraphiteIngot],
-    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot]]);
+    [anyBlackSteelIngot, anyGraphiteIngot,  anyBlackSteelIngot],
+    [anyGraphiteIngot,   anyYelloriumIngot, anyGraphiteIngot],
+    [anyBlackSteelIngot, anyGraphiteIngot,  anyBlackSteelIngot]]);
 recipes.addShaped(reactorFuelRod, [
-    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot],
-    [anyBlackSteelIngot, anyUraniumIngot,  anyBlackSteelIngot],
-    [anyBlackSteelIngot, anyGraphiteIngot, anyBlackSteelIngot]]);
+    [anyBlackSteelIngot, anyGraphiteIngot,  anyBlackSteelIngot],
+    [anyBlackSteelIngot, anyYelloriumIngot, anyBlackSteelIngot],
+    [anyBlackSteelIngot, anyGraphiteIngot,  anyBlackSteelIngot]]);
 recipes.addShaped(reactorCoolantPort, [
     [reactorCasing,      null,   reactorCasing],
     [anyBlackSteelIngot, bucket, anyBlackSteelIngot],
