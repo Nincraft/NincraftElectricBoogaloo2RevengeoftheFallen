@@ -35,7 +35,7 @@ Current Mod Versions
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
-- **Blood Magic** v1.3.0a
+- **Blood Magic** v1.3.0b
 - **Botania** r1.4-155
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
@@ -46,10 +46,10 @@ Current Mod Versions
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.5.4
+- **Doom-like Dungeon** v1.6.3
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
-- **EnderIO** v2.2.6.317
+- **EnderIO** v2.2.7.325
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.374
 - **Extra Cells** v2.2.34b58
@@ -107,7 +107,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.8.59
 - **ProjectRed Lighting** v4.5.8.59
 - **ProjectRed World** v4.5.8.59
-- **Random Things** v2.2.3
+- **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
 - **Resonant Engine** v2.0.0.144
@@ -122,7 +122,7 @@ Current Mod Versions
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.2
+- **Thaumcraft** v4.2.3.4
 - **Thaumic Tinkerer** v2.5-162
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
