@@ -8,6 +8,10 @@ var travelAnchor             = <EnderIO:blockTravelAnchor>;
 var poweredSpawner           = <EnderIO:blockPoweredSpawner>;
 var conduitBinder            = <EnderIO:itemMaterial:1>;
 var machineChassis           = <EnderIO:itemMachinePart:0>;
+var soulVial                 = <EnderIO:itemSoulVessel>;
+var basicCapacitor           = <EnderIO:itemBasicCapacitor:0>;
+var doubleCapacitor          = <EnderIO:itemBasicCapacitor:1>;
+var octadicCapacitor         = <EnderIO:itemBasicCapacitor:2>;
 
 # Conduits
 var redstoneConduit          = <EnderIO:itemRedstoneConduit:0>;
@@ -40,7 +44,14 @@ var pulverizer               = <ThermalExpansion:Machine:1>;
 var inductionSmelter         = <ThermalExpansion:Machine:3>;
 
 # Thermal Expansion Frames
+var leadstoneCellFrame       = <ThermalExpansion:Frame:4>;
 var redstoneCellFrame        = <ThermalExpansion:Frame:6>;
+
+# Thermal Expansion Energy Cells
+var leadstoneEnergyCell      = <ThermalExpansion:Cell:1>;
+var hardenedEnergyCell       = <ThermalExpansion:Cell:2>;
+var redstoneEnergyCell       = <ThermalExpansion:Cell:3>;
+var resonantEnergyCell       = <ThermalExpansion:Cell:4>;
 
 # MineFactory Machines
 var planter                  = <MineFactoryReloaded:machine.0:0>;
@@ -48,6 +59,7 @@ var harvester                = <MineFactoryReloaded:machine.0:2>;
 
 # ORE DICTIONARY
 #----------------
+var anyAstralSilverIngot     = <ore:ingotAstralSilver>;
 var anyEnergeticAlloyIngot   = <ore:ingotEnergeticAlloy>;
 var anyVibrantAlloyIngot     = <ore:ingotPhasedGold>;
 var anyEnderiumIngot         = <ore:ingotEnderium>;
@@ -58,6 +70,8 @@ var anyRedNetCable           = <ore:cableRedNet>;
 var anyRedNetEnergyCable     = <ore:cableRedNetEnergy>;
 var anyPlasticSheet          = <ore:sheetPlastic>;
 var anyHardenedGlass         = <ore:blockGlassHardened>;
+var anyShadowSteelIngot      = <ore:ingotShadowSteel>;
+var anySoulariumIngot        = <ore:ingotSoularium>;
 
 # Unify Redstone Alloy Ingots
 anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
@@ -65,6 +79,27 @@ anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
 
 # RECIPE TWEAKS
 #---------------
+
+# Basic Capacitor Bank
+recipes.removeShaped(basicCapacitorBank);
+recipes.addShaped(basicCapacitorBank, [
+    [anyAstralSilverIngot, basicCapacitor,     anyAstralSilverIngot],
+    [basicCapacitor,       leadstoneCellFrame, basicCapacitor],
+    [anyAstralSilverIngot, basicCapacitor,     anyAstralSilverIngot]]);
+
+# Capacitor Bank
+recipes.removeShaped(capacitorBank);
+recipes.addShaped(capacitorBank, [
+    [anyShadowSteelIngot, doubleCapacitor,    anyShadowSteelIngot],
+    [doubleCapacitor,     hardenedEnergyCell, doubleCapacitor],
+    [anyShadowSteelIngot, doubleCapacitor,    anyShadowSteelIngot]]);
+
+# Vibrant Capacitor Bank
+recipes.removeShaped(vibrantCapacitorBank);
+recipes.addShaped(vibrantCapacitorBank, [
+    [anyVibrantAlloyIngot, octadicCapacitor,     anyVibrantAlloyIngot],
+    [octadicCapacitor,     resonantEnergyCell,   octadicCapacitor],
+    [anyVibrantAlloyIngot, octadicCapacitor,     anyVibrantAlloyIngot]]);
 
 # Nerf Alloy Smelter
 var basicRedstoneFurnace     = redstoneFurnace.onlyWithTag({Level:0 as byte});
@@ -159,3 +194,10 @@ recipes.addShaped(meConduit * 8, [
     [conduitBinder, null,         conduitBinder],
     [meGlassCable,  meGlassCable, meGlassCable],
     [conduitBinder, null,         conduitBinder]]);
+
+# Soul Vial Accepts any Hardened Glass
+recipes.removeShaped(soulVial);
+recipes.addShaped(soulVial, [
+    [null,             anySoulariumIngot, null],
+    [anyHardenedGlass, null,              anyHardenedGlass],
+    [null,             anyHardenedGlass,  null]]);
