@@ -5,12 +5,20 @@
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 4,
-                "weight": 90
+                "weight": 81
+            },
+            {
+                "name": "PoorOres:poor_oureclase_ore",
+                "weight": 9
             },
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 6,
-                "weight": 10
+                "weight": 9
+            },
+            {
+                "name": "PoorOres:poor_carmot_ore",
+                "weight": 1
             }
         ],
         "material": "stone",
@@ -38,12 +46,20 @@
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 6,
-                "weight": 80
+                "weight": 72
+            },
+            {
+                "name": "PoorOres:poor_carmot_ore",
+                "weight": 8
             },
             {
                 "name": "Metallurgy:fantasy.ore",
                 "metadata": 4,
-                "weight": 20
+                "weight": 8
+            },
+            {
+                "name": "PoorOres:poor_oureclase_ore",
+                "weight": 2
             }
         ],
         "material": "stone",
@@ -129,10 +145,17 @@
     },
     "atlarus": {
         "template": "fractal",
-        "block": {
-            "name": "Metallurgy:fantasy.ore",
-            "metadata": 14
-        },
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 14,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_atlarus_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 32,
@@ -161,10 +184,17 @@
     },
     "vyroxeres": {
         "template": "fractal",
-        "block": {
-            "name": "Metallurgy:nether.ore",
-            "metadata": 4
-        },
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_vyroxeres_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "clusterSize": 32,
         "numClusters": 32,
@@ -189,10 +219,17 @@
     },
     "ignatius": {
         "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:nether.ore",
-            "metadata": 0
-        },
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_ignatius_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "genFluid": "lava",
         "clusterSize": 4,
@@ -215,10 +252,17 @@
     },
     "vulcanite": {
         "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:nether.ore",
-            "metadata": 8
-        },
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 8,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_vulcanite_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "genFluid": "lava",
         "clusterSize": 4,
@@ -241,10 +285,17 @@
     },
     "sanguinite": {
         "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:nether.ore",
-            "metadata": 9
-        },
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 9,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_sanguinite_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "genFluid": "hell_blood",
         "clusterSize": 4,
@@ -267,10 +318,17 @@
     },
     "zinc": {
         "template": "fractal",
-        "block": {
-            "name": "Metallurgy:precious.ore",
-            "metadata": 0
-        },
+        "block": [
+            {
+                "name": "Metallurgy:precious.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_zinc_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
@@ -296,10 +354,17 @@
     },
     "sulfur": {
         "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:utility.ore",
-            "metadata": 0
-        },
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_sulfur_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "genFluid": "lava",
         "clusterSize": 4,
@@ -325,12 +390,16 @@
             {
                 "name": "Metallurgy:utility.ore",
                 "metadata": 3,
-                "weight": 92
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_magnesium_ore",
+                "weight": 8
             },
             {
                 "name": "BiomesOPlenty:gemOre",
                 "metadata": 4,
-                "weight": 8
+                "weight": 2
             }
         ],
         "material": "stone",
@@ -356,10 +425,17 @@
     },
     "bitumen": {
         "template": "underfluid",
-        "block": {
-            "name": "Metallurgy:utility.ore",
-            "metadata": 4
-        },
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_bitumen_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "genFluid": "oil",
         "clusterSize": 4,

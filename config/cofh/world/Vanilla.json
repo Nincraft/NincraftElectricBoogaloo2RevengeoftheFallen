@@ -93,7 +93,11 @@
         "block": [
             {
                 "name": "iron_ore",
-                "weight": 985
+                "weight": 900
+            },
+            {
+                "name": "PoorOres:poor_iron_ore",
+                "weight": 85
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -136,7 +140,16 @@
     },
     "gold": {
         "template": "fractal",
-        "block": "gold_ore",
+        "block": [
+            {
+                "name": "gold_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_gold_ore",
+                "weight": 90
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
@@ -162,7 +175,16 @@
     },
     "redstone": {
         "template": "fractal",
-        "block": "redstone_ore",
+        "block": [
+            {
+                "name": "redstone_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_redstone_ore",
+                "weight": 90
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 96,
@@ -216,7 +238,16 @@
     },
     "lapis": {
         "template": "fractal",
-        "block": "lapis_ore",
+        "block": [
+            {
+                "name": "lapis_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_lapis_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 64,
@@ -242,7 +273,16 @@
     },
     "quartz": {
         "template": "fractal",
-        "block": "quartz_ore",
+        "block": [
+            {
+                "name": "quartz_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_quartz_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "clusterSize": 32,
         "numClusters": 144,

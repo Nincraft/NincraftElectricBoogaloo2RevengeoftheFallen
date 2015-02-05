@@ -5,7 +5,11 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 0,
-                "weight": 98
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_copper_ore",
+                "weight": 8
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -38,10 +42,17 @@
     },
     "tin": {
         "template": "fractal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 1
-        },
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_tin_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
@@ -71,12 +82,20 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 2,
-                "weight": 80
+                "weight": 72
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 8
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 3,
-                "weight": 20
+                "weight": 18
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 2
             }
         ],
         "material": "stone",
@@ -108,12 +127,20 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 3,
-                "weight": 90
+                "weight": 81
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 9
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 2,
-                "weight": 10
+                "weight": 9
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 1
             }
         ],
         "material": "stone",
@@ -145,11 +172,19 @@
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 4,
+                "weight": 855
+            },
+            {
+                "name": "PoorOres:poor_nickel_ore",
                 "weight": 95
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 5,
+                "weight": 45
+            },
+            {
+                "name": "PoorOres:poor_platinum_ore",
                 "weight": 5
             }
         ],
@@ -178,10 +213,17 @@
     },
     "mithril": {
         "template": "fractal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 6
-        },
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 6,
+                "wegiht": 90
+            },
+            {
+                "name": "PoorOres:poor_mithril_ore",
+                "weight": 10
+            },
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
