@@ -31,8 +31,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
-            1
+            1,
+            7
         ],
         "enabled":false
     },
@@ -63,8 +65,10 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
-            1
+            1,
+            7
         ]
     }
 }

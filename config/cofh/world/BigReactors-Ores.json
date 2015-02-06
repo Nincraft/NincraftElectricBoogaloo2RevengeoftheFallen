@@ -33,8 +33,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -5,
-            -4,
+            -19,
             -1,
             1,
             7

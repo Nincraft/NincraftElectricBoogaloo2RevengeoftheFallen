@@ -25,9 +25,13 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
+            -19,
             -1,
+            0,
             1,
             7
-        ]
+        ],
+        "enabled": false 
     }
 }

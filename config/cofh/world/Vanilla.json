@@ -68,7 +68,16 @@
     },
     "coal": {
         "template": "fractal",
-        "block": "coal_ore",
+        "block": [
+            {
+                "name": "coal_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_coal_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 96,
@@ -129,10 +138,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -147,7 +153,7 @@
             },
             {
                 "name": "PoorOres:poor_gold_ore",
-                "weight": 90
+                "weight": 10
             }
         ],
         "material": "stone",
@@ -164,10 +170,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -182,7 +185,7 @@
             },
             {
                 "name": "PoorOres:poor_redstone_ore",
-                "weight": 90
+                "weight": 10
             }
         ],
         "material": "stone",
@@ -199,10 +202,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -226,10 +226,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -262,10 +259,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -318,10 +312,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7

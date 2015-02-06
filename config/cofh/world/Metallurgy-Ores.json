@@ -182,6 +182,36 @@
             7
         ]
     },
+    "deepIron": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_deep_iron_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
     "vyroxeres": {
         "template": "fractal",
         "block": [
@@ -199,7 +229,7 @@
         "clusterSize": 32,
         "numClusters": 32,
         "chunkChance": 128,
-        "minHeight": 1,
+        "minHeight": 32,
         "veinHeight": 64,
         "veinDiameter": 64,
         "verticalDensity": 16,
@@ -376,7 +406,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
             -1,
             1,
@@ -416,7 +445,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
             -1,
             1,
@@ -447,7 +475,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
             -1,
             1,
@@ -595,7 +622,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
             -1,
             1,
@@ -618,7 +644,6 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
             -1,
             1,

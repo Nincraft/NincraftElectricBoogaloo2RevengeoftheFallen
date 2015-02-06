@@ -31,10 +31,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -67,10 +64,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -112,10 +106,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -157,10 +148,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -202,10 +190,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
