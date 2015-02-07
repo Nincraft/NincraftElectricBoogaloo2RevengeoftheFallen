@@ -39,6 +39,7 @@ Current Mod Versions
 - **Botania** r1.3-151
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
+- **Chicken Chunks** v1.3.4.17
 - **Chisel** v2.1.3
 - **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
