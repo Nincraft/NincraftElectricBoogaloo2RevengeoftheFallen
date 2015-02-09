@@ -7,7 +7,44 @@ import minetweaker.item.IItemStack;
 var redNetCable           = <MineFactoryReloaded:cable.redstone>;
 var plasticBlock          = <MineFactoryReloaded:plastic>;
 var plasticPipe           = <MineFactoryReloaded:cable.plastic>;
+var poweredSpawner        = <EnderIO:blockPoweredSpawner>;
 var rawRubber             = <MineFactoryReloaded:rubber.raw>;
+var redstoneReceptionCoil = <ThermalExpansion:material:1>;
+var reusableSafariNet     = <MineFactoryReloaded:safarinet.reusable>;
+var soulVial              = <EnderIO:itemSoulVessel>;
+var enderPearl            = <minecraft:ender_pearl>;
+var leather               = <minecraft:leather>;
+
+# Machines
+var ejector               = <MineFactoryReloaded:machine.1:0>;
+var itemRouter            = <MineFactoryReloaded:machine.1:1>;
+var liquidRouter          = <MineFactoryReloaded:machine.1:2>;
+var deepStorageUnity      = <MineFactoryReloaded:machine.1:3>;
+var liquiCrafter          = <MineFactoryReloaded:machine.1:4>;
+var lavaFabricator        = <MineFactoryReloaded:machine.1:5>;
+var steamBoiler           = <MineFactoryReloaded:machine.1:6>;
+var autoJukebox           = <MineFactoryReloaded:machine.1:7>;
+var unifier               = <MineFactoryReloaded:machine.1:8>;
+var autoSpawner           = <MineFactoryReloaded:machine.1:9>;
+var bioReactor            = <MineFactoryReloaded:machine.1:10>;
+var bioFuelGenerator      = <MineFactoryReloaded:machine.1:11>;
+var autoDisenchanter      = <MineFactoryReloaded:machine.1:12>;
+var slaughterhouse        = <MineFactoryReloaded:machine.1:13>;
+var meatPacker            = <MineFactoryReloaded:machine.1:14>;
+var enchantmentRouter     = <MineFactoryReloaded:machine.1:15>;
+var laserDrill            = <MineFactoryReloaded:machine.2:0>;
+var laserDrillPrecharger  = <MineFactoryReloaded:machine.2:1>;
+var autoAnvil             = <MineFactoryReloaded:machine.2:2>;
+var blockSmasher          = <MineFactoryReloaded:machine.2:3>;
+var redNoteBlock          = <MineFactoryReloaded:machine.2:4>;
+var autoBrewer            = <MineFactoryReloaded:machine.2:5>;
+var fruitPicker           = <MineFactoryReloaded:machine.2:6>;
+var blockPlacer           = <MineFactoryReloaded:machine.2:7>;
+var mobCounter            = <MineFactoryReloaded:machine.2:8>;
+var steamTurbine          = <MineFactoryReloaded:machine.2:9>;
+var chunkLoader           = <MineFactoryReloaded:machine.2:10>;
+var fountain              = <MineFactoryReloaded:machine.2:11>;
+var mobRouter             = <MineFactoryReloaded:machine.2:12>;
 
 # PneumaticCraft Plastic Sheets
 var blackPlasticSheet     = <PneumaticCraft:plastic:0>;
@@ -91,6 +128,7 @@ var anyPlasticSheet       = <ore:sheetPlastic>;
 var anyRawRubber          = <ore:itemRawRubber>;
 var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
 var anyRubberDust         = <ore:dustRubber>;
+var anyShadowSteelIngot   = <ore:ingotShadowSteel>;
 
 # Register MFR Plastic Pipe
 anyPlasticPipe.add(plasticPipe);
@@ -113,8 +151,23 @@ recipes.removeShaped(plasticBlock, [
     [anyPlasticSheet, anyPlasticSheet],
     [anyPlasticSheet, anyPlasticSheet]]);
 
+# RedNet Cables Require Redstone Alloy Ingots
 recipes.remove(redNetCable);
 recipes.addShaped(redNetCable * 8, [
     [anyPlasticSheet,       anyPlasticSheet,       anyPlasticSheet],
     [anyRedstoneAlloyIngot, anyRedstoneAlloyIngot, anyRedstoneAlloyIngot],
     [anyPlasticSheet,       anyPlasticSheet,       anyPlasticSheet]]);
+
+# Auto-Enchanter Requires Powered Spawner
+recipes.removeShaped(autoSpawner);
+recipes.addShaped(autoSpawner, [
+    [anyShadowSteelIngot, anyPlasticSheet,       anyShadowSteelIngot],
+    [anyPlasticSheet,     poweredSpawner,        anyPlasticSheet],
+    [anyShadowSteelIngot, redstoneReceptionCoil, anyShadowSteelIngot]]);
+
+# Reusable Safari Net Requires Soul Vial
+recipes.removeShaped(reusableSafariNet);
+recipes.addShaped(reusableSafariNet, [
+    [<minecraft:string>, leather,    <minecraft:string>],
+    [enderPearl,         soulVial,   enderPearl],
+    [<minecraft:string>, enderPearl, <minecraft:string>]]);

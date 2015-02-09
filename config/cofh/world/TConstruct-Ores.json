@@ -5,7 +5,11 @@
             {
                 "name": "GalacticraftCore:tile.gcBlockCore",
                 "metadata": 7,
-                "weight": 95
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_aluminum_ore",
+                "weight": 5
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -47,8 +51,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -5,
-            -4,
+            -19,
             -1,
             1,
             7

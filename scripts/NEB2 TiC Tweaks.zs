@@ -9,10 +9,12 @@ import mods.tconstruct.Casting;
 #------------------
 var blazeRod                 = <minecraft:blaze_rod>;
 var dryingRack               = <TConstruct:Armor.DryingRack>;
-var emptySocket              = <AWWayofTime:emptySocket>;
-var filledSocket             = <AWWayofTime:bloodSocket>;
 var emptyIlluminatorFrame    = <ThermalExpansion:Frame:9>;
+var emptySocket              = <AWWayofTime:emptySocket>;
 var fullIlluminatorFrame     = <ThermalExpansion:Light>;
+var fullSocket               = <AWWayofTime:bloodSocket>;
+var soulSand                 = <minecraft:soul_sand>;
+
 
 # Dusts
 var redstoneDust             = <minecraft:redstone>;
@@ -148,6 +150,7 @@ var tartariteIngot           = <Metallurgy:tartarite.ingot>;
 var vulcaniteIngot           = <Metallurgy:vulcanite.ingot>;
 var vyroxeresIngot           = <Metallurgy:vyroxeres.ingot>;
 var fluxedElectrumIngot      = <RedstoneArsenal:material:32>;
+var soulariumIngot           = <EnderIO:itemAlloy:7>;
 
 # Nuggets
 var goldNugget               = <minecraft:gold_nugget>;
@@ -617,6 +620,7 @@ var anyShadowIronIngot       = <ore:ingotShadowIron>;
 var anyShadowSteelIngot      = <ore:ingotShadowSteel>;
 var anySilverIngot           = <ore:ingotSilver>;
 var anySteelIngot            = <ore:ingotSteel>;
+var anySoulariumIngot        = <ore:ingotSoularium>;
 var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTinIngot              = <ore:ingotTin>;
 var anyTitaniumIngot         = <ore:ingotTitanium>;
@@ -692,6 +696,43 @@ recipes.removeShaped(dryingRack);
 recipes.addShaped(dryingRack, [
     [anyWoodSlab, anyWoodSlab, anyWoodSlab]]);
 
+/*
+# FURNACE TWEAKS
+#----------------
+furnace.remove(<*>, anyOrichalcumOre);
+furnace.remove(<*>, anyAdamantineOre);
+furnace.remove(<*>, anyKalendriteOre);
+furnace.remove(<*>, anySanguiniteOre);
+furnace.remove(<*>, anyVulcaniteOre);
+furnace.remove(<*>, anyTitaniumOre);
+furnace.remove(<*>, anyEximiteOre);
+furnace.remove(<*>, anyMeutoiteOre);
+
+furnace.remove(<*>, anyCobaltDust);
+furnace.remove(<*>, anyArditeDust);
+furnace.remove(<*>, anyManyullynDust);
+furnace.remove(<*>, anyOrichalcumDust);
+furnace.remove(<*>, anyAdamantineDust);
+furnace.remove(<*>, anyKalendriteDust);
+furnace.remove(<*>, anySanguiniteDust);
+furnace.remove(<*>, anyVulcaniteDust);
+furnace.remove(<*>, anyTitaniumDust);
+furnace.remove(<*>, anyEximiteDust);
+furnace.remove(<*>, anyMeutoiteDust);
+furnace.remove(<*>, anySteelDust);
+furnace.remove(<*>, anyBlackSteelDust);
+furnace.remove(<*>, anyShadowSteelDust);
+furnace.remove(<*>, anyTartariteDust);
+furnace.remove(<*>, anyAmordrineDust);
+furnace.remove(<*>, anyDesichalkosDust);
+furnace.remove(<*>, anyHaderothDust);
+furnace.remove(<*>, anyDamascusSteelDust);
+furnace.remove(<*>, anyInvarDust);
+
+# REDSTONE FURNACE TWEAKS
+#-------------------------
+*/
+
 # SMELTERY TWEAKS
 #-----------------
 
@@ -723,6 +764,14 @@ Smeltery.addMelting(cryotheumDust, moltenCryotheum * 1000, 750, <minecraft:snow>
 
 Casting.addTableRecipe(bucketCryotheum, moltenCryotheum * 1000, bucket, true, 40);
 
+# Soularium
+Casting.addTableRecipe(soulariumIngot, moltenGold * 144, soulSand, true, 40);
+
+# Fluxed Electrum
+for dust in anyElectrumDust.items {
+    Casting.addTableRecipe(fluxedElectrumDust, moltenRedstone * 1000, dust, true, 40);
+}
+
 # End Powder -> Ender Goo
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
 
@@ -737,10 +786,6 @@ Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 
 # Aluminum Brass Ratio
 #Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
-
-# Quicksilver Ratio
-#Smeltery.removeAlloy(moltenQuicksilver);
-Smeltery.addAlloy(moltenQuicksilver * 576, [moltenSilver * 432, moltenMithril * 144]);
 
 /*
 # Disable Smeltery Melting to Require High Oven

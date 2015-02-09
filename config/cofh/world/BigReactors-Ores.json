@@ -1,7 +1,16 @@
 {
     "yellorite": {
         "template": "fractal",
-        "block": "BigReactors:YelloriteOre",
+        "block": [
+            {
+                "name": "BigReactors:YelloriteOre",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_yellorite_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 32,
@@ -24,8 +33,7 @@
         ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -5,
-            -4,
+            -19,
             -1,
             1,
             7

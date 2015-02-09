@@ -1,7 +1,16 @@
 {
     "osmium": {
         "template": "fractal",
-        "block": "Mekanism:OreBlock",
+        "block": [
+            {
+                "name": "Mekanism:OreBlock",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_osmium_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
@@ -16,9 +25,13 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
+            -19,
             -1,
+            0,
             1,
             7
-        ]
+        ],
+        "enabled": false 
     }
 }

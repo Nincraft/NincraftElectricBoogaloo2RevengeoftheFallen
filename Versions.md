@@ -40,6 +40,7 @@ Current Mod Versions
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
 - **Chisel** v2.3.5.31
+- **Chicken Chunks** v1.3.4.17
 - **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
@@ -102,6 +103,7 @@ Current Mod Versions
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
+- **Poor Ores** v1.4.6
 - **ProjectRed Base** v4.5.8.59
 - **ProjectRed Compat** v4.5.8.59
 - **ProjectRed Integration** v4.5.8.59
