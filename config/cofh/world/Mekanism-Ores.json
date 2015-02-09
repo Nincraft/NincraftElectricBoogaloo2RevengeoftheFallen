@@ -16,22 +16,16 @@
         "numClusters": 96,
         "chunkChance": 256,
         "minHeight": 1,
-        "veinHeight": 16,
+        "veinHeight": 32,
         "veinDiameter": 64,
         "verticalDensity": 16,
         "horizontalDensity": 16,
         "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
-        "dimensionRestriction": "blacklist",
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -100,
-            -19,
-            -1,
-            0,
-            1,
-            7
-        ],
-        "enabled": false 
+            -100
+        ]
     }
 }
