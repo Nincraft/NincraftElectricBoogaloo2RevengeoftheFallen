@@ -47,10 +47,10 @@ Current Mod Versions
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.6.3
+- **Doom-like Dungeon** v1.7.2
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
-- **EnderIO** v2.2.7.325
+- **EnderIO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.374
 - **Extra Cells** v2.2.34b58
@@ -135,7 +135,7 @@ Current Mod Versions
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
-- **Twilight Forest** v2.3.2
+- **Twilight Forest** v2.3.3
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.6a
 - **WAWLA** v1.0.9
