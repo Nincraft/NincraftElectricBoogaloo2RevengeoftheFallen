@@ -115,8 +115,8 @@ Current Mod Versions
 - **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
 - **SciMCLib** v0.0.0.1
-- **ServerTools-BACKUP** v2.1.0.11
-- **ServerTools-CORE** v2.1.0.55
+- **ServerTools-BACKUP** v2.2.0.23
+- **ServerTools-CORE** v2.2.0.79
 - **Shatter** v4.0.0
 - **Simply Jetpacks** v1.3.2
 - **Special Mobs** v3.0.3
