@@ -34,7 +34,7 @@ Current Mod Versions
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.1A2
-- **Biomes O' Plenty** v2.1.0.1004
+- **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
 - **Botania** r1.4-158
 - **Carpenter's Blocks** v3.3.0
@@ -77,7 +77,6 @@ Current Mod Versions
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
 - **Metallurgy** v4.0.4.43
-- **MFFS** v4.1.0.33
 - **Minefactory Reloaded** v2.8.0RC6-5
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
@@ -91,7 +90,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.2-alpha
-- **Not Enough Items** v1.0.3.62
+- **Not Enough Items** v1.0.4.83
 - **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.4.4a.25
@@ -112,7 +111,6 @@ Current Mod Versions
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
-- **Resonant Engine** v2.0.0.144
 - **RPGAdvMod** v1.0.0
 - **SciMCLib** v0.0.0.1
 - **ServerTools-BACKUP** v2.2.0.23
@@ -136,9 +134,8 @@ Current Mod Versions
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.3
-- **Universal Electricity** v4.0.0.83
-- **WAILA** v1.5.6a
-- **WAWLA** v1.0.9
+- **WAILA** v1.5.8a
+- **WAWLA** v1.1.1
 - **Weather** v2.3.7
 
 Developer Mods
