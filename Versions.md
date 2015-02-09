@@ -19,12 +19,12 @@ Current API Versions
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.7.252
+- **MicDoodleCore** v3.0.8.257
 
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.3.6
+- **AOBD** v2.4.0
 - **Applied Energistics 2** rv2 Beta 7
 - **AsieLib** v0.3.8
 - **Armor Status HUD** v1.28
@@ -35,22 +35,22 @@ Current Mod Versions
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.1A2
 - **Biomes O' Plenty** v2.1.0.1004
-- **Blood Magic** v1.3.0a
-- **Botania** r1.3-151
+- **Blood Magic** v1.3.0b
+- **Botania** r1.4-158
 - **Carpenter's Blocks** v3.3.0
 - **Caveworld** v1.8.3
+- **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
-- **Chisel** v2.1.3
 - **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.5.4
+- **Doom-like Dungeon** v1.7.2
 - **Dynamic Lights** v1.3.7
 - **Enchiridion** v1.2b
-- **EnderIO** v2.2.6.317
+- **EnderIO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.374
 - **Extra Cells** v2.2.34b58
@@ -58,8 +58,8 @@ Current Mod Versions
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.7.252
-- **Galacticraft Planets** v3.0.7.252
+- **Galacticraft Core** v3.0.8.257
+- **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
@@ -82,8 +82,8 @@ Current Mod Versions
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
-- **ModTweaker** v0.6-22
-- **More Planets** v1.1.4-beta
+- **ModTweaker** v0.7.b (Manual Build)
+- **More Planets** v1.1.9-beta
 - **Morph** v0.9.1
 - **Morpheus** v1.5.26
 - **Mystcraft** v0.11.0.00
@@ -109,7 +109,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.8.59
 - **ProjectRed Lighting** v4.5.8.59
 - **ProjectRed World** v4.5.8.59
-- **Random Things** v2.2.3
+- **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
 - **Resonant Engine** v2.0.0.144
@@ -124,18 +124,18 @@ Current Mod Versions
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.2
+- **Thaumcraft** v4.2.3.4
 - **Thaumic Tinkerer** v2.5-162
 - **Thermal Expansion** v4.0.0B8-23
 - **Thermal Foundation** v1.0.0.RC1-13
 - **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
-- **Tinker's Steelworks** v1.0.6
+- **Tinker's Steelworks** v1.0.7
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
-- **Twilight Forest** v2.3.2
+- **Twilight Forest** v2.3.3
 - **Universal Electricity** v4.0.0.83
 - **WAILA** v1.5.6a
 - **WAWLA** v1.0.9
