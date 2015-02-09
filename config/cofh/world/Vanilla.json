@@ -68,7 +68,16 @@
     },
     "coal": {
         "template": "fractal",
-        "block": "coal_ore",
+        "block": [
+            {
+                "name": "coal_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_coal_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 96,
@@ -93,7 +102,11 @@
         "block": [
             {
                 "name": "iron_ore",
-                "weight": 985
+                "weight": 900
+            },
+            {
+                "name": "PoorOres:poor_iron_ore",
+                "weight": 85
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -125,10 +138,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -136,7 +146,16 @@
     },
     "gold": {
         "template": "fractal",
-        "block": "gold_ore",
+        "block": [
+            {
+                "name": "gold_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_gold_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
@@ -151,10 +170,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -162,7 +178,16 @@
     },
     "redstone": {
         "template": "fractal",
-        "block": "redstone_ore",
+        "block": [
+            {
+                "name": "redstone_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_redstone_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 96,
@@ -177,10 +202,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -204,10 +226,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -216,7 +235,16 @@
     },
     "lapis": {
         "template": "fractal",
-        "block": "lapis_ore",
+        "block": [
+            {
+                "name": "lapis_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_lapis_ore",
+                "weight": 10
+            }
+        ],
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 64,
@@ -231,10 +259,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7
@@ -242,7 +267,16 @@
     },
     "quartz": {
         "template": "fractal",
-        "block": "quartz_ore",
+        "block": [
+            {
+                "name": "quartz_ore",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_quartz_ore",
+                "weight": 10
+            }
+        ],
         "material": "netherrack",
         "clusterSize": 32,
         "numClusters": 144,
@@ -278,10 +312,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -100,
             -19,
-            -5,
-            -4,
             -1,
             1,
             7

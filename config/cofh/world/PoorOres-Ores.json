@@ -1,0 +1,554 @@
+{
+    "poorCoal": {
+        "template": "uniform",
+        "block": "PoorOres.poor_coal_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorIron": {
+        "template": "uniform",
+        "block": "PoorOres.poor_iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorGold": {
+        "template": "uniform",
+        "block": "PoorOres.poor_gold_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorRedstone": {
+        "template": "uniform",
+        "block": "PoorOres.poor_redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 3,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorLapis": {
+        "template": "uniform",
+        "block": "PoorOres.poor_lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorAluminum": {
+        "template": "uniform",
+        "block": "PoorOres.poor_aluminum_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorCopper": {
+        "template": "uniform",
+        "block": "PoorOres.poor_copper_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorTin": {
+        "template": "uniform",
+        "block": "PoorOres.poor_tin_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorSilver": {
+        "template": "uniform",
+        "block": "PoorOres.poor_silver_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorLead": {
+        "template": "uniform",
+        "block": "PoorOres.poor_lead_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorNickel": {
+        "template": "uniform",
+        "block": "PoorOres.poor_nickel_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorPlatinum": {
+        "template": "uniform",
+        "block": "PoorOres.poor_platinum_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorMithril": {
+        "template": "uniform",
+        "block": "PoorOres.poor_mithril_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+            -19,
+            0,
+            7
+        ]
+    },
+    "poorYellorite": {
+        "template": "uniform",
+        "block": "PoorOres.poor_yellorite_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": [
+                    "DEAD",
+                    "WASTELAND"
+                ]
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorOureclase": {
+        "template": "uniform",
+        "block": "PoorOres.poor_oureclase_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+            7
+        ]
+    },
+    "poorCarmot": {
+        "template": "uniform",
+        "block": "PoorOres.poor_carmot_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+            7
+        ]
+    },
+    "poorAtlarus": {
+        "template": "uniform",
+        "block": "PoorOres.poor_atlarus_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Dark Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Dark Forest Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100,
+            -19,
+            7
+        ]
+    },
+    "poorDeepIron": {
+        "template": "uniform",
+        "block": "PoorOres.poor_deep_iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "poorVyroxeres": {
+        "template": "uniform",
+        "block": "PoorOres.poor_vyroxeres_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 32,
+        "maxHeight": 96,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Undergarden"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorIgnatius": {
+        "template": "uniform",
+        "block": "PoorOres.poor_ignatius_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorVulcanite": {
+        "template": "uniform",
+        "block": "PoorOres.poor_vulcanite_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorSanguinite": {
+        "template": "uniform",
+        "block": "PoorOres.poor_sanguinite_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorZinc": {
+        "template": "uniform",
+        "block": "PoorOres.poor_zinc_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorSulfur": {
+        "template": "uniform",
+        "block": "PoorOres.poor_sulfur_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorMagnesium": {
+        "template": "uniform",
+        "block": "PoorOres.poor_magnesium_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorBitumen": {
+        "template": "uniform",
+        "block": "PoorOres.poor_bitumen_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorOsmium": {
+        "template": "uniform",
+        "block": "PoorOres.poor_osmium_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            0,
+            1,
+            7
+        ],
+        "enabled": false
+    }
+}
