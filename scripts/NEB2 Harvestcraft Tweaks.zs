@@ -1,89 +1,99 @@
 # COMMON VARIABLES
 #------------------
-var allSinks   = <harvestcraft:sink:*>;
-var saltOre    = <harvestcraft:salt>;
-var saltDust   = <harvestcraft:saltItem>;
+var allSinks      = <harvestcraft:sink:*>;
+var saltOre       = <harvestcraft:salt>;
+var saltDust      = <harvestcraft:saltItem>;
 
 # ORE DICTIONARY
 #----------------
+var anySaltBlock  = <ore:blockSalt>;
 
 # Salt Ore
-var oreSalt    = <ore:oreSalt>;
+var anySaltOre    = <ore:oreSalt>;
 
-oreSalt.add(saltOre);
+anySaltOre.add(saltOre);
 
 # Salt Dust
-var dustSalt   = <ore:dustSalt>;
+var anySaltDust   = <ore:dustSalt>;
 
-oreSalt.remove(saltDust);
-dustSalt.add(saltDust);
+anySaltOre.remove(saltDust);
+anySaltDust.add(saltDust);
 
 # Cooked Meat
-var meatCooked = <ore:listAllmeatcooked>;
+var anyCookedMeat = <ore:listAllmeatcooked>;
 
-meatCooked.add(<Steamcraft:steamedBeef>);
-meatCooked.add(<Steamcraft:steamedChicken>);
-meatCooked.add(<Steamcraft:steamedPorkchop>);
-meatCooked.add(<TwilightForest:item.venisonCooked>);
-meatCooked.add(<TwilightForest:item.meefSteak>);
-meatCooked.add(<MineFactoryReloaded:item.mfr.meat.ingot.cooked>);
+anyCookedMeat.add(<Steamcraft:steamedBeef>);
+anyCookedMeat.add(<Steamcraft:steamedChicken>);
+anyCookedMeat.add(<Steamcraft:steamedPorkchop>);
+anyCookedMeat.add(<TwilightForest:item.venisonCooked>);
+anyCookedMeat.add(<TwilightForest:item.meefSteak>);
+anyCookedMeat.add(<MineFactoryReloaded:meat.ingot.cooked>);
 
 # Cooked Fish
-var fishCooked = <ore:listAllfishcooked>;
+var anyCookedFish = <ore:listAllfishcooked>;
 
-fishCooked.add(<Steamcraft:steamedFish>);
+anyCookedFish.add(<Steamcraft:steamedFish>);
 
 # Raw Meat
-var meatRaw    = <ore:listAllmeatraw>;
+var anyRawMeat    = <ore:listAllmeatraw>;
 
-meatRaw.add(<TwilightForest:item.hydraChop>);
-meatRaw.add(<TwilightForest:item.meefRaw>);
-meatRaw.add(<TwilightForest:item.venisonRaw>);
-meatRaw.add(<MineFactoryReloaded:item.mfr.meat.ingot.raw>);
+anyRawMeat.add(<TwilightForest:item.hydraChop>);
+anyRawMeat.add(<TwilightForest:item.meefRaw>);
+anyRawMeat.add(<TwilightForest:item.venisonRaw>);
+anyRawMeat.add(<MineFactoryReloaded:meat.ingot.raw>);
 
 # Juice
-var juice      = <ore:listAlljuice>;
+var anyJuice      = <ore:listAlljuice>;
 
-juice.add(<harvestcraft:grapefruitjuiceItem>);
+anyJuice.add(<harvestcraft:grapefruitjuiceItem>);
 
 # Ice Cream
-var iceCream   = <ore:listAllicecream>;
+var anyIceCream   = <ore:listAllicecream>;
 
-iceCream.add(<harvestcraft:icecreamItem>);
-iceCream.add(<harvestcraft:chocolateicecreamItem>);
-iceCream.add(<harvestcraft:mochaicecreamItem>);
-iceCream.add(<harvestcraft:bananasplitItem>);
-iceCream.add(<harvestcraft:caramelicecreamItem>);
-iceCream.add(<harvestcraft:mintchocolatechipicemcreamItem>);
-iceCream.add(<harvestcraft:strawberryicecreamItem>);
-iceCream.add(<harvestcraft:vanillaicecreamItem>);
+anyIceCream.add(<harvestcraft:icecreamItem>);
+anyIceCream.add(<harvestcraft:chocolateicecreamItem>);
+anyIceCream.add(<harvestcraft:mochaicecreamItem>);
+anyIceCream.add(<harvestcraft:bananasplitItem>);
+anyIceCream.add(<harvestcraft:caramelicecreamItem>);
+anyIceCream.add(<harvestcraft:mintchocolatechipicemcreamItem>);
+anyIceCream.add(<harvestcraft:strawberryicecreamItem>);
+anyIceCream.add(<harvestcraft:vanillaicecreamItem>);
 
 # Jelly
-var jelly      = <ore:listAlljelly>;
+var anyJelly      = <ore:listAlljelly>;
 
-jelly.add(<harvestcraft:grapejellyItem>);
-jelly.add(<harvestcraft:applejellyItem>);
-jelly.add(<harvestcraft:blackberryjellyItem>);
-jelly.add(<harvestcraft:blueberryjellyItem>);
-jelly.add(<harvestcraft:cherryjellyItem>);
-jelly.add(<harvestcraft:cranberryjellyItem>);
-jelly.add(<harvestcraft:kiwijellyItem>);
-jelly.add(<harvestcraft:lemonjellyItem>);
-jelly.add(<harvestcraft:limejellyItem>);
-jelly.add(<harvestcraft:mangojellyItem>);
-jelly.add(<harvestcraft:orangejellyItem>);
-jelly.add(<harvestcraft:papayajellyItem>);
-jelly.add(<harvestcraft:peachjellyItem>);
-jelly.add(<harvestcraft:pomegranatejellyItem>);
-jelly.add(<harvestcraft:raspberryjellyItem>);
-jelly.add(<harvestcraft:starfruitjellyItem>);
-jelly.add(<harvestcraft:strawberryjellyItem>);
-jelly.add(<harvestcraft:watermelonjellyItem>);
-jelly.add(<harvestcraft:apricotjellyItem>);
-jelly.add(<harvestcraft:figjellyItem>);
-jelly.add(<harvestcraft:grapefruitjellyItem>);
-jelly.add(<harvestcraft:persimmonjellyItem>);
+anyJelly.add(<harvestcraft:grapejellyItem>);
+anyJelly.add(<harvestcraft:applejellyItem>);
+anyJelly.add(<harvestcraft:blackberryjellyItem>);
+anyJelly.add(<harvestcraft:blueberryjellyItem>);
+anyJelly.add(<harvestcraft:cherryjellyItem>);
+anyJelly.add(<harvestcraft:cranberryjellyItem>);
+anyJelly.add(<harvestcraft:kiwijellyItem>);
+anyJelly.add(<harvestcraft:lemonjellyItem>);
+anyJelly.add(<harvestcraft:limejellyItem>);
+anyJelly.add(<harvestcraft:mangojellyItem>);
+anyJelly.add(<harvestcraft:orangejellyItem>);
+anyJelly.add(<harvestcraft:papayajellyItem>);
+anyJelly.add(<harvestcraft:peachjellyItem>);
+anyJelly.add(<harvestcraft:pomegranatejellyItem>);
+anyJelly.add(<harvestcraft:raspberryjellyItem>);
+anyJelly.add(<harvestcraft:starfruitjellyItem>);
+anyJelly.add(<harvestcraft:strawberryjellyItem>);
+anyJelly.add(<harvestcraft:watermelonjellyItem>);
+anyJelly.add(<harvestcraft:apricotjellyItem>);
+anyJelly.add(<harvestcraft:figjellyItem>);
+anyJelly.add(<harvestcraft:grapefruitjellyItem>);
+anyJelly.add(<harvestcraft:persimmonjellyItem>);
 
 # RECIPE REMOVAL
 #----------------
+
+# Disable Harvestcraft Sinks
 recipes.remove(allSinks);
+
+#Unify Salt Block Recipe
+recipes.removeShaped(anySaltBlock);
+recipes.addShaped(<Mekanism:SaltBlock>, [
+    [anySaltDust, anySaltDust],
+    [anySaltDust, anySaltDust]]);
+recipes.addShapeless(saltDust * 4, [anySaltBlock]);

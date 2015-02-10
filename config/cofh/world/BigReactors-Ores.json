@@ -1,22 +1,42 @@
 {
     "yellorite": {
-        "template": "normal",
-        "block": "BigReactors:YelloriteOre",
-		"material": "stone",
-        "clusterSize": 10,
-        "numClusters": 3,
-        "meanHeight": 6,
-        "maxVariance": 6,
-        "retrogen": "true",
+        "template": "fractal",
+        "block": [
+            {
+                "name": "BigReactors:YelloriteOre",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_yellorite_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 64,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
-		    211
-		],
+            {
+                "type": "dictionary",
+                "entry": [
+                    "DEAD",
+                    "WASTELAND"
+                ]
+            }
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
-			1,
-			7
+            1,
+            7
         ]
     }
 }

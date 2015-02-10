@@ -1,185 +1,136 @@
 # COMMON VARIABLES
 #------------------
-var cobblestone = <ore:cobblestone>;
-var leadCellFrame = <ThermalExpansion:Frame:4>;
-var redstoneCellFrame = <ThermalExpansion:Frame:6>;
-var conductiveIron = <ore:ingotConductiveIron>;
-var energeticAlloy = <ore:ingotEnergeticAlloy>;
-var vibrantAlloy = <ore:ingotPhasedGold>;
-var pulsatingIron = <ore:ingotPhasedIron>;
-var furnace = <minecraft:furnace>;
-var netherFurnace = <Natura:NetherFurnace>;
-var ironIngot = <ore:ingotIron>;
-var steelIngot = <ore:ingotSteel>;
-var ignatiusIngot = <ore:ingotIgnatius>;
-var cobaltIngot = <ore:ingotCobalt>;
-var titaniumIngot = <ore:ingotTitanium>;
-var meutoiteIngot = <ore:ingotMeutoite>;
-var desichalkosIngot = <ore:ingotDesichalkos>;
-var voidmetalIngot = <ore:ingotVoid>;
-var netherBricks = <minecraft:nether_brick>;
-var obisidan = <ore:obsidian>;
-var enderObsidian = <ore:enderobsidian>;
-var pinkPetal = <ore:petalPink>;
-var netherStar = <minecraft:nether_star>;
-var clearGlass = <TConstruct:GlassBlock>;
-var advPhotovoltCell = <EnderIO:blockSolarPanel:1>;
-var cauldron = <minecraft:cauldron>;
-var bricks = <ore:bricksClay>;
-var brewingStand = <minecraft:brewing_stand>;
+var leadCellFrame           = <ThermalExpansion:Frame:4>;
+var redstoneCellFrame       = <ThermalExpansion:Frame:6>;
+var furnace                 = <minecraft:furnace>;
+var netherFurnace           = <Natura:NetherFurnace>;
+var netherBricks            = <minecraft:nether_brick>;
+var netherStar              = <minecraft:nether_star>;
+var clearGlass              = <TConstruct:GlassBlock>;
+var advPhotovoltCell        = <EnderIO:blockSolarPanel:1>;
+var cauldron                = <minecraft:cauldron>;
+var brewingStand            = <minecraft:brewing_stand>;
+
+# Generators
+var survivalistGenerator    = <ExtraUtilities:generator:0>;
+var furnaceGenerator        = <ExtraUtilities:generator:1>;
+var lavaGenerator           = <ExtraUtilities:generator:2>;
+var enderGenerator          = <ExtraUtilities:generator:3>;
+var heatedRedstoneGenerator = <ExtraUtilities:generator:4>;
+var foodGenerator           = <ExtraUtilities:generator:5>;
+var potionGenerator         = <ExtraUtilities:generator:6>;
+var solarGenerator          = <ExtraUtilities:generator:7>;
+var tntGenerator            = <ExtraUtilities:generator:8>;
+var pinkGenerator           = <ExtraUtilities:generator:9>;
+var highTempGenerator       = <ExtraUtilities:generator:10>;
+var netherStarGenerator     = <ExtraUtilities:generator:11>;
+
+# ORE DICTIONARY
+#----------------
+var anyBricks               = <ore:bricksClay>;
+var anyCobblestone          = <ore:cobblestone>;
+var anyObsidian             = <ore:obsidian>;
+var anyEnderObsidian        = <ore:enderobsidian>;
+var anyPinkPetal            = <ore:petalPink>;
+
+# Ingots
+var anyCobaltIngot          = <ore:ingotCobalt>;
+var anyConductiveIronIngot  = <ore:ingotConductiveIron>;
+var anyDesichalkosIngot     = <ore:ingotDesichalkos>;
+var anyEnergeticAlloyIngot  = <ore:ingotEnergeticAlloy>;
+var anyIgnatiusIngot        = <ore:ingotIgnatius>;
+var anyIronIngot            = <ore:ingotIron>;
+var anyMeutoiteIngot        = <ore:ingotMeutoite>;
+var anyPulsatingIronIngot   = <ore:ingotPhasedIron>;
+var anyRedAlloyIngot        = <ore:ingotRedAlloy>;
+var anySteelIngot           = <ore:ingotSteel>;
+var anyTitaniumIngot        = <ore:ingotTitanium>;
+var anyVibrantAlloyIngot    = <ore:ingotPhasedGold>;
+var anyVoidmetalIngot       = <ore:ingotVoid>;
+
+# RECIPE TWEAKS
+#---------------
 
 # Survivalist Generator
-# -------------------------------------------------------------------
-# [ Cobble,           Cobble,                      Cobble          ]
-# [ Cobble,           Furnace,                     Cobble          ]
-# [ Conductive Iron,  Leadstone Energy Cell Frame, Conductive Iron ]
-var survivalistGen = <ExtraUtilities:generator:0>;
-
-recipes.remove(survivalistGen);
-recipes.addShaped(survivalistGen, [
-    [cobblestone, cobblestone, cobblestone],
-    [cobblestone, furnace, cobblestone],
-    [conductiveIron, leadCellFrame, conductiveIron]]);
+recipes.remove(survivalistGenerator);
+recipes.addShaped(survivalistGenerator, [
+    [anyCobblestone,   anyCobblestone, anyCobblestone],
+    [anyCobblestone,   furnace,        anyCobblestone],
+    [anyRedAlloyIngot, leadCellFrame,  anyRedAlloyIngot]]);
 
 # Furnace Generator
-# -------------------------------------------------------------------
-# [ Iron Ingot,       Iron Ingot,                  Iron Ingot      ]
-# [ Iron Ingot,       Furnace,                     Iron Ingot      ]
-# [ Conductive Iron,  Leadstone Energy Cell Frame, Conductive Iron ]
-var furnaceGen = <ExtraUtilities:generator:1>;
-
-recipes.remove(furnaceGen);
-recipes.addShaped(furnaceGen, [
-    [ironIngot, ironIngot, ironIngot],
-    [ironIngot, furnace, ironIngot],
-    [conductiveIron, leadCellFrame, conductiveIron]]);
+recipes.remove(furnaceGenerator);
+recipes.addShaped(furnaceGenerator, [
+    [anyIronIngot,     anyIronIngot,  anyIronIngot],
+    [anyIronIngot,     furnace,       anyIronIngot],
+    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
 
 # Lava Generator
-# ------------------------------------------------------------------
-# [ Nether Bricks,   Nether Bricks,               Nether Bricks   ]
-# [ Nether Bricks,   Nether Furnace,              Nether Bricks   ]
-# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
-var lavaGen = <ExtraUtilities:generator:2>;
-
-recipes.remove(lavaGen);
-recipes.addShaped(lavaGen, [
-    [netherBricks, netherBricks, netherBricks],
-    [netherBricks, netherFurnace, netherBricks],
-    [energeticAlloy, leadCellFrame, energeticAlloy]]);
+recipes.remove(lavaGenerator);
+recipes.addShaped(lavaGenerator, [
+    [netherBricks,           netherBricks,  netherBricks],
+    [netherBricks,           netherFurnace, netherBricks],
+    [anyEnergeticAlloyIngot, leadCellFrame, anyEnergeticAlloyIngot]]);
 
 # Ender Generator
-# ---------------------------------------------------------------
-# [ Pulsating Iron, Pulsating Iron,             Pulsating Iron ]
-# [ Pulsating Iron, Ender Infused Obsidian,     Pulsating Iron ]
-# [ Vibrant Alloy,  Redstone Energy Cell Frame, Vibrant Alloy  ]
-var enderGen = <ExtraUtilities:generator:3>;
-
-recipes.remove(enderGen);
-recipes.addShaped(enderGen, [
-    [pulsatingIron, pulsatingIron, pulsatingIron],
-    [pulsatingIron, enderObsidian, pulsatingIron],
-    [vibrantAlloy, redstoneCellFrame, vibrantAlloy]]);
+recipes.remove(enderGenerator);
+recipes.addShaped(enderGenerator, [
+    [anyPulsatingIronIngot, anyPulsatingIronIngot, anyPulsatingIronIngot],
+    [anyPulsatingIronIngot, anyEnderObsidian,      anyPulsatingIronIngot],
+    [anyVibrantAlloyIngot,  redstoneCellFrame,     anyVibrantAlloyIngot]]);
 
 # Heated Redstone Generator
-# ---------------------------------------------------
-# [ Ignatius Ingot, Ignatius Ingot, Ignatius Ingot ]
-# [ Ignatius Ingot, Lava Generator, Ignatius Ingot ]
-# [ Ignatius Ingot, Ignatius Ingot, Ignatius Ingot ]
-var heatedRedstoneGen = <ExtraUtilities:generator:4>;
-
-recipes.remove(heatedRedstoneGen);
-recipes.addShaped(heatedRedstoneGen, [
-    [ignatiusIngot, ignatiusIngot, ignatiusIngot],
-    [ignatiusIngot, lavaGen, ignatiusIngot],
-    [ignatiusIngot, ignatiusIngot, ignatiusIngot]]);
+recipes.remove(heatedRedstoneGenerator);
+recipes.addShaped(heatedRedstoneGenerator, [
+    [anyIgnatiusIngot, anyIgnatiusIngot, anyIgnatiusIngot],
+    [anyIgnatiusIngot, lavaGenerator,    anyIgnatiusIngot],
+    [anyIgnatiusIngot, anyIgnatiusIngot, anyIgnatiusIngot]]);
 
 # Culinary Generator
-# ------------------------------------------------------------------
-# [ Bricks,          Bricks,                      Bricks          ]
-# [ Bricks,          Cauldron,                    Bricks          ]
-# [ Conductive Iron, Leadstone Energy Cell Frame, Conductive Iron ]
-var foodGen = <ExtraUtilities:generator:5>;
-
-recipes.remove(foodGen);
-recipes.addShaped(foodGen, [
-    [bricks, bricks, bricks],
-    [bricks, cauldron, bricks],
-    [conductiveIron, leadCellFrame, conductiveIron]]);
+recipes.remove(foodGenerator);
+recipes.addShaped(foodGenerator, [
+    [anyBricks,        anyBricks,     anyBricks],
+    [anyBricks,        cauldron,      anyBricks],
+    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
 
 # Potion Generator
-# ------------------------------------------------------------------
-# [ Nether Bricks,   Nether Bricks,               Nether Bricks   ]
-# [ Nether Bricks,   Brewing Stand,               Nether Bricks   ]
-# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
-var potionGen = <ExtraUtilities:generator:6>;
-
-recipes.remove(potionGen);
-recipes.addShaped(potionGen, [
-    [netherBricks, netherBricks, netherBricks],
-    [netherBricks, brewingStand, netherBricks],
-    [energeticAlloy, leadCellFrame, energeticAlloy]]);
+recipes.remove(potionGenerator);
+recipes.addShaped(potionGenerator, [
+    [netherBricks,           netherBricks,  netherBricks],
+    [netherBricks,           brewingStand,  netherBricks],
+    [anyEnergeticAlloyIngot, leadCellFrame, anyEnergeticAlloyIngot]]);
 
 # Solar Generator
-# -------------------------------------------------------------
-# [ Cobalt Ingot,  Clear Glass,                Cobalt Ingot  ]
-# [ Cobalt Ingot,  Advanced Photovoltaic Cell, Cobalt Ingot  ]
-# [ Vibrant Alloy, Redstone Energy Cell Frame, Vibrant Alloy ]
-var solarGen = <ExtraUtilities:generator:7>;
-
-recipes.remove(solarGen);
-recipes.addShaped(solarGen, [
-    [cobaltIngot, clearGlass, cobaltIngot],
-    [cobaltIngot, advPhotovoltCell, cobaltIngot],
-    [vibrantAlloy, redstoneCellFrame, vibrantAlloy]]);
+recipes.remove(solarGenerator);
+recipes.addShaped(solarGenerator, [
+    [anyCobaltIngot,       clearGlass,        anyCobaltIngot],
+    [anyCobaltIngot,       advPhotovoltCell,  anyCobaltIngot],
+    [anyVibrantAlloyIngot, redstoneCellFrame, anyVibrantAlloyIngot]]);
 
 # TNT Generator
-# ------------------------------------------------------------------
-# [ Obsidian,        Obsidian,                    Obsidian        ]
-# [ Obsidian,        Empty Space,                 Obsidian        ]
-# [ Energetic Alloy, Leadstone Energy Cell Frame, Energetic Alloy ]
-var tntGen = <ExtraUtilities:generator:8>;
-
-recipes.remove(tntGen);
-recipes.addShaped(tntGen, [
-    [obisidan, obisidan, obisidan],
-    [obisidan, null, obisidan],
-    [energeticAlloy, leadCellFrame, energeticAlloy]]);
+recipes.remove(tntGenerator);
+recipes.addShaped(tntGenerator, [
+    [anyObsidian,            anyObsidian,   anyObsidian],
+    [anyObsidian,            null,          anyObsidian],
+    [anyEnergeticAlloyIngot, leadCellFrame, anyEnergeticAlloyIngot]]);
 
 # Pink Generator
-# --------------------------------------------------------------------
-# [ Mystical Pink Petal, Mystical Pink Petal,   Mystical Pink Petal ]
-# [ Mystical Pink Petal, Survivalist Generator, Mystical Pink Petal ]
-# [ Mystical Pink Petal, Mystical Pink Petal,   Mystical Pink Petal ]
-var pinkGen = <ExtraUtilities:generator:9>;
-
-recipes.remove(pinkGen);
-recipes.addShaped(pinkGen, [
-    [pinkPetal, pinkPetal, pinkPetal],
-    [pinkPetal, survivalistGen, pinkPetal],
-    [pinkPetal, pinkPetal, pinkPetal]]);
+recipes.remove(pinkGenerator);
+recipes.addShaped(pinkGenerator, [
+    [anyPinkPetal, anyPinkPetal,         anyPinkPetal],
+    [anyPinkPetal, survivalistGenerator, anyPinkPetal],
+    [anyPinkPetal, anyPinkPetal,         anyPinkPetal]]);
 
 # High Temperature Furnace Generator
-# ------------------------------------------------
-# [ Steel Ingot, Steel Ingot,       Steel Ingot ]
-# [ Steel Ingot, Furnace Generator, Steel Ingot ]
-# [ Steel Ingot, Steel Ingot,       Steel Ingot ]
-var highTempGen = <ExtraUtilities:generator:10>;
-
-recipes.remove(highTempGen);
-recipes.addShaped(highTempGen, [
-    [steelIngot, steelIngot, steelIngot],
-    [steelIngot, furnaceGen, steelIngot],
-    [steelIngot, steelIngot, steelIngot]]);
+recipes.remove(highTempGenerator);
+recipes.addShaped(highTempGenerator, [
+    [anySteelIngot, anySteelIngot,    anySteelIngot],
+    [anySteelIngot, furnaceGenerator, anySteelIngot],
+    [anySteelIngot, anySteelIngot,    anySteelIngot]]);
 
 # Nether Star Generator
-# -----------------------------------------------------------------
-# [ Titanium Ingot,  Desichalkos Ingot,          Titanium Ingot  ]
-# [ Voidmetal Ingot, Nether Star,                Voidmetal Ingot ]
-# [ Vibrant Alloy,   Redstone Energy Cell Frame, Vibrant Alloy   ]
-var netherStarGen = <ExtraUtilities:generator:11>;
-
-recipes.remove(netherStarGen);
-recipes.addShaped(netherStarGen, [
-    [titaniumIngot, desichalkosIngot, titaniumIngot],
-    [voidmetalIngot, netherStar, voidmetalIngot],
-    [vibrantAlloy, redstoneCellFrame, vibrantAlloy]]);
+recipes.remove(netherStarGenerator);
+recipes.addShaped(netherStarGenerator, [
+    [anyTitaniumIngot,     anyDesichalkosIngot, anyTitaniumIngot],
+    [anyVoidmetalIngot,    netherStar,          anyVoidmetalIngot],
+    [anyVibrantAlloyIngot, redstoneCellFrame,   anyVibrantAlloyIngot]]);

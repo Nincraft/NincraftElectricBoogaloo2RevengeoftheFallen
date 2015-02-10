@@ -27,6 +27,32 @@ ore dictionary.
 
 <AlloySmelterRecipes>
 
+  <recipeGroup name="EnderIO">
+    <recipe name="Energetic Alloy" energyCost="10000">
+      <input>
+        <itemStack modID="minecraft" itemName="redstone" />
+        <itemStack oreDictionary="ingotElectrum" />
+        <itemStack modID="minecraft" itemName="glowstone_dust" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="1" exp="0.7" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+  <recipeGroup name="Thermal Expansion">
+    <recipe name="Enderium Base" energyCost="4000">
+      <input>
+        <itemStack modID="HardcoreEnderExpansion" itemName="end_powder" number="2" />
+        <itemStack oreDictionary="ingotCeruclase" />
+        <itemStack oreDictionary="ingotMeutoite" />
+      </input>
+      <output>
+        <itemStack oreDictionary="ingotEnderiumBase" number="4" />
+      </output>
+    </recipe>
+  </recipeGroup>
+
   <vanillaFurnaceRecipes>
     <exclude>
       <itemStack oreDictionary="dustSteel" />

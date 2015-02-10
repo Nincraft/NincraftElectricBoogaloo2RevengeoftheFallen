@@ -4,31 +4,34 @@ import minetweaker.item.IItemStack;
 
 # COMMON VARIABLES
 #------------------
-var carmotDust      = <ore:dustCarmot>;
-var infuscoliumDust = <ore:dustInfuscolium>;
-var infusionStone   = <magicalcrops:magicalcrops_InfusionStone:*>;
-var essenceOrb      = <magicalcrops:magicalcrops_EssenceOrb>;
+var infusionStone      = <magicalcrops:magicalcrops_InfusionStone:*>;
+var essenceOrb         = <magicalcrops:magicalcrops_EssenceOrb>;
 
-var essenceDust     = <magicalcrops:magicalcrops_MagicEssence:0>;
-var weakEssence     = <magicalcrops:magicalcrops_MagicEssence:1>;
-var regularEssence  = <magicalcrops:magicalcrops_MagicEssence:2>;
-var strongEssence   = <magicalcrops:magicalcrops_MagicEssence:3>;
-var extremeEssence  = <magicalcrops:magicalcrops_MagicEssence:4>;
+var essenceDust        = <magicalcrops:magicalcrops_MagicEssence:0>;
+var weakEssence        = <magicalcrops:magicalcrops_MagicEssence:1>;
+var regularEssence     = <magicalcrops:magicalcrops_MagicEssence:2>;
+var strongEssence      = <magicalcrops:magicalcrops_MagicEssence:3>;
+var extremeEssence     = <magicalcrops:magicalcrops_MagicEssence:4>;
 
 # ITEM LISTS
 #------------
-var essencesArr     = [
+var essencesArr        = [
     essenceDust,
     weakEssence,
     regularEssence,
     strongEssence
 ] as IItemStack[];
-var essencesArr2    = [
+var essencesArr2       = [
     weakEssence,
     regularEssence,
     strongEssence,
     extremeEssence
 ] as IItemStack[];
+
+# ORE DICTIONARY
+#----------------
+var anyCarmotDust      = <ore:dustCarmot>;
+var anyInfuscoliumDust = <ore:dustInfuscolium>;
 
 # RECIPE TWEAKS
 #---------------
@@ -44,18 +47,18 @@ for i, essenceOut in essencesArr2 {
     
     recipes.remove(essenceOut);
     recipes.addShaped(essenceOut, [
-        [null,      carmotDust,      null],
-        [essenceIn, essenceIn,       essenceIn],
-        [null,      infuscoliumDust, null]]);
+        [null,      anyCarmotDust,      null],
+        [essenceIn, essenceIn,          essenceIn],
+        [null,      anyInfuscoliumDust, null]]);
     recipes.addShaped(essenceOut, [
-        [null,      infuscoliumDust, null],
-        [essenceIn, essenceIn,       essenceIn],
-        [null,      carmotDust,      null]]);
+        [null,      anyInfuscoliumDust, null],
+        [essenceIn, essenceIn,          essenceIn],
+        [null,      anyCarmotDust,      null]]);
 }
 
 # Essence Downgrade Recipes
-for i, essenceOut in essencesArr2 {
-    var essenceIn = essencesArr[i];
+for i, essenceOut in essencesArr {
+    var essenceIn = essencesArr2[i];
 
     recipes.addShapeless(essenceOut * 3, [essenceIn]);
 }

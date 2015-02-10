@@ -11,13 +11,23 @@ var mekObsidianIngot       = <Mekanism:Ingot>;
 var mekObsidianDust        = <Mekanism:DirtyDust:6>;
 var reinforcedObsidianDust = <Mekanism:Dust:3>;
 var salt                   = <harvestcraft:saltItem>;
-var brine                  = <gas:brine>;
 var enrichedIron           = <Mekanism:EnrichedIron>;
-var ironDust               = <ore:dustIron>;
-var manganeseDust          = <ore:dustManganese>;
+
+# Circuits
+var basicCircuit           = <Mekanism:ControlCircuit:0>;
+var advancedCircuit        = <Mekanism:ControlCircuit:1>;
+var eliteCircuit           = <Mekanism:ControlCircuit:2>;
+var ultimateCircuit        = <Mekanism:ControlCircuit:3>;
+
+# Gases
+var brine                  = <gas:brine>;
+
 
 # ORE DICTIONARY
 #----------------
+var anyIronDust            = <ore:dustIron>;
+var anyManganeseDust       = <ore:dustManganese>;
+
 var anyObsidianIngot       = <ore:ingotObsidian>;
 anyObsidianIngot.add(mekObsidianIngot);
 
@@ -34,20 +44,17 @@ recipes.remove(cardboardBox);
 # Enriched Iron: 8 Iron, 1 Manganese
 recipes.remove(enrichedIron);
 Infuser.removeRecipe(enrichedIron);
-recipes.addShapeless(enrichedIron * 9, [ironDust, ironDust, ironDust, ironDust,
-                                        ironDust, ironDust, ironDust, ironDust,
-                                        manganeseDust]);
+recipes.addShapeless(enrichedIron * 9, [anyIronDust, anyIronDust, anyIronDust, anyIronDust,
+                                        anyIronDust, anyIronDust, anyIronDust, anyIronDust,
+                                        anyManganeseDust]);
 
 # Remove silly reinforced Obsidian Recipes
-#------------------------------------------
 Compressor.removeRecipe(mekObsidianIngot);
 Crusher.removeRecipe(mekObsidianDust);
 Infuser.removeRecipe(reinforcedObsidianDust);
 
 # Add new Crusher Recipe
-#------------------------
 Crusher.addRecipe(mekObsidianIngot, mekObsidianDust);
 
-# Oxidize Salt -> Brine
-#-------------------------
+# Oxidize Salt into Brine
 Oxidizer.addRecipe(salt, brine);

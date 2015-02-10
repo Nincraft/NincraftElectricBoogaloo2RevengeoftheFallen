@@ -1,24 +1,40 @@
 {
     "essenceore": {
-        "template": "normal",
+        "template": "fractal",
         "block": "magicalcrops:magicalcrops_EssenceOre",
-		"material": "stone",
-        "clusterSize": 18,
-        "numClusters": 3,
-        "meanHeight": 13,
-        "maxVariance": 5,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
-			216,
-			193
-		],
-        "dimensionRestriction": "blacklist",
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
         "dimensions": [
-            -100,
-			-19,
-			0,
-			7
+            0,
+            7
         ]
     }
 }

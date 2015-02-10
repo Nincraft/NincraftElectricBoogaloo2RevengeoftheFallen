@@ -3,32 +3,25 @@
 var carpentersBlock          = <CarpentersBlocks:blockCarpentersBlock>;
 var carpentersDaylightSensor = <CarpentersBlocks:blockCarpentersDaylightSensor>;
 var carpentersFence          = <CarpentersBlocks:blockCarpentersBarrier>;
-var carpentersSlab           = <CarpentersBlocks:blockCarpentersBlock>; // Should be slab, full block is only temporary.
 
-var glass                    = <ore:glass>;
-var quartz                   = <ore:crystalNetherQuartz>;
-var stick                    = <ore:stickWood>;
+# ORE DICTIONARY
+#----------------
+var anyGlassBlock            = <ore:blockGlass>;
+var anyNetherQuartz          = <ore:gemNetherQuartz>;
+var anyWoodenStick           = <ore:stickWood>;
+
+# RECIPE TWEAKS
+#---------------
 
 # Carpenter's Barrier
-#-------------------------------------------------
-# [ Carpenter's Block, Stick, Carpenter's Block ]
-# [ Carpenter's Block, Stick, Carpenter's Block ]
-#-------------------------------------------------
 recipes.remove(carpentersFence);
-
-recipes.addShaped(carpentersFence * 3, [
-    [carpentersBlock, stick, carpentersBlock],
-    [carpentersBlock, stick, carpentersBlock]]);
+recipes.addShaped(carpentersFence * 2, [
+    [carpentersBlock, anyWoodenStick, carpentersBlock],
+    [carpentersBlock, anyWoodenStick, carpentersBlock]]);
 
 # Carpenter's Daylight Sensor
-#----------------------------------------------------------
-# [ Glass,            Glass,            Glass            ]
-# [ Nether Quartz,    Nether Quartz,    Nether Quartz    ]
-# [ Carpenter's Slab, Carpenter's Slab, Carpenter's Slab ]
-#----------------------------------------------------------
 recipes.remove(carpentersDaylightSensor);
-
 recipes.addShaped(carpentersDaylightSensor, [
-    [glass,          glass,          glass],
-    [quartz,         quartz,         quartz],
-    [carpentersSlab, carpentersSlab, carpentersSlab]]);
+    [anyGlassBlock,   anyGlassBlock,   anyGlassBlock],
+    [anyNetherQuartz, anyNetherQuartz, anyNetherQuartz],
+    [carpentersBlock,  carpentersBlock,  carpentersBlock]]);

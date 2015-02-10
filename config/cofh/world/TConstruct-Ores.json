@@ -1,11 +1,15 @@
 {
     "aluminum": {
-        "template": "uniform",
+        "template": "fractal",
         "block": [
             {
                 "name": "GalacticraftCore:tile.gcBlockCore",
                 "metadata": 7,
-                "weight": 95
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_aluminum_ore",
+                "weight": 5
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -34,15 +38,20 @@
             }
         ],
         "material": "stone",
-        "clusterSize": 5,
-        "numClusters": 11,
-        "minHeight": 44,
-        "maxHeight": 62,
-        "retrogen": "true",
+        "clusterSize": 32,
+        "numClusters": 64,
+        "chunkChance": 128,
+        "minHeight": 48,
+        "veinHeight": 24,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7

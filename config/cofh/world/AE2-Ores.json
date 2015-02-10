@@ -1,29 +1,74 @@
 {
-    "certusquartz": {
-        "template": "uniform",
+    "certusQuartz": {
+        "template": {
+            "type": "uniform",
+            "generator": "geode"
+        },
         "block": [
             {
                 "name": "appliedenergistics2:tile.OreQuartz",
-                "metadata": 0,
-                "weight": 90
+                "weight": 25
             },
             {
                 "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "metadata": 0,
-                "weight": 10
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
             }
         ],
-        "clusterSize": 8,
-        "numClusters": 4,
-        "minHeight": 36,
-        "maxHeight": 54,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "crust": "stone",
+        "hollow": true,
+        "retrogen": true,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
-            1
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "TEMPCertusQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 25
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -19,
+            -1,
+            1,
+            7
         ]
     }
 }

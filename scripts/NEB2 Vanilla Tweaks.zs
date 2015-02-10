@@ -5,142 +5,143 @@ import minetweaker.item.IIngredient;
 
 # COMMON VARIABLES
 #------------------
-var cobblestone     = <ore:cobblestone>;
-var woodSlab        = <ore:slabWood>;
-var ironToughRod    = <TConstruct:toughRod:2>;
-var redstoneAlloy   = <ore:ingotRedstoneAlloy>;
-var bricks          = <minecraft:brick_block>;
-var bread           = <minecraft:bread>;
-var bow             = <minecraft:bow>;
-var clayBall        = <minecraft:clay_ball>;
-var clayBlock       = <minecraft:clay>;
-var bucket          = <minecraft:bucket>;
-var flint           = <minecraft:flint>;
-var flintNSteel     = <minecraft:flint_and_steel>;
-var steelIngot      = <ore:ingotSteel>;
+var bow                   = <minecraft:bow>;
+var bricks                = <minecraft:brick_block>;
+var bread                 = <minecraft:bread>;
+var bucket                = <minecraft:bucket>;
+var carpentersBlock       = <CarpentersBlocks:blockCarpentersBlock>;
+var clayBall              = <minecraft:clay_ball>;
+var clayBlock             = <minecraft:clay>;
+var dispenser             = <minecraft:dispenser>;
+var dropper               = <minecraft:dropper>;
+var flint                 = <minecraft:flint>;
+var flintNSteel           = <minecraft:flint_and_steel>;
+var ironToughRod          = <TConstruct:toughRod:2>;
+var piston                = <minecraft:piston>;
+var torchberries          = <TwilightForest:item.torchberries>;
+var torchCarpenters       = <CarpentersBlocks:blockCarpentersTorch>;
+var torchWood             = <minecraft:torch>;
+var torchStone            = <TConstruct:decoration.stonetorch>;
 
-var coal            = <minecraft:coal:0>;
-var charcoal        = <minecraft:coal:1>;
-var torchberries    = <TwilightForest:item.torchberries>;
+# ORE DICTIONARY
+#----------------
+var anyAluminumIngot      = <ore:ingotAluminum>;
+var anyBitumenDust        = <ore:dustBitumen>;
+var anyCoal               = <ore:coal>;
+var anyCobblestone        = <ore:cobblestone>;
+var anyCharcoal           = <ore:charcoal>;
+var anyPhosphorusDust     = <ore:dustPhosphorus>;
+var anyRawRubber          = <ore:itemRawRubber>;
+var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
+var anySteelIngot         = <ore:ingotSteel>;
+var anyStoneRod           = <ore:rodStone>;
+var anySugarCharcoal      = <ore:itemCharcoalSugar>;
+var anySulfurDust         = <ore:dustSulfur>;
+var anyWoodSlab           = <ore:slabWood>;
+var anyWoodStick          = <ore:stickWood>;
 
-var stick           = <ore:stickWood>;
-var carpentersBlock = <CarpentersBlocks:blockCarpentersBlock>;
-var stoneRod        = <ore:rodStone>;
+# Register Clay Bricks
+var clayBricks            = <ore:bricksClay>;
+clayBricks.add(bricks);
 
-var torchWood       = <minecraft:torch>;
-var torchCarpenters = <CarpentersBlocks:blockCarpentersTorch>;
-var torchStone      = <TConstruct:decoration.stonetorch>;
+# Unify Torches
+var anyTorch              = <ore:torch>;
+anyTorch.add(torchWood);
+anyTorch.add(torchCarpenters);
+anyTorch.add(torchStone);
+
+# Unify Diamond Nuggets
+<ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
 
 # ITEM LISTS
 #------------
-var torchFuels = [
-    coal,
-    charcoal,
-    torchberries
-] as IIngredient[];
-var torchHandles = [
-    stick,
+var torchHandles          = [
+    anyWoodStick,
     carpentersBlock,
-    stoneRod
+    anyStoneRod
 ] as IIngredient[];
-var torches = [
+var allTorches            = [
     torchWood,
     torchCarpenters,
     torchStone
 ] as IItemStack[];
 
-# ORE DICTIONARY
+# FURNACE TWEAKS
+#----------------
+furnace.setFuel(anyBitumenDust, 800);
+
+# RECIPE TWEAKS
 #----------------
 
-# Register Clay Bricks
-var clayBricks = <ore:bricksClay>;
-clayBricks.add(bricks);
-
-# Register Each Torch
-var anyTorch = <ore:anyTorch>;
-anyTorch.add(torchWood);
-anyTorch.add(torchCarpenters);
-anyTorch.add(torchStone);
-
-# RECIPE REMOVAL
-#----------------
+# Enforce Baking Bread
 recipes.removeShaped(bread);
 
 # Piston
-#------------------------------------------
-# [ Wood Slab, Wood Slab,      Wood Slab ]
-# [ Cobble,    Iron Tough Rod, Cobble    ]
-# [ Cobble,    Redstone Alloy, Cobble    ]
-var piston = <minecraft:piston>;
- 
 recipes.remove(piston);
 recipes.addShaped(piston, [
-    [woodSlab,    woodSlab,      woodSlab],
-    [cobblestone, ironToughRod,  cobblestone],
-    [cobblestone, redstoneAlloy, cobblestone]]);
+    [anyWoodSlab,    anyWoodSlab,           anyWoodSlab],
+    [anyCobblestone, anyAluminumIngot,      anyCobblestone],
+    [anyCobblestone, anyRedstoneAlloyIngot, anyCobblestone]]);
 
 # Dispenser
-#----------------------------------------------
-# [ Cobblestone, Cobblestone,    Cobblestone ]
-# [ Cobblestone, Bow,            Cobblestone ]
-# [ Cobblestone, Redstone Alloy, Cobblestone ]
-var dispenser = <minecraft:dispenser>;
-
 recipes.remove(dispenser);
 recipes.addShaped(dispenser, [
-    [cobblestone, cobblestone,   cobblestone],
-    [cobblestone, bow,           cobblestone],
-    [cobblestone, redstoneAlloy, cobblestone]]);
+    [anyCobblestone, anyCobblestone,        anyCobblestone],
+    [anyCobblestone, bow,                   anyCobblestone],
+    [anyCobblestone, anyRedstoneAlloyIngot, anyCobblestone]]);
 
 # Dropper
-#----------------------------------------------
-# [ Cobblestone, Cobblestone,    Cobblestone ]
-# [ Cobblestone, Empty Space,    Cobblestone ]
-# [ Cobblestone, Redstone Alloy, Cobblestone ]
-var dropper = <minecraft:dropper>;
-
 recipes.remove(dropper);
 recipes.addShaped(dropper, [
-    [cobblestone, cobblestone,   cobblestone],
-    [cobblestone, null,          cobblestone],
-    [cobblestone, redstoneAlloy, cobblestone]]);
+    [anyCobblestone, anyCobblestone,        anyCobblestone],
+    [anyCobblestone, null,                  anyCobblestone],
+    [anyCobblestone, anyRedstoneAlloyIngot, anyCobblestone]]);
 
 # Unify Torch Recipes
-#-------------------------
 for i, handle in torchHandles
 {
-    var torch = torches[i];
+    var torch = allTorches[i];
     recipes.remove(torch);
+
+    # Sugar Charcoal
+    recipes.addShaped(torch, [
+        [anySugarCharcoal],
+        [handle]]);
+
+    # Sulfur Dust
+    recipes.addShaped(torch * 2, [
+        [anySulfurDust],
+        [handle]]);
 
     # Coal
     recipes.addShaped(torch * 4, [
-        [coal],
+        [anyCoal],
         [handle]]);
 
     # Charcoal
     recipes.addShaped(torch * 4, [
-        [charcoal],
+        [anyCharcoal],
+        [handle]]);
+
+    # Raw Rubber
+    recipes.addShaped(torch * 4, [
+        [anyRawRubber],
         [handle]]);
 
     # Torchberries
     recipes.addShaped(torch * 5, [
         [torchberries],
         [handle]]);
+
+    # Phosphorus Dust
+    recipes.addShaped(torch * 6, [
+        [anyPhosphorusDust],
+        [handle]]);
 }
 
-# Add Clayball
-#--------------
+# Clay Block -> Clay Balls
 recipes.addShapeless(clayBall * 4, [clayBlock]);
 
-# Replace Iron With Steel
-#-------------------------
-
-# Bucket
-recipes.remove(bucket);
-recipes.addShaped(bucket, [
-    [steelIngot, null,       steelIngot],
-    [null,       steelIngot, null      ]]);
-
-# Flint & Steel
+# Flint & Steel Costs Steel
 recipes.remove(flintNSteel);
-recipes.addShapeless(flintNSteel, [flint, steelIngot]);
+recipes.addShapeless(flintNSteel, [flint, anySteelIngot]);

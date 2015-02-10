@@ -1,11 +1,15 @@
 {
     "copper": {
-        "template": "normal",
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 0,
-                "weight": 98
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_copper_ore",
+                "weight": 8
             },
             {
                 "name": "BiomesOPlenty:gemOre",
@@ -13,145 +17,226 @@
                 "weight": 2
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 12,
-        "numClusters": 6,
-        "meanHeight": 58,
-        "maxVariance": 7,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 144,
+        "chunkChance": 256,
+        "minHeight": 24,
+        "veinHeight": 32,
+        "veinDiameter": 96,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7
         ]
     },
     "tin": {
-        "template": "normal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 1
-        },
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 6,
-        "meanHeight": 37,
-        "maxVariance": 7,
-        "retrogen": "true",
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_tin_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7
         ]
     },
     "silver": {
-        "template": "normal",
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 2,
-                "weight": 90
+                "weight": 72
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 8
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 3,
-                "weight": 10
+                "weight": 18
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 2
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 9,
-        "numClusters": 5,
-        "meanHeight": 24,
-        "maxVariance": 6,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7
         ]
     },
     "lead": {
-        "template": "normal",
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 3,
-                "weight": 90
+                "weight": 81
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 9
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 2,
-                "weight": 10
+                "weight": 9
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 1
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 10,
-        "numClusters": 5,
-        "meanHeight": 28,
-        "maxVariance": 6,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 48,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7
         ]
     },
     "nickel": {
-        "template": "uniform",
+        "template": "fractal",
         "block": [
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 4,
-                "weight": 90
+                "weight": 855
+            },
+            {
+                "name": "PoorOres:poor_nickel_ore",
+                "weight": 95
             },
             {
                 "name": "ThermalFoundation:Ore",
                 "metadata": 5,
-                "weight": 10
+                "weight": 45
+            },
+            {
+                "name": "PoorOres:poor_platinum_ore",
+                "weight": 5
             }
         ],
-        "material": "minecraft:stone",
-        "clusterSize": 6,
-        "numClusters": 3,
-        "minHeight": 6,
-        "maxHeight": 16,
-        "retrogen": "true",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 48,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -19,
             -1,
             1,
             7
         ]
     },
     "mithril": {
-        "template": "normal",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 6
-        },
-        "material": "minecraft:stone",
-        "clusterSize": 3,
-        "numClusters": 3,
-        "meanHeight": 24,
-        "maxVariance": 8,
-        "retrogen": "true",
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 6,
+                "wegiht": 90
+            },
+            {
+                "name": "PoorOres:poor_mithril_ore",
+                "weight": 10
+            },
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
         "biomeRestriction": "whitelist",
         "biomes": [
-            216,
-            193
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
