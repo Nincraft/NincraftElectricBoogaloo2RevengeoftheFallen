@@ -717,8 +717,8 @@ recipes.addShaped(dryingRack, [
     [anyWoodSlab, anyWoodSlab, anyWoodSlab]]);
 
 # Empty Canisters Need Aluminum
-recipes.removeShaped(emptyCanister);
-recipes.addShaped(emptyCanister, [anyAluminumIngot, anyAluminumIngot,
+recipes.removeShaped(canisterEmpty);
+recipes.addShaped(canisterEmpty, [anyAluminumIngot, anyAluminumIngot,
                                   anyAluminumIngot, anyAluminumIngot]);
 
 /*
