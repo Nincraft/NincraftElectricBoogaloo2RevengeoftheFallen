@@ -14,7 +14,13 @@ var emptySocket              = <AWWayofTime:emptySocket>;
 var fullIlluminatorFrame     = <ThermalExpansion:Light>;
 var fullSocket               = <AWWayofTime:bloodSocket>;
 var soulSand                 = <minecraft:soul_sand>;
-
+var bone                     = <minecraft:bone>;
+var necroticBone             = <TConstruct:materials:8>;
+var ribBone                  = <xreliquary:mob_ingredient:0>;
+var witheredRib              = <xreliquary:mob_ingredient:1>;
+var jeweledApple             = <TConstruct:diamondApple>;
+var hambone                  = <TConstruct:MeatBlock>;
+var rawPorkchop              = <minecraft:porkchop>;
 
 # Dusts
 var redstoneDust             = <minecraft:redstone>;
@@ -181,8 +187,6 @@ var astralSilverNugget       = <aobd:nuggetAstralSilver>;
 var deepIronNugget           = <aobd:nuggetDeepIron>;
 var shadowIronNugget         = <aobd:nuggetShadowIron>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
-var vulcaniteNugget          = <aobd:nuggetVulcanite>;
-var vyroxeresNugget          = <aobd:nuggetVyroxeres>;
 var yelloriumNugget          = <aobd:nuggetYellorium>;
 var adamantineNugget         = <PoorOres:adamantine_nugget>;
 var alduoriteNugget          = <PoorOres:alduorite_nugget>;
@@ -201,6 +205,8 @@ var oureclaseNugget          = <PoorOres:oureclase_nugget>;
 var prometheumNugget         = <PoorOres:prometheum_nugget>;
 var rubraciumNugget          = <PoorOres:rubracium_nugget>;
 var sanguiniteNugget         = <PoorOres:sanguinite_nugget>;
+var vulcaniteNugget          = <PoorOres:vulcanite_nugget>;
+var vyroxeresNugget          = <PoorOres:vyroxeres_nugget>;
 #var blackBronzeNugget        = <aobd:nuggetYellorium>;
 #var blackSteelNugget         = <gregtech:gt.metaitem.01:9334>;
 #var damascusSteelNugget      = <gregtech:gt.metaitem.01:9335>;
@@ -357,6 +363,8 @@ var nuggetMetalPattern        = <TConstruct:metalPattern:27>;
 # ORE DICTIONARY
 #----------------
 var anyWoodSlab              = <ore:slabWood>;
+var anyWitherBone            = <ore:itemWitherBone>;
+var anyBone                  = <ore:itemBone>;
 
 # Ores
 var anyAdamantineOre         = <ore:oreAdamantine>;
@@ -685,16 +693,33 @@ var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
 var anyZincBlock             = <ore:blockZinc>;
 
+# Unify Various Bones
+anyWitherBone.add(necroticBone);
+anyWitherBone.add(witheredRib);
+
+anyBone.add(bone);
+anyBone.add(ribBone);
+
 # RECIPE TWEAKS
 #---------------
 
 # Remove Downgrade Recipe
 recipes.remove(miniRedHeart);
 
+# Use Unified Wither Bones for Heart Canister
+recipes.removeShapeless(canisterRedHeart);
+recipes.addShapeless(canisterRedHeart, [jeweledApple, anyWitherBone,
+                                        canisterEmpty, miniRedHeart]);
+
 # Drying Rack
 recipes.removeShaped(dryingRack);
 recipes.addShaped(dryingRack, [
     [anyWoodSlab, anyWoodSlab, anyWoodSlab]]);
+
+# Empty Canisters Need Aluminum
+recipes.removeShaped(emptyCanister);
+recipes.addShaped(emptyCanister, [anyAluminumIngot, anyAluminumIngot,
+                                  anyAluminumIngot, anyAluminumIngot]);
 
 /*
 # FURNACE TWEAKS
