@@ -16,6 +16,7 @@ resourcepacks/
 saves/
 screenshots/
 stats/
+backup/
 betterrecords/libs
 betterrecords/localLibrary.json
 config/DIAdvancedCompatibility.cfg
@@ -27,6 +28,8 @@ config/MapWriterBlockColours.txt
 config/opencomputers/default.recipes
 config/opencomputers/gregtech.recipes
 config/opencomputers/hardmode.recipes
+servertools/blockBreaks/
+servertools/blockPlaces/
 GregTech.cfg
 GregTech.lang
 
