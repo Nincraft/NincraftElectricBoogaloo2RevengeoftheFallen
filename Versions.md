@@ -52,7 +52,7 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **EnderIO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.374
+- **Equivalent Exchange 3** v0.2.411
 - **Extra Cells** v2.2.34b58
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
