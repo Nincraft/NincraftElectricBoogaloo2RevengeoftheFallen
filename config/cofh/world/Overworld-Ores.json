@@ -1,0 +1,660 @@
+{
+    "aluminumVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 7,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_aluminum_ore",
+                "weight": 5
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 2,
+                "weight": 1
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 6,
+                "weight": 1
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 8,
+                "weight": 1
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 12,
+                "weight": 1
+            },
+            {
+                "name": "emerald_ore",
+                "metadata": 0,
+                "weight": 1
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 64,
+        "chunkChance": 128,
+        "minHeight": 48,
+        "veinHeight": 24,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "copperVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_copper_ore",
+                "weight": 8
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 10,
+                "weight": 2
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 144,
+        "chunkChance": 256,
+        "minHeight": 24,
+        "veinHeight": 32,
+        "veinDiameter": 96,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "tinVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_tin_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "silverVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 72
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 8
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 18
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 2
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "leadVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 3,
+                "weight": 81
+            },
+            {
+                "name": "PoorOres:poor_lead_ore",
+                "weight": 9
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 2,
+                "weight": 9
+            },
+            {
+                "name": "PoorOres:poor_silver_ore",
+                "weight": 1
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 48,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "nickelVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 4,
+                "weight": 855
+            },
+            {
+                "name": "PoorOres:poor_nickel_ore",
+                "weight": 95
+            },
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 5,
+                "weight": 45
+            },
+            {
+                "name": "PoorOres:poor_platinum_ore",
+                "weight": 5
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 48,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 16,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "mithrilVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 6,
+                "wegiht": 90
+            },
+            {
+                "name": "PoorOres:poor_mithril_ore",
+                "weight": 10
+            },
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "blcklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "yelloriteVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "BigReactors:YelloriteOre",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_yellorite_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 64,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": [
+                    "DEAD",
+                    "WASTELAND"
+                ]
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "certusQuartzGeode": {
+        "template": {
+            "type": "uniform",
+            "generator": "geode"
+        },
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 25
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "crust": "stone",
+        "hollow": true,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "essenceOreVeins": {
+        "template": "fractal",
+        "block": "magicalcrops:magicalcrops_EssenceOre",
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 64,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "zincVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:precious.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_zinc_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 16,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "sulfurUnderLava": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_sulfur_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 16,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "magnesiumVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 3,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_magnesium_ore",
+                "weight": 8
+            },
+            {
+                "name": "BiomesOPlenty:gemOre",
+                "metadata": 4,
+                "weight": 2
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 64,
+        "chunkChance": 128,
+        "minHeight": 48,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "bitumenUnderOil": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Metallurgy:utility.ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_bitumen_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "genFluid": "oil",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ],
+        "enabled":false
+    },
+    "poorMithrilClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_mithril_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Magical Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Mystic Grove"
+            },
+            {
+                "type": "name",
+                "entry": "Sacred Springs"
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "poorYelloriteClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_yellorite_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "dictionary",
+                "entry": [
+                    "DEAD",
+                    "WASTELAND"
+                ]
+            }
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
+    "TEMPCertusQuartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "weight": 25
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "weight": 5
+            }
+            {
+                "name": "GalacticraftCore:tile.gcBlockCore",
+                "metadata": 8,
+                "weight": 70,
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 1,
+        "minHeight": 16,
+        "maxHeight": 48,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    }
+}

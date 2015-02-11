@@ -1,0 +1,67 @@
+{
+    "osmiumVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Mekanism:OreBlock",
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_osmium_ore",
+                "weight": 10
+            }
+        ],
+        "material": [
+            "stone",
+            "cobblestone"
+        ],
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    },
+    "deepIronVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 1,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_deep_iron_ore",
+                "weight": 10
+            }
+        ],
+        "material": [
+            "stone",
+            "cobblestone"
+        ],
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 128,
+        "minHeight": 32,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -100
+        ]
+    }
+}

@@ -1,0 +1,349 @@
+{
+    "oureclaseVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 4,
+                "weight": 81
+            },
+            {
+                "name": "PoorOres:poor_oureclase_ore",
+                "weight": 9
+            },
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 6,
+                "weight": 9
+            },
+            {
+                "name": "PoorOres:poor_carmot_ore",
+                "weight": 1
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "carmotVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 6,
+                "weight": 72
+            },
+            {
+                "name": "PoorOres:poor_carmot_ore",
+                "weight": 8
+            },
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 4,
+                "weight": 8
+            },
+            {
+                "name": "PoorOres:poor_oureclase_ore",
+                "weight": 2
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "orichalcumGeodes": {
+        "template": {
+            "type": "uniform",
+            "generator": "geode"
+        },
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 11
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "crust": "stone",
+        "hollow": true,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Highlands"
+            },
+            {
+                "type": "name",
+                "entry": "Highlands Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ],
+        "enabled":false
+    },
+    "adamantineGeodes": {
+        "template": {
+            "type": "uniform",
+            "generator": "geode"
+        },
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 13
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Thornlands"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ],
+        "enabled":false
+    },
+    "atlarusVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 14,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_atlarus_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 32,
+        "chunkChance": 64,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Dark Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Dark Forest Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "mithrilVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "ThermalFoundation:Ore",
+                "metadata": 6,
+                "wegiht": 90
+            },
+            {
+                "name": "PoorOres:poor_mithril_ore",
+                "weight": 10
+            },
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 96,
+        "chunkChance": 192,
+        "minHeight": 1,
+        "veinHeight": 32,
+        "veinDiameter": 32,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "amberClusters": {
+        "template": "uniform",
+        "block": {
+        	"name": "Thaumcraft:blockCustomOre",
+        	"metadata": 7
+    	},
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "poorQuicksilverClusters": {
+        "template": "uniform",
+        "block": "Thaumcraft:blockCustomOre",
+        "material": "minecraft:stone",
+        "clusterSize": 1,
+        "numClusters": 8,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "poorMithrilClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_mithril_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Enchanted Forest"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "poorAtlarusClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_atlarus_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Dark Forest"
+            },
+            {
+                "type": "name",
+                "entry": "Dark Forest Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPOrichalcum": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 11
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Highlands"
+            },
+            {
+                "type": "name",
+                "entry": "Highlands Center"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    },
+    "TEMPAdamantine": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:fantasy.ore",
+            "metadata": 13
+        },
+        "material": "TwilightForest:tile.TFDeadrock",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Thornlands"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            7
+        ]
+    }
+}
