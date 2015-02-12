@@ -1,0 +1,292 @@
+{
+    "vyroxeresVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 4,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_vyroxeres_ore",
+                "weight": 10
+            }
+        ],
+        "material": "netherrack",
+        "clusterSize": 32,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 32,
+        "veinHeight": 64,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Undergarden"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "ignatiusUnderLava": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_ignatius_ore",
+                "weight": 10
+            }
+        ],
+        "material": "netherrack",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "vulcaniteUnderLava": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 8,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_vulcanite_ore",
+                "weight": 10
+            }
+        ],
+        "material": "netherrack",
+        "genFluid": "lava",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "sanguiniteUnderHellBlood": {
+        "template": "underfluid",
+        "block": [
+            {
+                "name": "Metallurgy:nether.ore",
+                "metadata": 9,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_sanguinite_ore",
+                "weight": 10
+            }
+        ],
+        "material": "netherrack",
+        "genFluid": "hell_blood",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled":false
+    },
+    "poorVyroxeresClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_vyroxeres_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 32,
+        "maxHeight": 96,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Undergarden"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorIgnatiusClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_ignatius_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorVulcaniteClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_vulcanite_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "poorSanguiniteClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_sanguinite_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 8,
+        "numClusters": 7,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPIgnatius": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 0
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "blacklist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPVulcanite": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 8
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 32,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Phantasmagoric Inferno"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    },
+    "TEMPSanguinite": {
+        "template": "uniform",
+        "block": {
+            "name": "Metallurgy:nether.ore",
+            "metadata": 9
+        },
+        "material": "netherrack",
+        "clusterSize": 4,
+        "numClusters": 16,
+        "minHeight": 1,
+        "maxHeight": 128,
+        "retrogen": true,
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {
+                "type": "name",
+                "entry": "Visceral Heap"
+            }
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ]
+    }
+}
