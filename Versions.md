@@ -38,7 +38,6 @@ Current Mod Versions
 - **Blood Magic** v1.3.0b
 - **Botania** r1.4-158
 - **Carpenter's Blocks** v3.3.0
-- **Caveworld** v1.8.3
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
 - **Cosmetic Armor** v1.0.5.B8
