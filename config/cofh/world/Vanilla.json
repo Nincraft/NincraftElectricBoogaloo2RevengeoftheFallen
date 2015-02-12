@@ -12,6 +12,8 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
+            -19,
             -1,
             1,
             7
@@ -61,6 +63,8 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
+            -19,
             -1,
             1,
             7
@@ -92,6 +96,8 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
+            -19,
             -1,
             1,
             7
@@ -138,6 +144,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,
@@ -170,6 +177,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,
@@ -202,6 +210,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,
@@ -226,6 +235,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,
@@ -259,6 +269,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,
@@ -287,13 +298,8 @@
         "verticalDensity": 16,
         "horizontalDensity": 16,
         "retrogen": false,
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "dictionary",
-                "entry": "NETHER"
-            }
-        ],
+        "biomeRestriction": "none",
+        "biomes": [],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             -1
@@ -312,6 +318,7 @@
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
+            -100,
             -19,
             -1,
             1,

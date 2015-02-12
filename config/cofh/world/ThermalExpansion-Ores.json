@@ -1,249 +1,103 @@
 {
     "copper": {
-        "template": "fractal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 0,
-                "weight": 90
-            },
-            {
-                "name": "PoorOres:poor_copper_ore",
-                "weight": 8
-            },
-            {
-                "name": "BiomesOPlenty:gemOre",
-                "metadata": 10,
-                "weight": 2
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 32,
-        "numClusters": 144,
-        "chunkChance": 256,
-        "minHeight": 24,
-        "veinHeight": 32,
-        "veinDiameter": 96,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
+        "template": "uniform",
+        "block": "ThermalFoundation:Ore",
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 40,
+        "maxHeight": 75,
+        "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -19,
             -1,
-            1,
-            7
-        ]
+            1
+        ],
+        "enabled":false
     },
     "tin": {
-        "template": "fractal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 1,
-                "weight": 90
-            },
-            {
-                "name": "PoorOres:poor_tin_ore",
-                "weight": 10
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 96,
-        "chunkChance": 192,
-        "minHeight": 16,
-        "veinHeight": 32,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 1},
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 20,
+        "maxHeight": 55,
+        "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -19,
             -1,
-            1,
-            7
-        ]
+            1
+        ],
+        "enabled":false
     },
     "silver": {
-        "template": "fractal",
+        "template": "uniform",
         "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 72
-            },
-            {
-                "name": "PoorOres:poor_silver_ore",
-                "weight": 8
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 18
-            },
-            {
-                "name": "PoorOres:poor_lead_ore",
-                "weight": 2
-            }
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight":80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight":20}
         ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 96,
-        "chunkChance": 192,
-        "minHeight": 16,
-        "veinHeight": 16,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 5,
+        "maxHeight": 30,
+        "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -19,
             -1,
-            1,
-            7
-        ]
+            1
+        ],
+        "enabled":false
     },
     "lead": {
-        "template": "fractal",
+        "template": "uniform",
         "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 81
-            },
-            {
-                "name": "PoorOres:poor_lead_ore",
-                "weight": 9
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 9
-            },
-            {
-                "name": "PoorOres:poor_silver_ore",
-                "weight": 1
-            }
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 10}
         ],
-        "material": "stone",
-        "clusterSize": 32,
-        "numClusters": 48,
-        "chunkChance": 192,
-        "minHeight": 16,
-        "veinHeight": 16,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
+        "clusterSize": 8,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 35,
+        "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -19,
             -1,
-            1,
-            7
-        ]
+            1
+        ],
+        "enabled":false
     },
     "nickel": {
-        "template": "fractal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 4,
-                "weight": 855
-            },
-            {
-                "name": "PoorOres:poor_nickel_ore",
-                "weight": 95
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 5,
-                "weight": 45
-            },
-            {
-                "name": "PoorOres:poor_platinum_ore",
-                "weight": 5
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 48,
-        "chunkChance": 128,
-        "minHeight": 1,
-        "veinHeight": 16,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
+        "template": "uniform",
+        "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
+        "clusterSize": 4,
+        "numClusters": 2,
+        "minHeight": 5,
+        "maxHeight": 20,
+        "retrogen": "true",
         "biomeRestriction": "none",
-        "biomes": [],
+        "biomes": [
+            "all"
+        ],
         "dimensionRestriction": "blacklist",
         "dimensions": [
-            -19,
             -1,
-            1,
-            7
-        ]
-    },
-    "mithril": {
-        "template": "fractal",
-        "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 6,
-                "wegiht": 90
-            },
-            {
-                "name": "PoorOres:poor_mithril_ore",
-                "weight": 10
-            },
+            1
         ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 96,
-        "chunkChance": 192,
-        "minHeight": 1,
-        "veinHeight": 32,
-        "veinDiameter": 32,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "name",
-                "entry": "Enchanted Forest"
-            },
-            {
-                "type": "name",
-                "entry": "Magical Forest"
-            },
-            {
-                "type": "name",
-                "entry": "Mystic Grove"
-            },
-            {
-                "type": "name",
-                "entry": "Sacred Springs"
-            }
-        ],
-        "dimensionRestriction": "whitelist",
-        "dimensions": [
-            -100,
-            -19,
-            0,
-            7
-        ]
+        "enabled":false
     }
 }
