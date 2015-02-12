@@ -718,8 +718,8 @@ recipes.addShaped(dryingRack, [
 
 # Empty Canisters Need Aluminum
 recipes.removeShaped(canisterEmpty);
-recipes.addShaped(canisterEmpty, [anyAluminumIngot, anyAluminumIngot,
-                                  anyAluminumIngot, anyAluminumIngot]);
+recipes.addShaped(canisterEmpty, [[anyAluminumIngot, anyAluminumIngot],
+                                  [anyAluminumIngot, anyAluminumIngot]]);
 
 /*
 # FURNACE TWEAKS
