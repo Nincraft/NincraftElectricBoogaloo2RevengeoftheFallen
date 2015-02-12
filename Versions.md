@@ -40,7 +40,6 @@ Current Mod Versions
 - **Carpenter's Blocks** v3.3.0
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
-- **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
