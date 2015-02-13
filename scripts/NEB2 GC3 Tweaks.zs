@@ -163,6 +163,8 @@ for titaniumIngot in anyTitaniumIngot.items {
     Pressure.addRecipe([titaniumIngot], 2.5, [compressedTitanium], false);
 }
 
+Pressure.addRecipe([<PneumaticCraft:ingotIronCompressed>], 2, [compressedIron], false);
+
 Pressure.addRecipe([quontoniumIngot], 3, [compressedQuontonium], false);
 
 Pressure.addRecipe([fronisiumIngot], 3, [compressedFronisium], false);
