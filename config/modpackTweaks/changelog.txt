@@ -21,6 +21,121 @@ Now I am after a blank line
 **Begin book text after asterisks**
 ****************************************************************************
 
+NEB2 Beta 1.5.4~
+Another small script change to fix the TiC empty canister recipe from throwing an error.~
+~~~
+NEB2 Beta v1.5.3~
+A series of world generation tweaks to fix constant issues when entering the Deep Dark.~
+~~~
+NEB2 Beta v1.5.2~
+An attempt to fix issues in the Deep Dark.~
+~~~
+NEB2 Beta v1.5.1~
+A small script change to fix an incorrect reference for TiC empty canisters.~
+~~~
+NEB2 Beta v1.5.0~
+The largest update we've had in a while, mostly due to the addition and subsequent removal of GregTech.~
+~
+Mods Added:~
+- AppleCore~
+- Caveworld~
+- ChickenChunks~
+- Cosmetic Armor~
+- DimensionGuard~
+- GregTech~
+- INPureCore~
+- Modpack Tweaks~
+- More Planets~
+- NEI Integration~
+- Nincrafty Things~
+- Poor Ores~
+- SciMCLib~
+- Torcherino~
+- Too Much Loot~
+~
+Mods Updated:~
+- AOBD~
+- AE2~
+- AsieLib~
+- Baubles~
+- Better Foliage~
+- Bibliocraft~
+- Big Reactors~
+- Biomes O' Plenty~
+- Blood Magic~
+- Botania~
+- Chisel~
+- CodeChickenCore~
+- CoFHCore~
+- CoFHLib~
+- CookieCore~
+- CoroUtil~
+- Doom-like Dungeons~
+- EnderIO~
+- Ender Storage~
+- EE3~
+- Extra Cells~
+- Extra Utilities~
+- Flaxbeard's Steam Power~
+- Forge Multipart~
+- Galacticraft~
+- Hardcore Ender Expansion~
+- iChunUtil~
+- IC2 API~
+- Iguana's Tinker Tweaks~
+- JABBA~
+- LunatriusCore~
+- Mekanism~
+- MicDoodleCore~
+- MineFactory Reloaded~
+- MineTweaker~
+- ModTweaker~
+- Morpheus~
+- Nether Ores~
+- Not Enough Items~
+- Open Blocks~
+- Open Computers~
+- OpenModsLib~
+- Pam's Harvestcraft~
+- PneumaticCraft~
+- Project:RED~
+- Random Things~
+- Redstone Arsenal~
+- ServerTools~
+- Simply Jetpacks~
+- Special Mobs~
+- Stackie~
+- Thaumcraft~
+- Thaumic Tinkerer~
+- Thermal Expansion~
+- Thermal Foundation~
+- TiCTooltips~
+- Tinkers' Construct~
+- Tinkers' Steelworks~
+- Twilight Forest~
+- WAILA~
+- WAWLA~
+- Weather~
+- Xeno's Reliquary~
+~
+Mods Removed:~
+- ComputerCraft~
+- GregTech~
+- MFFS~
+- NEI Addons~
+- NEI Plugins~
+- Resonant Engine~
+- Sparkly Pants~
+- Universal Electricity~
+~
+Major Config Changes:~
+- Ore Generation is now Fractal, which basically means players will have to explore to find huge veins of ores, rather than having ores spread out everywhere at their own Y-Levels.  This was changed to encourage exploration.~
+  - To help prevent the possibility of never finding a resource, and to help fill the emptiness of caves wherever there isn't a fractal vein, poor ores have been added to the rest of the world generation.~
+- Some recipes have been altered to better place some mod content along our progression.~
+~
+Bugs Fixed:~
+- Minor bugfixes due to GT being added and removed.~
+~~~
 NEB2 Beta v1.4.2~
 Just a small update to keep up with Forge/mods.~
 ~
