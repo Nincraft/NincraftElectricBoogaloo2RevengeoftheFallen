@@ -38,10 +38,8 @@ Current Mod Versions
 - **Blood Magic** v1.3.0b
 - **Botania** r1.4-158
 - **Carpenter's Blocks** v3.3.0
-- **Caveworld** v1.8.3
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
-- **Cosmetic Armor** v1.0.5.B8
 - **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
@@ -83,7 +81,6 @@ Current Mod Versions
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.7.b (Manual Build)
 - **More Planets** v1.1.9-beta
-- **Morph** v0.9.1
 - **Morpheus** v1.5.26
 - **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
