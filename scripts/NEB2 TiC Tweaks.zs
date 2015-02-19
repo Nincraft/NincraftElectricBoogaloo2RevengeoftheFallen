@@ -9,9 +9,13 @@ import mods.tconstruct.Casting;
 #------------------
 var blazeRod                 = <minecraft:blaze_rod>;
 var dryingRack               = <TConstruct:Armor.DryingRack>;
+var emptyRedstoneCellFrame   = <ThermalExpansion:Frame:5>;
+var fullRedstoneCellFrame    = <ThermalExpansion:Frame:6>;
+var emptyTesseractFrame      = <ThermalExpansion:Frame:7>;
+var fullTesseractFrame       = <ThermalExpansion:Frame:8>;
 var emptyIlluminatorFrame    = <ThermalExpansion:Frame:9>;
+var glowstoneIlluminator     = <ThermalExpansion:Light>;
 var emptySocket              = <AWWayofTime:emptySocket>;
-var fullIlluminatorFrame     = <ThermalExpansion:Light>;
 var fullSocket               = <AWWayofTime:bloodSocket>;
 var soulSand                 = <minecraft:soul_sand>;
 var bone                     = <minecraft:bone>;
@@ -21,6 +25,7 @@ var witheredRib              = <xreliquary:mob_ingredient:1>;
 var jeweledApple             = <TConstruct:diamondApple>;
 var hambone                  = <TConstruct:MeatBlock>;
 var rawPorkchop              = <minecraft:porkchop>;
+var enderPearl               = <minecraft:ender_pearl>;
 
 # Dusts
 var redstoneDust             = <minecraft:redstone>;
@@ -228,6 +233,7 @@ var nickelBlock              = <ThermalFoundation:Storage:4>;
 var platinumBlock            = <ThermalFoundation:Storage:5>;
 var mithrilBlock             = <ThermalFoundation:Storage:6>;
 var steelBlock               = <TConstruct:MetalBlock:9>;
+var enderPearlBlock          = <TConstruct:MetalBlock:10>;
 var redstoneBlock            = <minecraft:redstone_block>;
 var glowstoneBlock           = <minecraft:glowstone>;
 var fluxedElectrumBlock      = <RedstoneArsenal:Storage>;
@@ -485,6 +491,7 @@ var anyDamascusSteelDust     = <ore:dustDamascusSteel>;
 var anyDeepIronDust          = <ore:dustDeepIron>;
 var anyDesichalkosDust       = <ore:dustDesichalkos>;
 var anyElectrumDust          = <ore:dustElectrum>;
+var anyEnderPearlDust        = <ore:dustEnderPearl>;
 var anyEximiteDust           = <ore:dustEximite>;
 var anyGoldDust              = <ore:dustGold>;
 var anyHaderothDust          = <ore:dustHaderoth>;
@@ -658,6 +665,7 @@ var anyDamascusSteelBlock    = <ore:blockDamascusSteel>;
 var anyDeepIronBlock         = <ore:blockDeepIron>;
 var anyDesichalkosBlock      = <ore:blockDesichalkos>;
 var anyElectrumBlock         = <ore:blockElectrum>;
+var anyEnderPearlBlock       = <ore:blockEnder>;
 var anyEximiteBlock          = <ore:blockEximite>;
 var anyGoldBlock             = <ore:blockGold>;
 var anyHaderothBlock         = <ore:blockHaderoth>;
@@ -702,6 +710,12 @@ anyBone.add(ribBone);
 
 # RECIPE TWEAKS
 #---------------
+
+# Ender Pearl Storage Crafting
+recipes.addShapeless(enderPearl * 4, [enderPearlBlock]);
+recipes.addShaped(enderPearlBlock, [
+    [enderPearl, enderPearl],
+    [enderPearl, enderPearl]]);
 
 # Remove Downgrade Recipe
 recipes.remove(miniRedHeart);
@@ -769,6 +783,8 @@ Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 40);
 
 Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 40);
 
+Casting.addBasinRecipe(fullRedstoneCellFrame, moltenRedstone * 4000, emptyRedstoneCellFrame, true, 40);
+
 # Glowstone
 Smeltery.addMelting(glowstoneDust, moltenGlowstone * 250, 200, glowstoneBlock);
 Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock);
@@ -777,7 +793,15 @@ Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40
 
 Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
-Casting.addBasinRecipe(fullIlluminatorFrame, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
+Casting.addBasinRecipe(glowstoneIlluminator, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
+
+# Ender
+Smeltery.removeMelting(anyEnderPearlBlock);
+Smeltery.addMelting(enderPearl, moltenEnder * 250, 500, enderPearlBlock);
+Smeltery.addMelting(anyEnderPearlDust, moltenEnder * 250, 500, enderPearlBlock);
+Smeltery.addMelting(anyEnderPearlBlock, moltenEnder * 1000, 500, enderPearlBlock);
+
+Casting.addBasinRecipe(fullTesseractFrame, moltenEnder * 1000, emptyTesseractFrame, true, 40);
 
 # Blazing Pyrotheum
 Smeltery.addMelting(pyrotheumDust, moltenPyrotheum * 1000, 750, <minecraft:dirt>);
