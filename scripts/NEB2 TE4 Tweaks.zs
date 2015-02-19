@@ -129,47 +129,7 @@ var anyTitaniumIngot             = <ore:ingotTitanium>;
 
 # ITEM LISTS
 #------------
-var allTierOneMachineInputs      = [
-    redstoneFurnace.onlyWithTag({Level:0 as byte}),
-    pulverizer.onlyWithTag({Level:0 as byte}),
-    sawmill.onlyWithTag({Level:0 as byte}),
-    inductionSmelter.onlyWithTag({Level:0 as byte}),
-    magmaCrucible.onlyWithTag({Level:0 as byte}),
-    fluidTransposer.onlyWithTag({Level:0 as byte}),
-    glacialPrecipitator.onlyWithTag({Level:0 as byte}),
-    igneousExtruder.onlyWithTag({Level:0 as byte}),
-    aqueousAccumulator.onlyWithTag({Level:0 as byte}),
-    cyclicAssembler.onlyWithTag({Level:0 as byte}),
-    energeticInfuser.onlyWithTag({Level:0 as byte})
-] as IIngredient[];
-var allTierTwoMachineInputs      = [
-    redstoneFurnace.onlyWithTag({Level:1 as byte}),
-    pulverizer.onlyWithTag({Level:1 as byte}),
-    sawmill.onlyWithTag({Level:1 as byte}),
-    inductionSmelter.onlyWithTag({Level:1 as byte}),
-    magmaCrucible.onlyWithTag({Level:1 as byte}),
-    fluidTransposer.onlyWithTag({Level:1 as byte}),
-    glacialPrecipitator.onlyWithTag({Level:1 as byte})
-] as IIngredient[];
-var allTierThreeMachineInputs    = [
-    redstoneFurnace.onlyWithTag({Level:2 as byte}),
-    pulverizer.onlyWithTag({Level:2 as byte}),
-    sawmill.onlyWithTag({Level:2 as byte}),
-    inductionSmelter.onlyWithTag({Level:2 as byte}),
-    magmaCrucible.onlyWithTag({Level:2 as byte}),
-    fluidTransposer.onlyWithTag({Level:2 as byte}),
-    glacialPrecipitator.onlyWithTag({Level:2 as byte})
-] as IIngredient[];
-var allTierFourMachineInputs     = [
-    redstoneFurnace.onlyWithTag({Level:3 as byte}),
-    pulverizer.onlyWithTag({Level:3 as byte}),
-    sawmill.onlyWithTag({Level:3 as byte}),
-    inductionSmelter.onlyWithTag({Level:3 as byte}),
-    magmaCrucible.onlyWithTag({Level:3 as byte}),
-    fluidTransposer.onlyWithTag({Level:3 as byte}),
-    glacialPrecipitator.onlyWithTag({Level:3 as byte})
-] as IIngredient[];
-var allTierOneMachineOutputs     = [
+var allTierOneMachines           = [
     redstoneFurnace.withTag({Level:0 as byte}),
     pulverizer.withTag({Level:0 as byte}),
     sawmill.withTag({Level:0 as byte}),
@@ -182,7 +142,7 @@ var allTierOneMachineOutputs     = [
     cyclicAssembler.withTag({Level:0 as byte}),
     energeticInfuser.withTag({Level:0 as byte})
 ] as IItemStack[];
-var allTierTwoMachineOutputs     = [
+var allTierTwoMachines           = [
     redstoneFurnace.withTag({Level:1 as byte}),
     pulverizer.withTag({Level:1 as byte}),
     sawmill.withTag({Level:1 as byte}),
@@ -191,7 +151,7 @@ var allTierTwoMachineOutputs     = [
     fluidTransposer.withTag({Level:1 as byte}),
     glacialPrecipitator.withTag({Level:1 as byte})
 ] as IItemStack[];
-var allTierThreeMachineOutputs   = [
+var allTierThreeMachines         = [
     redstoneFurnace.withTag({Level:2 as byte}),
     pulverizer.withTag({Level:2 as byte}),
     sawmill.withTag({Level:2 as byte}),
@@ -200,7 +160,7 @@ var allTierThreeMachineOutputs   = [
     fluidTransposer.withTag({Level:2 as byte}),
     glacialPrecipitator.withTag({Level:2 as byte})
 ] as IItemStack[];
-var allTierFourMachineOutputs    = [
+var allTierFourMachines          = [
     redstoneFurnace.withTag({Level:3 as byte}),
     pulverizer.withTag({Level:3 as byte}),
     sawmill.withTag({Level:3 as byte}),
@@ -213,9 +173,36 @@ var allTierFourMachineOutputs    = [
 # RECIPE TWEAKS
 #---------------
 
+# Remove Machine Frame Upgrade Recipes
+recipes.removeShaped(anyMachineFrame);
+
+# Basic Machine Frame
+recipes.addShaped(basicMachineFrame, [
+	    [anySteelIngot, anyGlassBlock, anySteelIngot],
+	    [anyGlassBlock, anyInvarGear,  anyGlassBlock],
+	    [anySteelIngot, anyGlassBlock, anySteelIngot]]);
+
+# Hardened Machine Frame
+recipes.addShaped(hardenedMachineFrame, [
+	    [anyBlackSteelIngot, anyPlatinumGear,   anyBlackSteelIngot],
+	    [null,               basicMachineFrame, null],
+	    [anyBlackSteelIngot, null,              anyBlackSteelIngot]]);
+
+# Reinforced Machine Frame
+recipes.addShaped(reinforcedMachineFrame, [
+	    [anyShadowSteelIngot, anyLumiumGear,        anyShadowSteelIngot],
+	    [null,                hardenedMachineFrame, null],
+	    [anyShadowSteelIngot, null,                 anyShadowSteelIngot]]);
+
+# Resonant Machine Frame
+recipes.addShaped(resonantMachineFrame, [
+	    [anyTitaniumIngot, anyEnderiumGear,        anyTitaniumIngot],
+	    [null,             reinforcedMachineFrame, null],
+	    [anyTitaniumIngot, null,                   anyTitaniumIngot]]);
+
 /*
-# Remove all Basic Recipes
-for i, machine in allTierOneMachineOutputs {
+# Remove all Basic Machine Recipes
+for i, machine in allTierOneMachines {
     recipes.removeShaped(machine, [
         [null, <*>, null],
         [<*>,  <*>, <*>],
@@ -224,63 +211,36 @@ for i, machine in allTierOneMachineOutputs {
 */
 
 # Remove all Machine Upgrade Recipes
-for i, machine in allTierTwoMachineOutputs {
+for i, machine in allTierTwoMachines {
     recipes.removeShaped(machine, [
         [<*>,  <*>,  <*>],
         [null, <*>,  null],
         [<*>,  null, <*>]]);
 }
 
-/*
-# Remove Machine Frame Upgrade Recipes
-for frame in anyMachineFrame.items {
-	recipes.removeShaped(frame);
-}
-*/
-
-recipes.removeShaped(anyMachineFrame);
-
-recipes.addShaped(basicMachineFrame, [
-	    [anySteelIngot, anyGlassBlock, anySteelIngot],
-	    [anyGlassBlock, anyInvarGear,  anyGlassBlock],
-	    [anySteelIngot, anyGlassBlock, anySteelIngot]]);
-
-recipes.addShaped(hardenedMachineFrame, [
-	    [anyBlackSteelIngot, anyPlatinumGear,   anyBlackSteelIngot],
-	    [null,               basicMachineFrame, null],
-	    [anyBlackSteelIngot, null,              anyBlackSteelIngot]]);
-
-recipes.addShaped(reinforcedMachineFrame, [
-	    [anyShadowSteelIngot, anyLumiumGear,        anyShadowSteelIngot],
-	    [null,                hardenedMachineFrame, null],
-	    [anyShadowSteelIngot, null,                 anyShadowSteelIngot]]);
-
-recipes.addShaped(resonantMachineFrame, [
-	    [anyTitaniumIngot, anyEnderiumGear,        anyTitaniumIngot],
-	    [null,             reinforcedMachineFrame, null],
-	    [anyTitaniumIngot, null,                   anyTitaniumIngot]]);
-
-
 # Upgrade Recipes from Basic to Hardened
 for i, machine in allTierTwoMachineOutputs {
+    var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
 	recipes.addShaped(machine, [
-	    [anyBlackSteelIngot, anyPlatinumGear,            anyBlackSteelIngot],
-	    [null,               allTierOneMachineInputs[i], null],
-	    [anyBlackSteelIngot, null,                       anyBlackSteelIngot]]);
+	    [anyBlackSteelIngot, anyPlatinumGear, anyBlackSteelIngot],
+	    [null,               input,           null],
+	    [anyBlackSteelIngot, null,            anyBlackSteelIngot]]);
 }
 
 # Upgrade Recipes from Hardened to Reinforced
 for i, machine in allTierThreeMachineOutputs {
+    var input = allTierTwoMachines[i].onlyWithTag({Level:1 as byte});
 	recipes.addShaped(machine, [
-	    [anyShadowSteelIngot, anyLumiumGear,              anyShadowSteelIngot],
-	    [null,                allTierTwoMachineInputs[i], null],
-	    [anyShadowSteelIngot, null,                       anyShadowSteelIngot]]);
+	    [anyShadowSteelIngot, anyLumiumGear, anyShadowSteelIngot],
+	    [null,                input,         null],
+	    [anyShadowSteelIngot, null,          anyShadowSteelIngot]]);
 }
 
 # Upgrade Recipes from Reinforced to Resonant
 for i, machine in allTierFourMachineOutputs {
+    var input = allTierThreeMachines[i].onlyWithTag({Level:2 as byte});
 	recipes.addShaped(machine, [
-	    [anyTitaniumIngot, anyEnderiumGear,              anyTitaniumIngot],
-	    [null,             allTierThreeMachineInputs[i], null],
-	    [anyTitaniumIngot, null,                         anyTitaniumIngot]]);
+	    [anyTitaniumIngot, anyEnderiumGear, anyTitaniumIngot],
+	    [null,             input,           null],
+	    [anyTitaniumIngot, null,            anyTitaniumIngot]]);
 }
