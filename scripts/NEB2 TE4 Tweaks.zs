@@ -219,7 +219,7 @@ for i, machine in allTierTwoMachines {
 }
 
 # Upgrade Recipes from Basic to Hardened
-for i, machine in allTierTwoMachineOutputs {
+for i, machine in allTierTwoMachines {
     var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
 	recipes.addShaped(machine, [
 	    [anyBlackSteelIngot, anyPlatinumGear, anyBlackSteelIngot],
@@ -228,7 +228,7 @@ for i, machine in allTierTwoMachineOutputs {
 }
 
 # Upgrade Recipes from Hardened to Reinforced
-for i, machine in allTierThreeMachineOutputs {
+for i, machine in allTierThreeMachines {
     var input = allTierTwoMachines[i].onlyWithTag({Level:1 as byte});
 	recipes.addShaped(machine, [
 	    [anyShadowSteelIngot, anyLumiumGear, anyShadowSteelIngot],
@@ -237,7 +237,7 @@ for i, machine in allTierThreeMachineOutputs {
 }
 
 # Upgrade Recipes from Reinforced to Resonant
-for i, machine in allTierFourMachineOutputs {
+for i, machine in allTierFourMachines {
     var input = allTierThreeMachines[i].onlyWithTag({Level:2 as byte});
 	recipes.addShaped(machine, [
 	    [anyTitaniumIngot, anyEnderiumGear, anyTitaniumIngot],
