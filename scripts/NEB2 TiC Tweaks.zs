@@ -836,6 +836,9 @@ Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 
 #Smeltery.removeAlloy(moltenAluminumBrass);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
 
+# Remove Steel Ratio
+#Smeltery.removeAlloy(moltenSteel)
+
 /*
 # Disable Smeltery Melting to Require High Oven
 Smeltery.removeMelting(anyCobaltOre);
