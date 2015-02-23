@@ -107,7 +107,7 @@ Current Mod Versions
 - **ProjectRed World** v4.5.12.64
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC1-19
-- **Reliquary** v1.2.223
+- **Reliquary** v1.2.257
 - **RPGAdvMod** v1.0.0
 - **SciMCLib** v0.0.0.1
 - **ServerTools-BACKUP** v2.2.0.23
