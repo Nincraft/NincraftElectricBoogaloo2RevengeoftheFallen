@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1286
+- **Forge** v10.13.2.1291
 
 Current API Versions
 =
@@ -9,7 +9,7 @@ Current API Versions
 - **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.4.29
 - **CodeChickenLib** v1.1.1.99
-- **CoFHCore** v3.0.0B9-40
+- **CoFHCore** v3.0.0RC1-181
 - **CoFHLib** v1.0.0B8-34
 - **CookieCore** v1.3.0
 - **CoroUtil** v1.1.1
@@ -75,7 +75,7 @@ Current Mod Versions
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
 - **Metallurgy** v4.0.4.43
-- **Minefactory Reloaded** v2.8.0RC6-5
+- **Minefactory Reloaded** v2.8.0RC6-60
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
@@ -100,11 +100,11 @@ Current Mod Versions
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
 - **Poor Ores** v1.4.6
-- **ProjectRed Base** v4.5.8.59
-- **ProjectRed Compat** v4.5.8.59
-- **ProjectRed Integration** v4.5.8.59
-- **ProjectRed Lighting** v4.5.8.59
-- **ProjectRed World** v4.5.8.59
+- **ProjectRed Base** v4.5.12.64
+- **ProjectRed Compat** v4.5.12.64
+- **ProjectRed Integration** v4.5.12.64
+- **ProjectRed Lighting** v4.5.12.64
+- **ProjectRed World** v4.5.12.64
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC1-19
 - **Reliquary** v1.2.223
@@ -121,8 +121,9 @@ Current Mod Versions
 - **Sync** v4.0.0
 - **Thaumcraft** v4.2.3.4
 - **Thaumic Tinkerer** v2.5-162
-- **Thermal Expansion** v4.0.0B8-23
-- **Thermal Foundation** v1.0.0.RC1-13
+- **Thermal Dynamics** v1.0.0RC1-69
+- **Thermal Expansion** v4.0.0RC1-119
+- **Thermal Foundation** v1.0.0RC2-53
 - **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
