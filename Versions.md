@@ -82,7 +82,6 @@ Current Mod Versions
 - **ModTweaker** v0.7.b (Manual Build)
 - **More Planets** v1.1.9-beta
 - **Morpheus** v1.5.26
-- **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0RC4-4
@@ -108,6 +107,7 @@ Current Mod Versions
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC2-43
 - **Reliquary** v1.2.257
+- **RFTools** v2.50
 - **RPGAdvMod** v1.0.0
 - **SciMCLib** v0.0.0.1
 - **ServerTools-BACKUP** v2.2.0.23
