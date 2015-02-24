@@ -51,6 +51,7 @@ var compressedBlackDiamond     = <MorePlanet:fronos_item:4>;
 var compressedIridium          = <MorePlanet:fronos_item:5>;
 var compressedFrozenIron       = <MorePlanet:kapteyn-b_item:2>;
 var compressedSulfur           = <MorePlanet:sirius-b_item:4>;
+var compressedIronIngot        = <PneumaticCraft:ingotIronCompressed>;
 
 # ORE DICTIONARY
 #----------------
@@ -131,28 +132,33 @@ Pressure.addRecipe([heavyDutyPlateT7, compressedBlackDiamond, compressedIridium]
                    [heavyDutyPlateT8 * 2], false);
 
 # Compressed Metal Plates
-for copperIngot in anyCopperIngot.items {
-    Pressure.addRecipe([copperIngot], 1.2, [compressedCopper], false);
+for aluminumIngot in anyAluminumIngot.items {
+    Pressure.addRecipe([aluminumIngot], 1.1, [compressedAluminum], false);
 }
 
 for tinIngot in anyTinIngot.items {
     Pressure.addRecipe([tinIngot], 1.15, [compressedTin], false);
 }
 
-for aluminumIngot in anyAluminumIngot.items {
-    Pressure.addRecipe([aluminumIngot], 1.1, [compressedAluminum], false);
-}
-
-for steelIngot in anySteelIngot.items {
-    Pressure.addRecipe([steelIngot], 2.25, [compressedSteel], false);
+for copperIngot in anyCopperIngot.items {
+    Pressure.addRecipe([copperIngot], 1.2, [compressedCopper], false);
 }
 
 for bronzeIngot in anyBronzeIngot.items {
     Pressure.addRecipe([bronzeIngot], 1.25, [compressedBronze], false);
 }
 
+Pressure.removeRecipe([compressedIronIngot]);
+for ironIngot in anyIronIngot.items {
+    Pressure.addRecipe([ironIngot], 2, [compressedIron], false);
+}
+
 for meteoricIronIngot in anyMeteoricIronIngot.items {
     Pressure.addRecipe([meteoricIronIngot], 2, [compressedMeteoricIron], false);
+}
+
+for steelIngot in anySteelIngot.items {
+    Pressure.addRecipe([steelIngot], 2.25, [compressedSteel], false);
 }
 
 for deshIngot in anyDeshIngot.items {
@@ -163,7 +169,10 @@ for titaniumIngot in anyTitaniumIngot.items {
     Pressure.addRecipe([titaniumIngot], 2.5, [compressedTitanium], false);
 }
 
-Pressure.addRecipe([<PneumaticCraft:ingotIronCompressed>], 2, [compressedIron], false);
+# More Planets Compressed Materials
+Pressure.addRecipe([sulfurIngot], 1, [compressedSulfur], false);
+
+Pressure.addRecipe([frozenIronIngot], 2, [compressedFrozenIron], false);
 
 Pressure.addRecipe([quontoniumIngot], 3, [compressedQuontonium], false);
 
@@ -171,20 +180,16 @@ Pressure.addRecipe([fronisiumIngot], 3, [compressedFronisium], false);
 
 Pressure.addRecipe([polongniusMeteorIngot], 3, [compressedPolongniusMeteor], false);
 
-Pressure.addRecipe([palladiumIngot], 3.5, [compressedPalladium], false);
+Pressure.addRecipe([koentusMeteorIngot], 3, [compressedKoentusMeteor], false);
 
-Pressure.addRecipe([redGem], 4, [compressedRedGem], false);
+Pressure.addRecipe([palladiumIngot], 3.5, [compressedPalladium], false);
 
 Pressure.addRecipe([noriumIngot], 3.5, [compressedNorium], false);
 
 Pressure.addRecipe([whiteCrystal], 3.5, [compressedWhiteCrystal], false);
 
-Pressure.addRecipe([koentusMeteorIngot], 3, [compressedKoentusMeteor], false);
+Pressure.addRecipe([redGem], 4, [compressedRedGem], false);
 
 Pressure.addRecipe([blackDiamond], 4, [compressedBlackDiamond], false);
 
 Pressure.addRecipe([iridiumIngot], 4.5, [compressedIridium], false);
-
-Pressure.addRecipe([frozenIronIngot], 2, [compressedFrozenIron], false);
-
-Pressure.addRecipe([sulfurIngot], 1, [compressedSulfur], false);
