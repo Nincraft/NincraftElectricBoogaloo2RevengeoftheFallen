@@ -5,6 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.0.2
+- **AsieLib** v0.3.8
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.15
 - **CodeChickenCore** v1.0.4.29
@@ -16,19 +17,19 @@ Current API Versions
 - **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
 - **IndustrialCraft 2 API** v2.2.660
+- **INpureCore** v1.0.0B7-19
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
 - **MicDoodleCore** v3.0.8.257
+- **OpenModsLib** v0.6-snapshot-269
+- **SciMCLib** v0.0.0.1
 
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.4.0
 - **Applied Energistics 2** rv2 Beta 7
-- **AsieLib** v0.3.8
-- **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.3
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.9.2
 - **BiblioWoods (BoP)** v1.9
@@ -40,15 +41,13 @@ Current Mod Versions
 - **Carpenter's Blocks** v3.3.0
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
-- **Damage Indicators Mod** v3.2.0
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.7.2
-- **Dynamic Lights** v1.3.7
+- **Doom-like Dungeons** v1.7.2
 - **Enchiridion** v1.2b
-- **EnderIO** v2.2.8.344
+- **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
 - **Equivalent Exchange 3** v0.2.411
 - **Extra Cells** v2.2.34b58
@@ -66,7 +65,6 @@ Current Mod Versions
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.2
 - **Infernal Mobs** v1.5.9
-- **INpureCore** v1.0.0B7-19
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
@@ -88,16 +86,12 @@ Current Mod Versions
 - **Nether Ores** v2.3.0RC4-4
 - **Nincrafty Things** v1.3.4-alpha
 - **Not Enough Items** v1.0.4.83
-- **Oceancraft** v1.4.1
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.4.4a.25
 - **Open Eye** v0.6
-- **OpenModsLib** v0.6-snapshot-269
-- **Opis** v1.2.3
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
-- **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
 - **Poor Ores** v1.4.6
 - **ProjectRed Base** v4.5.12.64
@@ -109,10 +103,8 @@ Current Mod Versions
 - **RedstoneArsenal** v1.1.0RC2-43
 - **Reliquary** v1.2.257
 - **RPGAdvMod** v1.0.0
-- **SciMCLib** v0.0.0.1
 - **ServerTools-BACKUP** v2.2.0.23
 - **ServerTools-CORE** v2.2.0.79
-- **Shatter** v4.0.0
 - **Simply Jetpacks** v1.3.2
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
@@ -124,7 +116,6 @@ Current Mod Versions
 - **Thermal Dynamics** v1.0.0RC2-77
 - **Thermal Expansion** v4.0.0RC2-129
 - **Thermal Foundation** v1.0.0RC3-56
-- **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Steelworks** v1.0.7
@@ -132,11 +123,22 @@ Current Mod Versions
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.3
+- **Weather** v2.3.7
+ 
+Optional Client Mod Versions
+=
+- **Armor Status HUD** v1.28
+- **Better Foliage** v1.0.3
+- **Damage Indicators Mod** v3.2.0
+- **Dynamic Lights** v1.3.7
+- **OPIS** v1.2.3
+- **PiP** v4.0.0
+- **Shatter** v4.0.0
+- **TiCTooltips** v1.2.0
 - **WAILA** v1.5.8a
 - **WAWLA** v1.1.1
-- **Weather** v2.3.7
 
-Developer Mods
+Development Mod Versions
 =
 - **MineTweaker RecipeMaker** v1.0.0.2
 - **VersionChecker** v1.1.7
