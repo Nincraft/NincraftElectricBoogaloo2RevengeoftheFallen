@@ -140,10 +140,3 @@ Developer Mods
 =
 - **MineTweaker RecipeMaker** v1.0.0.2
 - **VersionChecker** v1.1.7
-
-Disabled Mods (For Now)
-
-- Alternate Terrain Generation
-- Drama Splash
-- Lycanite's Mobs
-- MapWriter
