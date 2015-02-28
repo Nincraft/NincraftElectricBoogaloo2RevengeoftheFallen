@@ -56,6 +56,7 @@ Current Mod Versions
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
+- **Forbidden Magic** v0.561
 - **Galacticraft Core** v3.0.8.257
 - **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
@@ -129,6 +130,7 @@ Current Mod Versions
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Defense** v1.0
 - **Tinker's Mechworks** v0.2.8
+- **Tinker's Modifiers** v1.1
 - **Tinker's Steelworks** v1.0.7
 - **TNTUtils** v0.3alpha
 - **Torcherino** v1.7.10-rc2
