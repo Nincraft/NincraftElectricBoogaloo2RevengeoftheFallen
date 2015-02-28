@@ -94,6 +94,7 @@ Current Mod Versions
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
+- **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
 - **Poor Ores** v1.4.6
 - **ProjectRed Base** v4.5.12.64
@@ -118,6 +119,7 @@ Current Mod Versions
 - **Thermal Dynamics** v1.0.0RC2-77
 - **Thermal Expansion** v4.0.0RC2-129
 - **Thermal Foundation** v1.0.0RC3-56
+- **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Defense** v1.0
 - **Tinker's Mechworks** v0.2.8
@@ -128,6 +130,8 @@ Current Mod Versions
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Twilight Forest** v2.3.3
+- **WAILA** v1.5.8a
+- **WAWLA** v1.1.1
 - **Weather** v2.3.7
  
 Optional Client Mod Versions
@@ -137,11 +141,7 @@ Optional Client Mod Versions
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
-- **PiP** v4.0.0
 - **Shatter** v4.0.0
-- **TiCTooltips** v1.2.0
-- **WAILA** v1.5.8a
-- **WAWLA** v1.1.1
 
 Development Mod Versions
 =
