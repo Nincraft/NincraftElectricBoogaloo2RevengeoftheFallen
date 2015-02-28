@@ -55,6 +55,7 @@ Current Mod Versions
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.27.3
 - **FMPIntegration** v1.2.2
+- **Forbidden Magic** v0.561
 - **Galacticraft Core** v3.0.8.257
 - **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
@@ -73,6 +74,7 @@ Current Mod Versions
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
 - **Metallurgy** v4.0.4.43
+- **Mine & Blade: Battlegear 2** v1.0.7.0
 - **Minefactory Reloaded** v2.8.0RC7-71
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
@@ -117,8 +119,11 @@ Current Mod Versions
 - **Thermal Expansion** v4.0.0RC2-129
 - **Thermal Foundation** v1.0.0RC3-56
 - **Tinker's Construct** v1.8.2a
+- **Tinker's Defense** v1.0
 - **Tinker's Mechworks** v0.2.8
+- **Tinker's Modifiers** v1.1
 - **Tinker's Steelworks** v1.0.7
+- **TNTUtils** v0.3alpha
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
