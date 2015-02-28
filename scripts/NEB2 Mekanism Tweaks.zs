@@ -164,6 +164,9 @@ var allMachines                = [
 # Disable Cardboard Box
 recipes.remove(cardboardBox);
 
+# Disable Charcoal Block
+recipes.remove(charcoalBlock);
+
 # Enriched Iron: 8 Iron, 1 Manganese
 recipes.remove(enrichedIron);
 Infuser.removeRecipe(enrichedIron);
