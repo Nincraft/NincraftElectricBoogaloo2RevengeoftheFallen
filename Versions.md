@@ -45,7 +45,8 @@ Current Mod Versions
 - **DecoCraft** v1.11
 - **Dense Ores dev** v1.4.2
 - **DimensionGuard** v1.2.1
-- **Doom-like Dungeons** v1.7.2
+- **Doom-like Dungeon** v1.7.2
+- **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
@@ -82,7 +83,6 @@ Current Mod Versions
 - **ModTweaker** v0.7.b (Manual Build)
 - **More Planets** v1.1.9-beta
 - **Morpheus** v1.5.26
-- **Mystcraft** v0.11.0.00
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0RC4-4
@@ -105,6 +105,7 @@ Current Mod Versions
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0RC2-43
 - **Reliquary** v1.2.257
+- **RFTools** v2.54
 - **RPGAdvMod** v1.0.0
 - **ServerTools-BACKUP** v2.2.0.23
 - **ServerTools-CORE** v2.2.0.79
