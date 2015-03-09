@@ -222,25 +222,37 @@ for i, machine in allTierTwoMachines {
 for i, machine in allTierTwoMachines {
     var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
 	recipes.addShaped(machine, [
-	    [anyBlackSteelIngot, anyPlatinumGear, anyBlackSteelIngot],
-	    [null,               input,           null],
-	    [anyBlackSteelIngot, null,            anyBlackSteelIngot]]);
+	    [anyBlackSteelIngot, anyPlatinumGear,         anyBlackSteelIngot],
+	    [null,               input.marked("machine"), null],
+	    [anyBlackSteelIngot, null,                    anyBlackSteelIngot]],
+	    function(output, inputs, crafting)
+	    {
+	        return output.withTag({Augments: inputs.machine.getTag("Augments")});
+	    });
 }
 
 # Upgrade Recipes from Hardened to Reinforced
 for i, machine in allTierThreeMachines {
     var input = allTierTwoMachines[i].onlyWithTag({Level:1 as byte});
 	recipes.addShaped(machine, [
-	    [anyShadowSteelIngot, anyLumiumGear, anyShadowSteelIngot],
-	    [null,                input,         null],
-	    [anyShadowSteelIngot, null,          anyShadowSteelIngot]]);
+	    [anyShadowSteelIngot, anyLumiumGear,           anyShadowSteelIngot],
+	    [null,                input.marked("machine"), null],
+	    [anyShadowSteelIngot, null,                    anyShadowSteelIngot]],
+	    function(output, inputs, crafting)
+	    {
+	        return output.withTag({Augments: inputs.machine.getTag("Augments")});
+	    });
 }
 
 # Upgrade Recipes from Reinforced to Resonant
 for i, machine in allTierFourMachines {
     var input = allTierThreeMachines[i].onlyWithTag({Level:2 as byte});
 	recipes.addShaped(machine, [
-	    [anyTitaniumIngot, anyEnderiumGear, anyTitaniumIngot],
-	    [null,             input,           null],
-	    [anyTitaniumIngot, null,            anyTitaniumIngot]]);
+	    [anyTitaniumIngot, anyEnderiumGear,         anyTitaniumIngot],
+	    [null,             input.marked("machine"), null],
+	    [anyTitaniumIngot, null,                    anyTitaniumIngot]],
+	    function(output, inputs, crafting)
+	    {
+	        return output.withTag({Augments: inputs.machine.getTag("Augments")});
+	    });
 }
