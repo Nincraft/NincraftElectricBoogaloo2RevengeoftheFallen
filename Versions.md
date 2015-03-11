@@ -5,9 +5,9 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.0.2
-- **AsieLib** v0.3.8
+- **AsieLib** v0.3.10
 - **Baubles** v1.0.1.10
-- **bspkrs Core** v6.15
+- **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.4.29
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.0RC2-195
@@ -34,11 +34,11 @@ Current Mod Versions
 - **BiblioCraft** v1.9.2
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.1A2
+- **Big Reactors** v0.4.2A2
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
 - **Botania** r1.5-169
-- **Carpenter's Blocks** v3.3.0
+- **Carpenter's Blocks** v3.3.5
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
 - **Dark Menagerie beta** v2.0
@@ -138,7 +138,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.3
+- **Better Foliage** v1.0.5
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
