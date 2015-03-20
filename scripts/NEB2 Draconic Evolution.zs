@@ -6,4 +6,4 @@ var draconicChest = <DraconicEvolution:draconiumChest>;
 
 # RECIPE TWEAKS
 #---------------
-recipes.reomve(draconicChest);
+recipes.removeShaped(draconicChest);
