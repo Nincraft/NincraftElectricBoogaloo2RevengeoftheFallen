@@ -1,11 +1,11 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1291
+- **Forge** v10.13.3.1395
 
 Current API Versions
 =
-- **AppleCore** v1.0.2
-- **AsieLib** v0.3.10
+- **AppleCore** v1.1.0
+- **AsieLib** v0.3.13
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.4.29
@@ -28,16 +28,16 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.4.0
+- **AOBD** v2.5.0
 - **Applied Energistics 2** rv2 Beta 7
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.9.2
+- **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
 - **Big Reactors** v0.4.2A2
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.5-169
+- **Botania** r1.6-184
 - **Carpenter's Blocks** v3.3.5
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
@@ -54,7 +54,7 @@ Current Mod Versions
 - **Extra Cells** v2.2.34b58
 - **ExtraTiC** v1.0.3
 - **Extra Utilities** v1.2.1
-- **Flaxbeard's Steam Power** v0.27.3
+- **Flaxbeard's Steam Power** v0.28.7
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Galacticraft Core** v3.0.8.257
@@ -138,7 +138,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.8
+- **Better Foliage** v1.0.10
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
