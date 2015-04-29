@@ -346,9 +346,9 @@
 - **TNTUtils** by: *???*
   - **Private Packs**: Permission Needed
   - **Public Packs** : Permission Needed
-- **Torcherino** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **Torcherino** by: *sci4me*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
 - **Too Much Loot** by: *dmillerw*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
