@@ -11,6 +11,10 @@ Current Modlist
 =
 [Current Mod List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/blob/master/Versions.md)
 
+Modpack Permissions
+=
+[Permissions List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/blob/master/Permissions.md)
+
 Wiki
 =
 [NEB2 Wiki](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/wiki)
