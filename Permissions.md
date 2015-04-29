@@ -211,9 +211,9 @@
 - **ModTweaker** by: *joshie, jaredlll08*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **More Planets** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **More Planets** by: *MCCommander_Minecraft*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1)
 - **Morpheus** by: *quetzi*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -263,8 +263,8 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **PoorOres** by: *Xexanos*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores)
+  - **Public Packs** : [Notification Needed](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores)
 - **Project Red** by: *MrTJP, Chickenbones*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -277,15 +277,15 @@
 - **Reliquary** by: *TrainerGuy22, x3n0ph0b3*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **RFTools** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **RFTools** by: *McJty*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter)
 - **RPG Advanced Mod** by: *ProfMobius, RazzleberryFox, taelnia, Wulfyk*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **SciMCLib** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **SciMCLib** by: *sci4me*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
 - **ServerTools** by: *matthewprenger*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -331,9 +331,9 @@
 - **Tinkers' Construct** by: *Boni, mDiyo*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **Tinkers' Defense** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **Tinkers' Defense** by: *Lance5057*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense)
 - **Tinkers' Mechworks** by: *mDiyo*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -343,9 +343,9 @@
 - **Tinkers' Steelworks** by: *Ephys, Toops*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **TNTUtils** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **TNTUtils** by: *ljfa*
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions)
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions)
 - **Torcherino** by: *sci4me*
   - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
   - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
