@@ -337,9 +337,9 @@
 - **Tinkers' Mechworks** by: *mDiyo*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
-- **Tinkers' Modifiers** by: *???*
-  - **Private Packs**: Permission Needed
-  - **Public Packs** : Permission Needed
+- **Tinkers' Modifiers** by: *UnderMybrella*
+  - **Private Packs**: [Open](http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers)
+  - **Public Packs** : [Open](http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers)
 - **Tinkers' Steelworks** by: *Ephys, Toops*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
