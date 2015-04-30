@@ -212,8 +212,8 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **More Planets** by: *MCCommander_Minecraft*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1 "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1 "MCF Thread")
 - **Morpheus** by: *quetzi*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -263,8 +263,8 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **PoorOres** by: *Xexanos*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores)
-  - **Public Packs** : [Notification Needed](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores "MCF Thread")
+  - **Public Packs** : Notification Needed
 - **Project Red** by: *MrTJP, Chickenbones*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -278,14 +278,14 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **RFTools** by: *McJty*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter "MCF Thread")
 - **RPG Advanced Mod** by: *ProfMobius, RazzleberryFox, taelnia, Wulfyk*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **SciMCLib** by: *sci4me*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino "MCF Thread")
 - **ServerTools** by: *matthewprenger*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -332,8 +332,8 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **Tinkers' Defense** by: *Lance5057*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense "MCF Thread")
 - **Tinkers' Mechworks** by: *mDiyo*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
@@ -344,11 +344,11 @@
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
 - **TNTUtils** by: *ljfa*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions "MCF Thread")
 - **Torcherino** by: *sci4me*
-  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
-  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino)
+  - **Private Packs**: [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino "MCF Thread")
+  - **Public Packs** : [Open](http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino "MCF Thread")
 - **Too Much Loot** by: *dmillerw*
   - **Private Packs**: [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
   - **Public Packs** : [Open](http://1drv.ms/1kbLNMM "FTB Permission Spreadsheet")
