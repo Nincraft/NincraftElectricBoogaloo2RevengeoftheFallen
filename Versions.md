@@ -1,17 +1,17 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1291
+- **Forge** v10.13.3.1400
 
 Current API Versions
 =
-- **AppleCore** v1.0.2
-- **AsieLib** v0.3.8
+- **AppleCore** v1.1.0
+- **AsieLib** v0.3.13
 - **Baubles** v1.0.1.10
-- **bspkrs Core** v6.15
+- **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.4.29
 - **CodeChickenLib** v1.1.1.99
-- **CoFHCore** v3.0.0RC2-195
-- **CoFHLib** v1.0.0B9-118
+- **CoFHCore** v3.0.2-262
+- **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.0
 - **CoroUtil** v1.1.1
 - **Forge Multipart** v1.1.0.320
@@ -28,33 +28,33 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.4.0
-- **Applied Energistics 2** rv2 Beta 7
+- **AOBD** v2.6.0
+- **Applied Energistics 2** rv2 Stable 1
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.9.2
+- **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.1A2
+- **Big Reactors** v0.4.2A2
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.5-168
-- **Carpenter's Blocks** v3.3.0
+- **Botania** r1.6-187
+- **Carpenter's Blocks** v3.3.5
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
-- **Dense Ores dev** v1.4.2
+- **Dense Ores** v1.6.2
 - **DimensionGuard** v1.2.1
 - **Doom-like Dungeon** v1.7.2
 - **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.411
-- **Extra Cells** v2.2.34b58
-- **ExtraTiC** v1.0.3
+- **Equivalent Exchange 3** v0.3.483
+- **Extra Cells** v2.2.69bNIGHTLY
+- **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.1
-- **Flaxbeard's Steam Power** v0.27.3
+- **Flaxbeard's Steam Power** v0.28.7
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Galacticraft Core** v3.0.8.257
@@ -76,7 +76,7 @@ Current Mod Versions
 - **Mekanism Tools** v7.1.1.127
 - **Metallurgy** v4.0.4.43
 - **Mine & Blade: Battlegear 2** v1.0.7.0
-- **Minefactory Reloaded** v2.8.0RC7-71
+- **Minefactory Reloaded** v2.8.0-104
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
@@ -85,8 +85,8 @@ Current Mod Versions
 - **Morpheus** v1.5.26
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
-- **Nether Ores** v2.3.0RC4-4
-- **Nincrafty Things** v1.3.4-alpha
+- **Nether Ores** v2.3.0-12
+- **Nincrafty Things** v1.5-alpha
 - **Not Enough Items** v1.0.4.83
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.4.4a.25
@@ -103,9 +103,9 @@ Current Mod Versions
 - **ProjectRed Lighting** v4.5.12.64
 - **ProjectRed World** v4.5.12.64
 - **Random Things** v2.2.4
-- **RedstoneArsenal** v1.1.0RC2-43
+- **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
-- **RFTools** v2.54
+- **RFTools** v2.82
 - **RPGAdvMod** v1.0.0
 - **ServerTools-BACKUP** v2.2.0.23
 - **ServerTools-CORE** v2.2.0.79
@@ -117,16 +117,16 @@ Current Mod Versions
 - **Sync** v4.0.0
 - **Thaumcraft** v4.2.3.4
 - **Thaumic Tinkerer** v2.5-162
-- **Thermal Dynamics** v1.0.0RC2-77
-- **Thermal Expansion** v4.0.0RC2-129
-- **Thermal Foundation** v1.0.0RC3-56
+- **Thermal Dynamics** v1.0.0-122
+- **Thermal Expansion** v4.0.1-182
+- **Thermal Foundation** v1.0.0-81
 - **TiCTooltips** v1.2.0
 - **Tinker's Construct** v1.8.2a
 - **Tinker's Defense** v1.0
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Modifiers** v1.1
 - **Tinker's Steelworks** v1.0.7
-- **TNTUtils** v0.3alpha
+- **TNTUtils** v1.0-beta
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
@@ -138,7 +138,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.3
+- **Better Foliage** v1.0.10
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
