@@ -275,18 +275,16 @@ recipes.addShaped(chemicalInjectionChamber, [
 # Basic Factories
 recipes.remove(basicFactory);
 for i, machine in allMachines {
-    var factory = basicFactory.withTag({recipeType:i});
-	recipes.addShaped(factory, [
+	recipes.addShaped(basicFactory.withTag({recipeType:i}), [
 	    [redstoneDust,     anyBasicCircuit, redstoneDust],
 	    [anyDeepIronIngot, machine,         anyDeepIronIngot],
 	    [redstoneDust,     anyBasicCircuit, redstoneDust]]);
 }
 
 # Advanced Factories
-recipes.remove(eliteFactory);
+recipes.remove(advancedFactory);
 for i, machine in allMachines {
-    var factory = advancedFactory.withTag({recipeType:i});
-	recipes.addShaped(factory, [
+	recipes.addShaped(advancedFactory.withTag({recipeType:i}), [
 	    [enrichedAlloy,  anyAdvancedCircuit,                   enrichedAlloy],
 	    [anyOsmiumIngot, basicFactory.withTag({recipeType:i}), anyOsmiumIngot],
 	    [enrichedAlloy,  anyAdvancedCircuit,                   enrichedAlloy]]);
@@ -295,8 +293,7 @@ for i, machine in allMachines {
 # Elite Factories
 recipes.remove(eliteFactory);
 for i, machine in allMachines {
-    var factory = eliteFactory.withTag({recipeType:i});
-	recipes.addShaped(factory, [
+	recipes.addShaped(eliteFactory.withTag({recipeType:i}), [
 	    [reinforcedAlloy,  anyEliteCircuit,                         reinforcedAlloy],
 	    [anyTitaniumIngot, advancedFactory.withTag({recipeType:i}), anyTitaniumIngot],
 	    [reinforcedAlloy,  anyEliteCircuit,                         reinforcedAlloy]]);
