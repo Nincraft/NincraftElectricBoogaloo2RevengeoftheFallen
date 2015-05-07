@@ -13,7 +13,7 @@ Current API Versions
 - **CoFHCore** v3.0.2-262
 - **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.0
-- **CoroUtil** v1.1.1
+- **CoroUtil** v1.1.2
 - **Forge Multipart** v1.1.0.320
 - **iChunUtil** v4.1.3
 - **IndustrialCraft 2 API** v2.2.660
@@ -44,7 +44,6 @@ Current Mod Versions
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores** v1.6.2
-- **DimensionGuard** v1.2.1
 - **Doom-like Dungeon** v1.7.2
 - **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
@@ -57,6 +56,7 @@ Current Mod Versions
 - **Flaxbeard's Steam Power** v0.28.7
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
+- **Funky Locomotion** v5a beta
 - **Galacticraft Core** v3.0.8.257
 - **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
@@ -130,10 +130,12 @@ Current Mod Versions
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
+- **Tropicraft** v6.0.4
 - **Twilight Forest** v2.3.3
 - **WAILA** v1.5.8a
 - **WAWLA** v1.1.1
 - **Weather** v2.3.7
+- **Witchery** v0.24.1
  
 Optional Client Mod Versions
 =
