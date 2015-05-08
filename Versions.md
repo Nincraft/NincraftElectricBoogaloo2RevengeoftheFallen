@@ -90,7 +90,7 @@ Current Mod Versions
 - **Nincrafty Things** v1.5-alpha
 - **Not Enough Items** v1.0.4.83
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.4.4a.25
+- **OpenComputers** v1.5.9.21
 - **Open Eye** v0.6
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10f
