@@ -24,6 +24,7 @@ Current API Versions
 - **MicDoodleCore** v3.0.8.257
 - **OpenModsLib** v0.6-snapshot-269
 - **SciMCLib** v0.0.0.1
+- **ttCore** v0.1.0-67
 
 Current Mod Versions
 =
@@ -54,6 +55,7 @@ Current Mod Versions
 - **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.28.7
+- **Fluxed-Crystals** v0.0.5k
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5a beta
@@ -70,7 +72,6 @@ Current Mod Versions
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
-- **Magical Crops** v0.1
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
