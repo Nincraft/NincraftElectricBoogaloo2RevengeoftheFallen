@@ -8,7 +8,7 @@ Current API Versions
 - **AsieLib** v0.3.13
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
-- **CodeChickenCore** v1.0.4.29
+- **CodeChickenCore** v1.0.6.43
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.2-262
 - **CoFHLib** v1.0.1-151
@@ -49,7 +49,7 @@ Current Mod Versions
 - **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
-- **Ender Storage** v1.4.5.27
+- **Ender Storage** v1.4.7.36
 - **Equivalent Exchange 3** v0.3.483
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
