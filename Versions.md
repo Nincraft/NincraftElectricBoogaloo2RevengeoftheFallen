@@ -8,7 +8,7 @@ Current API Versions
 - **AsieLib** v0.3.13
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
-- **CodeChickenCore** v1.0.4.29
+- **CodeChickenCore** v1.0.6.43
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.2-262
 - **CoFHLib** v1.0.1-151
@@ -24,6 +24,7 @@ Current API Versions
 - **MicDoodleCore** v3.0.8.257
 - **OpenModsLib** v0.6-snapshot-269
 - **SciMCLib** v0.0.0.1
+- **ttCore** v0.1.0-67
 
 Current Mod Versions
 =
@@ -48,12 +49,13 @@ Current Mod Versions
 - **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
-- **Ender Storage** v1.4.5.27
+- **Ender Storage** v1.4.7.36
 - **Equivalent Exchange 3** v0.3.483
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.1
 - **Flaxbeard's Steam Power** v0.28.7
+- **Fluxed-Crystals** v0.0.5k
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5a beta
@@ -70,7 +72,6 @@ Current Mod Versions
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
-- **Magical Crops** v0.1
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
@@ -89,7 +90,7 @@ Current Mod Versions
 - **Nincrafty Things** v1.5-alpha
 - **Not Enough Items** v1.0.4.83
 - **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.4.4a.25
+- **OpenComputers** v1.5.9.21
 - **Open Eye** v0.6
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10f
