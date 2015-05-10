@@ -14,7 +14,7 @@ Current API Versions
 - **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.0
 - **CoroUtil** v1.1.2
-- **Forge Multipart** v1.1.0.320
+- **Forge Multipart** v1.1.1.321
 - **iChunUtil** v4.1.3
 - **IndustrialCraft 2 API** v2.2.660
 - **INpureCore** v1.0.0B7-19
@@ -67,7 +67,7 @@ Current Mod Versions
 - **Hardcore Ender Expansion** v1.6.7
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
-- **Iguana's Tinker Tweaks** v2.1.2
+- **Iguana's Tinker Tweaks** v2.1.5
 - **Infernal Mobs** v1.5.9
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
@@ -122,8 +122,8 @@ Current Mod Versions
 - **Thermal Expansion** v4.0.1-182
 - **Thermal Foundation** v1.0.0-81
 - **TiCTooltips** v1.2.0
-- **Tinker's Construct** v1.8.2a
-- **Tinker's Defense** v1.0
+- **Tinker's Construct** v1.8.5
+- **Tinker's Defense** v1.2.1
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Modifiers** v1.1
 - **Tinker's Steelworks** v1.0.7
