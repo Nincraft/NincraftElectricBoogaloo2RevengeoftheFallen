@@ -87,7 +87,7 @@ Current Mod Versions
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0-12
-- **Nincrafty Things** v1.5-alpha
+- **Nincrafty Things** v1.5.1-alpha
 - **Not Enough Items** v1.0.4.83
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.5.9.21
