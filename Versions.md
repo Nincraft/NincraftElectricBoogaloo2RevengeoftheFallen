@@ -16,6 +16,7 @@ Current API Versions
 - **CoroUtil** v1.1.2
 - **Forge Multipart** v1.1.1.321
 - **iChunUtil** v4.1.3
+- **Immibus Core** v59.1.1
 - **IndustrialCraft 2 API** v2.2.660
 - **INpureCore** v1.0.0B7-19
 - **LunatriusCore** v1.1.2.20
@@ -98,12 +99,8 @@ Current Mod Versions
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
 - **Poor Ores** v1.4.6
-- **ProjectRed Base** v4.5.12.64
-- **ProjectRed Compat** v4.5.12.64
-- **ProjectRed Integration** v4.5.12.64
-- **ProjectRed Lighting** v4.5.12.64
-- **ProjectRed World** v4.5.12.64
 - **Random Things** v2.2.4
+- **RedLogic** v59.1.10
 - **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
 - **RFTools** v2.82
