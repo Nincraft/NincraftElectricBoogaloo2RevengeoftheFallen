@@ -278,7 +278,6 @@ var moltenBronze             = <liquid:bronze.molten>;
 var moltenCarmot             = <liquid:carmot.molten>;
 var moltenCelenegil          = <liquid:celenegil.molten>;
 var moltenCeruclase          = <liquid:ceruclase.molten>;
-#var moltenConductiveRedMetal = <liquid:Molten Conductive Redmetal>;
 var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
 var moltenCyanite            = <liquid:cyanite>;
