@@ -15,7 +15,7 @@ Current API Versions
 - **CookieCore** v1.3.0
 - **CoroUtil** v1.1.2
 - **Forge Multipart** v1.1.1.321
-- **iChunUtil** v4.1.3
+- **iChunUtil** v4.2.2
 - **IndustrialCraft 2 API** v2.2.660
 - **INpureCore** v1.0.0B7-19
 - **LunatriusCore** v1.1.2.20
@@ -98,6 +98,7 @@ Current Mod Versions
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.5.2-50
 - **Poor Ores** v1.4.6
+- **Portal Gun** v4.0.0 beta 4
 - **ProjectRed Base** v4.5.12.64
 - **ProjectRed Compat** v4.5.12.64
 - **ProjectRed Integration** v4.5.12.64

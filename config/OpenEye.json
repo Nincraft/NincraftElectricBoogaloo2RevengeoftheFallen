@@ -21,7 +21,7 @@
         "tags": {
             "value": [
                 "NEB2",
-                "NEB2 ${project.version}"]
+                "NEB2 1.6 Beta dev"]
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",
