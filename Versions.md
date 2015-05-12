@@ -30,6 +30,7 @@ Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.6.0
+- **Alternate Terrain Generation** v0.12.0
 - **Applied Energistics 2** rv2 Stable 1
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
