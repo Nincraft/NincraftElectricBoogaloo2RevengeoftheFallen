@@ -12,10 +12,10 @@
 - **Admin Command Toolbox** by: *ProfMobius*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **AppleCore** by: *Squeek502*
+- **AOBD** by: *ganymedes01*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **AOBD** by: *ganymedes01*
+- **AppleCore** by: *Squeek502*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Applied Energistics 2** by: *AlgorithmX2*
