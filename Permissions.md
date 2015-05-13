@@ -1,5 +1,6 @@
 [FTB Permission Spreadsheet]:http://1drv.ms/1kbLNMM
 [Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
+[iChun's Permissions]:http://ichun.us/support/mod-packs/
 [More Planets MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
 [PoorOres MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores
@@ -276,6 +277,9 @@
 - **PoorOres** by: *Xexanos*
   - **Private Packs**: Open: [PoorOres MCF Thread]
   - **Public Packs** : Notification Needed
+- **Portal Gun** by: *iChun*
+  - **Private Packs**: Open: [iChun's Permissions]
+  - **Public Packs** : Open: [iChun's Permissions]
 - **Project Red** by: *MrTJP, Chickenbones*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
