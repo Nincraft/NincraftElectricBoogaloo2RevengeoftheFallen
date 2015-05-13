@@ -29,7 +29,7 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.6.0
+- **AOBD** v2.6.2
 - **Applied Energistics 2** rv2 Stable 1
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -53,9 +53,9 @@ Current Mod Versions
 - **Equivalent Exchange 3** v0.3.483
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
-- **Extra Utilities** v1.2.1
+- **Extra Utilities** v1.2.4c
 - **Flaxbeard's Steam Power** v0.28.7
-- **Fluxed-Crystals** v0.0.5k
+- **Fluxed-Crystals** v1.0.0
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5a beta
@@ -96,7 +96,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.5.2-50
+- **PneumaticCraft** v1.6.8-72
 - **Poor Ores** v1.4.6
 - **ProjectRed Base** v4.5.12.64
 - **ProjectRed Compat** v4.5.12.64
@@ -141,7 +141,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.10
+- **Better Foliage** v1.0.12
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
