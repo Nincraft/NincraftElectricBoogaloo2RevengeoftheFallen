@@ -5,7 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.1.0
-- **AsieLib** v0.3.13
+- **AsieLib** v0.4.0
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.6.43
@@ -50,7 +50,7 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.7.36
-- **Equivalent Exchange 3** v0.3.483
+- **Equivalent Exchange 3** v0.3.505
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.4c
@@ -83,7 +83,7 @@ Current Mod Versions
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.7.b (Manual Build)
 - **More Planets** v1.1.9-beta
-- **Morpheus** v1.5.26
+- **Morpheus** v1.6.4
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0-12
@@ -110,7 +110,7 @@ Current Mod Versions
 - **RPGAdvMod** v1.0.0
 - **ServerTools-BACKUP** v2.2.0.23
 - **ServerTools-CORE** v2.2.0.79
-- **Simply Jetpacks** v1.3.2
+- **Simply Jetpacks** v1.4.1
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
 - **Statues** v2.1.4
@@ -150,4 +150,4 @@ Optional Client Mod Versions
 Development Mod Versions
 =
 - **MineTweaker RecipeMaker** v1.0.0.2
-- **VersionChecker** v1.1.7
+- **VersionChecker** v1.1.8
