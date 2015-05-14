@@ -5,7 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.1.0
-- **AsieLib** v0.3.13
+- **AsieLib** v0.4.0
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.6.43
@@ -29,7 +29,7 @@ Current API Versions
 Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.6.0
+- **AOBD** v2.6.2
 - **Applied Energistics 2** rv2 Stable 1
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -50,12 +50,12 @@ Current Mod Versions
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.7.36
-- **Equivalent Exchange 3** v0.3.483
+- **Equivalent Exchange 3** v0.3.505
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
-- **Extra Utilities** v1.2.1
+- **Extra Utilities** v1.2.4c
 - **Flaxbeard's Steam Power** v0.28.7
-- **Fluxed-Crystals** v0.0.5k
+- **Fluxed-Crystals** v1.0.0
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5a beta
@@ -83,11 +83,11 @@ Current Mod Versions
 - **Modpack Tweaks** v1.2.0-21
 - **ModTweaker** v0.7.b (Manual Build)
 - **More Planets** v1.1.9-beta
-- **Morpheus** v1.5.26
+- **Morpheus** v1.6.4
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0-12
-- **Nincrafty Things** v1.5-alpha
+- **Nincrafty Things** v1.5.1-alpha
 - **Not Enough Items** v1.0.4.83
 - **OpenBlocks** v1.3-snapshot-514
 - **OpenComputers** v1.5.9.21
@@ -96,7 +96,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.5.2-50
+- **PneumaticCraft** v1.6.8-72
 - **Poor Ores** v1.4.6
 - **Portal Gun** v4.0.0 beta 4
 - **ProjectRed Base** v4.5.12.64
@@ -111,7 +111,7 @@ Current Mod Versions
 - **RPGAdvMod** v1.0.0
 - **ServerTools-BACKUP** v2.2.0.23
 - **ServerTools-CORE** v2.2.0.79
-- **Simply Jetpacks** v1.3.2
+- **Simply Jetpacks** v1.4.1
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
 - **Statues** v2.1.4
@@ -142,7 +142,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.10
+- **Better Foliage** v1.0.12
 - **Damage Indicators Mod** v3.2.0
 - **Dynamic Lights** v1.3.7
 - **OPIS** v1.2.3
@@ -151,4 +151,4 @@ Optional Client Mod Versions
 Development Mod Versions
 =
 - **MineTweaker RecipeMaker** v1.0.0.2
-- **VersionChecker** v1.1.7
+- **VersionChecker** v1.1.8
