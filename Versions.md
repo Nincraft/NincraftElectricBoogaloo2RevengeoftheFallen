@@ -14,6 +14,7 @@ Current API Versions
 - **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.0
 - **CoroUtil** v1.1.2
+- **Farseek** v1.0.1
 - **Forge Multipart** v1.1.1.321
 - **iChunUtil** v4.1.3
 - **IndustrialCraft 2 API** v2.2.660
@@ -116,6 +117,7 @@ Current Mod Versions
 - **Stackie** v1.5.1.30
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
+- **Streams** v0.1.3
 - **Sync** v4.0.0
 - **Thaumcraft** v4.2.3.4
 - **Thaumic Tinkerer** v2.5-162
