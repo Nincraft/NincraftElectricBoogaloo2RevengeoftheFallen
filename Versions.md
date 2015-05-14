@@ -55,7 +55,7 @@ Current Mod Versions
 - **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.4c
 - **Flaxbeard's Steam Power** v0.28.7
-- **Fluxed-Crystals** v1.0.0
+- **Fluxed-Crystals** v0.0.5k
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5a beta
