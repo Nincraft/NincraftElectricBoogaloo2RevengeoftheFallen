@@ -12,7 +12,7 @@ Current API Versions
 - **CodeChickenLib** v1.1.1.99
 - **CoFHCore** v3.0.2-262
 - **CoFHLib** v1.0.1-151
-- **CookieCore** v1.3.0
+- **CookieCore** v1.3.1-8
 - **CoroUtil** v1.1.2
 - **Forge Multipart** v1.1.1.321
 - **iChunUtil** v4.2.2
@@ -30,6 +30,7 @@ Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.6.2
+- **AOBDBB** v1.0.2
 - **Applied Energistics 2** rv2 Stable 1
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -40,7 +41,7 @@ Current Mod Versions
 - **Blood Magic** v1.3.0b
 - **Botania** r1.6-187
 - **Carpenter's Blocks** v3.3.5
-- **Chisel** v2.3.5.31
+- **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
@@ -104,6 +105,7 @@ Current Mod Versions
 - **ProjectRed Integration** v4.5.12.64
 - **ProjectRed Lighting** v4.5.12.64
 - **ProjectRed World** v4.5.12.64
+- **Railcraft** v9.6.1.0
 - **Random Things** v2.2.4
 - **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
@@ -127,7 +129,7 @@ Current Mod Versions
 - **Tinker's Defense** v1.2.1
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Modifiers** v1.1
-- **Tinker's Steelworks** v1.0.7
+- **Tinker's Steelworks** v1.1.0-14
 - **TNTUtils** v1.0-beta
 - **Torcherino** v1.7.10-rc2
 - **Too Much Loot** v3.0.1.B22
@@ -150,5 +152,6 @@ Optional Client Mod Versions
 
 Development Mod Versions
 =
+- **BdLib** v1.7.1.71
 - **MineTweaker RecipeMaker** v1.0.0.2
 - **VersionChecker** v1.1.8
