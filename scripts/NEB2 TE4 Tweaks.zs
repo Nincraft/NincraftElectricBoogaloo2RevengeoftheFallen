@@ -228,7 +228,7 @@ for i, machine in allTierTwoMachines {
 	    [anyBlackSteelIngot, null,                    anyBlackSteelIngot]],
 	    function(output, inputs, crafting)
 	    {
-	        return output.withTag(inputs.machine.getTag()).updateTag({Level: 1 as byte});
+	        return output.withTag(inputs.machine.tag).updateTag({Level: 1 as byte});
 	    });
 }
 
@@ -241,7 +241,7 @@ for i, machine in allTierThreeMachines {
 	    [anyShadowSteelIngot, null,                    anyShadowSteelIngot]],
 	    function(output, inputs, crafting)
 	    {
-	        return output.withTag(inputs.machine.getTag()).updateTag({Level: 2 as byte});
+	        return output.withTag(inputs.machine.tag).updateTag({Level: 2 as byte});
 	    });
 }
 
@@ -254,6 +254,6 @@ for i, machine in allTierFourMachines {
 	    [anyTitaniumIngot, null,                    anyTitaniumIngot]],
 	    function(output, inputs, crafting)
 	    {
-	        return output.withTag(inputs.machine.getTag()).updateTag({Level: 3 as byte});
+	        return output.withTag(inputs.machine.tag).updateTag({Level: 3 as byte});
 	    });
 }
