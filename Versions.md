@@ -28,7 +28,6 @@ Current API Versions
 
 Current Mod Versions
 =
-- **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.6.2
 - **AOBDBB** v1.0.2
 - **Applied Energistics 2** rv2 Stable 1
@@ -43,6 +42,7 @@ Current Mod Versions
 - **Carpenter's Blocks** v3.3.5
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
+- **ChunkGen** v1.2.3
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v1.11
 - **Dense Ores** v1.6.2
