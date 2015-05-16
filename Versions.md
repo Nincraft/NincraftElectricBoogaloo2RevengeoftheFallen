@@ -58,7 +58,7 @@ Current Mod Versions
 - **Fluxed-Crystals** v0.0.5k
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
-- **Funky Locomotion** v5a beta
+- **Funky Locomotion** v5b beta
 - **Galacticraft Core** v3.0.8.257
 - **Galacticraft Planets** v3.0.8.257
 - **Garden Stuff** v1.2.1
