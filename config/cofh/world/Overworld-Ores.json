@@ -348,83 +348,6 @@
             7
         ]
     },
-    "certusQuartzGeode": {
-        "template": {
-            "type": "uniform",
-            "generator": "geode"
-        },
-        "block": [
-            {
-                "name": "appliedenergistics2:tile.OreQuartz",
-                "weight": 25
-            },
-            {
-                "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "weight": 5
-            }
-            {
-                "name": "GalacticraftCore:tile.gcBlockCore",
-                "metadata": 8,
-                "weight": 70,
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 1,
-        "minHeight": 16,
-        "maxHeight": 48,
-        "crust": "stone",
-        "hollow": true,
-        "retrogen": true,
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -1,
-            1,
-            7
-        ],
-        "enabled":false
-    },
-    "essenceOreVeins": {
-        "template": "fractal",
-        "block": "magicalcrops:magicalcrops_EssenceOre",
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 32,
-        "chunkChance": 128,
-        "minHeight": 1,
-        "veinHeight": 64,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "name",
-                "entry": "Magical Forest"
-            },
-            {
-                "type": "name",
-                "entry": "Mystic Grove"
-            },
-            {
-                "type": "name",
-                "entry": "Sacred Springs"
-            }
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -1,
-            1,
-            7
-        ]
-    },
     "zincVeins": {
         "template": "fractal",
         "block": [
@@ -488,8 +411,7 @@
             -1,
             1,
             7
-        ],
-        "enabled":false
+        ]
     },
     "magnesiumVeins": {
         "template": "fractal",
@@ -559,8 +481,7 @@
             -1,
             1,
             7
-        ],
-        "enabled":false
+        ]
     },
     "poorMithrilClusters": {
         "template": "uniform",
@@ -614,40 +535,6 @@
                 ]
             }
         ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -1,
-            1,
-            7
-        ]
-    },
-    "TEMPCertusQuartz": {
-        "template": "uniform",
-        "block": [
-            {
-                "name": "appliedenergistics2:tile.OreQuartz",
-                "weight": 25
-            },
-            {
-                "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "weight": 5
-            }
-            {
-                "name": "GalacticraftCore:tile.gcBlockCore",
-                "metadata": 8,
-                "weight": 70,
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 16,
-        "numClusters": 1,
-        "minHeight": 16,
-        "maxHeight": 48,
-        "retrogen": true,
-        "biomeRestriction": "none",
-        "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
