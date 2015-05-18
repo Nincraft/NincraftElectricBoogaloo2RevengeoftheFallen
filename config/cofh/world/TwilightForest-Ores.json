@@ -126,7 +126,7 @@
             {
                 "name": "PoorOres:poor_mithril_ore",
                 "weight": 10
-            },
+            }
         ],
         "material": "stone",
         "clusterSize": 16,
@@ -167,7 +167,7 @@
             {
                 "name": "GalacticraftCore:tile.gcBlockCore",
                 "metadata": 8,
-                "weight": 70,
+                "weight": 70
             }
         ],
         "material": "stone",
@@ -233,11 +233,11 @@
             {
                 "name": "appliedenergistics2:tile.OreQuartzCharged",
                 "weight": 5
-            }
+            },
             {
                 "name": "GalacticraftCore:tile.gcBlockCore",
                 "metadata": 8,
-                "weight": 70,
+                "weight": 70
             }
         ],
         "material": "stone",

@@ -292,7 +292,8 @@
     "quartzGeodes": {
         "template": {
             "type": "uniform",
-            "generator": "geode",
+            "generator": "geode"
+            
         },
         "crust": [
             {
