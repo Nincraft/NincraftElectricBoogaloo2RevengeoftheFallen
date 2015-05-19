@@ -73,6 +73,7 @@ Current Mod Versions
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.0a
+- **LookingGlass** v0.0.1.01
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
