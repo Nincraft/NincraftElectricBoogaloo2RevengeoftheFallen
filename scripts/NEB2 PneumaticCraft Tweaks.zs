@@ -1,6 +1,6 @@
 # MOD IMPORTS
 #-------------
-import minetweaker.oredict.IIngredient;
+import minetweaker.item.IIngredient;
 import minetweaker.item.IItemStack;
 import mods.pneumaticcraft.Pressure;
 
