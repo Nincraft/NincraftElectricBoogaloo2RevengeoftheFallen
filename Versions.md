@@ -35,10 +35,10 @@ Current Mod Versions
 - **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.2A2
+- **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-187
+- **Botania** r1.6-190
 - **Carpenter's Blocks** v3.3.5
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
@@ -71,7 +71,7 @@ Current Mod Versions
 - **Infernal Mobs** v1.5.9
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
-- **JABBA** v1.2.0a
+- **JABBA** v1.2.1a
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
@@ -133,7 +133,7 @@ Current Mod Versions
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Tropicraft** v6.0.4
-- **Twilight Forest** v2.3.3
+- **Twilight Forest** v2.3.7
 - **WAILA** v1.5.8a
 - **WAWLA** v1.1.1
 - **Weather** v2.3.7
