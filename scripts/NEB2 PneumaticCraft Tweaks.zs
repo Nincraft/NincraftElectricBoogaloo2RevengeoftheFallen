@@ -1,21 +1,76 @@
 # MOD IMPORTS
 #-------------
+import minetweaker.item.IIngredient;
+import minetweaker.item.IItemStack;
 import mods.pneumaticcraft.Pressure;
 
 # COMMON VARIABLES
 #------------------
-var anyCoalDust       = <ore:dustCoal>;
 var coal              = <minecraft:coal:0>;
-
-var anyCharcoalDust   = <ore:dustCharcoal>;
 var charcoal          = <minecraft:coal:1>;
+var diamond           = <minecraft:diamond>;
+var seeds             = <minecraft:wheat_seeds>;
 
-var anySawdust        = <ore:dustWood>;
 var compressedSawdust = <ThermalExpansion:material:513>;
 
+# ORE DICTIONARY
+#----------------
+var anyCharcoalDust   = <ore:dustCharcoal>;
+var anyCoalDust       = <ore:dustCoal>;
 var anyDiamondDust    = <ore:dustDiamond>;
+var anySawdust        = <ore:dustWood>;
+
 var anyDiamondNugget  = <ore:diamondNugget>;
-var diamond           = <minecraft:diamond>;
+
+var anyRawRubber      = <ore:itemRawRubber>;
+
+# ITEM LISTS
+#------------
+var allPlasticSeeds   = [
+    <PneumaticCraft:plasticPlant>,
+    <PneumaticCraft:plasticPlant:1>,
+    <PneumaticCraft:plasticPlant:2>,
+    <PneumaticCraft:plasticPlant:3>,
+    <PneumaticCraft:plasticPlant:4>,
+    <PneumaticCraft:plasticPlant:5>,
+    <PneumaticCraft:plasticPlant:6>,
+    <PneumaticCraft:plasticPlant:8>,
+    <PneumaticCraft:plasticPlant:9>,
+    <PneumaticCraft:plasticPlant:10>,
+    <PneumaticCraft:plasticPlant:11>,
+    <PneumaticCraft:plasticPlant:12>,
+    <PneumaticCraft:plasticPlant:14>,
+    <PneumaticCraft:plasticPlant:15>
+] as IItemStack[];
+var allDyes          = [
+    <ore:dyeBlack>,
+    <ore:dyeRed>,
+    <ore:dyeGreen>,
+    <ore:dyeBrown>,
+    <ore:dyeBlue>,
+    <ore:dyePurple>,
+    <ore:dyeCyan>,
+    <ore:dyeGray>,
+    <ore:dyePink>,
+    <ore:dyeLime>,
+    <ore:dyeYellow>,
+    <ore:dyeLightBlue>,
+    <ore:dyeOrange>,
+    <ore:dyeWhite>
+] as IIngredient[];
+
+# RECIPE TWEAKS
+#---------------
+
+# Plastic Plant Seeds
+for i, dye in allDyes {
+    var plasticSeed = allPlasticSeeds[i];
+    recipes.addShaped(plasticSeed, [
+        [anyRawRubber, dye,   anyRawRubber],
+        [dye,          seeds, dye],
+        [anyRawRubber, dye,   anyRawRubber]
+    ]);
+}
 
 # PRESSURE CHAMBER TWEAKS
 #-------------------------
