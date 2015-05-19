@@ -1,46 +1,32 @@
 # MOD IMPORTS
 #-------------
+import minetweaker.oredict.IIngredient;
 import minetweaker.item.IItemStack;
-import minetweaker.oredict.IOreDictEntry;
 import mods.pneumaticcraft.Pressure;
 
 # COMMON VARIABLES
 #------------------
-var anyCoalDust       = <ore:dustCoal>;
 var coal              = <minecraft:coal:0>;
-
-var anyCharcoalDust   = <ore:dustCharcoal>;
 var charcoal          = <minecraft:coal:1>;
+var diamond           = <minecraft:diamond>;
+var seeds             = <minecraft:wheat_seeds>;
 
-var anySawdust        = <ore:dustWood>;
 var compressedSawdust = <ThermalExpansion:material:513>;
 
+# ORE DICTIONARY
+#----------------
+var anyCharcoalDust   = <ore:dustCharcoal>;
+var anyCoalDust       = <ore:dustCoal>;
 var anyDiamondDust    = <ore:dustDiamond>;
-var anyDiamondNugget  = <ore:diamondNugget>;
-var diamond           = <minecraft:diamond>;
+var anySawdust        = <ore:dustWood>;
 
-var rawRubber         = <ore:itemRawRubber>;
-var vanillaSeed       = <minecraft:wheat_seeds>;
+var anyDiamondNugget  = <ore:diamondNugget>;
+
+var anyRawRubber      = <ore:itemRawRubber>;
 
 # ITEM LISTS
 #------------
-var vanillaDyes         = [
-    <ore:dyeBlack>,
-    <ore:dyeRed>,
-    <ore:dyeGreen>,
-    <ore:dyeBrown>,
-    <ore:dyeBlue>,
-    <ore:dyePurple>,
-    <ore:dyeCyan>,
-    <ore:dyeGray>,
-    <ore:dyePink>,
-    <ore:dyeLime>,
-    <ore:dyeYellow>,
-    <ore:dyeLightBlue>,
-    <ore:dyeOrange>,
-    <ore:dyeWhite>
-] as IOreDictEntry[];
-var plasticSeeds       = [
+var allPlasticSeeds   = [
     <PneumaticCraft:plasticPlant>,
     <PneumaticCraft:plasticPlant:1>,
     <PneumaticCraft:plasticPlant:2>,
@@ -56,16 +42,34 @@ var plasticSeeds       = [
     <PneumaticCraft:plasticPlant:14>,
     <PneumaticCraft:plasticPlant:15>
 ] as IItemStack[];
+var allDyes          = [
+    <ore:dyeBlack>,
+    <ore:dyeRed>,
+    <ore:dyeGreen>,
+    <ore:dyeBrown>,
+    <ore:dyeBlue>,
+    <ore:dyePurple>,
+    <ore:dyeCyan>,
+    <ore:dyeGray>,
+    <ore:dyePink>,
+    <ore:dyeLime>,
+    <ore:dyeYellow>,
+    <ore:dyeLightBlue>,
+    <ore:dyeOrange>,
+    <ore:dyeWhite>
+] as IIngredient[];
 
 # RECIPE TWEAKS
 #---------------
-for i, vanillaDye in vanillaDyes {
-	var plasticSeed = plasticSeeds[i];
-	recipes.addShaped(plasticSeed, [
-    [rawRubber, vanillaDye, rawRubber],
-    [vanillaDye, vanillaSeed, vanillaDye],
-    [rawRubber, vanillaDye, rawRubber]
-	]);
+
+# Plastic Plant Seeds
+for i, dye in allDyes {
+    var plasticSeed = allPlasticSeeds[i];
+    recipes.addShaped(plasticSeed, [
+        [anyRawRubber, dye,   anyRawRubber],
+        [dye,          seeds, dye],
+        [anyRawRubber, dye,   anyRawRubber]
+    ]);
 }
 
 # PRESSURE CHAMBER TWEAKS
