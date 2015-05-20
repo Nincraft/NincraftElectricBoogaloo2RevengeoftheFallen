@@ -20,7 +20,7 @@ Current API Versions
 - **INpureCore** v1.0.0B7-19
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
-- **Metallurgy Core** v4.0.3.11
+- **Metallurgy Core** v4.0.4.18
 - **MicDoodleCore** v3.0.12.339
 - **OpenModsLib** v0.6-snapshot-269
 - **SciMCLib** v0.0.0.1
@@ -75,7 +75,7 @@ Current Mod Versions
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
-- **Metallurgy** v4.0.4.43
+- **Metallurgy** v4.0.6.80
 - **Mine & Blade: Battlegear 2** v1.0.7.0
 - **Minefactory Reloaded** v2.8.0-104
 - **MineTweaker** v3.0.9C
