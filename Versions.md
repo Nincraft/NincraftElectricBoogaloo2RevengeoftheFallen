@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.3.1400
+- **Forge** v10.13.3.1408
 
 Current API Versions
 =
@@ -21,8 +21,8 @@ Current API Versions
 - **INpureCore** v1.0.0B7-19
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
-- **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.8.257
+- **Metallurgy Core** v4.0.4.18
+- **MicDoodleCore** v3.0.12.339
 - **OpenModsLib** v0.6-snapshot-269
 - **SciMCLib** v0.0.0.1
 - **ttCore** v0.1.0-67
@@ -32,15 +32,15 @@ Current Mod Versions
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.6.2
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 1
+- **Applied Energistics 2** rv2 Stable 3
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.2A2
+- **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-187
+- **Botania** r1.6-190
 - **Carpenter's Blocks** v3.3.5
 - **Chisel** v2.3.5.31
 - **Chicken Chunks** v1.3.4.17
@@ -61,8 +61,8 @@ Current Mod Versions
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5b beta
-- **Galacticraft Core** v3.0.8.257
-- **Galacticraft Planets** v3.0.8.257
+- **Galacticraft Core** v3.0.12.339
+- **Galacticraft Planets** v3.0.12.339
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
@@ -73,11 +73,11 @@ Current Mod Versions
 - **Infernal Mobs** v1.5.9
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
-- **JABBA** v1.2.0a
+- **JABBA** v1.2.1a
 - **Mekanism** v7.1.1.127
 - **Mekanism Generators** v7.1.1.127
 - **Mekanism Tools** v7.1.1.127
-- **Metallurgy** v4.0.4.43
+- **Metallurgy** v4.0.6.80
 - **Mine & Blade: Battlegear 2** v1.0.7.0
 - **Minefactory Reloaded** v2.8.0-104
 - **MineTweaker** v3.0.9C
@@ -136,7 +136,7 @@ Current Mod Versions
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Tropicraft** v6.0.4
-- **Twilight Forest** v2.3.3
+- **Twilight Forest** v2.3.7
 - **WAILA** v1.5.8a
 - **WAWLA** v1.1.1
 - **Weather** v2.3.7
