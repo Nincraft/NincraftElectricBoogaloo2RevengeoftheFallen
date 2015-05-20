@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.3.1400
+- **Forge** v10.13.3.1408
 
 Current API Versions
 =
@@ -21,7 +21,7 @@ Current API Versions
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.8.257
+- **MicDoodleCore** v3.0.12.339
 - **OpenModsLib** v0.6-snapshot-269
 - **SciMCLib** v0.0.0.1
 - **ttCore** v0.1.0-67
@@ -30,7 +30,7 @@ Current Mod Versions
 =
 - **Admin Command Toolbox** v0.0.2a
 - **AOBD** v2.6.2
-- **Applied Energistics 2** rv2 Stable 1
+- **Applied Energistics 2** rv2 Stable 3
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
@@ -59,8 +59,8 @@ Current Mod Versions
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5b beta
-- **Galacticraft Core** v3.0.8.257
-- **Galacticraft Planets** v3.0.8.257
+- **Galacticraft Core** v3.0.12.339
+- **Galacticraft Planets** v3.0.12.339
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
