@@ -58,7 +58,6 @@ Current Mod Versions
 - **Extra Utilities** v1.2.4c
 - **Flaxbeard's Steam Power** v0.28.7
 - **Fluxed-Crystals** v0.0.5k
-- **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5c beta
 - **Galacticraft Core** v3.0.12.339
