@@ -17,7 +17,7 @@ Current API Versions
 - **Forge Multipart** v1.1.1.321
 - **iChunUtil** v4.2.2
 - **IndustrialCraft 2 API** v2.2.660
-- **INpureCore** v1.0.0B7-19
+- **INpureCore** v1.0.0B9-62
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.4.18
