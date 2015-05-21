@@ -23,7 +23,7 @@ Current API Versions
 - **Mantle** v0.3.2
 - **Metallurgy Core** v4.0.4.18
 - **MicDoodleCore** v3.0.12.339
-- **OpenModsLib** v0.6-snapshot-269
+- **OpenModsLib** v0.7.3
 - **SciMCLib** v0.0.0.1
 - **ttCore** v0.1.0-67
 
@@ -93,7 +93,7 @@ Current Mod Versions
 - **Nether Ores** v2.3.0-12
 - **Nincrafty Things** v1.5.1-alpha
 - **Not Enough Items** v1.0.4.83
-- **OpenBlocks** v1.3-snapshot-514
+- **OpenBlocks** v1.4.3
 - **OpenComputers** v1.5.9.21
 - **Open Eye** v0.6
 - **Pam's Clay Spawn** v1.7.2a
