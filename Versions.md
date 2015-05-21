@@ -60,7 +60,7 @@ Current Mod Versions
 - **Fluxed-Crystals** v0.0.5k
 - **FMPIntegration** v1.2.2
 - **Forbidden Magic** v0.561
-- **Funky Locomotion** v5b beta
+- **Funky Locomotion** v5c beta
 - **Galacticraft Core** v3.0.12.339
 - **Galacticraft Planets** v3.0.12.339
 - **Garden Stuff** v1.2.1
@@ -91,7 +91,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.4
 - **Nether Ores** v2.3.0-12
 - **Nincrafty Things** v1.5.1-alpha
-- **Not Enough Items** v1.0.4.83
+- **Not Enough Items** v1.0.4.107
 - **OpenBlocks** v1.4.3
 - **OpenComputers** v1.5.9.21
 - **Open Eye** v0.6
