@@ -73,10 +73,6 @@ var anyHardenedGlass         = <ore:blockGlassHardened>;
 var anyShadowSteelIngot      = <ore:ingotShadowSteel>;
 var anySoulariumIngot        = <ore:ingotSoularium>;
 
-# Unify Redstone Alloy Ingots
-anyRedstoneAlloyIngot.addAll(<ore:ingotRedAlloy>);
-<ore:ingotRedAlloy>.mirror(anyRedstoneAlloyIngot);
-
 # RECIPE TWEAKS
 #---------------
 

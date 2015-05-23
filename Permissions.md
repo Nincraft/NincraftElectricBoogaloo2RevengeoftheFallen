@@ -175,6 +175,9 @@
 - **Iguana's Tinker Tweaks** by: *Boni, iguana_man*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
+- **Immibus Core** by: *immibus*
+  - **Private Packs**: Open: [FTB Permission Spreadsheet]
+  - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **IndustrialCraft 2 API** by: *IC2 Dev Team*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
@@ -286,10 +289,10 @@
 - **Portal Gun** by: *iChun*
   - **Private Packs**: Open: [iChun's Permissions]
   - **Public Packs** : Open: [iChun's Permissions]
-- **Project Red** by: *MrTJP, Chickenbones*
+- **Random Things** by: *Lumien*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Random Things** by: *Lumien*
+- **RedLogic** by: *immibus*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Redstone Arsenal** by: *TeamCoFH*
