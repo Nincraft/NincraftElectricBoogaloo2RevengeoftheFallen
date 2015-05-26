@@ -6,6 +6,13 @@ import minetweaker.data.IData;
 
 # COMMON VARIABLES
 #------------------
+var bucket                       = <minecraft:bucket>;
+var packedIce                    = <minecraft:packed_ice>;
+var piston                       = <minecraft:piston>;
+var podzol                       = <minecraft:dirt:2>;
+var steelAxe                     = <Metallurgy:steel.axe>;
+
+# Materials
 var hardenedGlass                = <ThermalExpansion:Glass:0>;
 var pneumaticServo               = <ThermalExpansion:material:0>;
 var redstoneReceptionCoil        = <ThermalExpansion:material:1>;
@@ -29,6 +36,7 @@ var igneousExtruder              = <ThermalExpansion:Machine:7>;
 var aqueousAccumulator           = <ThermalExpansion:Machine:8>;
 var cyclicAssembler              = <ThermalExpansion:Machine:9>;
 var energeticInfuser             = <ThermalExpansion:Machine:10>;
+var phytogenicInsolator          = <ThermalExpansion:Machine:11>;
 
 # Devices
 var machinistsWorkbench          = <ThermalExpansion:Device:0>;
@@ -102,8 +110,11 @@ var resonantSatchel              = <ThermalExpansion:satchel:4>;
 
 # ORE DICTIONARY
 #----------------
+var anyDiamond                   = <ore:gemDiamond>;
 var anyGlassBlock                = <ore:blockGlass>;
 var anyMachineFrame              = <ore:thermalexpansion:machineFrame>;
+var anySignalumNugget            = <ore:nuggetSignalum>;
+var anyWoodPlanks                = <ore:plankWood>;
 
 # Gears
 var anyIronGear                  = <ore:gearIron>;
@@ -123,13 +134,24 @@ var anyLumiumGear                = <ore:gearLumium>;
 var anyEnderiumGear              = <ore:gearEnderium>;
 
 # Ingots
+var anyAluminumIngot             = <ore:ingotAluminum>;
 var anyBlackSteelIngot           = <ore:ingotBlackSteel>;
+var anyIgnatiusIngot             = <ore:ingotIgnatius>;
+var anyInvarIngot                = <ore:ingotInvar>;
+var anyShadowIronIngot           = <ore:ingotShadowIron>;
 var anyShadowSteelIngot          = <ore:ingotShadowSteel>;
 var anySteelIngot                = <ore:ingotSteel>;
 var anyTitaniumIngot             = <ore:ingotTitanium>;
+var anyVulcaniteIngot            = <ore:ingotVulcanite>;
 
 # ITEM LISTS
 #------------
+var allMachineFrames             = [
+    basicMachineFrame,
+    hardenedMachineFrame,
+    reinforcedMachineFrame,
+    resonantMachineFrame
+] as IItemStack[];
 var allTierOneMachines           = [
     redstoneFurnace.withTag({Level:0 as byte}),
     pulverizer.withTag({Level:0 as byte}),
@@ -141,7 +163,8 @@ var allTierOneMachines           = [
     igneousExtruder.withTag({Level:0 as byte}),
     aqueousAccumulator.withTag({Level:0 as byte}),
     cyclicAssembler.withTag({Level:0 as byte}),
-    energeticInfuser.withTag({Level:0 as byte})
+    energeticInfuser.withTag({Level:0 as byte}),
+    phytogenicInsolator.withTag({Level:0 as byte})
 ] as IItemStack[];
 var allTierTwoMachines           = [
     redstoneFurnace.withTag({Level:1 as byte}),
@@ -150,7 +173,12 @@ var allTierTwoMachines           = [
     inductionSmelter.withTag({Level:1 as byte}),
     magmaCrucible.withTag({Level:1 as byte}),
     fluidTransposer.withTag({Level:1 as byte}),
-    glacialPrecipitator.withTag({Level:1 as byte})
+    glacialPrecipitator.withTag({Level:1 as byte}),
+    igneousExtruder.withTag({Level:1 as byte}),
+    aqueousAccumulator.withTag({Level:1 as byte}),
+    cyclicAssembler.withTag({Level:1 as byte}),
+    energeticInfuser.withTag({Level:1 as byte}),
+    phytogenicInsolator.withTag({Level:1 as byte})
 ] as IItemStack[];
 var allTierThreeMachines         = [
     redstoneFurnace.withTag({Level:2 as byte}),
@@ -159,7 +187,12 @@ var allTierThreeMachines         = [
     inductionSmelter.withTag({Level:2 as byte}),
     magmaCrucible.withTag({Level:2 as byte}),
     fluidTransposer.withTag({Level:2 as byte}),
-    glacialPrecipitator.withTag({Level:2 as byte})
+    glacialPrecipitator.withTag({Level:2 as byte}),
+    igneousExtruder.withTag({Level:2 as byte}),
+    aqueousAccumulator.withTag({Level:2 as byte}),
+    cyclicAssembler.withTag({Level:2 as byte}),
+    energeticInfuser.withTag({Level:2 as byte}),
+    phytogenicInsolator.withTag({Level:2 as byte})
 ] as IItemStack[];
 var allTierFourMachines          = [
     redstoneFurnace.withTag({Level:3 as byte}),
@@ -168,7 +201,12 @@ var allTierFourMachines          = [
     inductionSmelter.withTag({Level:3 as byte}),
     magmaCrucible.withTag({Level:3 as byte}),
     fluidTransposer.withTag({Level:3 as byte}),
-    glacialPrecipitator.withTag({Level:3 as byte})
+    glacialPrecipitator.withTag({Level:3 as byte}),
+    igneousExtruder.withTag({Level:3 as byte}),
+    aqueousAccumulator.withTag({Level:3 as byte}),
+    cyclicAssembler.withTag({Level:3 as byte}),
+    energeticInfuser.withTag({Level:3 as byte}),
+    phytogenicInsolator.withTag({Level:3 as byte})
 ] as IItemStack[];
 
 # RECIPE TWEAKS
@@ -219,6 +257,82 @@ for i, machine in allTierTwoMachines {
         [<*>,  null, <*>]]);
 }
 
+# Machine Crafting Recipes
+for i, machineFrame in allMachineFrames {
+
+    # Redstone Furnace
+    recipes.addShaped(redstoneFurnace.withTag({Level:i as byte}), [
+        [null,          anyIgnatiusIngot,      null],
+        [anyInvarIngot, machineFrame,          anyInvarIngot],
+        [anyInvarGear,  redstoneReceptionCoil, anyInvarGear]]);
+
+    # Pulverizer
+    recipes.addShaped(pulverizer.withTag({Level:i as byte}), [
+        [null,          piston,                null],
+        [anyDiamond,    machineFrame,          anyDiamond],
+        [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
+
+    # Sawmill
+    recipes.addShaped(sawmill.withTag({Level:i as byte}), [
+        [null,          steelAxe,              null],
+        [anyWoodPlanks, machineFrame,          anyWoodPlanks],
+        [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
+
+    # Induction Smelter
+    recipes.addShaped(inductionSmelter.withTag({Level:i as byte}), [
+        [null,          anyVulcaniteIngot,     null],
+        [anyInvarIngot, machineFrame,          anyInvarIngot],
+        [anyInvarGear,  redstoneReceptionCoil, anyInvarGear]]);
+
+    # Magma Crucible
+    recipes.addShaped(magmaCrucible.withTag({Level:i as byte}), [
+        [null,                leadstoneEnergyCellFrame, null],
+        [anyShadowIronIngot,  machineFrame,             anyShadowIronIngot],
+        [anyInvarGear,        redstoneReceptionCoil,    anyInvarGear]]);
+
+    # Fluid Transposer
+    recipes.addShaped(fluidTransposer.withTag({Level:i as byte}), [
+        [null,          bucket,                null],
+        [anyGlassBlock, machineFrame,          anyGlassBlock],
+        [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
+
+    # Glacial Precipitator
+    recipes.addShaped(glacialPrecipitator.withTag({Level:i as byte}), [
+        [null,             packedIce,             null],
+        [anyAluminumIngot, machineFrame,          anyAluminumIngot],
+        [anyCopperGear,    redstoneReceptionCoil, anyCopperGear]]);
+
+    # Igneous Extruder
+    recipes.addShaped(igneousExtruder.withTag({Level:i as byte}), [
+        [null,          piston,         null],
+        [anyInvarIngot, machineFrame,   anyInvarIngot],
+        [anyInvarGear,  pneumaticServo, anyInvarGear]]);
+
+    # Aqueous Accumulator
+    recipes.addShaped(aqueousAccumulator.withTag({Level:i as byte}), [
+        [null,          buket,          null],
+        [anyGlassBlock, machineFrame,   anyGlassBlock],
+        [anyCopperGear, pneumaticServo, anyCopperGear]]);
+
+    # Cyclic Assembler
+    recipes.addShaped(cyclicAssembler.withTag({Level:i as byte}), [
+        [null,          machinistsWorkbench,   null],
+        [anyTinGear,    machineFrame,          anyTinGear],
+        [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
+
+    # Energetic Infuser
+    recipes.addShaped(energeticInfuser.withTag({Level:i as byte}), [
+        [null,                     leadstoneEnergyCellFrame, null],
+        [redstoneTransmissionCoil, machineFrame,             redstoneTransmissionCoil],
+        [anyCopperGear,            redstoneReceptionCoil,    anyCopperGear]]);
+
+    # Phytogenic Insolator
+    recipes.addShaped(phytogenicInsolator.withTag({Level:i as byte}), [
+        [null,          lumiumLamp,            null],
+        [podzol,        machineFrame,          podzol],
+        [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
+}
+
 # Upgrade Recipes from Basic to Hardened
 for i, machine in allTierTwoMachines {
     var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
@@ -256,4 +370,53 @@ for i, machine in allTierFourMachines {
 	    {
 	        return output.withTag(inputs.machine.tag).updateTag({Level: 3 as byte});
 	    });
+}
+
+# Machine Security Upgrade
+for i, machine in allTierOneMachines {
+    var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
+    recipes.addShaped(machine, [
+        [null,              signalumSecurityLock,    null],
+        [anySignalumNugget, input.marked("machine"), anySignalumNugget],
+        [null,              anySignalumNugget,       null]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Secure:1 as byte});
+        });
+}
+
+for i, machine in allTierTwoMachines {
+    var input = allTierTwoMachines[i].onlyWithTag({Level:1 as byte});
+    recipes.addShaped(machine, [
+        [null,              signalumSecurityLock,    null],
+        [anySignalumNugget, input.marked("machine"), anySignalumNugget],
+        [null,              anySignalumNugget,       null]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Secure:1 as byte});
+        });
+}
+
+for i, machine in allTierThreeMachines {
+    var input = allTierThreeMachines[i].onlyWithTag({Level:2 as byte});
+    recipes.addShaped(machine, [
+        [null,              signalumSecurityLock,    null],
+        [anySignalumNugget, input.marked("machine"), anySignalumNugget],
+        [null,              anySignalumNugget,       null]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Secure:1 as byte});
+        });
+}
+
+for i, machine in allTierFourMachines {
+    var input = allTierFourMachines[i].onlyWithTag({Level:3 as byte});
+    recipes.addShaped(machine, [
+        [null,              signalumSecurityLock,    null],
+        [anySignalumNugget, input.marked("machine"), anySignalumNugget],
+        [null,              anySignalumNugget,       null]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Secure:1 as byte});
+        });
 }
