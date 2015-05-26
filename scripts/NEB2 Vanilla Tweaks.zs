@@ -5,10 +5,13 @@ import minetweaker.item.IIngredient;
 
 # COMMON VARIABLES
 #------------------
+var bottle                = <minecraft:glass_bottle>;
+var bottleCreosote        = <Railcraft:fluid.creosote.bottle>;
 var bow                   = <minecraft:bow>;
 var bricks                = <minecraft:brick_block>;
 var bread                 = <minecraft:bread>;
 var bucket                = <minecraft:bucket>;
+var bucketCreosote        = <Railcraft:fluid.creosote.bucket>;
 var carpentersBlock       = <CarpentersBlocks:blockCarpentersBlock>;
 var clayBall              = <minecraft:clay_ball>;
 var clayBlock             = <minecraft:clay>;
@@ -32,13 +35,14 @@ var anyCobblestone        = <ore:cobblestone>;
 var anyCharcoal           = <ore:charcoal>;
 var anyPhosphorusDust     = <ore:dustPhosphorus>;
 var anyRawRubber          = <ore:itemRawRubber>;
-var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
+var anyRedstoneAlloyIngot = <ore:ingotRestoneAlloy>;
 var anySteelIngot         = <ore:ingotSteel>;
 var anyStoneRod           = <ore:rodStone>;
 var anySugarCharcoal      = <ore:itemCharcoalSugar>;
 var anySulfurDust         = <ore:dustSulfur>;
 var anyWoodSlab           = <ore:slabWood>;
 var anyWoodStick          = <ore:stickWood>;
+var anyWoolBlock          = <ore:blockWool>;
 
 # Register Clay Bricks
 var clayBricks            = <ore:bricksClay>;
@@ -113,6 +117,11 @@ for i, handle in torchHandles
         [anySulfurDust],
         [handle]]);
 
+    # Raw Rubber
+    recipes.addShaped(torch * 3, [
+        [anyRawRubber],
+        [handle]]);
+
     # Coal
     recipes.addShaped(torch * 4, [
         [anyCoal],
@@ -123,11 +132,6 @@ for i, handle in torchHandles
         [anyCharcoal],
         [handle]]);
 
-    # Raw Rubber
-    recipes.addShaped(torch * 4, [
-        [anyRawRubber],
-        [handle]]);
-
     # Torchberries
     recipes.addShaped(torch * 5, [
         [torchberries],
@@ -136,6 +140,16 @@ for i, handle in torchHandles
     # Phosphorus Dust
     recipes.addShaped(torch * 6, [
         [anyPhosphorusDust],
+        [handle]]);
+
+    # Creosote & Wool
+    recipes.addShaped(torch * 6, [
+        [bucketCreosote.transformReplace(bucket)],
+        [anyWoolBlock],
+        [handle]]);
+    recipes.addShaped(torch * 6, [
+        [bottleCreosote.transformReplace(bottle)],
+        [anyWoolBlock],
         [handle]]);
 }
 

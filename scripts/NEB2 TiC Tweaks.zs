@@ -287,6 +287,7 @@ var moltenDesichalkos        = <liquid:desichalkos.molten>;
 var moltenElectrum           = <liquid:electrum.molten>;
 var moltenEmerald            = <liquid:emerald.liquid>;
 var moltenEnder              = <liquid:ender>;
+var moltenEnderium           = <liquid:enderium.molten>;
 var moltenEximite            = <liquid:eximite.molten>;
 var moltenFairy              = <liquid:fairy.molten>;
 var moltenGlass              = <liquid:glass.molten>;
@@ -824,19 +825,23 @@ for dust in anyElectrumDust.items {
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
 
 # Black Bronze Alloy Ratios
-#Smeltery.removeAlloy(moltenHepatizon);
+Smeltery.removeAlloy(moltenHepatizon * 144);
 Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
 
 # Black Steel Alloy Ratios
-#Smeltery.removeAlloy(moltenBlackSteel);
+Smeltery.removeAlloy(moltenBlackSteel * 144);
 Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 144, moltenNickel * 144]);
 
 # Aluminum Brass Ratio
-#Smeltery.removeAlloy(moltenAluminumBrass);
+Smeltery.removeAlloy(moltenAluminumBrass * 64);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
 
+# Enderium Ratio
+Smeltery.removeAlloy(moltenEnderium * 576);
+Smeltery.addAlloy(moltenEnderium * 576, [enderGoo * 200, moltenCeruclase * 144, moltenMeutoite * 144, moltenEnder * 1000]);
+
 # Remove Steel Ratio
-#Smeltery.removeAlloy(moltenSteel)
+Smeltery.removeAlloy(moltenSteel * 144);
 
 /*
 # Disable Smeltery Melting to Require High Oven

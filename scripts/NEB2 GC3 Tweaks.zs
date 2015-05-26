@@ -5,7 +5,6 @@ import mods.pneumaticcraft.Pressure;
 # COMMON VARIABLES
 #------------------
 var rawSilicon                 = <GalacticraftCore:item.basicItem:2>;
-var silicon                    = <EnderIO:itemMaterial>;
 var quontoniumIngot            = <MorePlanet:diona_item:0>;
 var fronisiumIngot             = <MorePlanet:diona_item:1>;
 var polongniusMeteorIngot      = <MorePlanet:polongnius_item:4>;
@@ -67,6 +66,9 @@ var anyMeteoricIronIngot       = <ore:ingotMeteoricIron>;
 var anyDeshIngot               = <ore:ingotDesh>;
 var anyTitaniumIngot           = <ore:ingotTitanium>;
 
+# Add Raw Silicon to Ore Dictionary
+<ore:itemSilicon>.add(rawSilicon);
+
 # Add Ores to Ore Dictionary
 <ore:oreMeteoricIron>.add(<GalacticraftCore:tile.fallenMeteor>);
 <ore:oreDesh>.add(<GalacticraftMars:tile.mars:2>);
@@ -95,9 +97,6 @@ var anySolarWafer          = <ore:waferSolar>;
 
 # RECIPE TWEAKS
 #---------------
-
-# Raw Silicon -> Silicon
-furnace.addRecipe(silicon, rawSilicon);
 
 # Disable Galacticraft Machines
 recipes.remove(<GalacticraftCore:tile.machine:12>);

@@ -29,6 +29,58 @@ var energyTablet               = <Mekanism:EnergyTablet:100>;
 var atomicDisassembler         = <Mekanism:AtomicDisassembler:100>;
 var electrolyticCore           = <Mekanism:ElectrolyticCore>;
 
+# Paxels
+var woodPaxel                  = <MekanismTools:WoodPaxel>;
+var stonePaxel                 = <MekanismTools:StonePaxel>;
+var ironPaxel                  = <MekanismTools:IronPaxel>;
+var diamondPaxel               = <MekanismTools:DiamondPaxel>;
+var goldPaxel                  = <MekanismTools:GoldPaxel>;
+var obsidianPaxel              = <MekanismTools:ObsidianPaxel>;
+var lapisPaxel                 = <MekanismTools:LapisLazuliPaxel>;
+var osmiumPaxel                = <MekanismTools:OsmiumPaxel>;
+var bronzePaxel                = <MekanismTools:BronzePaxel>;
+var glowstonePaxel             = <MekanismTools:GlowstonePaxel>;
+var steelPaxel                 = <MekanismTools:SteelPaxel>;
+
+# Axes
+var woodAxe                    = <minecraft:wooden_axe>;
+var stoneAxe                   = <minecraft:stone_axe>;
+var ironAxe                    = <minecraft:iron_axe>;
+var diamondAxe                 = <minecraft:diamond_axe>;
+var goldAxe                    = <minecraft:golden_axe>;
+var obsidianAxe                = <MekanismTools:ObsidianAxe>;
+var lapisAxe                   = <MekanismTools:LapisLazuliAxe>;
+var osmiumAxe                  = <MekanismTools:OsmiumAxe>;
+var bronzeAxe                  = <Metallurgy:bronze.axe>;
+var glowstoneAxe               = <MekanismTools:GlowstoneAxe>;
+var steelAxe                   = <Metallurgy:steel.axe>;
+
+# Pickaxes
+var woodPickaxe                = <minecraft:wooden_pickaxe>;
+var stonePickaxe               = <minecraft:stone_pickaxe>;
+var ironPickaxe                = <minecraft:iron_pickaxe>;
+var diamondPickaxe             = <minecraft:diamond_pickaxe>;
+var goldPickaxe                = <minecraft:golden_pickaxe>;
+var obsidianPickaxe            = <MekanismTools:ObsidianAxe>;
+var lapisPickaxe               = <MekanismTools:LapisLazuliAxe>;
+var osmiumPickaxe              = <MekanismTools:OsmiumAxe>;
+var bronzePickaxe              = <Metallurgy:bronze.axe>;
+var glowstonePickaxe           = <MekanismTools:GlowstoneAxe>;
+var steelPickaxe               = <Metallurgy:steel.pickaxe>;
+
+# Shovels
+var woodShovel                 = <minecraft:wooden_shovel>;
+var stoneShovel                = <minecraft:stone_shovel>;
+var ironShovel                 = <minecraft:iron_shovel>;
+var diamondShovel              = <minecraft:diamond_shovel>;
+var goldShovel                 = <minecraft:golden_shovel>;
+var obsidianShovel             = <MekanismTools:ObsidianShovel>;
+var lapisShovel                = <MekanismTools:LapisLazuliShovel>;
+var osmiumShovel               = <MekanismTools:OsmiumShovel>;
+var bronzeShovel               = <Metallurgy:bronze.shovel>;
+var glowstoneShovel            = <MekanismTools:GlowstoneShovel>;
+var steelShovel                = <Metallurgy:steel.shovel>;
+
 # Compressed Items
 var compressedCarbon           = <Mekanism:CompressedCarbon>;
 var compressedDiamond          = <Mekanism:CompressedDiamond>;
@@ -121,6 +173,7 @@ var brine                      = <gas:brine>;
 
 # ORE DICTIONARY
 #----------------
+var anyStick                   = <ore:stickWood>;
 
 # Blocks
 var anyCobblestoneBlock        = <ore:cobblestone>;
@@ -157,6 +210,58 @@ var allMachines                = [
     combiner,
     purificationChamber
 ] as IItemStack[];
+var allPaxels                  = [
+    woodPaxel,
+    stonePaxel,
+    ironPaxel,
+    diamondPaxel,
+    goldPaxel,
+    obsidianPaxel,
+    lapisPaxel,
+    osmiumPaxel,
+    bronzePaxel,
+    glowstonePaxel,
+    steelPaxel
+] as IItemStack[];
+var allAxes                     = [
+    woodAxe,
+    stoneAxe,
+    ironAxe,
+    diamondAxe,
+    goldAxe,
+    obsidianAxe,
+    lapisAxe,
+    osmiumAxe,
+    bronzeAxe,
+    glowstoneAxe,
+    steelAxe
+] as IItemStack[];
+var allPickaxes                 = [
+    woodPickaxe,
+    stonePickaxe,
+    ironPickaxe,
+    diamondPickaxe,
+    goldPickaxe,
+    obsidianPickaxe,
+    lapisPickaxe,
+    osmiumPickaxe,
+    bronzePickaxe,
+    glowstonePickaxe,
+    steelPickaxe
+] as IItemStack[];
+var allShovels                  = [
+    woodShovel,
+    stoneShovel,
+    ironShovel,
+    diamondShovel,
+    goldShovel,
+    obsidianShovel,
+    lapisShovel,
+    osmiumShovel,
+    bronzeShovel,
+    glowstoneShovel,
+    steelShovel
+] as IItemStack[];
 
 # RECIPE TWEAKS
 #---------------
@@ -173,6 +278,15 @@ Infuser.removeRecipe(enrichedIron);
 recipes.addShapeless(enrichedIron * 9, [anyIronDust, anyIronDust, anyIronDust, anyIronDust,
                                         anyIronDust, anyIronDust, anyIronDust, anyIronDust,
                                         anyManganeseDust]);
+
+# Paxels
+for i, paxel in allPaxels {
+    recipes.remove(paxel);
+    recipes.addShaped(paxel, [
+        [allAxes[i], allPickaxes[i], allShovels[i]],
+        [null,       anyStick,       null],
+        [null,       anyStick,       null]]);
+}
 
 # Gas Tank
 recipes.remove(gasTank);
