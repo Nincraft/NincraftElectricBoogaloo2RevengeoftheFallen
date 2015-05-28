@@ -30,6 +30,7 @@ Current API Versions
 
 Current Mod Versions
 =
+- **AgriCraft** v1.3.1
 - **AOBD** v2.6.2
 - **AOBDBB** v1.0.2
 - **Alternate Terrain Generation** v0.12.0
@@ -56,6 +57,7 @@ Current Mod Versions
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.7.36
 - **Equivalent Exchange 3** v0.3.505
+- **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.1
 - **Extra Utilities** v1.2.4c
