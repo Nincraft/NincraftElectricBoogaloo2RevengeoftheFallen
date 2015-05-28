@@ -5,6 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.1.0
+- **Aroma1997Core** v1.0.2.13
 - **AsieLib** v0.4.0
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
@@ -33,6 +34,7 @@ Current Mod Versions
 - **AOBDBB** v1.0.2
 - **Alternate Terrain Generation** v0.12.0
 - **Applied Energistics 2** rv2 Stable 3
+- **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
@@ -109,8 +111,6 @@ Current Mod Versions
 - **Reliquary** v1.2.257
 - **RFTools** v2.82
 - **RPGAdvMod** v1.0.0
-- **ServerTools-BACKUP** v2.2.0.23
-- **ServerTools-CORE** v2.2.0.79
 - **Simply Jetpacks** v1.4.1
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
