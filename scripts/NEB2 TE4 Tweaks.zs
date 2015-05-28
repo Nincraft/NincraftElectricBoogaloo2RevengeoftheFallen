@@ -310,7 +310,7 @@ for i, machineFrame in allMachineFrames {
 
     # Aqueous Accumulator
     recipes.addShaped(aqueousAccumulator.withTag({Level:i as byte}), [
-        [null,          buket,          null],
+        [null,          bucket,          null],
         [anyGlassBlock, machineFrame,   anyGlassBlock],
         [anyCopperGear, pneumaticServo, anyCopperGear]]);
 
