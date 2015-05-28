@@ -88,7 +88,7 @@ Current Mod Versions
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
-- **ModTweaker** v0.7.b (Manual Build)
+- **ModTweaker** v0.8.1
 - **More Planets** v1.1.9-beta
 - **Morpheus** v1.6.4
 - **Natura** v2.2.0 b1
