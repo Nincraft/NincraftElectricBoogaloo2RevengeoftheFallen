@@ -32,7 +32,7 @@ Current Mod Versions
 =
 - **AgriCraft** v1.3.1
 - **AOBD** v2.6.3
-- **AOBDBB** v1.0.2
+- **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
 - **Applied Energistics 2** rv2 Stable 3
 - **AromaBackup** v0.0.0.5
@@ -44,12 +44,12 @@ Current Mod Versions
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
 - **Botania** r1.6-190
-- **Carpenter's Blocks** v3.3.5
+- **Carpenter's Blocks** v3.3.6
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
 - **ChunkGen** v1.2.3
 - **Dark Menagerie beta** v2.0
-- **DecoCraft** v1.11
+- **DecoCraft** v2.0.2
 - **Dense Ores** v1.6.2
 - **Doom-like Dungeon** v1.7.2
 - **Draconic Evolution** v1.0.0e
@@ -59,8 +59,8 @@ Current Mod Versions
 - **Equivalent Exchange 3** v0.3.505
 - **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
-- **ExtraTiC** v1.4.1
-- **Extra Utilities** v1.2.4c
+- **ExtraTiC** v1.4.5
+- **Extra Utilities** v1.2.5
 - **Flaxbeard's Steam Power** v0.28.7
 - **Fluxed-Crystals** v0.0.5k
 - **Forbidden Magic** v0.561
