@@ -43,7 +43,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-190
+- **Botania** r1.6-191
 - **Carpenter's Blocks** v3.3.6
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
