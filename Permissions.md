@@ -103,6 +103,9 @@
 - **Dense Ores** by: *RWTema*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
+- **Direction HUD** by: *bspkrs*
+  - **Private Packs**: Open: [FTB Permission Spreadsheet]
+  - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Doomlike Dungeons** by: *BlackJar72*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
@@ -319,6 +322,9 @@
 - **Simply Jetpacks** by: *Tonius*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
+- **Sound Filters** by: *Tmtravlr*
+  - **Private Packs**: Open: [FTB Permission Spreadsheet]
+  - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Special Mobs** by: *FatherToast*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
@@ -326,6 +332,9 @@
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Statues** by: *ATOMIC_MAIDEN*
+  - **Private Packs**: Open: [FTB Permission Spreadsheet]
+  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+- **Status Effect HUD** by: *bspkrs*
   - **Private Packs**: Open: [FTB Permission Spreadsheet]
   - **Public Packs** : Open: [FTB Permission Spreadsheet]
 - **Steve's Carts** by: *Vswe*

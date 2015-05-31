@@ -145,10 +145,13 @@ Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
 - **Better Foliage** v1.0.12
-- **Damage Indicators Mod** v3.2.0
-- **Dynamic Lights** v1.3.7
+- **Damage Indicators Mod** v3.2.3
+- **Direction HUD** v1.24
+- **Dynamic Lights** v1.3.8
 - **OPIS** v1.2.3
 - **Shatter** v4.0.0
+- **Sound Filters** v0.7
+- **Status Effect HUD** v1.27
 
 Development Mod Versions
 =
