@@ -110,9 +110,9 @@ var resonantSatchel              = <ThermalExpansion:satchel:4>;
 
 # ORE DICTIONARY
 #----------------
-var anyDiamond                   = <ore:gemDiamond>;
 var anyGlassBlock                = <ore:blockGlass>;
 var anyMachineFrame              = <ore:thermalexpansion:machineFrame>;
+var anyQuartz                    = <ore:gemQuartz>;
 var anySignalumNugget            = <ore:nuggetSignalum>;
 var anyWoodPlanks                = <ore:plankWood>;
 
@@ -136,8 +136,13 @@ var anyEnderiumGear              = <ore:gearEnderium>;
 # Ingots
 var anyAluminumIngot             = <ore:ingotAluminum>;
 var anyBlackSteelIngot           = <ore:ingotBlackSteel>;
+var anyBrassIngot                = <ore:ingotBrass>;
+var anyBronzeIngot               = <ore:ingotBronze>;
+var anyFluxedElectrumIngot       = <ore:ingotElectrumFlux>;
 var anyIgnatiusIngot             = <ore:ingotIgnatius>;
 var anyInvarIngot                = <ore:ingotInvar>;
+var anyLeadIngot                 = <ore:ingotLead>;
+var anyRedstoneAlloyIngot        = <ore:ingotRedstoneAlloy>;
 var anyShadowIronIngot           = <ore:ingotShadowIron>;
 var anyShadowSteelIngot          = <ore:ingotShadowSteel>;
 var anySteelIngot                = <ore:ingotSteel>;
@@ -212,6 +217,28 @@ var allTierFourMachines          = [
 # RECIPE TWEAKS
 #---------------
 
+# Dynamos
+recipes.addShaped(steamDynamo, [
+    [null,          redstoneTransmissionCoil, null],
+    [anyBronzeGear, anyBrassIngot,            anyBronzeGear],
+    [anyBrassIngot, anyRedstoneAlloyIngot,    anyBrassIngot]]);
+recipes.addShaped(magmaticDynamo, [
+    [null,          redstoneTransmissionCoil, null],
+    [anyInvarGear,  anyInvarIngot,            anyInvarGear],
+    [anyInvarIngot, anyRedstoneAlloyIngot,    anyInvarIngot]]);
+recipes.addShaped(compressionDynamo, [
+    [null,         redstoneTransmissionCoil, null],
+    [anyLeadGear,  anyLeadIngot,             anyLeadGear],
+    [anyLeadIngot, anyRedstoneAlloyIngot,    anyLeadIngot]]);
+recipes.addShaped(reactantDynamo, [
+    [null,            redstoneTransmissionCoil, null],
+    [anySignalumGear, anyBronzeIngot,           anySignalumGear],
+    [anyBronzeIngot,  anyRedstoneAlloyIngot,    anyBronzeIngot]]);
+recipes.addShaped(enervationDynamo, [
+    [null,                   redstoneTransmissionCoil, null],
+    [anyElectrumGear,        anyFluxedElectrumIngot,   anyElectrumGear],
+    [anyFluxedElectrumIngot, anyRedstoneAlloyIngot,    anyFluxedElectrumIngot]]);
+
 # Remove Machine Frame Upgrade Recipes
 recipes.removeShaped(anyMachineFrame);
 
@@ -252,9 +279,9 @@ for i, machine in allTierOneMachines {
 # Remove all Machine Upgrade Recipes
 for i, machine in allTierTwoMachines {
     recipes.removeShaped(machine, [
-        [<*>,  <*>,  <*>],
-        [null, <*>,  null],
-        [<*>,  null, <*>]]);
+        [<*>,  <*>,     <*>],
+        [null, machine, null],
+        [<*>,  null,    <*>]]);
 }
 
 # Machine Crafting Recipes
@@ -269,7 +296,7 @@ for i, machineFrame in allMachineFrames {
     # Pulverizer
     recipes.addShaped(pulverizer.withTag({Level:i as byte}), [
         [null,          piston,                null],
-        [anyDiamond,    machineFrame,          anyDiamond],
+        [anyQuartz,     machineFrame,          anyQuartz],
         [anyCopperGear, redstoneReceptionCoil, anyCopperGear]]);
 
     # Sawmill
@@ -310,7 +337,7 @@ for i, machineFrame in allMachineFrames {
 
     # Aqueous Accumulator
     recipes.addShaped(aqueousAccumulator.withTag({Level:i as byte}), [
-        [null,          buket,          null],
+        [null,          bucket,          null],
         [anyGlassBlock, machineFrame,   anyGlassBlock],
         [anyCopperGear, pneumaticServo, anyCopperGear]]);
 

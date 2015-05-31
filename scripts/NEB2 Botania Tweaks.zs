@@ -34,6 +34,10 @@ var earthRune           = <Botania:rune:2>;
 var airRune             = <Botania:rune:3>;
 var manaRune            = <Botania:rune:8>;
 
+# Botania Shears
+var manasteelShears     = <Botania:manasteelShears>;
+var elementiumShears    = <Botania:elementiumShears>;
+
 # ITEM LISTS
 #------------
 var botaniaDyes         = [
@@ -75,14 +79,18 @@ var botaniaPetals       = [
 
 # ORE DICTIONARY
 #----------------
+var anySteeleaf         = <ore:steeleaf>;
 
 # Tools
 var anyMortarAndPestle  = <ore:toolMortarandpestle>;
 var anyPestleAndMortar  = <ore:pestleAndMortar>;
 
 # Ingots
+var anyElementiumIngot  = <ore:ingotElvenElementium>;
 var anyIronwoodIngot    = <ore:ironwood>;
+var anyManasteelIngot   = <ore:ingotManasteel>;
 var anyPrometheumIngot  = <ore:ingotPrometheum>;
+var anyTerrasteelIngot  = <ore:ingotTerrasteel>;
 
 # Blocks
 var anyLapisBlock       = <ore:blockLapis>;
@@ -112,10 +120,21 @@ recipes.addShaped(terraPlate, [
 # Runic Altar
 recipes.removeShaped(runicAltar);
 recipes.addShaped(runicAltar, [
-    [livingRock,       livingRock,         livingRock],
-    [livingRock,       manaDiamond,        livingRock],
-    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
+    [livingRock,       livingRock,  livingRock],
+    [livingRock,       manaDiamond, livingRock],
+    [anyIronwoodIngot, anySteeleaf, anyIronwoodIngot]]);
 recipes.addShaped(runicAltar, [
-    [livingRock,       livingRock,         livingRock],
-    [livingRock,       manaPearl,          livingRock],
-    [anyIronwoodIngot, anyPrometheumIngot, anyIronwoodIngot]]);
+    [livingRock,       livingRock,  livingRock],
+    [livingRock,       manaPearl,   livingRock],
+    [anyIronwoodIngot, anySteeleaf, anyIronwoodIngot]]);
+
+# Shears are consistent
+recipes.removeShaped(manasteelShears);
+recipes.addShaped(manasteelShears, [
+    [null,              anyManasteelIngot],
+    [anyManasteelIngot, null]]);
+
+recipes.removeShaped(elementiumShears);
+recipes.addShaped(elementiumShears, [
+    [null,               anyElementiumIngot],
+    [anyElementiumIngot, null]]);
