@@ -1,0 +1,67 @@
+{
+    "infuscoliumVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "Metallurgy:fantasy.ore",
+                "metadata": 2,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_infuscolium_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 16,
+        "numClusters": 64,
+        "chunkChance": 64,
+        "minHeight": 1,
+        "veinHeight": 64,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -127
+        ]
+    },
+    "amberClusters": {
+        "template": "uniform",
+        "block": {
+            "name": "Thaumcraft:blockCustomOre",
+            "metadata": 7
+        },
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -127
+        ]
+    },
+    "poorInfuscoliumClusters": {
+        "template": "uniform",
+        "block": "PoorOres.poor_infuscolium_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 1,
+        "minHeight": 1,
+        "maxHeight": 64,
+        "retrogen": true,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -127
+        ]
+    }
+}

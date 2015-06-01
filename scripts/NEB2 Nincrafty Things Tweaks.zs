@@ -5,23 +5,23 @@ import mods.tconstruct.Smeltery;
 
 # COMMON VARIABLES
 #------------------
-var ingotMetalPattern = <TConstruct:metalPattern>;
-var lapisBlock        = <minecraft:lapis_block>;
+var ingotMetalPattern  = <TConstruct:metalPattern>;
+var lapisBlock         = <minecraft:lapis_block>;
 
-var nincodiumIngot    = <NincraftyThings:nincodiumIngot>;
-var nincodiumBlock    = <NincraftyThings:nincodiumBlock>;
+var nincodiumIngot     = <NincraftyThings:nincodiumIngot>;
+var nincodiumBlock     = <NincraftyThings:nincodiumBlock>;
 
-var moltenNincodium   = <liquid:moltennincodium>;
-var moltenLapis       = <liquid:moltenlapis>;
-var moltenCobalt      = <liquid:cobalt.molten>;
-var moltenAmordrine   = <liquid:amordrine.molten>;
+var moltenNincodium    = <liquid:moltennincodium>;
+var moltenLapis        = <liquid:moltenlapis>;
+var moltenCobalt       = <liquid:cobalt.molten>;
+var moltenAstralSilver = <liquid:astral.silver.molten>;
 
 # ORE DICTIONARY
 #----------------
-var anyLapisBlock     = <ore:blockLapis>;
-var anyLapisDust      = <ore:dustLapis>;
-var anyLapisTinyDust  = <ore:dustTinyLapis>;
-var anyLapisLazuli    = <ore:gemLapis>;
+var anyLapisBlock      = <ore:blockLapis>;
+var anyLapisDust       = <ore:dustLapis>;
+var anyLapisTinyDust   = <ore:dustTinyLapis>;
+var anyLapisLazuli     = <ore:gemLapis>;
 
 # SMELTERY TWEAKS
 #-----------------
@@ -36,8 +36,7 @@ Casting.addBasinRecipe(lapisBlock, moltenLapis * 1296, null, false, 40);
 
 # Add Nincodium Smeltery Support
 Smeltery.addMelting(nincodiumIngot, moltenNincodium * 144, 800, nincodiumBlock);
-Smeltery.addAlloy(moltenNincodium * 288, [moltenLapis * 1000, moltenCobalt * 288, moltenAmordrine * 288]);
+Smeltery.addAlloy(moltenNincodium * 288, [moltenLapis * 1000, moltenCobalt * 288, moltenAstralSilver * 288]);
 
 Casting.addTableRecipe(nincodiumIngot, moltenNincodium * 144, ingotMetalPattern, false, 40);
 Casting.addBasinRecipe(nincodiumBlock, moltenNincodium * 1296, null, false, 40);
-
