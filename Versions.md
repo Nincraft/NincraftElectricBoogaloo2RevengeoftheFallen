@@ -52,7 +52,6 @@ Current Mod Versions
 - **DecoCraft** v2.0.2
 - **Dense Ores** v1.6.2
 - **Doom-like Dungeon** v1.7.2
-- **Draconic Evolution** v1.0.0e
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.7.36
