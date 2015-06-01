@@ -6,7 +6,7 @@ Current API Versions
 =
 - **AppleCore** v1.1.0
 - **Aroma1997Core** v1.0.2.13
-- **AsieLib** v0.4.0
+- **AsieLib** v0.4.1
 - **Baubles** v1.0.1.10
 - **bspkrs Core** v6.16
 - **CodeChickenCore** v1.0.6.43
@@ -31,8 +31,8 @@ Current API Versions
 Current Mod Versions
 =
 - **AgriCraft** v1.3.1
-- **AOBD** v2.6.2
-- **AOBDBB** v1.0.2
+- **AOBD** v2.6.3
+- **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
 - **Applied Energistics 2** rv2 Stable 3
 - **AromaBackup** v0.0.0.5
@@ -43,13 +43,13 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-190
-- **Carpenter's Blocks** v3.3.5
+- **Botania** r1.6-191
+- **Carpenter's Blocks** v3.3.6
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
 - **ChunkGen** v1.2.3
 - **Dark Menagerie beta** v2.0
-- **DecoCraft** v1.11
+- **DecoCraft** v2.0.2
 - **Dense Ores** v1.6.2
 - **Doom-like Dungeon** v1.7.2
 - **Draconic Evolution** v1.0.0e
@@ -59,8 +59,8 @@ Current Mod Versions
 - **Equivalent Exchange 3** v0.3.505
 - **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
-- **ExtraTiC** v1.4.1
-- **Extra Utilities** v1.2.4c
+- **ExtraTiC** v1.4.5
+- **Extra Utilities** v1.2.5
 - **Flaxbeard's Steam Power** v0.28.7
 - **Fluxed-Crystals** v0.0.5k
 - **Forbidden Magic** v0.561
@@ -74,21 +74,21 @@ Current Mod Versions
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.5
-- **Infernal Mobs** v1.5.9
+- **Infernal Mobs** v1.6.0
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.1a
 - **LookingGlass** v0.0.1.01
-- **Mekanism** v7.1.1.127
-- **Mekanism Generators** v7.1.1.127
-- **Mekanism Tools** v7.1.1.127
+- **Mekanism** v8.1.3.231
+- **Mekanism Generators** v8.1.3.231
+- **Mekanism Tools** v8.1.3.231
 - **Metallurgy** v4.0.6.80
-- **Mine & Blade: Battlegear 2** v1.0.7.0
+- **Mine & Blade: Battlegear 2** v1.0.8.0
 - **Minefactory Reloaded** v2.8.0-104
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
-- **ModTweaker** v0.7.b (Manual Build)
+- **ModTweaker** v0.8.1
 - **More Planets** v1.1.9-beta
 - **Morpheus** v1.6.4
 - **Natura** v2.2.0 b1
@@ -111,9 +111,9 @@ Current Mod Versions
 - **RedLogic** v59.1.10
 - **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
-- **RFTools** v2.82
+- **RFTools** v2.92
 - **RPGAdvMod** v1.0.0
-- **Simply Jetpacks** v1.4.1
+- **Simply Jetpacks** v1.5.1
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
 - **Statues** v2.1.4
@@ -144,7 +144,7 @@ Current Mod Versions
 Optional Client Mod Versions
 =
 - **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.12
+- **Better Foliage** v1.0.13
 - **Damage Indicators Mod** v3.2.3
 - **Direction HUD** v1.24
 - **Dynamic Lights** v1.3.8
