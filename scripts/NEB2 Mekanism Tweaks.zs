@@ -4,11 +4,12 @@ import minetweaker.item.IItemStack;
 
 import mods.mekanism.Compressor;
 import mods.mekanism.Crusher;
-import mods.mekanism.Infuser;
+#import mods.mekanism.Infuser;
 import mods.mekanism.chemical.Oxidizer;
 
 # COMMON VARIABLES
 #------------------
+var furnace                    = <minecraft:furnace>;
 var cardboardBox               = <Mekanism:CardboardBox>;
 var mekObsidianIngot           = <Mekanism:Ingot>;
 var mekObsidianDust            = <Mekanism:DirtyDust:6>;
@@ -20,7 +21,6 @@ var lavaBucket                 = <minecraft:lava_bucket>;
 var teleportationCore          = <Mekanism:TeleportationCore>;
 var lapisLazuli                = <minecraft:dye:4>;
 var diamond                    = <minecraft:diamond>;
-var redstoneDust               = <minecraft:redstone>;
 var piston                     = <minecraft:piston>;
 var gasTank                    = <Mekanism:GasTank:100>;
 var jetpack                    = <Mekanism:Jetpack:100>;
@@ -173,6 +173,7 @@ var brine                      = <gas:brine>;
 
 # ORE DICTIONARY
 #----------------
+var anyRedstoneDust               = <minecraft:redstone>;
 var anyStick                   = <ore:stickWood>;
 
 # Blocks
@@ -274,7 +275,7 @@ recipes.remove(charcoalBlock);
 
 # Enriched Iron: 8 Iron, 1 Manganese
 recipes.remove(enrichedIron);
-Infuser.removeRecipe(enrichedIron);
+#Infuser.removeRecipe(enrichedIron);
 recipes.addShapeless(enrichedIron * 9, [anyIronDust, anyIronDust, anyIronDust, anyIronDust,
                                         anyIronDust, anyIronDust, anyIronDust, anyIronDust,
                                         anyManganeseDust]);
@@ -347,9 +348,9 @@ recipes.addShaped(logisticalSorter, [
 # Electrolytic Separator
 recipes.remove(electrolyticSeparator);
 recipes.addShaped(electrolyticSeparator, [
-    [anyDeepIronIngot, redstoneDust,     anyDeepIronIngot],
+    [anyDeepIronIngot, anyRedstoneDust,  anyDeepIronIngot],
     [enrichedAlloy,    electrolyticCore, enrichedAlloy],
-    [anyDeepIronIngot, redstoneDust,     anyDeepIronIngot]]);
+    [anyDeepIronIngot, anyRedstoneDust,  anyDeepIronIngot]]);
 
 # Steel Casing
 recipes.remove(steelCasing);
@@ -357,6 +358,13 @@ recipes.addShaped(steelCasing, [
     [anyDeepIronIngot, anySteelIngot,  anyDeepIronIngot],
     [anySteelIngot,    anyOsmiumIngot, anySteelIngot],
     [anyDeepIronIngot, anySteelIngot,  anyDeepIronIngot]]);
+
+# Metallurgic Infuser
+recipes.remove(metallurgicInfuser);
+#recipes.addShaped(metallurgicInfuser, [
+#    [anyDeepIronIngot, furnace,        anyDeepIronIngot],
+#    [anyRedstoneDust,  anyOsmiumIngot, anyRedstoneDust],
+#    [anyDeepIronIngot, furnace,        anyDeepIronIngot]]);
 
 # Enrichment Chamber
 recipes.remove(enrichmentChamber);
@@ -390,9 +398,9 @@ recipes.addShaped(chemicalInjectionChamber, [
 recipes.remove(basicFactory);
 for i, machine in allMachines {
 	recipes.addShaped(basicFactory.withTag({recipeType:i}), [
-	    [redstoneDust,     anyBasicCircuit, redstoneDust],
+	    [anyRedstoneDust,  anyBasicCircuit, anyRedstoneDust],
 	    [anyDeepIronIngot, machine,         anyDeepIronIngot],
-	    [redstoneDust,     anyBasicCircuit, redstoneDust]]);
+	    [anyRedstoneDust,  anyBasicCircuit, anyRedstoneDust]]);
 }
 
 # Advanced Factories
@@ -416,9 +424,9 @@ for i, machine in allMachines {
 # Energy Cubes
 recipes.remove(basicEnergyCube);
 recipes.addShaped(basicEnergyCube, [
-    [redstoneDust,     energyTablet, redstoneDust],
+    [anyRedstoneDust,  energyTablet, anyRedstoneDust],
     [anyDeepIronIngot, steelCasing,  anyDeepIronIngot],
-    [redstoneDust,     energyTablet, redstoneDust]]);
+    [anyRedstoneDust,  energyTablet, anyRedstoneDust]]);
 
 recipes.addShaped(advancedEnergyCube, [
     [enrichedAlloy,  energyTablet,    enrichedAlloy],
@@ -459,10 +467,10 @@ Crusher.addRecipe(mekObsidianIngot, mekObsidianDust);
 #----------------
 
 # Enriched Alloy
-Infuser.removeRecipe(enrichedAlloy);
-for ingot in anyDeepIronIngot.items {
-    Infuser.addRecipe("REDSTONE", 10, ingot, enrichedAlloy);
-}
+#Infuser.removeRecipe(enrichedAlloy);
+#for ingot in anyDeepIronIngot.items {
+#    Infuser.addRecipe("REDSTONE", 10, ingot, enrichedAlloy);
+#}
 
 # OXIDIZER TWEAKS
 #-----------------
