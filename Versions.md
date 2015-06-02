@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.3.1408
+- **Forge** v10.13.3.1422
 
 Current API Versions
 =
@@ -34,7 +34,7 @@ Current Mod Versions
 - **AOBD** v2.6.3
 - **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 3
+- **Applied Energistics 2** rv2 Stable 4
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -52,11 +52,11 @@ Current Mod Versions
 - **DecoCraft** v2.0.2
 - **Dense Ores** v1.6.2
 - **Dimensional Doors** v2.2.5 test 8
-- **Doom-like Dungeon** v1.7.2
+- **Doom-like Dungeon** v1.7.6
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
 - **Ender Storage** v1.4.7.36
-- **Equivalent Exchange 3** v0.3.505
+- **Equivalent Exchange 3** v0.3.507
 - **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.5
@@ -70,7 +70,7 @@ Current Mod Versions
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
-- **Hardcore Ender Expansion** v1.6.7
+- **Hardcore Ender Expansion** v1.8.1
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana's Tinker Tweaks** v2.1.5
@@ -111,7 +111,7 @@ Current Mod Versions
 - **RedLogic** v59.1.10
 - **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
-- **RFTools** v2.92
+- **RFTools** v2.93
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1
 - **Special Mobs** v3.0.3
@@ -119,19 +119,19 @@ Current Mod Versions
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.4
+- **Thaumcraft** v4.2.3.5
 - **Thaumic Tinkerer** v2.5-162
 - **Thermal Dynamics** v1.0.0-122
 - **Thermal Expansion** v4.0.1-182
 - **Thermal Foundation** v1.0.0-81
-- **TiCTooltips** v1.2.0
+- **TiCTooltips** v1.2.4
 - **Tinker's Construct** v1.8.5
 - **Tinker's Defense** v1.2.1
 - **Tinker's Mechworks** v0.2.8
 - **Tinker's Modifiers** v1.1
 - **Tinker's Steelworks** v1.1.0-14
 - **TNTUtils** v1.0-beta
-- **Torcherino** v1.7.10-rc2
+- **Torcherino** v2.2s
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
 - **Tropicraft** v6.0.4
