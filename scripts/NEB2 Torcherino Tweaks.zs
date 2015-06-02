@@ -1,8 +1,8 @@
 # COMMON VARIABLES
 #------------------
-var soulFragment        = <ExtraUtilities:mini-soul>;
-var clock               = <minecraft:clock>;
-var torcherino          = <Torcherino:tile.torcherino>;
+var soulFragment       = <ExtraUtilities:mini-soul>;
+var clock              = <minecraft:clock>;
+var torcherino         = <Torcherino:tile.torcherino>;
 var invertedTorcherino = <Torcherino:tile.inverse_torcherino>;
 
 # ORE DICTIONARY
@@ -26,11 +26,11 @@ recipes.addShaped(torcherino, [
     [null,  soulFragment, null]]);
 
 recipes.addShaped(invertedTorcherino, [
-    [null,         clock,    null],
+    [null,         clock,            null],
     [soulFragment, anyRedstoneTorch, soulFragment],
-    [null,         clock,    null]]);
+    [null,         clock,            null]]);
 
 recipes.addShaped(invertedTorcherino, [
-    [null,  soulFragment, null],
-    [clock, anyRedstoneTorch,     clock],
-    [null,  soulFragment, null]]);
+    [null,  soulFragment,     null],
+    [clock, anyRedstoneTorch, clock],
+    [null,  soulFragment,     null]]);
