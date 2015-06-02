@@ -31,6 +31,7 @@ config/opencomputers/hardmode.recipes
 config/BetterTitleScreen.cfg
 config/OpenEye.json
 config/modpackTweaks/modpackTweaks.cfg
+config/DimDoors_Custom_schematics/How_to_add_dungeons.txt
 servertools/blockBreaks/
 servertools/blockPlaces/
 GregTech.cfg

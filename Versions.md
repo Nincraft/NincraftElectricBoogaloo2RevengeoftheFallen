@@ -51,6 +51,7 @@ Current Mod Versions
 - **Dark Menagerie beta** v2.0
 - **DecoCraft** v2.0.2
 - **Dense Ores** v1.6.2
+- **Dimensional Doors** v2.2.5 test 8
 - **Doom-like Dungeon** v1.7.2
 - **Enchiridion** v1.2b
 - **Ender IO** v2.2.8.344
