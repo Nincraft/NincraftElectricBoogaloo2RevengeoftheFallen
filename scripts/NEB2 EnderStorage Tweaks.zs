@@ -9,7 +9,7 @@ var resonantPouch       = <ThermalExpansion:satchel:4>;
 var resonantTank        = <ThermalExpansion:Tank:4>;
 var enderObsidian       = <ore:enderobsidian>;
 var blazeRod            = <minecraft:blaze_rod>;
-var infusedString       = <magicalcrops:magicalcrops_ArmourMaterials:3>;
+var redString           = <Botania:manaResource:12>;
 var enderBucket         = <ThermalFoundation:bucket:2>;
 var leather             = <minecraft:leather>;
 var enderEye            = <minecraft:ender_eye>;
@@ -178,17 +178,17 @@ for i, wool in wools {
         [blazeRod,      enderEye,      blazeRod]]);
 
     # Ender Pouch
-    # ----------------------------------------------------------
-    # [ Infused String, Wool,                  Infused String ]
-    # [ Leather,        Resonant Satchel,      Leather        ]
-    # [ Infused String, Resonant Ender Bucket, Infused String ]
+    # --------------------------------------------------
+    # [ Red String, Wool,                  Red String ]
+    # [ Leather,    Resonant Satchel,      Leather    ]
+    # [ Red String, Resonant Ender Bucket, Red String ]
     var enderPouch      = enderPouches[i];
 
     recipes.remove(enderPouch);
     recipes.addShaped(enderPouch, [
-        [infusedString, wool,          infusedString],
-        [leather,       resonantPouch, leather],
-        [infusedString, enderBucket,   infusedString]]);
+        [redString, wool,          redString],
+        [leather,   resonantPouch, leather],
+        [redString, enderBucket,   redString]]);
 
     # Ender Tank
     # ------------------------------------------------------------------

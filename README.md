@@ -11,13 +11,17 @@ Current Modlist
 =
 [Current Mod List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/blob/master/Versions.md)
 
+Modpack Permissions
+=
+[Permissions List](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/blob/master/Permissions.md)
+
 Wiki
 =
 [NEB2 Wiki](https://github.com/Nincraft/NincraftElectricBoogaloo2RevengeoftheFallen/wiki)
 
 Information
 =
-Clients: This pack runs best with at least 2.5 GB memory, and 256 MB of permgen _(estimated, might be able to get away with lower for now.)_. To set the permgen, add the following java parameter to your launcher: __-XX:PermSize=256M__
+Clients: This pack requires Java 8 to run, and performs best with at least 2.5 GB memory.
 
 Servers: The server download comes with recommended Java arguments. Those were used when initially testing this pack before it released, and it worked great. You may need to allocate more RAM if you have lots of concurrent players online. Never try and allocate too much, Java hates that.
 

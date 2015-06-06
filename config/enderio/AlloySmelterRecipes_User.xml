@@ -28,6 +28,16 @@ ore dictionary.
 <AlloySmelterRecipes>
 
   <recipeGroup name="EnderIO">
+    <recipe name="Redstone Alloy" energyCost="10000">
+      <input>
+        <itemStack modID="minecraft" itemName="redstone" />
+        <itemStack oreDictionary="itemSilicon" />
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="3" exp="0.5" />
+      </output>
+    </recipe>
+
     <recipe name="Energetic Alloy" energyCost="10000">
       <input>
         <itemStack modID="minecraft" itemName="redstone" />
@@ -48,7 +58,7 @@ ore dictionary.
         <itemStack oreDictionary="ingotMeutoite" />
       </input>
       <output>
-        <itemStack oreDictionary="ingotEnderiumBase" number="4" />
+        <itemStack oreDictionary="ingotEnderiumBase" number="2" />
       </output>
     </recipe>
   </recipeGroup>

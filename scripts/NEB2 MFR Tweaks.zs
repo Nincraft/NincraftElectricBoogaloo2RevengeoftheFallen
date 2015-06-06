@@ -14,9 +14,29 @@ var reusableSafariNet     = <MineFactoryReloaded:safarinet.reusable>;
 var soulVial              = <EnderIO:itemSoulVessel>;
 var enderPearl            = <minecraft:ender_pearl>;
 var leather               = <minecraft:leather>;
+var piston                = <minecraft:piston>;
+var steelAxe              = <Metallurgy:steel.axe>;
+var steelShears           = <Railcraft:tool.steel.shears>;
+var basicMachineFrame     = <ThermalExpansion:Frame:0>;
+var flowerPot             = <minecraft:flower_pot>;
 
 # Machines
-var ejector               = <MineFactoryReloaded:machine.1:0>;
+var planter               = <MineFactoryReloaded:machine.0:0>;
+var fisher                = <MineFactoryReloaded:machine.0:1>;
+var harvester             = <MineFactoryReloaded:machine.0:2>;
+var rancher               = <MineFactoryReloaded:machine.0:3>;
+var fertilizer            = <MineFactoryReloaded:machine.0:4>;
+var veterinaryStation     = <MineFactoryReloaded:machine.0:5>;
+var itemCollector         = <MineFactoryReloaded:machine.0:6>;
+var blockBreaker          = <MineFactoryReloaded:machine.0:7>;
+var watherCollector       = <MineFactoryReloaded:machine.0:8>;
+var sludgeBoiler          = <MineFactoryReloaded:machine.0:9>;
+var sewer                 = <MineFactoryReloaded:machine.0:10>;
+var composter             = <MineFactoryReloaded:machine.0:11>;
+var breeder               = <MineFactoryReloaded:machine.0:12>;
+var grinder               = <MineFactoryReloaded:machine.0:13>;
+var autoEnchanter         = <MineFactoryReloaded:machine.0:14>;
+var chronotyper           = <MineFactoryReloaded:machine.1:15>;
 var itemRouter            = <MineFactoryReloaded:machine.1:1>;
 var liquidRouter          = <MineFactoryReloaded:machine.1:2>;
 var deepStorageUnity      = <MineFactoryReloaded:machine.1:3>;
@@ -126,9 +146,11 @@ var allLaserFoci          = [
 var anyPlasticPipe        = <ore:pipePlastic>;
 var anyPlasticSheet       = <ore:sheetPlastic>;
 var anyRawRubber          = <ore:itemRawRubber>;
-var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
+var anyRedstoneAlloyIngot = <ore:ingotRedstoneAlloy>;
 var anyRubberDust         = <ore:dustRubber>;
 var anyShadowSteelIngot   = <ore:ingotShadowSteel>;
+var anyCopperGear         = <ore:gearCopper>;
+var anySteelGear          = <ore:gearSteel>;
 
 # Register MFR Plastic Pipe
 anyPlasticPipe.add(plasticPipe);
@@ -145,11 +167,6 @@ for i, sheet in allPlasticSheets {
 for laserFocus in allLaserFoci {
     recipes.remove(laserFocus);
 }
-
-# Plastic Blocks Require Plastic Ingots
-recipes.removeShaped(plasticBlock, [
-    [anyPlasticSheet, anyPlasticSheet],
-    [anyPlasticSheet, anyPlasticSheet]]);
 
 # RedNet Cables Require Redstone Alloy Ingots
 recipes.remove(redNetCable);
@@ -171,3 +188,17 @@ recipes.addShaped(reusableSafariNet, [
     [<minecraft:string>, leather,    <minecraft:string>],
     [enderPearl,         soulVial,   enderPearl],
     [<minecraft:string>, enderPearl, <minecraft:string>]]);
+
+# Harvester
+recipes.removeShaped(harvester);
+recipes.addShaped(harvester, [
+    [anyPlasticSheet, steelShears,           anyPlasticSheet],
+    [steelAxe,        basicMachineFrame,     steelAxe],
+    [anySteelGear,    redstoneReceptionCoil, anySteelGear]]);
+
+# Planter
+recipes.removeShaped(planter);
+recipes.addShaped(planter, [
+    [anyPlasticSheet, flowerPot,             anyPlasticSheet],
+    [piston,          basicMachineFrame,     piston],
+    [anyCopperGear,   redstoneReceptionCoil, anyCopperGear]]);

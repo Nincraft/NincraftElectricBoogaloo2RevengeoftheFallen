@@ -9,9 +9,13 @@ import mods.tconstruct.Casting;
 #------------------
 var blazeRod                 = <minecraft:blaze_rod>;
 var dryingRack               = <TConstruct:Armor.DryingRack>;
+var emptyRedstoneCellFrame   = <ThermalExpansion:Frame:5>;
+var fullRedstoneCellFrame    = <ThermalExpansion:Frame:6>;
+var emptyTesseractFrame      = <ThermalExpansion:Frame:7>;
+var fullTesseractFrame       = <ThermalExpansion:Frame:8>;
 var emptyIlluminatorFrame    = <ThermalExpansion:Frame:9>;
+var glowstoneIlluminator     = <ThermalExpansion:Light>;
 var emptySocket              = <AWWayofTime:emptySocket>;
-var fullIlluminatorFrame     = <ThermalExpansion:Light>;
 var fullSocket               = <AWWayofTime:bloodSocket>;
 var soulSand                 = <minecraft:soul_sand>;
 var bone                     = <minecraft:bone>;
@@ -21,6 +25,7 @@ var witheredRib              = <xreliquary:mob_ingredient:1>;
 var jeweledApple             = <TConstruct:diamondApple>;
 var hambone                  = <TConstruct:MeatBlock>;
 var rawPorkchop              = <minecraft:porkchop>;
+var enderPearl               = <minecraft:ender_pearl>;
 
 # Dusts
 var redstoneDust             = <minecraft:redstone>;
@@ -94,6 +99,7 @@ var eximiteDust              = <Metallurgy:ender.dust:0>;
 var meutoiteDust             = <Metallurgy:ender.dust:1>;
 var desichalkosDust          = <Metallurgy:ender.dust:2>;
 var fluxedElectrumDust       = <RedstoneArsenal:material>;
+var nincodiumDust            = <aobd:dustNincodium>;
 var titaniumDust             = <aobd:dustTitanium>;
 
 # Ingots
@@ -157,6 +163,7 @@ var vulcaniteIngot           = <Metallurgy:vulcanite.ingot>;
 var vyroxeresIngot           = <Metallurgy:vyroxeres.ingot>;
 var fluxedElectrumIngot      = <RedstoneArsenal:material:32>;
 var soulariumIngot           = <EnderIO:itemAlloy:7>;
+var nincodiumIngot           = <NincraftyThings:nincodiumIngot>;
 
 # Nuggets
 var goldNugget               = <minecraft:gold_nugget>;
@@ -185,6 +192,7 @@ var steelNugget              = <TConstruct:materials:33>;
 var quicksilverNugget        = <Thaumcraft:ItemResource:3>;
 var astralSilverNugget       = <aobd:nuggetAstralSilver>;
 var deepIronNugget           = <aobd:nuggetDeepIron>;
+var nincodiumNugget          = <aobd:nuggetNincodium>;
 var shadowIronNugget         = <aobd:nuggetShadowIron>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
 var yelloriumNugget          = <aobd:nuggetYellorium>;
@@ -228,9 +236,11 @@ var nickelBlock              = <ThermalFoundation:Storage:4>;
 var platinumBlock            = <ThermalFoundation:Storage:5>;
 var mithrilBlock             = <ThermalFoundation:Storage:6>;
 var steelBlock               = <TConstruct:MetalBlock:9>;
+var enderPearlBlock          = <TConstruct:MetalBlock:10>;
 var redstoneBlock            = <minecraft:redstone_block>;
 var glowstoneBlock           = <minecraft:glowstone>;
 var fluxedElectrumBlock      = <RedstoneArsenal:Storage>;
+var nincodiumBlock           = <NincraftyThings:nincodiumBlock>;
 
 # Mini Hearts & Canisters
 var canisterEmpty            = <TConstruct:heartCanister:0>;
@@ -248,6 +258,8 @@ var bucketGlowstone          = <ThermalFoundation:bucket:1>;
 var bucketEnder              = <ThermalFoundation:bucket:2>;
 var bucketPyrotheum          = <ThermalFoundation:bucket:3>;
 var bucketCryotheum          = <ThermalFoundation:bucket:4>;
+var bucketLapis              = <NincraftyThings:bucketLapis>;
+var bucketNincodium          = <NincraftyThings:bucketNincodium>;
 
 # Liquids
 var blood                    = <liquid:blood>;
@@ -272,7 +284,6 @@ var moltenBronze             = <liquid:bronze.molten>;
 var moltenCarmot             = <liquid:carmot.molten>;
 var moltenCelenegil          = <liquid:celenegil.molten>;
 var moltenCeruclase          = <liquid:ceruclase.molten>;
-#var moltenConductiveRedMetal = <liquid:Molten Conductive Redmetal>;
 var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
 var moltenCyanite            = <liquid:cyanite>;
@@ -282,6 +293,7 @@ var moltenDesichalkos        = <liquid:desichalkos.molten>;
 var moltenElectrum           = <liquid:electrum.molten>;
 var moltenEmerald            = <liquid:emerald.liquid>;
 var moltenEnder              = <liquid:ender>;
+var moltenEnderium           = <liquid:enderium.molten>;
 var moltenEximite            = <liquid:eximite.molten>;
 var moltenFairy              = <liquid:fairy.molten>;
 var moltenGlass              = <liquid:glass.molten>;
@@ -295,6 +307,7 @@ var moltenInolashite         = <liquid:inolashite.molten>;
 var moltenInvar              = <liquid:invar.molten>;
 var moltenIron               = <liquid:iron.molten>;
 var moltenKalendrite         = <liquid:kalendrite.molten>;
+var moltenLapis              = <liquid:moltenlapis>;
 var moltenLead               = <liquid:lead.molten>;
 var moltenLemurite           = <liquid:lemurite.molten>;
 var moltenManganese          = <liquid:manganese.molten>;
@@ -437,6 +450,7 @@ var anyInolashiteTinyDust    = <ore:dustTinyInolashite>;
 var anyInvarTinyDust         = <ore:dustTinyInvar>;
 var anyIronTinyDust          = <ore:dustTinyIron>;
 var anyKalendriteTinyDust    = <ore:dustTinyKalendrite>;
+var anyLapisTinyDust         = <ore:dustTinyLapis>;
 var anyLeadTinyDust          = <ore:dustTinyLead>;
 var anyLemuriteTinyDust      = <ore:dustTinyLemurite>;
 var anyManyullynTinyDust     = <ore:dustTinyManyullyn>;
@@ -444,6 +458,7 @@ var anyMeutoiteTinyDust      = <ore:dustTinyMeutoite>;
 var anyMidasiumTinyDust      = <ore:dustTinyMidasium>;
 var anyMithrilTinyDust       = <ore:dustTinyMithril>;
 var anyNickelTinyDust        = <ore:dustTinyNickel>;
+var anyNincodiumTinyDust     = <ore:dustTinyNincodium>;
 var anyOrichalcumTinyDust    = <ore:dustTinyOrichalcum>;
 var anyOureclaseTinyDust     = <ore:dustTinyOureclase>;
 var anyPlatinumTinyDust      = <ore:dustTinyPlatinum>;
@@ -485,6 +500,7 @@ var anyDamascusSteelDust     = <ore:dustDamascusSteel>;
 var anyDeepIronDust          = <ore:dustDeepIron>;
 var anyDesichalkosDust       = <ore:dustDesichalkos>;
 var anyElectrumDust          = <ore:dustElectrum>;
+var anyEnderPearlDust        = <ore:dustEnderPearl>;
 var anyEximiteDust           = <ore:dustEximite>;
 var anyGoldDust              = <ore:dustGold>;
 var anyHaderothDust          = <ore:dustHaderoth>;
@@ -495,6 +511,7 @@ var anyInolashiteDust        = <ore:dustInolashite>;
 var anyInvarDust             = <ore:dustInvar>;
 var anyIronDust              = <ore:dustIron>;
 var anyKalendriteDust        = <ore:dustKalendrite>;
+var anyLapisDust             = <ore:dustLapis>;
 var anyLeadDust              = <ore:dustLead>;
 var anyLemuriteDust          = <ore:dustLemurite>;
 var anyManyullynDust         = <ore:dustManyullyn>;
@@ -502,6 +519,7 @@ var anyMeutoiteDust          = <ore:dustMeutoite>;
 var anyMidasiumDust          = <ore:dustMidasium>;
 var anyMithrilDust           = <ore:dustMithril>;
 var anyNickelDust            = <ore:dustNickel>;
+var anyNincodiumDust         = <ore:dustNincodium>;
 var anyOrichalcumDust        = <ore:dustOrichalcum>;
 var anyOureclaseDust         = <ore:dustOureclase>;
 var anyPlatinumDust          = <ore:dustPlatinum>;
@@ -560,6 +578,7 @@ var anyMeutoiteNugget        = <ore:nuggetMeutoite>;
 var anyMidasiumNugget        = <ore:nuggetMidasium>;
 var anyMithrilNugget         = <ore:nuggetMithril>;
 var anyNickelNugget          = <ore:nuggetNickel>;
+var anyNincodiumNugget       = <ore:nuggetNincodium>;
 var anyOrichalcumNugget      = <ore:nuggetOrichalcum>;
 var anyOureclaseNugget       = <ore:nuggetOureclase>;
 var anyPlatinumNugget        = <ore:nuggetPlatinum>;
@@ -617,6 +636,7 @@ var anyMeutoiteIngot         = <ore:ingotMeutoite>;
 var anyMidasiumIngot         = <ore:ingotMidasium>;
 var anyMithrilIngot          = <ore:ingotMithril>;
 var anyNickelIngot           = <ore:ingotNickel>;
+var anyNincodiumIngot        = <ore:ingotNincodium>;
 var anyOrichalcumIngot       = <ore:ingotOrichalcum>;
 var anyOureclaseIngot        = <ore:ingotOureclase>;
 var anyPlatinumIngot         = <ore:ingotPlatinum>;
@@ -658,6 +678,7 @@ var anyDamascusSteelBlock    = <ore:blockDamascusSteel>;
 var anyDeepIronBlock         = <ore:blockDeepIron>;
 var anyDesichalkosBlock      = <ore:blockDesichalkos>;
 var anyElectrumBlock         = <ore:blockElectrum>;
+var anyEnderPearlBlock       = <ore:blockEnder>;
 var anyEximiteBlock          = <ore:blockEximite>;
 var anyGoldBlock             = <ore:blockGold>;
 var anyHaderothBlock         = <ore:blockHaderoth>;
@@ -668,6 +689,7 @@ var anyInolashiteBlock       = <ore:blockInolashite>;
 var anyInvarBlock            = <ore:blockInvar>;
 var anyIronBlock             = <ore:blockIron>;
 var anyKalendriteBlock       = <ore:blockKalendrite>;
+var anyLapisBlock            = <ore:blockLapis>;
 var anyLeadBlock             = <ore:blockLead>;
 var anyLemuriteBlock         = <ore:blockLemurite>;
 var anyManyullynBlock        = <ore:blockManyullyn>;
@@ -675,6 +697,7 @@ var anyMeutoiteBlock         = <ore:blockMeutoite>;
 var anyMidasiumBlock         = <ore:blockMidasium>;
 var anyMithrilBlock          = <ore:blockMithril>;
 var anyNickelBlock           = <ore:blockNickel>;
+var anyNincodiumBlock        = <ore:blockNincodium>;
 var anyOrichalcumBlock       = <ore:blockOrichalcum>;
 var anyOureclaseBlock        = <ore:blockOureclase>;
 var anyPlatinumBlock         = <ore:blockPlatinum>;
@@ -702,6 +725,12 @@ anyBone.add(ribBone);
 
 # RECIPE TWEAKS
 #---------------
+
+# Ender Pearl Storage Crafting
+recipes.addShapeless(enderPearl * 4, [enderPearlBlock]);
+recipes.addShaped(enderPearlBlock, [
+    [enderPearl, enderPearl],
+    [enderPearl, enderPearl]]);
 
 # Remove Downgrade Recipe
 recipes.remove(miniRedHeart);
@@ -769,6 +798,8 @@ Casting.addTableRecipe(bucketRedstone, moltenRedstone * 1000, bucket, true, 40);
 
 Casting.addBasinRecipe(redstoneBlock, moltenRedstone * 900, null, false, 40);
 
+Casting.addBasinRecipe(fullRedstoneCellFrame, moltenRedstone * 4000, emptyRedstoneCellFrame, true, 40);
+
 # Glowstone
 Smeltery.addMelting(glowstoneDust, moltenGlowstone * 250, 200, glowstoneBlock);
 Smeltery.addMelting(glowstoneBlock, moltenGlowstone * 1000, 200, glowstoneBlock);
@@ -777,7 +808,15 @@ Casting.addTableRecipe(bucketGlowstone, moltenGlowstone * 1000, bucket, true, 40
 
 Casting.addBasinRecipe(glowstoneBlock, moltenGlowstone * 1000, null, false, 40);
 
-Casting.addBasinRecipe(fullIlluminatorFrame, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
+Casting.addBasinRecipe(glowstoneIlluminator, moltenGlowstone * 1000, emptyIlluminatorFrame, true, 40);
+
+# Ender
+Smeltery.removeMelting(anyEnderPearlBlock);
+Smeltery.addMelting(enderPearl, moltenEnder * 250, 500, enderPearlBlock);
+Smeltery.addMelting(anyEnderPearlDust, moltenEnder * 250, 500, enderPearlBlock);
+Smeltery.addMelting(anyEnderPearlBlock, moltenEnder * 1000, 500, enderPearlBlock);
+
+Casting.addBasinRecipe(fullTesseractFrame, moltenEnder * 1000, emptyTesseractFrame, true, 40);
 
 # Blazing Pyrotheum
 Smeltery.addMelting(pyrotheumDust, moltenPyrotheum * 1000, 750, <minecraft:dirt>);
@@ -801,16 +840,23 @@ for dust in anyElectrumDust.items {
 Smeltery.addMelting(endPowder, enderGoo * 100, 750, <minecraft:dirt>);
 
 # Black Bronze Alloy Ratios
-#Smeltery.removeAlloy(moltenHepatizon);
+Smeltery.removeAlloy(moltenHepatizon * 144);
 Smeltery.addAlloy(moltenHepatizon * 1296, [moltenCopper * 1152, moltenElectrum * 144]);
 
 # Black Steel Alloy Ratios
-#Smeltery.removeAlloy(moltenBlackSteel);
+Smeltery.removeAlloy(moltenBlackSteel * 144);
 Smeltery.addAlloy(moltenBlackSteel * 720, [moltenSteel * 432, moltenHepatizon * 144, moltenNickel * 144]);
 
 # Aluminum Brass Ratio
-#Smeltery.removeAlloy(moltenAluminumBrass);
+Smeltery.removeAlloy(moltenAluminumBrass * 64);
 Smeltery.addAlloy(moltenAluminumBrass * 1296, [moltenCopper * 1152, moltenAluminum * 144]);
+
+# Enderium Ratio
+Smeltery.removeAlloy(moltenEnderium * 576);
+Smeltery.addAlloy(moltenEnderium * 576, [enderGoo * 200, moltenCeruclase * 144, moltenMeutoite * 144, moltenEnder * 1000]);
+
+# Remove Steel Ratio
+Smeltery.removeAlloy(moltenSteel * 144);
 
 /*
 # Disable Smeltery Melting to Require High Oven
@@ -916,7 +962,7 @@ recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDu
 
 recipes.addShapeless(enderiumDust * 2, [endPowder, endPowder,
                                         anyCeruclaseDust, anyMeutoiteDust,
-                                        bucketEnder]);
+                                        bucketEnder.transformReplace(bucket)]);
 
 recipes.addShapeless(haderothDust * 3, [anyMithrilDust, anyMithrilDust,
                                         anyRubraciumDust]);
@@ -927,6 +973,10 @@ recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopper
 
 recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
                                           anyAlduoriteDust]);
+
+recipes.addShapeless(nincodiumDust * 2, [anyCobaltDust, anyCobaltDust,
+                                         anyAstralSilverDust, anyAstralSilverDust,
+                                         bucketLapis.transformReplace(bucket)]);
 
 recipes.addShapeless(pyrotheumDust * 2, [anyVulcaniteDust, blazePowder,
                                          anyShadowIronDust, anyAluminumDust]);

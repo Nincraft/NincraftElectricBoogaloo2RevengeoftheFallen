@@ -1,151 +1,160 @@
 Current Forge Version
 =
-- **Forge** v10.13.2.1286
+- **Forge** v10.13.3.1422
 
 Current API Versions
 =
-- **AppleCore** v1.0.2
+- **AppleCore** v1.1.0
+- **Aroma1997Core** v1.0.2.13
+- **AsieLib** v0.4.1
 - **Baubles** v1.0.1.10
-- **bspkrs Core** v6.15
-- **CodeChickenCore** v1.0.4.29
+- **bspkrs Core** v6.16
+- **CodeChickenCore** v1.0.6.43
 - **CodeChickenLib** v1.1.1.99
-- **CoFHCore** v3.0.0B9-40
-- **CoFHLib** v1.0.0B8-34
-- **CookieCore** v1.3.0
-- **CoroUtil** v1.1.1
-- **Forge Multipart** v1.1.0.320
-- **iChunUtil** v4.1.3
+- **CoFHCore** v3.0.2-262
+- **CoFHLib** v1.0.1-151
+- **CookieCore** v1.3.1-8
+- **CoroUtil** v1.1.2
+- **Forge Multipart** v1.1.1.321
+- **iChunUtil** v4.2.2
+- **Immibus Core** v59.1.1
 - **IndustrialCraft 2 API** v2.2.660
+- **INpureCore** v1.0.0B9-62
 - **LunatriusCore** v1.1.2.20
 - **Mantle** v0.3.2
-- **Metallurgy Core** v4.0.3.11
-- **MicDoodleCore** v3.0.8.257
+- **Metallurgy Core** v4.0.4.18
+- **MicDoodleCore** v3.0.12.339
+- **OpenModsLib** v0.7.3
+- **SciMCLib** v0.0.0.1
+- **ttCore** v0.1.0-67
 
 Current Mod Versions
 =
-- **Admin Command Toolbox** v0.0.2a
-- **AOBD** v2.4.0
-- **Applied Energistics 2** rv2 Beta 7
-- **AsieLib** v0.3.8
-- **Armor Status HUD** v1.28
-- **Better Foliage** v1.0.3
+- **AgriCraft** v1.3.1
+- **AOBD** v2.6.3
+- **AOBDBB** v1.0.3
+- **Alternate Terrain Generation** v0.12.0
+- **Applied Energistics 2** rv2 Stable 4
+- **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
-- **BiblioCraft** v1.9.2
+- **BiblioCraft** v1.10.4
 - **BiblioWoods (BoP)** v1.9
 - **BiblioWoods (Natura)** v1.5
-- **Big Reactors** v0.4.1A2
+- **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.4-158
-- **Carpenter's Blocks** v3.3.0
-- **Caveworld** v1.8.3
-- **Chisel** v2.3.5.31
+- **Botania** r1.6-191
+- **Carpenter's Blocks** v3.3.6
+- **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
-- **Cosmetic Armor** v1.0.5.B8
-- **Damage Indicators Mod** v3.2.0
+- **ChunkGen** v1.2.3
 - **Dark Menagerie beta** v2.0
-- **DecoCraft** v1.11
-- **Dense Ores dev** v1.4.2
-- **DimensionGuard** v1.2.1
-- **Doom-like Dungeon** v1.7.2
-- **Dynamic Lights** v1.3.7
+- **DecoCraft** v2.0.2
+- **Dense Ores** v1.6.2
+- **Dimensional Doors** v2.2.5 test 8
+- **Doom-like Dungeon** v1.7.6
 - **Enchiridion** v1.2b
-- **EnderIO** v2.2.8.344
-- **Ender Storage** v1.4.5.27
-- **Equivalent Exchange 3** v0.2.411
-- **Extra Cells** v2.2.34b58
-- **ExtraTiC** v1.0.3
-- **Extra Utilities** v1.2.1
-- **Flaxbeard's Steam Power** v0.27.3
-- **FMPIntegration** v1.2.2
-- **Galacticraft Core** v3.0.8.257
-- **Galacticraft Planets** v3.0.8.257
+- **Ender IO** v2.2.8.344
+- **Ender Storage** v1.4.7.36
+- **Equivalent Exchange 3** v0.3.507
+- **Et Futurum** v1.1.0
+- **Extra Cells** v2.2.69bNIGHTLY
+- **ExtraTiC** v1.4.5
+- **Extra Utilities** v1.2.5
+- **Flaxbeard's Steam Power** v0.28.7
+- **Fluxed-Crystals** v0.0.5k
+- **Forbidden Magic** v0.561
+- **Funky Locomotion** v5c beta
+- **Galacticraft Core** v3.0.12.339
+- **Galacticraft Planets** v3.0.12.339
 - **Garden Stuff** v1.2.1
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
-- **Hardcore Ender Expansion** v1.6.7
+- **Hardcore Ender Expansion** v1.8.1
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
-- **Iguana's Tinker Tweaks** v2.1.2
-- **Infernal Mobs** v1.5.9
-- **INpureCore** v1.0.0B7-19
+- **Iguana's Tinker Tweaks** v2.1.5
+- **Infernal Mobs** v1.6.0
 - **InventoryTweaks** v1.58 147
 - **Iron Chest** v6.0.62.742
-- **JABBA** v1.2.0a
-- **Magical Crops** v0.1
-- **Mekanism** v7.1.1.127
-- **Mekanism Generators** v7.1.1.127
-- **Mekanism Tools** v7.1.1.127
-- **Metallurgy** v4.0.4.43
-- **Minefactory Reloaded** v2.8.0RC6-5
+- **JABBA** v1.2.1a
+- **LookingGlass** v0.0.1.01
+- **Mekanism** v8.1.3.231
+- **Mekanism Generators** v8.1.3.231
+- **Mekanism Tools** v8.1.3.231
+- **Metallurgy** v4.0.6.80
+- **Mine & Blade: Battlegear 2** v1.0.8.0
+- **Minefactory Reloaded** v2.8.0-104
 - **MineTweaker** v3.0.9C
 - **MobiusCore** v1.2.3
 - **Modpack Tweaks** v1.2.0-21
-- **ModTweaker** v0.7.b (Manual Build)
+- **ModTweaker** v0.8.1
 - **More Planets** v1.1.9-beta
-- **Morph** v0.9.1
-- **Morpheus** v1.5.26
-- **Mystcraft** v0.11.0.00
+- **Morpheus** v1.6.4
 - **Natura** v2.2.0 b1
 - **NEI Integration** v1.0.4
-- **Nether Ores** v2.3.0RC4-4
-- **Nincrafty Things** v1.3.2-alpha
-- **Not Enough Items** v1.0.4.83
-- **Oceancraft** v1.4.1
-- **OpenBlocks** v1.3-snapshot-514
-- **OpenComputers** v1.4.4a.25
+- **Nether Ores** v2.3.0-12
+- **Nincrafty Things** v1.5.1-alpha
+- **Not Enough Items** v1.0.4.107
+- **OpenBlocks** v1.4.3
+- **OpenComputers** v1.5.9.21
 - **Open Eye** v0.6
-- **OpenModsLib** v0.6-snapshot-269
-- **Opis** v1.2.3
 - **Pam's Clay Spawn** v1.7.2a
 - **Pam's HarvestCraft** v1.7.10f
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.5.2-50
+- **PneumaticCraft** v1.6.8-72
 - **Poor Ores** v1.4.6
-- **ProjectRed Base** v4.5.8.59
-- **ProjectRed Compat** v4.5.8.59
-- **ProjectRed Integration** v4.5.8.59
-- **ProjectRed Lighting** v4.5.8.59
-- **ProjectRed World** v4.5.8.59
+- **Portal Gun** v4.0.0 beta 4
+- **Railcraft** v9.6.1.0
 - **Random Things** v2.2.4
-- **RedstoneArsenal** v1.1.0RC1-19
-- **Reliquary** v1.2.223
+- **RedLogic** v59.1.11
+- **RedstoneArsenal** v1.1.0-80
+- **Reliquary** v1.2.257
+- **RFTools** v2.93
 - **RPGAdvMod** v1.0.0
-- **SciMCLib** v0.0.0.1
-- **ServerTools-BACKUP** v2.2.0.23
-- **ServerTools-CORE** v2.2.0.79
-- **Shatter** v4.0.0
-- **Simply Jetpacks** v1.3.2
+- **Simply Jetpacks** v1.5.1
 - **Special Mobs** v3.0.3
 - **Stackie** v1.5.1.30
 - **Statues** v2.1.4
 - **Steve's Carts** v2.0.0b18
 - **Sync** v4.0.0
-- **Thaumcraft** v4.2.3.4
+- **Thaumcraft** v4.2.3.5
 - **Thaumic Tinkerer** v2.5-162
-- **Thermal Expansion** v4.0.0B8-23
-- **Thermal Foundation** v1.0.0.RC1-13
-- **TiCTooltips** v1.2.0
-- **Tinker's Construct** v1.8.2a
+- **Thermal Dynamics** v1.0.0-122
+- **Thermal Expansion** v4.0.1-182
+- **Thermal Foundation** v1.0.0-81
+- **TiCTooltips** v1.2.4
+- **Tinker's Construct** v1.8.5
+- **Tinker's Defense** v1.2.1
 - **Tinker's Mechworks** v0.2.8
-- **Tinker's Steelworks** v1.0.7
-- **Torcherino** v1.7.10-rc2
+- **Tinker's Modifiers** v1.1
+- **Tinker's Steelworks** v1.1.0-14
+- **TNTUtils** v1.0-beta
+- **Torcherino** v2.2s
 - **Too Much Loot** v3.0.1.B22
 - **Translocator** v1.1.1.8
-- **Twilight Forest** v2.3.3
+- **Tropicraft** v6.0.4
+- **Twilight Forest** v2.3.7
 - **WAILA** v1.5.8a
 - **WAWLA** v1.1.1
 - **Weather** v2.3.7
-
-Developer Mods
+- **Witchery** v0.24.1
+ 
+Optional Client Mod Versions
 =
+- **Armor Status HUD** v1.28
+- **Better Foliage** v1.0.13
+- **Damage Indicators Mod** v3.2.3
+- **Direction HUD** v1.24
+- **Dynamic Lights** v1.3.8
+- **OPIS** v1.2.3
+- **Shatter** v4.0.0
+- **Sound Filters** v0.7
+- **Status Effect HUD** v1.27
+
+Development Mod Versions
+=
+- **BdLib** v1.7.1.71
 - **MineTweaker RecipeMaker** v1.0.0.2
-- **VersionChecker** v1.1.7
-
-Disabled Mods (For Now)
-
-- Alternate Terrain Generation
-- Drama Splash
-- Lycanite's Mobs
-- MapWriter
+- **VersionChecker** v1.1.8

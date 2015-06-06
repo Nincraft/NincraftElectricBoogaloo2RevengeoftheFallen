@@ -16,6 +16,7 @@ resourcepacks/
 saves/
 screenshots/
 stats/
+backup/
 betterrecords/libs
 betterrecords/localLibrary.json
 config/DIAdvancedCompatibility.cfg
@@ -27,6 +28,12 @@ config/MapWriterBlockColours.txt
 config/opencomputers/default.recipes
 config/opencomputers/gregtech.recipes
 config/opencomputers/hardmode.recipes
+config/BetterTitleScreen.cfg
+config/OpenEye.json
+config/modpackTweaks/modpackTweaks.cfg
+config/DimDoors_Custom_schematics/How_to_add_dungeons.txt
+servertools/blockBreaks/
+servertools/blockPlaces/
 GregTech.cfg
 GregTech.lang
 
@@ -249,3 +256,4 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+config/HardcoreEnderExpansion.clientsave.cfg

@@ -1,7 +1,9 @@
 # COMMON VARIABLES
 #------------------
 var leadCellFrame           = <ThermalExpansion:Frame:4>;
-var redstoneCellFrame       = <ThermalExpansion:Frame:6>;
+var hardenedCellFrame       = <ThermalExpansion:Frame:5>;
+var redstoneCellFrame       = <ThermalExpansion:Frame:7>;
+var resonantCellFrame       = <ThermalExpansion:Frame:9>;
 var furnace                 = <minecraft:furnace>;
 var netherFurnace           = <Natura:NetherFurnace>;
 var netherBricks            = <minecraft:nether_brick>;
@@ -42,7 +44,7 @@ var anyIgnatiusIngot        = <ore:ingotIgnatius>;
 var anyIronIngot            = <ore:ingotIron>;
 var anyMeutoiteIngot        = <ore:ingotMeutoite>;
 var anyPulsatingIronIngot   = <ore:ingotPhasedIron>;
-var anyRedAlloyIngot        = <ore:ingotRedAlloy>;
+var anyRedstoneAlloyIngot   = <ore:ingotRedstoneAlloy>;
 var anySteelIngot           = <ore:ingotSteel>;
 var anyTitaniumIngot        = <ore:ingotTitanium>;
 var anyVibrantAlloyIngot    = <ore:ingotPhasedGold>;
@@ -56,28 +58,28 @@ recipes.remove(survivalistGenerator);
 recipes.addShaped(survivalistGenerator, [
     [anyCobblestone,   anyCobblestone, anyCobblestone],
     [anyCobblestone,   furnace,        anyCobblestone],
-    [anyRedAlloyIngot, leadCellFrame,  anyRedAlloyIngot]]);
+    [anyRedstoneAlloyIngot, leadCellFrame,  anyRedstoneAlloyIngot]]);
 
 # Furnace Generator
 recipes.remove(furnaceGenerator);
 recipes.addShaped(furnaceGenerator, [
-    [anyIronIngot,     anyIronIngot,  anyIronIngot],
-    [anyIronIngot,     furnace,       anyIronIngot],
-    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
+    [anyIronIngot,          anyIronIngot,  anyIronIngot],
+    [anyIronIngot,          furnace,       anyIronIngot],
+    [anyRedstoneAlloyIngot, leadCellFrame, anyRedstoneAlloyIngot]]);
 
 # Lava Generator
 recipes.remove(lavaGenerator);
 recipes.addShaped(lavaGenerator, [
-    [netherBricks,           netherBricks,  netherBricks],
-    [netherBricks,           netherFurnace, netherBricks],
-    [anyEnergeticAlloyIngot, leadCellFrame, anyEnergeticAlloyIngot]]);
+    [netherBricks,           netherBricks,      netherBricks],
+    [netherBricks,           netherFurnace,     netherBricks],
+    [anyEnergeticAlloyIngot, hardenedCellFrame, anyEnergeticAlloyIngot]]);
 
 # Ender Generator
 recipes.remove(enderGenerator);
 recipes.addShaped(enderGenerator, [
     [anyPulsatingIronIngot, anyPulsatingIronIngot, anyPulsatingIronIngot],
     [anyPulsatingIronIngot, anyEnderObsidian,      anyPulsatingIronIngot],
-    [anyVibrantAlloyIngot,  redstoneCellFrame,     anyVibrantAlloyIngot]]);
+    [anyVibrantAlloyIngot,  resonantCellFrame,     anyVibrantAlloyIngot]]);
 
 # Heated Redstone Generator
 recipes.remove(heatedRedstoneGenerator);
@@ -89,9 +91,9 @@ recipes.addShaped(heatedRedstoneGenerator, [
 # Culinary Generator
 recipes.remove(foodGenerator);
 recipes.addShaped(foodGenerator, [
-    [anyBricks,        anyBricks,     anyBricks],
-    [anyBricks,        cauldron,      anyBricks],
-    [anyRedAlloyIngot, leadCellFrame, anyRedAlloyIngot]]);
+    [anyBricks,             anyBricks,     anyBricks],
+    [anyBricks,             cauldron,      anyBricks],
+    [anyRedstoneAlloyIngot, leadCellFrame, anyRedstoneAlloyIngot]]);
 
 # Potion Generator
 recipes.remove(potionGenerator);
@@ -133,4 +135,4 @@ recipes.remove(netherStarGenerator);
 recipes.addShaped(netherStarGenerator, [
     [anyTitaniumIngot,     anyDesichalkosIngot, anyTitaniumIngot],
     [anyVoidmetalIngot,    netherStar,          anyVoidmetalIngot],
-    [anyVibrantAlloyIngot, redstoneCellFrame,   anyVibrantAlloyIngot]]);
+    [anyVibrantAlloyIngot, resonantCellFrame,   anyVibrantAlloyIngot]]);

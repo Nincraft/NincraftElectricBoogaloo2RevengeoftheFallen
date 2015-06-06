@@ -145,6 +145,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,
@@ -178,6 +179,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,
@@ -211,31 +213,41 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,
             7
         ]
     },
-    "diamondGeode": {
+    "diamondGeodes": {
         "template": {
             "type": "uniform",
             "generator": "geode"
         },
-        "block": "diamond_ore",
+        "crust": [
+            {
+                "name": "diamond_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_diamond_ore",
+                "weight": 90
+            }
+        ],
         "material": "stone",
-        "clusterSize": 8,
+        "hollow": true,
+        "filler": "air",
         "numClusters": 1,
         "minHeight": 1,
-        "maxHeight": 16,
-        "crust": "stone",
-        "hollow": true,
+        "maxHeight": 32,
         "retrogen": true,
         "biomeRestriction": "none",
         "biomes": [],
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,
@@ -270,11 +282,43 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,
             7
         ]
+    },
+    "quartzGeodes": {
+        "template": {
+            "type": "uniform",
+            "generator": "geode"
+            
+        },
+        "crust": [
+            {
+                "name": "quartz_ore",
+                "weight": 10
+            },
+            {
+                "name": "PoorOres:poor_quartz_ore",
+                "weight": 90
+            }
+        ],
+        "material": "netherrack",
+        "hollow": true,
+        "filler": "air",
+        "numClusters": 2,
+        "minHeight": 1,
+        "maxHeight": 127,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            -1
+        ],
+        "enabled": false
     },
     "quartz": {
         "template": "fractal",
@@ -319,6 +363,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             -100,
+            -37,
             -19,
             -1,
             1,

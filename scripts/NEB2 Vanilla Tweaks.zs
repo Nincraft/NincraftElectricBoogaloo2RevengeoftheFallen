@@ -3,12 +3,17 @@
 import minetweaker.item.IItemStack;
 import minetweaker.item.IIngredient;
 
+import mods.tconstruct.Smeltery;
+
 # COMMON VARIABLES
 #------------------
+var bottle                = <minecraft:glass_bottle>;
+var bottleCreosote        = <Railcraft:fluid.creosote.bottle>;
 var bow                   = <minecraft:bow>;
 var bricks                = <minecraft:brick_block>;
 var bread                 = <minecraft:bread>;
 var bucket                = <minecraft:bucket>;
+var bucketCreosote        = <Railcraft:fluid.creosote.bucket>;
 var carpentersBlock       = <CarpentersBlocks:blockCarpentersBlock>;
 var clayBall              = <minecraft:clay_ball>;
 var clayBlock             = <minecraft:clay>;
@@ -16,12 +21,21 @@ var dispenser             = <minecraft:dispenser>;
 var dropper               = <minecraft:dropper>;
 var flint                 = <minecraft:flint>;
 var flintNSteel           = <minecraft:flint_and_steel>;
-var ironToughRod          = <TConstruct:toughRod:2>;
+var ironBlock             = <minecraft:iron_block>;
 var piston                = <minecraft:piston>;
 var torchberries          = <TwilightForest:item.torchberries>;
 var torchCarpenters       = <CarpentersBlocks:blockCarpentersTorch>;
 var torchWood             = <minecraft:torch>;
 var torchStone            = <TConstruct:decoration.stonetorch>;
+
+# Chain Armor
+var chainHelmet           = <minecraft:chainmail_helmet>;
+var chainChestplate       = <minecraft:chainmail_chestplate>;
+var chainLeggings         = <minecraft:chainmail_leggings>;
+var chainBoots            = <minecraft:chainmail_boots>;
+
+# Liquids
+var moltenIron            = <liquid:iron.molten>;
 
 # ORE DICTIONARY
 #----------------
@@ -32,13 +46,14 @@ var anyCobblestone        = <ore:cobblestone>;
 var anyCharcoal           = <ore:charcoal>;
 var anyPhosphorusDust     = <ore:dustPhosphorus>;
 var anyRawRubber          = <ore:itemRawRubber>;
-var anyRedstoneAlloyIngot = <ore:ingotRedAlloy>;
+var anyRedstoneAlloyIngot = <ore:ingotRestoneAlloy>;
 var anySteelIngot         = <ore:ingotSteel>;
 var anyStoneRod           = <ore:rodStone>;
 var anySugarCharcoal      = <ore:itemCharcoalSugar>;
 var anySulfurDust         = <ore:dustSulfur>;
 var anyWoodSlab           = <ore:slabWood>;
 var anyWoodStick          = <ore:stickWood>;
+var anyWoolBlock          = <ore:blockWool>;
 
 # Register Clay Bricks
 var clayBricks            = <ore:bricksClay>;
@@ -113,6 +128,11 @@ for i, handle in torchHandles
         [anySulfurDust],
         [handle]]);
 
+    # Raw Rubber
+    recipes.addShaped(torch * 3, [
+        [anyRawRubber],
+        [handle]]);
+
     # Coal
     recipes.addShaped(torch * 4, [
         [anyCoal],
@@ -121,11 +141,6 @@ for i, handle in torchHandles
     # Charcoal
     recipes.addShaped(torch * 4, [
         [anyCharcoal],
-        [handle]]);
-
-    # Raw Rubber
-    recipes.addShaped(torch * 4, [
-        [anyRawRubber],
         [handle]]);
 
     # Torchberries
@@ -137,6 +152,16 @@ for i, handle in torchHandles
     recipes.addShaped(torch * 6, [
         [anyPhosphorusDust],
         [handle]]);
+
+    # Creosote & Wool
+    recipes.addShaped(torch * 6, [
+        [bucketCreosote.transformReplace(bucket)],
+        [anyWoolBlock],
+        [handle]]);
+    recipes.addShaped(torch * 6, [
+        [bottleCreosote.transformReplace(bottle)],
+        [anyWoolBlock],
+        [handle]]);
 }
 
 # Clay Block -> Clay Balls
@@ -145,3 +170,17 @@ recipes.addShapeless(clayBall * 4, [clayBlock]);
 # Flint & Steel Costs Steel
 recipes.remove(flintNSteel);
 recipes.addShapeless(flintNSteel, [flint, anySteelIngot]);
+
+# SMELTERY TWEAKS
+#-----------------
+
+# Chain Armor melts to Iron
+Smeltery.removeMelting(chainHelmet);
+Smeltery.removeMelting(chainChestplate);
+Smeltery.removeMelting(chainLeggings);
+Smeltery.removeMelting(chainBoots);
+
+Smeltery.addMelting(chainHelmet, moltenIron * 480, 550, ironBlock);
+Smeltery.addMelting(chainChestplate, moltenIron * 768, 550, ironBlock);
+Smeltery.addMelting(chainLeggings, moltenIron * 672, 550, ironBlock);
+Smeltery.addMelting(chainBoots, moltenIron * 384, 550, ironBlock);
