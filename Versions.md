@@ -108,7 +108,7 @@ Current Mod Versions
 - **Portal Gun** v4.0.0 beta 4
 - **Railcraft** v9.6.1.0
 - **Random Things** v2.2.4
-- **RedLogic** v59.1.10
+- **RedLogic** v59.1.11
 - **RedstoneArsenal** v1.1.0-80
 - **Reliquary** v1.2.257
 - **RFTools** v2.93
