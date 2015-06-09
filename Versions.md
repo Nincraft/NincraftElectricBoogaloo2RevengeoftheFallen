@@ -34,7 +34,7 @@ Current Mod Versions
 - **AOBD** v2.6.3
 - **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 4
+- **Applied Energistics 2** rv2 Stable 5
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -67,7 +67,7 @@ Current Mod Versions
 - **Funky Locomotion** v5c beta
 - **Galacticraft Core** v3.0.12.339
 - **Galacticraft Planets** v3.0.12.339
-- **Garden Stuff** v1.2.1
+- **Garden Stuff** v1.6.3
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.8.1
