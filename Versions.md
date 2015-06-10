@@ -15,7 +15,7 @@ Current API Versions
 - **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.1-8
 - **CoroUtil** v1.1.2
-- **Forge Multipart** v1.1.1.321
+- **Forge Multipart** v1.2.0.345
 - **iChunUtil** v4.2.2
 - **Immibus Core** v59.1.1
 - **IndustrialCraft 2 API** v2.2.660
@@ -60,7 +60,7 @@ Current Mod Versions
 - **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.5
-- **Extra Utilities** v1.2.5
+- **Extra Utilities** v1.2.6
 - **Flaxbeard's Steam Power** v0.28.7
 - **Fluxed-Crystals** v0.0.5k
 - **Forbidden Magic** v0.561
