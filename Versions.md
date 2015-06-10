@@ -15,7 +15,7 @@ Current API Versions
 - **CoFHLib** v1.0.1-151
 - **CookieCore** v1.3.1-8
 - **CoroUtil** v1.1.2
-- **Forge Multipart** v1.1.1.321
+- **Forge Multipart** v1.2.0.345
 - **iChunUtil** v4.2.2
 - **Immibus Core** v59.1.1
 - **IndustrialCraft 2 API** v2.2.660
@@ -34,7 +34,7 @@ Current Mod Versions
 - **AOBD** v2.6.3
 - **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 4
+- **Applied Energistics 2** rv2 Stable 5
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -60,14 +60,14 @@ Current Mod Versions
 - **Et Futurum** v1.1.0
 - **Extra Cells** v2.2.69bNIGHTLY
 - **ExtraTiC** v1.4.5
-- **Extra Utilities** v1.2.5
+- **Extra Utilities** v1.2.6
 - **Flaxbeard's Steam Power** v0.28.7
 - **Fluxed-Crystals** v0.0.5k
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5c beta
 - **Galacticraft Core** v3.0.12.339
 - **Galacticraft Planets** v3.0.12.339
-- **Garden Stuff** v1.2.1
+- **Garden Stuff** v1.6.3
 - **Glowstone Wire** v1.0.2.113
 - **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.8.1
