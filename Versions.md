@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.3.1422
+- **Forge** v10.13.4.1445
 
 Current API Versions
 =
@@ -34,7 +34,7 @@ Current Mod Versions
 - **AOBD** v2.6.3
 - **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 5
+- **Applied Energistics 2** rv2 Stable 6
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -43,7 +43,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-191
+- **Botania** r1.6-192
 - **Carpenter's Blocks** v3.3.6
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
@@ -62,7 +62,7 @@ Current Mod Versions
 - **ExtraTiC** v1.4.5
 - **Extra Utilities** v1.2.6
 - **Flaxbeard's Steam Power** v0.28.7
-- **Fluxed-Crystals** v0.0.5k
+- **Fluxed-Crystals** v1.0.3
 - **Forbidden Magic** v0.561
 - **Funky Locomotion** v5c beta
 - **Galacticraft Core** v3.0.12.339
