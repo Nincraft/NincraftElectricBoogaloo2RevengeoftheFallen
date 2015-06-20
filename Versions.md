@@ -34,7 +34,7 @@ Current Mod Versions
 - **AOBD** v2.6.3
 - **AOBDBB** v1.0.3
 - **Alternate Terrain Generation** v0.12.0
-- **Applied Energistics 2** rv2 Stable 4
+- **Applied Energistics 2** rv2 Stable 9
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.1
 - **BiblioCraft** v1.10.4
@@ -43,7 +43,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A
 - **Biomes O' Plenty** v2.1.0.1062
 - **Blood Magic** v1.3.0b
-- **Botania** r1.6-191
+- **Botania** r1.6-193
 - **Carpenter's Blocks** v3.3.6
 - **Chisel 2** v2.3.10.37
 - **Chicken Chunks** v1.3.4.17
