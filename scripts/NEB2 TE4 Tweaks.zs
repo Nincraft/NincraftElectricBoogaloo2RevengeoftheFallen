@@ -70,10 +70,10 @@ var reinforcedStrongbox          = <ThermalExpansion:Strongbox:3>;
 var resonantStrongbox            = <ThermalExpansion:Strongbox:4>;
 
 # Caches
-var cache                        = <ThermalExpansion:Strongbox:1>;
-var hardenedCache                = <ThermalExpansion:Strongbox:2>;
-var reinforcedCache              = <ThermalExpansion:Strongbox:3>;
-var resonantCache                = <ThermalExpansion:Strongbox:4>;
+var cache                        = <ThermalExpansion:Cache:1>;
+var hardenedCache                = <ThermalExpansion:Cache:2>;
+var reinforcedCache              = <ThermalExpansion:Cache:3>;
+var resonantCache                = <ThermalExpansion:Cache:4>;
 
 # Lights
 var glowstoneIlluminator         = <ThermalExpansion:Light:0>;
