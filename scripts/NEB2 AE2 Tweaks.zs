@@ -964,6 +964,6 @@ recipes.addShaped(certusQuartzTank, [
 # ME Fluid Interface
 recipes.remove(meFluidInterface);
 recipes.addShapedMirrored(meFluidInterface, [
-    [anyPlatinumIngot, anyBlueDye, anyPlatinumIngot],
-    [annihilationCore, null,       formationCore],
-    [anyPlatinumIngot, anyBlueDye, anyPlatinumIngot]]);
+    [anyPlatinumIngot, anyHardenedGlass, anyPlatinumIngot],
+    [annihilationCore, anyBlueDye,       formationCore],
+    [anyPlatinumIngot, anyHardenedGlass, anyPlatinumIngot]]);
