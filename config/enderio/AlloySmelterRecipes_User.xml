@@ -62,11 +62,23 @@ ore dictionary.
       </output>
     </recipe>
   </recipeGroup>
+  
+  <recipeGroup name="Applied Energistics 2">
+    <recipe name="Quartz Glass" energyCost="5000">
+      <input>
+        <itemStack oreDictionary="dustQuartz" number="5" />
+        <itemStack oreDictionary="sand" number="4" />
+      </input>
+      <output>
+        <itemStack modID="appliedenergistics2" itemName="tile.BlockQuartzGlass" number="4" />
+      </output>
+    </recipe>
+  </recipeGroup>
 
   <vanillaFurnaceRecipes>
     <exclude>
       <itemStack oreDictionary="dustSteel" />
-      <itemStack modID="Mekanism" itemName="Dust" itemMeta="5"/>
+      <itemStack modID="Mekanism" itemName="Dust" itemMeta="5" />
     </exclude>
   </vanillaFurnaceRecipes>
   
