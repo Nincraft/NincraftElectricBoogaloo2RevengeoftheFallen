@@ -20,7 +20,7 @@ Current API Versions
 - **LunatriusCore** v1.1.2.20 by Lunatrius
 - **Mantle** v1.7.10-0.3.2.jenkins184
 - **Metallurgy Core** v4.0.4 by Team Metallurgy
-- **Micdoodle8 Core** v by micdoodle8, radfast
+- **Micdoodle8 Core**  by micdoodle8, radfast
 - **OpenModsCore** v0.7.3 by Mikee, NeverCast, boq
 - **ttCore** vMC1.7.10-0.1.0-67
 
@@ -30,8 +30,8 @@ Current Mod Versions
 - **Alternate Terrain Generation** v0.10.0
 - **Another One Bites The Dust** v2.6.3 by ganymedes01
 - **Another One Bites The Dust: Berry Bushes** v1.0.3 by ganymedes01
-- **Applied Energistics 2** vrv2-stable-9 by AlgorithmX2
-- **AppliedEnergistics2 Core** vrv2-stable-9 by AlgorithmX2
+- **Applied Energistics 2** rv2-stable-9 by AlgorithmX2
+- **AppliedEnergistics2 Core** rv2-stable-9 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
 - **BiblioCraft** v1.10.4 by Joseph 'Nuchaz' Sinclair
@@ -39,12 +39,12 @@ Current Mod Versions
 - **BiblioWoods Natura Edition** v1.5
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
-- **Blood Magic: Alchemical Wizardry** vv1.3.0b by WayofTime
-- **Botania** vr1.6-193 by Vazkii
-- **Build Mod** vv1.0
+- **Blood Magic: Alchemical Wizardry** v1.3.0b by WayofTime
+- **Botania** r1.6-193 by Vazkii
+- **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.4.0.38 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel 2** v2.3.10.37 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Decocraft** v2.0.2 by RazzleberryFox
 - **Dense Ores** v1.0
@@ -60,7 +60,7 @@ Current Mod Versions
 - **ExtraTiC** v1.4.5 by Glassmaker
 - **FastCraft** v1.21 by Player
 - **Flaxbeard's Steam Power** v0.28.7 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
-- **Fluxed-Crystals 2** v1.0.1 by Jaredlll08, Darkbyte, JHarb52207
+- **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.561 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12
@@ -98,7 +98,7 @@ Current Mod Versions
 - **Natura** v2.2.0
 - **NEI Integration** v1.0.4 by tonius11
 - **Nether Ores** v1.7.10R2.3.0 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
-- **Nin's Mod Lister** v1.7.10-1.0.4 by Nincodedo
+- **Nin's Mod Lister** v1.7.10-1.0.6 by Nincodedo
 - **Nincrafty Things** v1.7.10-1.5.1-alpha by Nincodedo
 - **Not Enough Items** v1.0.4.107 by ChickenBones
 - **OpenBlocks** v1.4.3
@@ -110,7 +110,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10d by Pamela Collins
 - **Ping** v%MOD_VERSION
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.9.0-85
+- **PneumaticCraft** v1.6.8-72
 - **PoorOres** v1.7.10-1.4.6 by Xexanos
 - **PortalGun** v4.0.0-beta-4
 - **Railcraft** v9.6.1.0
@@ -145,9 +145,9 @@ Current Mod Versions
 - **TooMuchLoot** v3.0.1
 - **Torcherino** v2.2s by Moze_Intel, sci4me, MrComputerGhost
 - **Translocator** v1.1.1.8 by ChickenBones
-- **Tropicraft** vv6.0.4
+- **Tropicraft** v6.0.4
 - **Waila** v1.5.8
-- **weather2** vv2.3.6
+- **weather2** v2.3.6
 - **What Are We Looking At** v1.1.1 by Darkhax
 - **Witchery** v0.24.1 by Emoniph
 
