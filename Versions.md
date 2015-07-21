@@ -5,7 +5,7 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.1.0 by squeek
-- **Aroma1997Core** v1.0.2.13 by Aroma1997, Schillaa
+- **Aroma1997Core** v1.0.2.14 by Aroma1997, Schillaa
 - **asielib** v0.4.1 by asiekierka, Vexatos
 - **Baubles** v1.0.1.10
 - **bspkrsCore** v6.16 by DaftPVF, bspkrs
@@ -26,9 +26,9 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.3.1 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.0-alpha-7 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Another One Bites The Dust** v2.6.3 by ganymedes01
+- **Another One Bites The Dust** v2.7.1 by ganymedes01
 - **Another One Bites The Dust: Berry Bushes** v1.0.3 by ganymedes01
 - **Applied Energistics 2** rv2-stable-9 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-9 by AlgorithmX2
@@ -40,7 +40,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.0b by WayofTime
-- **Botania** r1.6-193 by Vazkii
+- **Botania** r1.7-204 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
@@ -63,8 +63,8 @@ Current Mod Versions
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.561 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
-- **Galacticraft Core** v3.0.12
-- **Galacticraft Planets** v3.0.12
+- **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
+- **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Garden Containers** v1.7.10-1.6.3
 - **Garden Core** v1.7.10-1.6.3
 - **Garden Stuff** v1.7.10-1.6.3
@@ -110,7 +110,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10d by Pamela Collins
 - **Ping** v%MOD_VERSION
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.6.8-72
+- **PneumaticCraft** v1.9.9-97
 - **PoorOres** v1.7.10-1.4.6 by Xexanos
 - **PortalGun** v4.0.0-beta-4
 - **Railcraft** v9.6.1.0
@@ -118,7 +118,7 @@ Current Mod Versions
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.0 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v2.93 by McJty
+- **RFTools** v3.11 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
 - **Special Mobs** v3.0.3 by FatherToast
