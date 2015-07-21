@@ -6,11 +6,11 @@ Current API Versions
 =
 - **AppleCore** v1.1.0 by squeek
 - **Aroma1997Core** v1.0.2.14 by Aroma1997, Schillaa
-- **asielib** v0.4.1 by asiekierka, Vexatos
+- **asielib** v0.4.2 by asiekierka, Vexatos
 - **Baubles** v1.0.1.10
 - **bspkrsCore** v6.16 by DaftPVF, bspkrs
 - **CodeChicken Core** v1.0.6.43 by ChickenBones
-- **CoFH Core** v1.7.10R3.0.2 by Team CoFH
+- **CoFH Core** v1.7.10R3.0.3 by Team CoFH
 - **Cookie Core** v1.3.1 by Ephys
 - **Forge Microblocks** v1.2.0.345
 - **Forge Multipart** v1.2.0.345
@@ -116,7 +116,7 @@ Current Mod Versions
 - **Railcraft** v9.6.1.0
 - **Random Things** v2.2.4 by Lumien
 - **RedLogic** v59.1.11
-- **Redstone Arsenal** v1.7.10R1.1.0 by Team CoFH
+- **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
 - **RFTools** v3.11 by McJty
 - **RPGAdvMod** v1.0.0
@@ -131,9 +131,9 @@ Current Mod Versions
 - **Thaumic Tinkerer Core** v0.1 by nekosune, Pixlepix, Vazkii
 - **Thaumic Warden** v1.1.1
 - **The Twilight Forest** v2.3.7
-- **Thermal Dynamics** v1.7.10R1.0.0 by Team CoFH
-- **Thermal Expansion** v1.7.10R4.0.1 by Team CoFH
-- **Thermal Foundation** v1.7.10R1.0.0 by Team CoFH
+- **Thermal Dynamics** v1.7.10R1.1.0 by Team CoFH
+- **Thermal Expansion** v1.7.10R4.0.3B1 by Team CoFH
+- **Thermal Foundation** v1.7.10R1.2.0 by Team CoFH
 - **TiC Tooltips** v1.2.4 by squeek
 - **Tinkers' Construct** v1.7.10-1.8.5.build957 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
 - **Tinkers' Defense** v1.2 by Sir Lance
@@ -164,6 +164,6 @@ Optional Client Mod Versions
 
 Development Mod Versions
 =
-- **BD Lib** v1.7.1.71 by bdew
+- **BD Lib** v1.9.0.94 by bdew
 - **MineTweakerRecipeMaker** v1.0
 - **Version Checker** v1.1.8 by Dynious
