@@ -17,21 +17,21 @@ Current API Versions
 - **iChunUtil** v4.2.2
 - **Immibis Core** v59.1.1
 - **INpureCore** v1.7.10R1.0.0B9
-- **LunatriusCore** v1.1.2.20 by Lunatrius
+- **LunatriusCore** v1.1.2.21 by Lunatrius
 - **Mantle** v1.7.10-0.3.2.jenkins184
 - **Metallurgy Core** v4.0.4 by Team Metallurgy
 - **Micdoodle8 Core**  by micdoodle8, radfast
 - **OpenModsCore** v0.7.3 by Mikee, NeverCast, boq
-- **ttCore** vMC1.7.10-0.1.0-67
+- **ttCore** vMC1.7.10-0.1.1-78
 
 Current Mod Versions
 =
 - **AgriCraft** v1.7.10-1.4.0-alpha-7 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
 - **Another One Bites The Dust** v2.7.1 by ganymedes01
-- **Another One Bites The Dust: Berry Bushes** v1.0.3 by ganymedes01
-- **Applied Energistics 2** rv2-stable-9 by AlgorithmX2
-- **AppliedEnergistics2 Core** rv2-stable-9 by AlgorithmX2
+- **Another One Bites The Dust: Berry Bushes** v1.0.4 by ganymedes01
+- **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
+- **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
 - **BiblioCraft** v1.10.4 by Joseph 'Nuchaz' Sinclair
@@ -39,29 +39,29 @@ Current Mod Versions
 - **BiblioWoods Natura Edition** v1.5
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
-- **Blood Magic: Alchemical Wizardry** v1.3.0b by WayofTime
+- **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
 - **Botania** r1.7-204 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.3.10.37 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel 2** v2.4.1.40 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Decocraft** v2.0.2 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
-- **Doomlike Dungeons** v1.7.6
-- **Enchiridion** v1.1
-- **Ender IO** v1.7.10-2.2.8.344 by CrazyPants, tterrag
+- **Doomlike Dungeons** v1.8.2
+- **Enchiridion 2** v2.0.2a
+- **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.1.0 by ganymedes01
-- **Extra Utilities** v1.2.6 by RWTema
-- **ExtraCells** v2.2.68
+- **Et Futurum** v1.1.2 by ganymedes01
+- **Extra Cells 2** v2.2.73 by M3gaFr3ak
+- **Extra Utilities** v1.2.8 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
 - **FastCraft** v1.21 by Player
 - **Flaxbeard's Steam Power** v0.28.7 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
-- **Forbidden Magic** v1.7.10-0.561 by SpitefulFox
+- **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
@@ -71,7 +71,7 @@ Current Mod Versions
 - **Garden Trees** v1.7.10-1.6.3
 - **Glowstone Wire** v1.0.2.113 by GrygrFlzr
 - **Greg's Lighting** v1.11.0
-- **Hardcore Ender Expansion** v1.8.1 by Programmed by chylex | http://hee.chylex.com/authors
+- **Hardcore Ender Expansion** v1.8.2 by Programmed by chylex | http://hee.chylex.com/authors
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Iguana Tinker Tweaks** v1.7.10-2.1.5.140 by boni, iguana_man
@@ -79,40 +79,40 @@ Current Mod Versions
 - **Inventory Tweaks** v1.58-147-645ca10
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.1 by ProfMobius, Taelnia
-- **Looking Glass** v0.0.1.01 by XCompWiz
-- **MapWriter** v2.1.1
+- **Looking Glass** v0.2.0.00 by XCompWiz
+- **MapWriter** v2.1.2
 - **Mekanism** v8.1.3
 - **MekanismGenerators** v8.1.3
 - **MekanismTools** v8.1.3
 - **menagerie** v1.0
-- **Metallurgy 4** v4.0.6 by Team Metallurgy
+- **Metallurgy 4** v4.0.8 by Team Metallurgy
 - **Mine & Blade Battlegear 2 - Bullseye** v1.7.10 by nerd-boy, GotoLink, coolAlias
 - **Minecraft Multipart Plugin** v1.2.0.345
-- **MineFactory Reloaded** v1.7.10R2.8.0 by PowerCrystals, TehKrush, AtomicStryker, Feanorith, skyboy026
+- **MineFactory Reloaded** v1.7.10R2.8.1B1 by PowerCrystals, TehKrush, AtomicStryker, Feanorith, skyboy026
 - **MineTweaker 3** v3.0.9B by Stan Hebben
-- **MobiusCore** v1.2.3 by ProfMobius
-- **Mod Tweaker 2** v0.8.2 by Jaredlll08
+- **MobiusCore** v1.2.5 by ProfMobius
+- **Mod Tweaker 2** v0.9.1 by Jaredlll08
 - **ModpackTweaks** v1.2.0
 - **More Planet's** v1.1.9
-- **Morpheus** v1.7.10-1.6.4
+- **Morpheus** v1.7.10-1.6.9
 - **Natura** v2.2.0
-- **NEI Integration** v1.0.4 by tonius11
-- **Nether Ores** v1.7.10R2.3.0 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
+- **NEI Integration** v1.0.11 by tonius11
+- **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.6 by Nincodedo
 - **Nincrafty Things** v1.7.10-1.5.1-alpha by Nincodedo
 - **Not Enough Items** v1.0.4.107 by ChickenBones
 - **OpenBlocks** v1.4.3
-- **OpenComputers** v1.5.9.21 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
-- **OpenComputers (Core)** v1.0.0 by Sangar
+- **OpenComputers** v1.5.14.30 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
+- **OpenComputers (Core)** v1.5.14.30 by Sangar
 - **OpenEye** v0.6 by boq, Mikee
 - **OpenMods** v0.7.3
-- **Pam's Clay Spawn** v1.7.2a
-- **Pam's HarvestCraft** v1.7.10d by Pamela Collins
+- **Pam's Clay Spawn** v1.7.10a by Pamela Collins
+- **Pam's HarvestCraft** v1.7.10i by Pamela Collins
 - **Ping** v%MOD_VERSION
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.9.9-97
-- **PoorOres** v1.7.10-1.4.6 by Xexanos
-- **PortalGun** v4.0.0-beta-4
+- **PoorOres** v1.7.10-1.4.8 by Xexanos
+- **PortalGun** v4.0.0-beta-5
 - **Railcraft** v9.6.1.0
 - **Random Things** v2.2.4 by Lumien
 - **RedLogic** v59.1.11
@@ -121,8 +121,8 @@ Current Mod Versions
 - **RFTools** v3.11 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
-- **Special Mobs** v3.0.3 by FatherToast
-- **Stackie** v1.5.1.30 by Lunatrius
+- **Special Mobs** v3.1.1 by FatherToast
+- **Stackie** v1.6.0.36 by Lunatrius
 - **Statues** v2.1.4
 - **Steve's Carts 2** v2.0.0.b18 by Vswe
 - **Sync** v4.0.0
@@ -134,21 +134,21 @@ Current Mod Versions
 - **Thermal Dynamics** v1.7.10R1.1.0 by Team CoFH
 - **Thermal Expansion** v1.7.10R4.0.3B1 by Team CoFH
 - **Thermal Foundation** v1.7.10R1.2.0 by Team CoFH
-- **TiC Tooltips** v1.2.4 by squeek
-- **Tinkers' Construct** v1.7.10-1.8.5.build957 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
+- **TiC Tooltips** v1.2.5 by squeek
+- **Tinkers' Construct** v1.7.10-1.8.6a.build969 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
 - **Tinkers' Defense** v1.2 by Sir Lance
-- **Tinkers' Mechworks** v1.7.10-67.34d1d9b
+- **Tinkers' Mechworks** v0.2.14.100
 - **Tinkers' Modifiers** v1.0 by UnderMybrella
 - **Tinkers' Steelworks** v1.7.10-1.1.0 by Toops
-- **TNTUtils** v0.3-alpha by ljfa
-- **TNTUtils Core** v0.3-alpha by ljfa
-- **TooMuchLoot** v3.0.1
+- **TNTUtils** v1.0.2-beta by ljfa
+- **TNTUtils Core** v1.0.2-beta by ljfa
+- **TooMuchLoot** v4.0.0
 - **Torcherino** v2.2s by Moze_Intel, sci4me, MrComputerGhost
 - **Translocator** v1.1.1.8 by ChickenBones
 - **Tropicraft** v6.0.4
-- **Waila** v1.5.8
+- **Waila** v1.5.10
 - **weather2** v2.3.6
-- **What Are We Looking At** v1.1.1 by Darkhax
+- **What Are We Looking At** v1.3.1
 - **Witchery** v0.24.1 by Emoniph
 
 Optional Client Mod Versions
@@ -157,13 +157,13 @@ Optional Client Mod Versions
 - **Better Foliage** v1.0.13 by octarine-noise (code), Meringue (textures)
 - **Damage Indicators** v3.2.3
 - **DirectionHUD** v1.24 by bspkrs
-- **Opis** v1.2.3
+- **Opis** v1.2.5
 - **Shatter** v4.0.0
-- **Sound Filters** v0.7_for_1.7.X by Tmtravlr
+- **Sound Filters** v0.8_for_1.7.X by Tmtravlr
 - **StatusEffectHUD** v1.27 by bspkrs
 
 Development Mod Versions
 =
 - **BD Lib** v1.9.0.94 by bdew
 - **MineTweakerRecipeMaker** v1.0
-- **Version Checker** v1.1.8 by Dynious
+- **Version Checker** v1.1.9 by Dynious
