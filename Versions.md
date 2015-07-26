@@ -26,10 +26,10 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.4.0-alpha-7 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.0-alpha-8 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
 - **Another One Bites The Dust** v2.7.1 by ganymedes01
-- **Another One Bites The Dust: Berry Bushes** v1.0.4 by ganymedes01
+- **Another One Bites The Dust: Berry Bushes** v1.0.5 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
@@ -40,7 +40,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
-- **Botania** r1.7-204 by Vazkii
+- **Botania** r1.7-207 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
@@ -49,7 +49,7 @@ Current Mod Versions
 - **Decocraft** v2.0.2 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
-- **Doomlike Dungeons** v1.8.2
+- **Doomlike Dungeons** v1.8.5
 - **Enchiridion 2** v2.0.2a
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
@@ -110,7 +110,7 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10i by Pamela Collins
 - **Ping** v%MOD_VERSION
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.9.9-97
+- **PneumaticCraft** v1.9.10-98
 - **PoorOres** v1.7.10-1.4.8 by Xexanos
 - **PortalGun** v4.0.0-beta-5
 - **Railcraft** v9.6.1.0
@@ -118,7 +118,7 @@ Current Mod Versions
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v3.11 by McJty
+- **RFTools** v3.12beta1 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
 - **Special Mobs** v3.1.1 by FatherToast
