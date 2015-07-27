@@ -25,7 +25,7 @@ var fluidConduit              = <EnderIO:itemLiquidConduit:0>;
 var pressurizedFluidConduit   = <EnderIO:itemLiquidConduit:1>;
 var enderFluidConduit         = <EnderIO:itemLiquidConduit:2>;
 var itemConduit               = <EnderIO:itemItemConduit:0>;
-var gasConduit                = <EnderIO:itemGasConduit:0>;
+#var gasConduit                = <EnderIO:itemGasConduit:0>;
 var meConduit                 = <EnderIO:itemMEConduit:0>;
 var denseMEConduit            = <EnderIO:itemMEConduit:1>;
 
@@ -161,7 +161,7 @@ recipes.remove(fluidConduit);
 recipes.remove(pressurizedFluidConduit);
 recipes.remove(enderFluidConduit);
 recipes.remove(itemConduit);
-recipes.remove(gasConduit);
+#recipes.remove(gasConduit);
 recipes.remove(meConduit);
 #recipes.remove(denseMEConduit);
 
@@ -214,10 +214,10 @@ recipes.addShaped(itemConduit * 8, [
     [warpItemductOpaque, warpItemductOpaque, warpItemductOpaque],
     [conduitBinder,      null,               conduitBinder]]);
 
-recipes.addShaped(gasConduit * 8, [
-    [conduitBinder, conduitBinder, conduitBinder],
-    [gasPipe,       gasPipe,       gasPipe],
-    [conduitBinder, conduitBinder, conduitBinder]]);
+#recipes.addShaped(gasConduit * 8, [
+#    [conduitBinder, conduitBinder, conduitBinder],
+#    [gasPipe,       gasPipe,       gasPipe],
+#    [conduitBinder, conduitBinder, conduitBinder]]);
 
 recipes.addShaped(meConduit * 8, [
     [conduitBinder, null,         conduitBinder],
