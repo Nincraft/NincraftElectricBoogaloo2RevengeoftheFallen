@@ -190,17 +190,16 @@ var arditeNugget             = <TConstruct:materials:29>;
 var manyullynNugget          = <TConstruct:materials:30>;
 var steelNugget              = <TConstruct:materials:33>;
 var quicksilverNugget        = <Thaumcraft:ItemResource:3>;
-var astralSilverNugget       = <aobd:nuggetAstralSilver>;
-var deepIronNugget           = <aobd:nuggetDeepIron>;
 var nincodiumNugget          = <aobd:nuggetNincodium>;
-var shadowIronNugget         = <aobd:nuggetShadowIron>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
 var yelloriumNugget          = <aobd:nuggetYellorium>;
 var adamantineNugget         = <PoorOres:adamantine_nugget>;
 var alduoriteNugget          = <PoorOres:alduorite_nugget>;
+var astralSilverNugget       = <PoorOres:astral_silver_nugget>;
 var atlarusNugget            = <PoorOres:atlarus_nugget>;
 var carmotNugget             = <PoorOres:carmot_nugget>;
 var ceruclaseNugget          = <PoorOres:ceruclase_nugget>;
+var deepIronNugget           = <PoorOres:deep_iron_nugget>;
 var eximiteNugget            = <PoorOres:eximite_nugget>;
 var ignatiusNugget           = <PoorOres:ignatius_nugget>;
 var infuscoliumNugget        = <PoorOres:infuscolium_nugget>;
@@ -213,6 +212,7 @@ var oureclaseNugget          = <PoorOres:oureclase_nugget>;
 var prometheumNugget         = <PoorOres:prometheum_nugget>;
 var rubraciumNugget          = <PoorOres:rubracium_nugget>;
 var sanguiniteNugget         = <PoorOres:sanguinite_nugget>;
+var shadowIronNugget         = <PoorOres:shadow_iron_nugget>;
 var vulcaniteNugget          = <PoorOres:vulcanite_nugget>;
 var vyroxeresNugget          = <PoorOres:vyroxeres_nugget>;
 #var blackBronzeNugget        = <aobd:nuggetYellorium>;
@@ -417,7 +417,6 @@ var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
 var anyZincOre               = <ore:oreZinc>;
 
-/*
 # Tiny Dusts
 var anyAdamantineTinyDust    = <ore:dustTinyAdamantine>;
 var anyAlduoriteTinyDust     = <ore:dustTinyAlduorite>;
@@ -476,7 +475,6 @@ var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
-*/
 
 # Dusts
 var anyAdamantineDust        = <ore:dustAdamantine>;
@@ -945,7 +943,7 @@ recipes.addShapeless(amordrineDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPl
 recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
                                          anyIronDust, anyIronDust]);
 
-recipes.addShapeless(blackSteelDust * 3, [anySteelDust, anySteelDust, anySteelDust,
+recipes.addShapeless(blackSteelDust * 5, [anySteelDust, anySteelDust, anySteelDust,
                                           anyHepatizonDust, anyNickelDust]);
 
 recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
@@ -990,7 +988,6 @@ recipes.addShapeless(shadowSteelDust * 3, [anyShadowIronDust, anyShadowIronDust,
 recipes.addShapeless(tartariteDust * 3, [anyAdamantineDust, anyAdamantineDust,
                                          anyAtlarusDust]);
 
-/*
 # TINY DUST RATIOS
 
 recipes.addShapeless(aluminumBrassDust, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
@@ -1003,8 +1000,8 @@ recipes.addShapeless(amordrineTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTin
 recipes.addShapeless(angmallenTinyDust * 5, [anyGoldTinyDust, anyGoldTinyDust, anyGoldTinyDust,
                                              anyIronTinyDust, anyIronTinyDust]);
 
-recipes.addShapeless(blackSteelTinyDust * 3, [anyDeepIronTinyDust, anyDeepIronTinyDust,
-                                              anyInfuscoliumTinyDust]);
+recipes.addShapeless(blackSteelTinyDust * 5, [anySteelTinyDust, anySteelTinyDust, anySteelTinyDust,
+                                              anyHepatizonTinyDust, anyNickelTinyDust]);
 
 recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
                                              anyOrichalcumTinyDust]);
@@ -1030,4 +1027,3 @@ recipes.addShapeless(shadowSteelTinyDust * 3, [anyShadowIronTinyDust, anyShadowI
 
 recipes.addShapeless(tartariteTinyDust * 3, [anyAdamantineTinyDust, anyAdamantineTinyDust,
                                              anyAtlarusTinyDust]);
-*/
