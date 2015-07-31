@@ -1,4 +1,4 @@
-Nincraft Electric Boogaloo 2: Revenge of the Fallen
+Nincraft Electric Boogaloo 2: Revenge of the Fallen [![Build Status](http://play.nincraft.com:8080/buildStatus/icon?job=NEB2)](http://play.nincraft.com:8080/job/NEB2)
 =
 A public repository for all changes to the Nincraft private server's custom modpack.
 
