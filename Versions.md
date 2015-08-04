@@ -10,7 +10,7 @@ Current API Versions
 - **Baubles** v1.0.1.10
 - **bspkrsCore** v6.16 by DaftPVF, bspkrs
 - **CodeChicken Core** v1.0.6.43 by ChickenBones
-- **CoFH Core** v1.7.10R3.0.3 by Team CoFH
+- **CoFH Core** v1.7.10R3.0.4B1 by Team CoFH
 - **Cookie Core** v1.3.1 by Ephys
 - **Forge Microblocks** v1.2.0.345
 - **Forge Multipart** v1.2.0.345
@@ -26,7 +26,7 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.4.0-alpha-8 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.0-beta-1 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
 - **Another One Bites The Dust** v2.7.1 by ganymedes01
 - **Another One Bites The Dust: Berry Bushes** v1.0.5 by ganymedes01
@@ -35,13 +35,13 @@ Current Mod Versions
 - **AromaBackup** v0.0.0.5
 - **Better Records** v1.7.10-1.1.9
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
-- **BiblioCraft** v1.10.4 by Joseph 'Nuchaz' Sinclair
+- **BiblioCraft** v1.10.5 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
 - **BiblioWoods Natura Edition** v1.5
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
-- **Botania** r1.7-207 by Vazkii
+- **Botania** r1.7-208 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
@@ -55,12 +55,12 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.1.2 by ganymedes01
+- **Et Futurum** v1.2.1 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
-- **Extra Utilities** v1.2.8 by RWTema
+- **Extra Utilities** v1.2.9 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
 - **FastCraft** v1.21 by Player
-- **Flaxbeard's Steam Power** v0.28.7 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
+- **Flaxbeard's Steam Power** v0.28.9 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
