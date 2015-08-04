@@ -28,7 +28,7 @@ Current Mod Versions
 =
 - **AgriCraft** v1.7.10-1.4.0-beta-1 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Another One Bites The Dust** v2.7.1 by ganymedes01
+- **Another One Bites The Dust** v2.8.0 by ganymedes01
 - **Another One Bites The Dust: Berry Bushes** v1.0.5 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
