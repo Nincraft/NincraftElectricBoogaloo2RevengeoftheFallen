@@ -104,10 +104,8 @@ anyPestleAndMortar.mirror(anyMortarAndPestle);
 
 # Unify Petal -> Dye Using Mortar & Pestle
 for i, botaniaDye in botaniaDyes {
-    var botaniaPetal = botaniaPetals[i];
-    
     recipes.remove(botaniaDye);
-    recipes.addShapeless(botaniaDye, [botaniaPetal, anyMortarAndPestle.reuse()]);
+    recipes.addShapeless(botaniaDye, [botaniaPetals[i], anyMortarAndPestle.reuse()]);
 }
 
 # Terrestrial Agglomeration Plate
