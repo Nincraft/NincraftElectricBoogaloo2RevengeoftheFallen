@@ -2,7 +2,7 @@
 #-------------
 import minetweaker.item.IItemStack;
 #import mods.botania.Apothecary;
-#import mods.botania.ElvenTrade;
+import mods.botania.ElvenTrade;
 #import mods.botania.Lexicon;
 #import mods.botania.ManaInfusion;
 #import mods.botania.Orechid;
@@ -85,6 +85,9 @@ var anySteeleaf         = <ore:steeleaf>;
 var anyMortarAndPestle  = <ore:toolMortarandpestle>;
 var anyPestleAndMortar  = <ore:pestleAndMortar>;
 
+# Dusts
+var anyGlowstoneDust    = <ore:dustGlowstone>;
+
 # Ingots
 var anyElementiumIngot  = <ore:ingotElvenElementium>;
 var anyIronwoodIngot    = <ore:ironwood>;
@@ -93,6 +96,7 @@ var anyPrometheumIngot  = <ore:ingotPrometheum>;
 var anyTerrasteelIngot  = <ore:ingotTerrasteel>;
 
 # Blocks
+var anyGlowstoneBlock   = <ore:blockGlowstone>;
 var anyLapisBlock       = <ore:blockLapis>;
 var anyMithrilBlock     = <ore:blockMithril>;
 
@@ -136,3 +140,11 @@ recipes.removeShaped(elementiumShears);
 recipes.addShaped(elementiumShears, [
     [null,               anyElementiumIngot],
     [anyElementiumIngot, null]]);
+
+# ELVEN TRADE TWEAKS
+#--------------------
+
+# Promised Land
+ElvenTrade.addRecipe(<BiomesOPlenty:flowerVine>, [<minecraft:vine>]);
+ElvenTrade.addRecipe(<BiomesOPlenty:misc:4>, [anyGlowstoneDust]);
+ElvenTrade.addRecipe(<BiomesOPlenty:crystal>, [anyGlowstoneBlock]);
