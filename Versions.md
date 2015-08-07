@@ -168,3 +168,4 @@ Development Mod Versions
 - **BD Lib** v1.9.0.94 by bdew
 - **MineTweakerRecipeMaker** v1.0
 - **Version Checker** v1.1.9 by Dynious
+- **Visbiome** v1.0.0 by sk89q
