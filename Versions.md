@@ -75,6 +75,7 @@ Current Mod Versions
 - **Hardcore Ender Expansion** v1.8.2 by Programmed by chylex | http://hee.chylex.com/authors
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
+- **Horizontal Glass Panes** v1.1.0.4 by tattyseal
 - **Iguana Tinker Tweaks** v1.7.10-2.1.5.140 by boni, iguana_man
 - **Infernal Mobs** v1.6.1
 - **Inventory Tweaks** v1.58-147-645ca10
