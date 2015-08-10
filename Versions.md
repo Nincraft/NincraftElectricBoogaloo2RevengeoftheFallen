@@ -55,9 +55,9 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.2.1 by ganymedes01
+- **Et Futurum** v1.3.0 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
-- **Extra Utilities** v1.2.9 by RWTema
+- **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
 - **FastCraft** v1.21 by Player
 - **Flaxbeard's Steam Power** v0.28.9 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
@@ -167,6 +167,6 @@ Optional Client Mod Versions
 Development Mod Versions
 =
 - **BD Lib** v1.9.0.94 by bdew
+- **BiomeAtlas** v1.0.0 by sk89q
 - **MineTweakerRecipeMaker** v1.0
 - **Version Checker** v1.1.9 by Dynious
-- **Visbiome** v1.0.0 by sk89q
