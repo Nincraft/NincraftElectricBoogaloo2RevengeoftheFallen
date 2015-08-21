@@ -3563,6 +3563,7 @@ Botania:endStoneBrick2Stairs
 Botania:enderDagger
 Botania:enderEyeBlock
 Botania:enderHand
+Botania:exchangeRod
 Botania:fakeAir
 Botania:felPumpkin
 Botania:fertilizer
