@@ -11,7 +11,7 @@ Current API Versions
 - **bspkrsCore** v6.16 by DaftPVF, bspkrs
 - **CodeChicken Core** v1.0.6.43 by ChickenBones
 - **CoFH Core** v1.7.10R3.0.4B1 by Team CoFH
-- **Cookie Core** v1.3.1 by Ephys
+- **Cookie Core** v1.4.0 by Ephys
 - **Forge Microblocks** v1.2.0.345
 - **Forge Multipart** v1.2.0.345
 - **iChunUtil** v4.2.2
@@ -46,9 +46,9 @@ Current Mod Versions
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.4.1.40 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel 2** v2.5.0.42 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
-- **Decocraft** v2.0.2 by RazzleberryFox
+- **Decocraft** v2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
 - **Doomlike Dungeons** v1.8.5
@@ -56,7 +56,7 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.3.2 by ganymedes01
+- **Et Futurum** v1.4.0 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
 - **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
@@ -67,10 +67,10 @@ Current Mod Versions
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
-- **Garden Containers** v1.7.10-1.6.3
-- **Garden Core** v1.7.10-1.6.3
-- **Garden Stuff** v1.7.10-1.6.3
-- **Garden Trees** v1.7.10-1.6.3
+- **Garden Containers** v1.7.10-1.6.4
+- **Garden Core** v1.7.10-1.6.4
+- **Garden Stuff** v1.7.10-1.6.4
+- **Garden Trees** v1.7.10-1.6.4
 - **Glowstone Wire** v1.0.2.113 by GrygrFlzr
 - **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.8.3 by Programmed by chylex | http://hee.chylex.com/authors
@@ -113,15 +113,16 @@ Current Mod Versions
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
 - **Ping** v%MOD_VERSION
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.10.6-119
+- **PneumaticCraft** v1.11.0-120
 - **PoorOres** v1.7.10-1.4.8 by Xexanos
 - **PortalGun** v4.0.0-beta-5
+- **PTRModelLib** v1.0.0
 - **Railcraft** v9.7.0.0
 - **Random Things** v2.2.4 by Lumien
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v3.32 by McJty
+- **RFTools** v3.33 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
 - **Special Mobs** v3.1.1 by FatherToast
@@ -138,11 +139,11 @@ Current Mod Versions
 - **Thermal Expansion** v1.7.10R4.0.3B1 by Team CoFH
 - **Thermal Foundation** v1.7.10R1.2.0 by Team CoFH
 - **TiC Tooltips** v1.2.5 by squeek
-- **Tinkers' Construct** v1.7.10-1.8.6b.build976 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
+- **Tinkers' Construct** v1.7.10-1.8.7.build979 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
 - **Tinkers' Defense** v1.2 by Sir Lance
 - **Tinkers' Mechworks** v0.2.14.100
 - **Tinkers' Modifiers** v1.0 by UnderMybrella
-- **Tinkers' Steelworks** v1.7.10-1.1.0 by Toops
+- **Tinkers' Steelworks** v1.7.10-1.1.1 by Toops
 - **TNTUtils** v1.0.2-beta by ljfa
 - **TNTUtils Core** v1.0.2-beta by ljfa
 - **TooMuchLoot** v4.0.0
@@ -167,7 +168,7 @@ Optional Client Mod Versions
 
 Development Mod Versions
 =
-- **BD Lib** v1.9.0.94 by bdew
+- **BD Lib** v1.9.1.97 by bdew
 - **BiomeAtlas** v1.0.0 by sk89q
 - **MineTweakerRecipeMaker** v1.0
 - **Version Checker** v1.1.9 by Dynious
