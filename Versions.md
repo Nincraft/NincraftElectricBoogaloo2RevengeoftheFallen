@@ -101,7 +101,7 @@ Current Mod Versions
 - **Natura** v2.2.0
 - **NEI Integration** v1.0.12 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
-- **Nin's Mod Lister** v1.7.10-1.0.6 by Nincodedo
+- **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
 - **Nincrafty Things** v1.7.10-1.5.1-alpha by Nincodedo
 - **Not Enough Items** v1.0.4.107 by ChickenBones
 - **OpenBlocks** v1.4.4
@@ -111,7 +111,7 @@ Current Mod Versions
 - **OpenMods** v0.8
 - **Pam's Clay Spawn** v1.7.10a by Pamela Collins
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
-- **Ping** v%MOD_VERSION
+- **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.11.0-120
 - **PoorOres** v1.7.10-1.4.8 by Xexanos
@@ -131,7 +131,7 @@ Current Mod Versions
 - **Steve's Carts 2** v2.0.0.b18 by Vswe
 - **Sync** v4.0.0
 - **Thaumcraft** v4.2.3.5
-- **Thaumic Tinkerer** vunspecified
+- **Thaumic Tinkerer** v2.5-1.7.10-164
 - **Thaumic Tinkerer Core** v0.1 by nekosune, Pixlepix, Vazkii
 - **Thaumic Warden** v1.1.1
 - **The Twilight Forest** v2.3.7
