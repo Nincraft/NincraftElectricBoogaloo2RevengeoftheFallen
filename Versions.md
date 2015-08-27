@@ -42,7 +42,7 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
-- **Botania** r1.7-212 by Vazkii
+- **Botania** r1.7-215 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
@@ -56,7 +56,7 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.4.0 by ganymedes01
+- **Et Futurum** v1.4.1 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
 - **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
