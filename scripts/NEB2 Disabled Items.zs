@@ -1,42 +1,50 @@
 # MOD IMPORTS
 #-------------
-import minetweaker.item.IItemStack;
+import minetweaker.item.IIngredient;
 
 # ITEM LISTS
 #------------
 var allDisabledItems = [
-    <MekanismTools:SteelPickaxe>,
-    <MekanismTools:SteelAxe>,
-    <MekanismTools:SteelShovel>,
-    <MekanismTools:SteelHoe>,
-    <MekanismTools:SteelSword>,
-    <MekanismTools:SteelHelmet>,
-    <MekanismTools:SteelChestplate>,
-    <MekanismTools:SteelLeggings>,
-    <MekanismTools:SteelBoots>,
-    <MekanismTools:BronzeHelmet>,
-    <MekanismTools:BronzeChestplate>,
-    <MekanismTools:BronzeLeggings>,
-    <MekanismTools:BronzeBoots>,
-    <MekanismTools:BronzePickaxe>,
+    <GalacticraftCore:tile.gcBlockCore>,
     <MekanismTools:BronzeAxe>,
-    <MekanismTools:BronzeShovel>,
+    <MekanismTools:BronzeBoots>,
+    <MekanismTools:BronzeChestplate>,
+    <MekanismTools:BronzeHelmet>,
     <MekanismTools:BronzeHoe>,
+    <MekanismTools:BronzeLeggings>,
+    <MekanismTools:BronzePickaxe>,
+    <MekanismTools:BronzeShovel>,
     <MekanismTools:BronzeSword>,
-    <Natura:natura.sword.netherquartz>,
+    <MekanismTools:SteelAxe>,
+    <MekanismTools:SteelBoots>,
+    <MekanismTools:SteelChestplate>,
+    <MekanismTools:SteelHelmet>,
+    <MekanismTools:SteelHoe>,
+    <MekanismTools:SteelLeggings>,
+    <MekanismTools:SteelPickaxe>,
+    <MekanismTools:SteelShovel>,
+    <MekanismTools:SteelSword>,
+    <Metallurgy:alloyer>,
+    <Metallurgy:crusher>,
+    <Metallurgy:forge>,
+    <Metallurgy:machine.frame>,
+    <Natura:natura.axe.netherquartz>,
     <Natura:natura.pickaxe.netherquartz>,
     <Natura:natura.shovel.netherquartz>,
-    <Natura:natura.axe.netherquartz>,
-    <Steamcraft:helmBrass>,
-    <Steamcraft:chestBrass>,
-    <Steamcraft:legsBrass>,
-    <Steamcraft:feetBrass>,
-    <Steamcraft:pickBrass>,
+    <Natura:natura.sword.netherquartz>,
+    <ore:oreCopper>,
+    <ore:oreOsmium>,
+    <ore:oreYellorite>,
     <Steamcraft:axeBrass>,
-    <Steamcraft:shovelBrass>,
+    <Steamcraft:chestBrass>,
+    <Steamcraft:feetBrass>,
+    <Steamcraft:helmBrass>,
     <Steamcraft:hoeBrass>,
+    <Steamcraft:legsBrass>,
+    <Steamcraft:pickBrass>,
+    <Steamcraft:shovelBrass>,
     <Steamcraft:swordBrass>
-] as IItemStack[];
+] as IIngredient[];
 
 # RECIPE TWEAKS
 #---------------
