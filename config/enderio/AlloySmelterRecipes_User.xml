@@ -53,7 +53,7 @@ ore dictionary.
   <recipeGroup name="Thermal Expansion">
     <recipe name="Enderium Base" energyCost="4000">
       <input>
-        <itemStack modID="HardcoreEnderExpansion" itemName="end_powder" number="2" />
+        <itemStack oreDictionary="dustEndium" number="2" />
         <itemStack oreDictionary="ingotCeruclase" />
         <itemStack oreDictionary="ingotMeutoite" />
       </input>
@@ -62,6 +62,17 @@ ore dictionary.
       </output>
     </recipe>
   </recipeGroup>
+
+  <recipe name="Enderium" energyCost="50000">
+    <input>
+      <itemStack oreDictionary="ingotEnderiumBase" number="2" />
+      <itemStack oreDictionary="dustPyrotheum" />
+      <itemStack oreDictionary="pearlEnder" number="4"/>             
+    </input>
+    <output>
+      <itemStack oreDictionary="ingotEnderium" number="2" />
+    </output>
+  </recipe>
   
   <recipeGroup name="Applied Energistics 2">
     <recipe name="Quartz Glass" energyCost="5000">
