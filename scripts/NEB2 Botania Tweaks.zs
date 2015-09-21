@@ -10,6 +10,7 @@ import mods.botania.ElvenTrade;
 
 # COMMON VARIABLES
 #------------------
+var shiftingCrustRod    = <Botania:exchangeRod>;
 var livingRock          = <Botania:livingrock>;
 var manasteelIngot      = <Botania:manaResource:0>;
 var manaPearl           = <Botania:manaResource:1>;
@@ -27,12 +28,25 @@ var redString           = <Botania:manaResource:12>;
 var runicAltar          = <Botania:runeAltar>;
 var terraPlate          = <Botania:terraPlate>;
 
+var equalTradeFocus     = <Thaumcraft:FocusTrade>;
+
 # Botania Runes
 var waterRune           = <Botania:rune:0>;
 var fireRune            = <Botania:rune:1>;
 var earthRune           = <Botania:rune:2>;
 var airRune             = <Botania:rune:3>;
+var springRune          = <Botania:rune:4>;
+var summerRune          = <Botania:rune:5>;
+var autumnRune          = <Botania:rune:6>;
+var winterRune          = <Botania:rune:7>;
 var manaRune            = <Botania:rune:8>;
+var lustRune            = <Botania:rune:9>;
+var gluttonyRune        = <Botania:rune:10>;
+var greedRune           = <Botania:rune:11>;
+var slothRune           = <Botania:rune:12>;
+var wrathRune           = <Botania:rune:13>;
+var envyRune            = <Botania:rune:14>;
+var prideRune           = <Botania:rune:15>;
 
 # Botania Shears
 var manasteelShears     = <Botania:manasteelShears>;
@@ -80,6 +94,7 @@ var botaniaPetals       = [
 # ORE DICTIONARY
 #----------------
 var anySteeleaf         = <ore:steeleaf>;
+var anyStone            = <ore:stone>;
 
 # Tools
 var anyMortarAndPestle  = <ore:toolMortarandpestle>;
@@ -140,6 +155,13 @@ recipes.removeShaped(elementiumShears);
 recipes.addShaped(elementiumShears, [
     [null,               anyElementiumIngot],
     [anyElementiumIngot, null]]);
+
+# Rod of the Shifting Crush
+recipes.remove(shiftingCrustRod);
+recipes.addShaped(shiftingCrustRod, [
+    [null,           anyStone,  equalTradeFocus],
+    [null,           slothRune, anyStone],
+    [livingwoodTwig, null,      null]]);
 
 # ELVEN TRADE TWEAKS
 #--------------------
