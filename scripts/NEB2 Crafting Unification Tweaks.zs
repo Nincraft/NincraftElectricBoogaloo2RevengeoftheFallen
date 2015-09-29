@@ -2022,6 +2022,10 @@ recipes.addShapeless(cryotheumDust * 2, [ , , , ]);
 recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDust,
                                              anyBronzeDust, anyBronzeDust]);
 
+recipes.addShapeless(desichalkosDust * 2, [anyEximiteDust, anyMeutoiteDust]);
+
+recipes.addShapeless(electrumDust * 2, [anyGoldDust, anySilverDust]);
+
 recipes.addShapeless(enderiumDust * 2, [anyEndiumDust, anyEndiumDust,
                                         anyCeruclaseDust, anyMeutoiteDust,
                                         bucketEnder.transformReplace(bucket)]);
@@ -2035,6 +2039,11 @@ recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopper
 
 recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
                                           anyAlduoriteDust]);
+
+recipes.addShapeless(invarDust * 3, [anyIronDust, anyIronDust,
+                                     anyNickelDust]);
+
+recipes.addShapeless(manyullynDust * 2, [anyCobaltDust, anyArditeDust]);
 
 recipes.addShapeless(nincodiumDust * 2, [anyCobaltDust, anyCobaltDust,
                                          anyAstralSilverDust, anyAstralSilverDust,
@@ -2080,6 +2089,10 @@ recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTin
 recipes.addShapeless(damascusSteelTinyDust * 5, [anyIronTinyDust, anyIronTinyDust, anyIronTinyDust,
                                                  anyBronzeTinyDust, anyBronzeTinyDust]);
 
+recipes.addShapeless(desichalkosTinyDust * 2, [anyEximiteTinyDust, anyMeutoiteTinyDust]);
+
+recipes.addShapeless(electrumTinyDust * 2, [anyGoldTinyDust, anySilverTinyDust]);
+
 recipes.addShapeless(haderothTinyDust * 3, [anyMithrilTinyDust, anyMithrilTinyDust,
                                             anyRubraciumTinyDust]);
 
@@ -2089,6 +2102,11 @@ recipes.addShapeless(hepatizonDust, [anyCopperTinyDust, anyCopperTinyDust, anyCo
 
 recipes.addShapeless(inolashiteTinyDust * 3, [anyCeruclaseTinyDust, anyCeruclaseTinyDust,
                                               anyAlduoriteTinyDust]);
+
+recipes.addShapeless(invarTinyDust * 3, [anyIronTinyDust, anyIronTinyDust,
+                                         anyNickelTinyDust]);
+
+recipes.addShapeless(manyullynTinyDust * 2, [anyCobaltTinyDust, anyArditeTinyDust]);
 
 recipes.addShapeless(quicksilverTinyDust * 4, [anySilverTinyDust, anySilverTinyDust, anySilverTinyDust,
                                                anyMithrilTinyDust]);
