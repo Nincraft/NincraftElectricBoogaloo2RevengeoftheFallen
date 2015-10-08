@@ -56,7 +56,7 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.4.1 by ganymedes01
+- **Et Futurum** v1.4.4 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
 - **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
