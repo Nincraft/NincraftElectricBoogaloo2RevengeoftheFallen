@@ -34,7 +34,7 @@ Current Mod Versions
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
 - **Avaritia** v0.2b by SpitefulFox, TTFTCUTS
-- **Better Records** v1.7.10-1.1.9
+- **Better Records** v1.7.10-1.2.0
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
 - **BiblioCraft** v1.10.5 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
@@ -122,7 +122,7 @@ Current Mod Versions
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v3.33 by McJty
+- **RFTools** v3.50 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
 - **Special Mobs** v3.1.1 by FatherToast
