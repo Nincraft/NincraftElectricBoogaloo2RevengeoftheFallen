@@ -60,7 +60,6 @@ Current Mod Versions
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
 - **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
-- **FastCraft** v1.21 by Player
 - **Flaxbeard's Steam Power** v0.28.10 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
