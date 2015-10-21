@@ -48,6 +48,7 @@ Current Mod Versions
 - **ChickenChunks** v1.3.4.17 by ChickenBones
 - **Chisel 2** v2.5.0.42 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
+- **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
