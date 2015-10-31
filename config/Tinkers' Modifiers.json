@@ -1,0 +1,57 @@
+{
+	"comments":"Comments are really just any unused tag",
+	"clear":[],
+	"clearComment":"That was the clear tag. That's used to clear any existing modifiers with that class. Using an asterisk (*) will clear all modifiers.",
+	"itemComment":"The other thing to note is that items are defined using a dictionary ({}). There, define 'item' using a string and 'damage' using either an int or a string for a wildcard. Stack size is ignored",
+	"addModifiers":[
+		{
+			"class":"tconstruct.modifiers.tools.ModRedstone",
+			"arg0":0,
+			"arg1":[
+				{
+					"item":"minecraft:sugar"
+				}
+			],
+			"arg2":[
+				1
+			]
+		},
+		{
+			"class":"tconstruct.modifiers.tools.ModRedstone",
+			"arg0":1,
+			"arg1":[
+				{
+					"item":"minecraft:cake"
+				}
+			],
+			"arg2":[
+				50
+			]
+		},
+		"In an addModifiers array, you're able to add a comment as just a string",
+		"With the modifier we just added, we use an incrementing argument number, which corresponds to the position of the value, alternatively you can just use an array called params. These values can be obtained from the Modifers json file generated on startup"
+	],
+	"addModifierComment":"That was the Add Modifiers tag. The Add Modifiers array stores all modifiers to add to the internal registry.",
+	"subModifiers":[
+		{
+			"class":"tconstruct.modifiers.tools.ModRedstone",
+			"arg0":1,
+			"arg1":[
+				{
+					"item":"minecraft:cake"
+				}
+			],
+			"arg2":[
+				50
+			]
+		},
+		"In a subModifiers array, you're able to add a comment as just a string",
+		"With the modifier we just added, we use an incrementing argument number, which corresponds to the position of the value, alternatively you can just use an array called params. These values can be obtained from the Modifers json file generated on startup"
+	],
+	"subModifierComment":"That was the Sub Modifiers tag. The Sub Modifiers array stores all modifiers to subtract from the internal registry.",
+	"modifierIncompatibilities":{
+		"SilkTouchstacks":[
+			"Reinforcedstacks"
+			]
+	}
+}

@@ -7,6 +7,7 @@ import mods.tconstruct.Smeltery;
 #------------------
 var ingotMetalPattern  = <TConstruct:metalPattern>;
 var lapisBlock         = <minecraft:lapis_block>;
+var netherQuartzOre    = <minecraft:quartz_ore>;
 
 var nincodiumIngot     = <NincraftyThings:nincodiumIngot>;
 var nincodiumBlock     = <NincraftyThings:nincodiumBlock>;
@@ -19,16 +20,22 @@ var moltenAstralSilver = <liquid:astral.silver.molten>;
 # ORE DICTIONARY
 #----------------
 var anyLapisBlock      = <ore:blockLapis>;
-var anyLapisDust       = <ore:dustLapis>;
+#var anyLapisDust       = <ore:dustLapis>;
 var anyLapisTinyDust   = <ore:dustTinyLapis>;
 var anyLapisLazuli     = <ore:gemLapis>;
+
+var anyQuartzOre       = <ore:oreQuartz>;
+var anyNetherQuartzOre = <ore:oreNetherQuartz>;
+
+anyNetherQuartzOre.add(netherQuartzOre);
+anyQuartzOre.remove(netherQuartzOre);
 
 # SMELTERY TWEAKS
 #-----------------
 
 # Add Lapis Lazuli Smeltery Support
 Smeltery.addMelting(anyLapisBlock, moltenLapis * 1296, 400, lapisBlock);
-Smeltery.addMelting(anyLapisDust, moltenLapis * 144, 400, lapisBlock);
+#Smeltery.addMelting(anyLapisDust, moltenLapis * 144, 400, lapisBlock);
 Smeltery.addMelting(anyLapisLazuli, moltenLapis * 144, 400, lapisBlock);
 Smeltery.addMelting(anyLapisTinyDust, moltenLapis * 16, 400, lapisBlock);
 

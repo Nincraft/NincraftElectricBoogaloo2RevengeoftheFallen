@@ -258,3 +258,6 @@ pip-log.txt
 .mr.developer.cfg
 config/HardcoreEnderExpansion.clientsave.cfg
 config/splash.properties
+config/iChunUtil_Stats.cfg
+config/fastcraft.ini
+config/cofh/thermaldynamics/client.cfg

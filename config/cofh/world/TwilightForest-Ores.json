@@ -131,7 +131,7 @@
         "material": "stone",
         "clusterSize": 16,
         "numClusters": 96,
-        "chunkChance": 192,
+        "chunkChance": 128,
         "minHeight": 1,
         "veinHeight": 32,
         "veinDiameter": 32,
