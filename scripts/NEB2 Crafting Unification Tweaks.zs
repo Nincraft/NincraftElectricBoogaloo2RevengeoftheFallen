@@ -2004,6 +2004,12 @@ recipes.addShapeless(angmallenDust * 5, [anyGoldDust, anyGoldDust, anyGoldDust,
 recipes.addShapeless(blackSteelDust * 5, [anySteelDust, anySteelDust, anySteelDust,
                                           anyHepatizonDust, anyNickelDust]);
 
+recipes.addShapeless(brassDust * 4, [anyCopperDust, anyCopperDust, anyCopperDust,
+                                     anyZincDust]);
+
+recipes.addShapeless(bronzeDust * 4, [anyCopperDust, anyCopperDust, anyCopperDust,
+                                      anyTinDust]);
+
 recipes.addShapeless(celenegilDust * 4, [anyPlatinumDust, anyPlatinumDust, anyPlatinumDust,
                                          anyOrichalcumDust]);
 
@@ -2015,6 +2021,10 @@ recipes.addShapeless(cryotheumDust * 2, [ , , , ]);
 
 recipes.addShapeless(damascusSteelDust * 5, [anyIronDust, anyIronDust, anyIronDust,
                                              anyBronzeDust, anyBronzeDust]);
+
+recipes.addShapeless(desichalkosDust * 2, [anyEximiteDust, anyMeutoiteDust]);
+
+recipes.addShapeless(electrumDust * 2, [anyGoldDust, anySilverDust]);
 
 recipes.addShapeless(enderiumDust * 2, [anyEndiumDust, anyEndiumDust,
                                         anyCeruclaseDust, anyMeutoiteDust,
@@ -2029,6 +2039,11 @@ recipes.addShapeless(hepatizonDust * 9, [anyCopperDust, anyCopperDust, anyCopper
 
 recipes.addShapeless(inolashiteDust * 3, [anyCeruclaseDust, anyCeruclaseDust,
                                           anyAlduoriteDust]);
+
+recipes.addShapeless(invarDust * 3, [anyIronDust, anyIronDust,
+                                     anyNickelDust]);
+
+recipes.addShapeless(manyullynDust * 2, [anyCobaltDust, anyArditeDust]);
 
 recipes.addShapeless(nincodiumDust * 2, [anyCobaltDust, anyCobaltDust,
                                          anyAstralSilverDust, anyAstralSilverDust,
@@ -2062,11 +2077,21 @@ recipes.addShapeless(angmallenTinyDust * 5, [anyGoldTinyDust, anyGoldTinyDust, a
 recipes.addShapeless(blackSteelTinyDust * 5, [anySteelTinyDust, anySteelTinyDust, anySteelTinyDust,
                                               anyHepatizonTinyDust, anyNickelTinyDust]);
 
+recipes.addShapeless(brassTinyDust * 4, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                         anyZincTinyDust]);
+
+recipes.addShapeless(bronzeTinyDust * 4, [anyCopperTinyDust, anyCopperTinyDust, anyCopperTinyDust,
+                                          anyTinTinyDust]);
+
 recipes.addShapeless(celenegilTinyDust * 4, [anyPlatinumTinyDust, anyPlatinumTinyDust, anyPlatinumTinyDust,
                                              anyOrichalcumTinyDust]);
 
 recipes.addShapeless(damascusSteelTinyDust * 5, [anyIronTinyDust, anyIronTinyDust, anyIronTinyDust,
                                                  anyBronzeTinyDust, anyBronzeTinyDust]);
+
+recipes.addShapeless(desichalkosTinyDust * 2, [anyEximiteTinyDust, anyMeutoiteTinyDust]);
+
+recipes.addShapeless(electrumTinyDust * 2, [anyGoldTinyDust, anySilverTinyDust]);
 
 recipes.addShapeless(haderothTinyDust * 3, [anyMithrilTinyDust, anyMithrilTinyDust,
                                             anyRubraciumTinyDust]);
@@ -2077,6 +2102,11 @@ recipes.addShapeless(hepatizonDust, [anyCopperTinyDust, anyCopperTinyDust, anyCo
 
 recipes.addShapeless(inolashiteTinyDust * 3, [anyCeruclaseTinyDust, anyCeruclaseTinyDust,
                                               anyAlduoriteTinyDust]);
+
+recipes.addShapeless(invarTinyDust * 3, [anyIronTinyDust, anyIronTinyDust,
+                                         anyNickelTinyDust]);
+
+recipes.addShapeless(manyullynTinyDust * 2, [anyCobaltTinyDust, anyArditeTinyDust]);
 
 recipes.addShapeless(quicksilverTinyDust * 4, [anySilverTinyDust, anySilverTinyDust, anySilverTinyDust,
                                                anyMithrilTinyDust]);

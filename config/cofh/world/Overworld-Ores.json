@@ -307,6 +307,40 @@
             7
         ]
     },
+    "quartzVeins": {
+        "template": "fractal",
+        "block": [
+            {
+                "name": "NincraftyThings:quartzOre",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "PoorOres:poor_quartz_ore",
+                "weight": 10
+            }
+        ],
+        "material": "stone",
+        "clusterSize": 48,
+        "numClusters": 32,
+        "chunkChance": 128,
+        "minHeight": 32,
+        "veinHeight": 32,
+        "veinDiameter": 64,
+        "verticalDensity": 16,
+        "horizontalDensity": 16,
+        "retrogen": false,
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -100,
+            -19,
+            -1,
+            1,
+            7
+        ]
+    },
     "yelloriteVeins": {
         "template": "fractal",
         "block": [

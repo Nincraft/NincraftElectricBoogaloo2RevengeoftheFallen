@@ -34,7 +34,7 @@ Current Mod Versions
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
 - **Avaritia** v0.2b by SpitefulFox, TTFTCUTS
-- **Better Records** v1.7.10-1.1.9
+- **Better Records** v1.7.10-1.2.0
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
 - **BiblioCraft** v1.10.5 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
@@ -48,6 +48,7 @@ Current Mod Versions
 - **ChickenChunks** v1.3.4.17 by ChickenBones
 - **Chisel 2** v2.5.0.42 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
+- **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
@@ -56,11 +57,10 @@ Current Mod Versions
 - **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
-- **Et Futurum** v1.4.1 by ganymedes01
+- **Et Futurum** v1.4.4 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
 - **Extra Utilities** v1.2.10 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
-- **FastCraft** v1.21 by Player
 - **Flaxbeard's Steam Power** v0.28.10 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
@@ -102,7 +102,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.12 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
-- **Nincrafty Things** v1.7.10-0.5.2+13 by Nincodedo
+- **Nincrafty Things** v1.7.10-0.5.3+26 by Nincodedo
 - **Not Enough Items** v1.0.4.107 by ChickenBones
 - **OpenBlocks** v1.4.4
 - **OpenComputers** v1.5.15.31 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
@@ -122,7 +122,7 @@ Current Mod Versions
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v3.33 by McJty
+- **RFTools** v3.50 by McJty
 - **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.1 by tonius11
 - **Special Mobs** v3.1.1 by FatherToast
