@@ -10,7 +10,10 @@ import mods.thaumcraft.Warp;
 
 # COMMMON VARIABLES
 #-------------------
+var telepositionFocus           = <AWWayofTime:telepositionFocus>;
 var dispenser                   = <minecraft:dispenser>;
+
+var equalTradeFocus             = <Thaumcraft:FocusTrade>;
 
 var crucible                    = <Thaumcraft:blockMetalDevice:0>;
 var arcaneAlembic               = <Thaumcraft:blockMetalDevice:1>;
@@ -44,6 +47,14 @@ var arcaneBore                  = <Thaumcraft:blockWoodenDevice:5>;
 var greatwoodPlanks             = <Thaumcraft:blockWoodenDevice:6>;
 var silverwoodPlanks            = <Thaumcraft:blockWoodenDevice:7>;
 
+var airShard                    = <Thaumcraft:ItemShard:0>;
+var fireShard                   = <Thaumcraft:ItemShard:1>;
+var waterShard                  = <Thaumcraft:ItemShard:2>;
+var earthShard                  = <Thaumcraft:ItemShard:3>;
+var orderShard                  = <Thaumcraft:ItemShard:4>;
+var entropyShard                = <Thaumcraft:ItemShard:5>;
+var balancedShard               = <Thaumcraft:ItemShard:6>;
+
 # Research
 var advancedNodeTappingResearch = "NODETAPPER1";
 var arcaneBoreResearch          = "ARCANEBORE";
@@ -52,6 +63,7 @@ var crimsonCultResearch         = "CRIMSON";
 var crowbarResearch             = "RC_Crowbar";
 var deconstructionTableResearch = "DECONSTRUCTOR";
 var enchantmentsResearch        = "ENCHANT";
+var equalTradeResearch          = "FOCUSTRADE";
 var knowledgeFragmentsResearch  = "KNOWFRAG";
 var masterNodeTappingResearch   = "NODETAPPER2";
 var nodeInAJarResearch          = "NODEJAR";
@@ -134,3 +146,10 @@ Arcane.addShaped(arcaneBoreResearch, arcaneBoreBase, "aer 10, ordo 10", [
     [anyTitaniumIngot, dispenser,        anyTitaniumIngot],
     [greatwoodPlanks,  anyTitaniumIngot, greatwoodPlanks]]);
 Research.refreshResearchRecipe(arcaneBoreResearch);
+
+Arcane.removeRecipe(equalTradeFocus);
+Arcane.addShaped(equalTradeResearch, equalTradeFocus, "ordo 15, perditio 15, terra 15", [
+    [balancedShard,    anyTitaniumIngot,  balancedShard],
+    [anyTitaniumIngot, telepositionFocus, anyTitaniumIngot],
+    [balancedShard,    anyTitaniumIngot,  balancedShard]]);
+Research.refreshResearchRecipe(equalTradeResearch);
