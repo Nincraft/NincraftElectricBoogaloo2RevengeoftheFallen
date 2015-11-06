@@ -1,402 +1,413 @@
-[FTB Permission Spreadsheet]:http://1drv.ms/1kbLNMM
+[Chunkgen License]:https://github.com/gecgooden/chunkgen/blob/master/LICENSE.md
+[FTB Permission Website]:http://www.feed-the-beast.com/mods
 [Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
-[iChun's Permissions]:http://ichun.us/support/mod-packs/
-[More Planets MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2076348-galacticraft-add-on-more-planets-1-2-0-pre-1
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
-[PoorOres MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2223889-poorores
-[RFTools MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2229562-rftools-dimension-builder-teleportation-crafter
-[Tinkers' Defense MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2327572-tinkers-defense
 [Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
-[TNTUtils MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/2347717-tntutils-control-your-explosions
-[Torcherino MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/2290415-sci4mes-mods-torcherino
+[Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
+[Witchery Notification]:https://i.imgur.com/0pZ3iHy.png
 
-- **Admin Command Toolbox** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **AOBD** by: *ganymedes01*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+- **Agricraft** by: *InfinityRaider*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Alternate Terrain Generation** by: *TTFTCUTS*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Another One Bites The Dust** by: *ganymedes01*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Another One Bites The Dust: Berry Bushes** by: *Ganymedes01*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **AppleCore** by: *Squeek502*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **AppleCore** by: *Squeek502*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Applied Energistics 2** by: *AlgorithmX2*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Armor Status HUD (Optional)** by: *bspkrs*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Aroma1997Core** by: *Aroma1997*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **AromaBackup** by: *Aroma1997*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **AsieLib** by: *asie*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Avaritia** by: *SpitefulFox, TTFTCUTS*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Better Foliage (Optional)** by: *OctarineNoise*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Better Title Screen** by: *GirafiStudios*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Better Title Screen** by: *Girafi, amadornes*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **BiblioCraft** by: *Nuchaz*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **BiblioWoods (BoP)** by: *Nuchaz*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **BiblioWoods (Natura)** by: *Nuchaz*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Big Reactors** by: *Erogenous Beef*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Biomes O' Plenty** by: *TDWP_FTW, Adubbz*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Blood Magic** by: *WayOfTime*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Botania** by: *Vazkii*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **bspkrs Core** by: *bspkrs*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Carpenter's Blocks** by: *Mineshopper*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **ChickenChunks** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Chisel** by: *AUTOMATIC_MAIDEN*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Chisel 2** by: *warlordjones, tterrag1098, TheCricket26, Drullkus*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Chunkgen** by: *gecgooden*
+  - **Private Packs**: Open: [Chunkgen License]
+  - **Public Packs** : Open: [Chunkgen License]
 - **CodeChickenCore** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **CodeChickenLib** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **CoFH Core** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **CoFH Lib** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **CookieCore** by: *Ephys*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **CoroUtil** by: *Corosauce*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Damage Indicators Mod (Optional)** by: *rich1051414*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Dark Menagerie** by: *RWTema*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **DecoCraft** by: *RazzleberryFox*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Dense Ores** by: *RWTema*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Direction HUD** by: *bspkrs*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Dimensional Doors** by: *stevenrs11*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Direction HUD (Optional)** by: *bspkrs*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Doomlike Dungeons** by: *BlackJar72*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Draconic Evolution** by: *brandon3055*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Dynamic Lights (Optional)** by: *AtomicStryker*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Enchiridion** by: *joshie*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **EnderIO** by: *CrazyPants*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **EnderIO** by: *CrazyPants, tterrag*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **EnderStorage** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Equivalent Exchange 3** by: *Pahimar*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Extra Cells** by: *Leonelf*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Extra Cells 2** by: *Leonelf*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **ExtraTiC** by: *Glassmaker*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Extra Utilities** by: *RWTema*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **FastCraft (Optional)** by: *Player*
-  - **Private Packs**: Manual Download via Modpack Tweaks.
-  - **Public Packs** : Manual Download via Modpack Tweaks.
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Flaxbeard's Steam Power** by: *Flaxbeard, Esteemed Innovation*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **FMPIntegration** by: *wasliebob*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Fluxed Crystals** by: *Jaredlll08, Darkbyte, JHarb52207*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Forbidden Magic** by: *Squeek502*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Forge Multipart** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Funky Locomotion** by: *RWTema*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Galacticraft** by: *MicDoodle8*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Garden Stuff** by: *jaquadro*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Glowstone Wire** by: *GrygrFlzr*
   - **Private Packs**: Open: [Glowstone Wire MCF Thread]
   - **Public Packs** : Open: [Glowstone Wire MCF Thread]
 - **Greg's Lighting** by: *Greg_Ewing*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Hardcore Ender Expansion** by: *chylex*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Notification Needed
+  - **Private Packs**: Request Needed
+  - **Public Packs** : Request Needed
 - **Hats** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Hat Stand** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Horizontal Glass Panes** by: *tattyseal*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **iChunUtil** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Iguana's Tinker Tweaks** by: *Boni, iguana_man*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Immibus Core** by: *immibus*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **IndustrialCraft 2 API** by: *IC2 Dev Team*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Infernal Mobs** by: *AtomicStryker*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **INPureCore** by: *denoflionsx*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Inventory Tweaks** by: *Kobata*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Iron Chests** by: *cpw*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **JABBA** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Looking Glass** by: *XCompWiz*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Lunatrius Core** by: *Lunatrius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **Magical Crops** by: *Mark719*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Mantle** by: *Boni, progwml6, mDiyo*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Mekanism** by: *aidencbrady*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Metallurgy** by: *Team Metallurgy*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Metallurgy Core** by: *Team Metallurgy*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Micdoodle Core** by: *micdoodle8, radfast*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Mine & Blade: Battlegear 2** by: *Mine_and_Blade_Admin*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **MineFactory Reloaded** by: *Skyboy026, powercrystals*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **MineTweaker** by: *StanH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **MobiusCore** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Modpack Tweaks** by: *tterrag, wa-ha-ha*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **ModTweaker** by: *joshie, jaredlll08*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **More Planets** by: *MCCommander_Minecraft*
-  - **Private Packs**: Open: [More Planets MCF Thread]
-  - **Public Packs** : Open: [More Planets MCF Thread]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **More Planets** by: *StevenKunG*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Morpheus** by: *quetzi*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Natura** by: *mDiyo, progwm16*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **NEI Integration** by: *Tonius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Nether Ores** by: *skyboy026, powercrystals*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Nincrafty Things** by: *Nincodedo*
   - **Private Packs**: Open: [Nincrafty Things License]
   - **Public Packs** : Open: [Nincrafty Things License]
 - **Not Enough Items** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **OpenBlocks** by: *Mikeemoo*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **OpenComputers** by: *Sangar*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **OpenEye** by: *Mikeemoo, boq*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **OpenModsLib** by: *Mikeemoo*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **OpenModsLib** by: *Mikeemoo, boq*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **OPIS (Optional)** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Pam's Clay Spawn** by: *MatrexsVigil, Rhodox*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Pam's HarvestCraft** by: *MatrexsVigil, Rhodox*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Ping** by: *dmillerw*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **PiP** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **PneumaticCraft** by: *MineMaarten*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **PoorOres** by: *Xexanos*
-  - **Private Packs**: Open: [PoorOres MCF Thread]
-  - **Public Packs** : Notification Needed
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Portal Gun** by: *iChun*
-  - **Private Packs**: Open: [iChun's Permissions]
-  - **Public Packs** : Open: [iChun's Permissions]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Random Things** by: *Lumien*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **RedLogic** by: *immibus*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Redstone Arsenal** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Reliquary** by: *TrainerGuy22, x3n0ph0b3*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **RFTools** by: *McJty*
-  - **Private Packs**: Open: [RFTools MCF Thread]
-  - **Public Packs** : Open: [RFTools MCF Thread]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **RPG Advanced Mod** by: *ProfMobius, RazzleberryFox, taelnia, Wulfyk*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **SciMCLib** by: *sci4me*
-  - **Private Packs**: Open: [Torcherino MCF Thread]
-  - **Public Packs** : Open: [Torcherino MCF Thread]
-- **ServerTools** by: *matthewprenger*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Shatter (Optional)** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Simply Jetpacks** by: *Tonius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Sound Filters** by: *Tmtravlr*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Special Mobs** by: *FatherToast*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Stackie** by: *Lunatrius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Statues** by: *ATOMIC_MAIDEN*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Status Effect HUD** by: *bspkrs*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Steve's Carts** by: *Vswe*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Sync** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Thaumcraft** by: *Azanor*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Thaumic Tinkerer** by: *pixlepix, nekosune, vazkii*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Thermal Dynamics** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Thermal Expansion** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Thermal Foundation** by: *TeamCoFH*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **TiCTooltips** by: *Squeek502*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Tinkers' Construct** by: *Boni, mDiyo*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Tinkers' Defense** by: *Lance5057*
-  - **Private Packs**: Open: [Tinkers' Defense MCF Thread]
-  - **Public Packs** : Open: [Tinkers' Defense MCF Thread]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Tinkers' Mechworks** by: *mDiyo*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Tinkers' Modifiers** by: *UnderMybrella*
   - **Private Packs**: Open: [Tinkers' Modifiers Curse Page]
   - **Public Packs** : Open: [Tinkers' Modifiers Curse Page]
 - **Tinkers' Steelworks** by: *Ephys, Toops*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **TNTUtils** by: *ljfa*
-  - **Private Packs**: Open: [TNTUtils MCF Thread]
-  - **Public Packs** : Open: [TNTUtils MCF Thread]
-- **Torcherino** by: *sci4me*
-  - **Private Packs**: Open: [Torcherino MCF Thread]
-  - **Public Packs** : Open: [Torcherino MCF Thread]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Too Much Loot** by: *dmillerw*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Torcherino** by: *sci4me*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Translocator** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Twilight Forest** by: *Benimatic*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **WAILA** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
-- **WAWLA** by: *Darkhax*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
 - **Weather** by: *Corosauce*
-  - **Private Packs**: Open: [FTB Permission Spreadsheet]
-  - **Public Packs** : Open: [FTB Permission Spreadsheet]
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **What Are We Looking At** by: *Darkhax*
+  - **Private Packs**: Open: [FTB Permission Website]
+  - **Public Packs** : Open: [FTB Permission Website]
+- **Witchery** by: *Emoniph ([Witchery MCF Thread])*
+  - **Private Packs**: Notified: [Witchery Notification]
+  - **Public Packs** : Notified: [Witchery Notification]
