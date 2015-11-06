@@ -3,6 +3,7 @@
 [Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
 [Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
+[Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
 
 - **Agricraft** by: *InfinityRaider*
   - **Private Packs**: Open: [FTB Permission Website]
@@ -406,6 +407,6 @@
 - **What Are We Looking At** by: *Darkhax*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Witchery** by: *Emoniph*
+- **Witchery** by: *Emoniph ([Witchery MCF Thread])*
   - **Private Packs**: Notification Needed
   - **Public Packs** : Notification Needed
