@@ -3,7 +3,7 @@
 import minetweaker.item.IItemStack;
 #import mods.botania.Apothecary;
 import mods.botania.ElvenTrade;
-#import mods.botania.Lexicon;
+import mods.botania.Lexicon;
 #import mods.botania.ManaInfusion;
 #import mods.botania.Orechid;
 #import mods.botania.RuneAltar;
@@ -27,6 +27,9 @@ var craftingPlaceholder = <Botania:manaResource:11>;
 var redString           = <Botania:manaResource:12>;
 var runicAltar          = <Botania:runeAltar>;
 var terraPlate          = <Botania:terraPlate>;
+var manaLens            = <Botania:lens>;
+var boreLens            = <Botania:lens:7>;
+var titaniumIngot       = <ore:ingotTitanium>;
 
 var equalTradeFocus     = <Thaumcraft:FocusTrade>;
 
@@ -145,6 +148,13 @@ recipes.addShaped(runicAltar, [
     [livingRock,       manaPearl,   livingRock],
     [anyIronwoodIngot, anySteeleaf, anyIronwoodIngot]]);
 
+# Bore Lens
+recipes.remove(boreLens);
+recipes.addShaped(boreLens, [
+    [null,          greedRune,     null],
+    [titaniumIngot, manaLens,      titaniumIngot],
+    [null,          titaniumIngot, null]]);
+
 # Shears are consistent
 recipes.removeShaped(manasteelShears);
 recipes.addShaped(manasteelShears, [
@@ -170,3 +180,33 @@ recipes.addShaped(shiftingCrustRod, [
 ElvenTrade.addRecipe(<BiomesOPlenty:flowerVine>, [<minecraft:vine>]);
 ElvenTrade.addRecipe(<BiomesOPlenty:misc:4>, [anyGlowstoneDust]);
 ElvenTrade.addRecipe(<BiomesOPlenty:crystal>, [anyGlowstoneBlock]);
+
+# LEXICA TWEAKS
+#--------------------
+Lexicon.removePage("botania.entry.lens", 17);
+Lexicon.addCraftingPage("botania.page.lens19","botania.entry.lens",17,[boreLens],[[
+    [null,          greedRune,     null],
+    [titaniumIngot, manaLens,      titaniumIngot],
+    [null,          titaniumIngot, null]]]);
+
+Lexicon.removePage("botania.entry.runeAltar", 3);
+Lexicon.addCraftingPage("botania.page.runeAltar2","botania.entry.runeAltar",3,[runicAltar, runicAltar],[[
+    [livingRock,       livingRock,  livingRock],
+    [livingRock,       manaPearl,   livingRock],
+    [anyIronwoodIngot, anySteeleaf, anyIronwoodIngot]],[
+    [livingRock,       livingRock,  livingRock],
+    [livingRock,       manaDiamond, livingRock],
+    [anyIronwoodIngot, anySteeleaf, anyIronwoodIngot]]
+    ]);
+
+Lexicon.removePage("botania.entry.exchangeRod", 3);
+Lexicon.addCraftingPage("botania.page.exchangeRod3","botania.entry.exchangeRod",3,[shiftingCrustRod],[[
+    [null,           anyStone,  equalTradeFocus],
+    [null,           slothRune, anyStone],
+    [livingwoodTwig, null,      null]]]);
+
+Lexicon.removePage("botania.entry.terrasteel", 1);
+Lexicon.addCraftingPage("botania.page.terrasteel1","botania.entry.terrasteel",1,[terraPlate],[[
+    [anyLapisBlock, anyLapisBlock,   anyLapisBlock],
+    [waterRune,     anyMithrilBlock, fireRune],
+    [earthRune,     manaRune,        airRune]]]);
