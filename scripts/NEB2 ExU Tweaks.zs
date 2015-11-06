@@ -37,7 +37,7 @@ var anyBricks               = <ore:bricksClay>;
 var anyCobblestone          = <ore:cobblestone>;
 var anyObsidian             = <ore:obsidian>;
 var anyPinkPetal            = <ore:petalPink>;
-var anyTreeSapling          = <ore:treeSapling>;
+var anySapling              = <ore:treeSapling>;
 var anyEnderCore            = <ore:blockEnderCore>;
 var anyEnderObsidian        = <ore:blockEnderObsidian>;
 
@@ -62,8 +62,8 @@ var anyVoidmetalIngot       = <ore:ingotVoid>;
 # Survivalist Generator
 recipes.remove(survivalistGenerator);
 recipes.addShaped(survivalistGenerator, [
-    [anyCobblestone,   anyCobblestone, anyCobblestone],
-    [anyCobblestone,   furnace,        anyCobblestone],
+    [anyCobblestone,        anyCobblestone, anyCobblestone],
+    [anyCobblestone,        furnace,        anyCobblestone],
     [anyRedstoneAlloyIngot, leadCellFrame,  anyRedstoneAlloyIngot]]);
 
 # Furnace Generator
@@ -146,6 +146,6 @@ recipes.addShaped(netherStarGenerator, [
 # Ender Quarry
 recipes.remove(enderQuarry);
 recipes.addShaped(enderQuarry, [
-    [anyEnderObsidian, anyTreeSapling,      anyEnderObsidian],
+    [anyEnderObsidian, anySapling,          anyEnderObsidian],
     [anyEnderCore,     diamondEtchedMatrix, anyEnderCore],
     [enderThermicPump, titaniumPickaxe,     enderThermicPump]]);
