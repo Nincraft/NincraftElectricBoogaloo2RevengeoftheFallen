@@ -1,6 +1,7 @@
 [Chunkgen License]:https://github.com/gecgooden/chunkgen/blob/master/LICENSE.md
 [FTB Permission Website]:http://www.feed-the-beast.com/mods
 [Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
+[HCEE Permission]:https://i.imgur.com/WdPANky.png
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
 [Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
 [Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
@@ -172,8 +173,8 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Hardcore Ender Expansion** by: *chylex*
-  - **Private Packs**: Request Needed
-  - **Public Packs** : Request Needed
+  - **Private Packs**: Permission Granted: [HCEE Permission]
+  - **Public Packs** : Permission Granted: [HCEE Permission]
 - **Hats** by: *iChun*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
