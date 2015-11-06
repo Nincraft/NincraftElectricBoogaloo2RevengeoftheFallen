@@ -4,6 +4,7 @@
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
 [Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
 [Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
+[Witchery Notification]:https://i.imgur.com/hUM1LQa.png
 
 - **Agricraft** by: *InfinityRaider*
   - **Private Packs**: Open: [FTB Permission Website]
@@ -408,5 +409,5 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Witchery** by: *Emoniph ([Witchery MCF Thread])*
-  - **Private Packs**: Notification Needed
-  - **Public Packs** : Notification Needed
+  - **Private Packs**: Notified: [Witchery Notification]
+  - **Public Packs** : Notified: [Witchery Notification]
