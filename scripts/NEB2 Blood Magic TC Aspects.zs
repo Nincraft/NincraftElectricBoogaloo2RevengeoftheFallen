@@ -209,4 +209,4 @@ Aspects.set(<AWWayofTime:bloodMagicIncenseItem:1>, "herba 5, potentia 2, sensus 
 Aspects.set(<AWWayofTime:bloodMagicIncenseItem:2>, "lucrum 5, potentia 2, sensus 2");
 Aspects.set(<AWWayofTime:bloodMagicIncenseItem:3>, "venenum 5, potentia 2, sensus 2");
 Aspects.set(<AWWayofTime:bloodMagicIncenseItem:4>, "mortuus 5, potentia 2, sensus 2");
-Aspects.set(<AWWayofTime:itemMailCatalogue>, "cognito 2, vitreus 1");
+#Aspects.set(<AWWayofTime:itemMailCatalogue>, "cognito 2, vitreus 1");
