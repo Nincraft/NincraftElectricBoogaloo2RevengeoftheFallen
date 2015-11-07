@@ -1,5 +1,5 @@
 # Taken from PhoenixConfigs
-# https://github.com/PhoenixTeamMC/PhoenixConfig/blob/master/TC%20Aspect%20Scripts/Botania%20TC%20aspects
+# https://github.com/PhoenixTeamMC/PhoenixConfig
 
 # MOD IMPORTS
 #-------------
