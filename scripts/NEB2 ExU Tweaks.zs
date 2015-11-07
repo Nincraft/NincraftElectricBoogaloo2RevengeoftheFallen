@@ -12,6 +12,10 @@ var clearGlass              = <TConstruct:GlassBlock>;
 var advPhotovoltCell        = <EnderIO:blockSolarPanel:1>;
 var cauldron                = <minecraft:cauldron>;
 var brewingStand            = <minecraft:brewing_stand>;
+var titaniumPickaxe         = <GalacticraftMars:item.titanium_pickaxe>;
+var enderQuarry             = <ExtraUtilities:enderQuarry>;
+var enderThermicPump        = <ExtraUtilities:enderThermicPump>;
+var diamondEtchedMatrix     = <ExtraUtilities:decorativeBlock1:12>;
 
 # Generators
 var survivalistGenerator    = <ExtraUtilities:generator:0>;
@@ -32,8 +36,10 @@ var netherStarGenerator     = <ExtraUtilities:generator:11>;
 var anyBricks               = <ore:bricksClay>;
 var anyCobblestone          = <ore:cobblestone>;
 var anyObsidian             = <ore:obsidian>;
-var anyEnderObsidian        = <ore:enderobsidian>;
 var anyPinkPetal            = <ore:petalPink>;
+var anySapling              = <ore:treeSapling>;
+var anyEnderCore            = <ore:blockEnderCore>;
+var anyEnderObsidian        = <ore:blockEnderObsidian>;
 
 # Ingots
 var anyCobaltIngot          = <ore:ingotCobalt>;
@@ -56,8 +62,8 @@ var anyVoidmetalIngot       = <ore:ingotVoid>;
 # Survivalist Generator
 recipes.remove(survivalistGenerator);
 recipes.addShaped(survivalistGenerator, [
-    [anyCobblestone,   anyCobblestone, anyCobblestone],
-    [anyCobblestone,   furnace,        anyCobblestone],
+    [anyCobblestone,        anyCobblestone, anyCobblestone],
+    [anyCobblestone,        furnace,        anyCobblestone],
     [anyRedstoneAlloyIngot, leadCellFrame,  anyRedstoneAlloyIngot]]);
 
 # Furnace Generator
@@ -136,3 +142,10 @@ recipes.addShaped(netherStarGenerator, [
     [anyTitaniumIngot,     anyDesichalkosIngot, anyTitaniumIngot],
     [anyVoidmetalIngot,    netherStar,          anyVoidmetalIngot],
     [anyVibrantAlloyIngot, resonantCellFrame,   anyVibrantAlloyIngot]]);
+
+# Ender Quarry
+recipes.remove(enderQuarry);
+recipes.addShaped(enderQuarry, [
+    [anyEnderObsidian, anySapling,          anyEnderObsidian],
+    [anyEnderCore,     diamondEtchedMatrix, anyEnderCore],
+    [enderThermicPump, titaniumPickaxe,     enderThermicPump]]);
