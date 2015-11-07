@@ -4,5 +4,5 @@ Interfaces:
 Constructors: 
 	public iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement()
 Modifiers using this: 
-	class iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement [key=, stacks=[], effectIndex=0, random=java.util.Random@7791cc50, ]
+	class iguanaman.iguanatweakstconstruct.replacing.ModPartReplacement [key=, stacks=[], effectIndex=0, random=java.util.Random@810667f, ]
 ********************************

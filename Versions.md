@@ -5,11 +5,11 @@ Current Forge Version
 Current API Versions
 =
 - **AppleCore** v1.1.0 by squeek
-- **Aroma1997Core** v1.0.2.14 by Aroma1997, Schillaa
+- **Aroma1997Core** v1.0.2.16 by Aroma1997, Schillaa
 - **asielib** v0.4.2 by asiekierka, Vexatos
 - **Baubles** v1.0.1.10
 - **bspkrsCore** v6.16 by DaftPVF, bspkrs
-- **CodeChicken Core** v1.0.6.43 by ChickenBones
+- **CodeChicken Core** v1.0.7.47 by ChickenBones
 - **CoFH Core** v1.7.10R3.0.4B1 by Team CoFH
 - **Cookie Core** v1.4.0 by Ephys
 - **Forge Microblocks** v1.2.0.345
@@ -18,7 +18,7 @@ Current API Versions
 - **Immibis Core** v59.1.1
 - **INpureCore** v1.7.10R1.0.0B9
 - **LunatriusCore** v1.1.2.21 by Lunatrius
-- **Mantle** v1.7.10-0.3.2.jenkins188
+- **Mantle** v1.7.10-0.3.2.jenkins191
 - **Metallurgy Core** v4.0.4 by Team Metallurgy
 - **Micdoodle8 Core**  by micdoodle8, radfast
 - **OpenModsCore** v0.8 by Mikee, NeverCast, boq
@@ -26,30 +26,30 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.4.0-beta-2 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.3 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Another One Bites The Dust** v2.8.1 by ganymedes01
-- **Another One Bites The Dust: Berry Bushes** v1.0.5 by ganymedes01
+- **Another One Bites The Dust** v2.8.4 by ganymedes01
+- **Another One Bites The Dust: Berry Bushes** v1.0.6 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
 - **Avaritia** v0.2b by SpitefulFox, TTFTCUTS
 - **Better Records** v1.7.10-1.2.0
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
-- **BiblioCraft** v1.10.5 by Joseph 'Nuchaz' Sinclair
+- **BiblioCraft** v1.11.4 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
 - **BiblioWoods Natura Edition** v1.5
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
-- **Botania** r1.7-222 by Vazkii
+- **Botania** r1.7-230 by Vazkii
 - **Build Mod** v1.0
-- **Carpenter's Blocks** v3.3.6 by Mineshopper
+- **Carpenter's Blocks** v3.3.7 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.5.0.42 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel 2** v2.5.1.44 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Crafting Pillars Mod** v1.6.0
-- **Decocraft** v2.1 by RazzleberryFox
+- **Decocraft** v2.2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
 - **Doomlike Dungeons** v1.8.5
@@ -59,18 +59,18 @@ Current Mod Versions
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
 - **Et Futurum** v1.4.4 by ganymedes01
 - **Extra Cells 2** v2.2.73 by M3gaFr3ak
-- **Extra Utilities** v1.2.10 by RWTema
+- **Extra Utilities** v1.2.12 by RWTema
 - **ExtraTiC** v1.4.5 by Glassmaker
-- **Flaxbeard's Steam Power** v0.28.10 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
+- **Flaxbeard's Steam Power** v0.28.12 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
-- **Garden Containers** v1.7.10-1.6.4
-- **Garden Core** v1.7.10-1.6.4
-- **Garden Stuff** v1.7.10-1.6.4
-- **Garden Trees** v1.7.10-1.6.4
+- **Garden Containers** v1.7.10-1.6.8
+- **Garden Core** v1.7.10-1.6.8
+- **Garden Stuff** v1.7.10-1.6.8
+- **Garden Trees** v1.7.10-1.6.8
 - **Glowstone Wire** v1.0.2.113 by GrygrFlzr
 - **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.8.4 by Programmed by chylex | http://hee.chylex.com/authors
@@ -92,40 +92,40 @@ Current Mod Versions
 - **Mine & Blade Battlegear 2 - Bullseye** v1.7.10 by nerd-boy, GotoLink, coolAlias
 - **Minecraft Multipart Plugin** v1.2.0.345
 - **MineFactory Reloaded** v1.7.10R2.8.1B1 by PowerCrystals, TehKrush, AtomicStryker, Feanorith, skyboy026
-- **MineTweaker 3** v3.0.9B by Stan Hebben
+- **MineTweaker 3** v3.0.10 by Stan Hebben
 - **MobiusCore** v1.2.5 by ProfMobius
-- **Mod Tweaker 2** v0.9.2 by Jaredlll08
+- **Mod Tweaker 2** v0.9.4 by Jaredlll08
 - **ModpackTweaks** v1.2.0
 - **More Planet's** v1.1.9
 - **Morpheus** v1.7.10-1.6.10 by Quetzi
 - **Natura** v2.2.0
-- **NEI Integration** v1.0.12 by tonius11
+- **NEI Integration** v1.0.13 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
 - **Nincrafty Things** v1.7.10-0.5.3+26 by Nincodedo
-- **Not Enough Items** v1.0.4.107 by ChickenBones
+- **Not Enough Items** v1.0.5.118 by ChickenBones
 - **OpenBlocks** v1.4.4
-- **OpenComputers** v1.5.15.31 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
-- **OpenComputers (Core)** v1.5.15.31 by Sangar
+- **OpenComputers** v1.5.19.37 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
+- **OpenComputers (Core)** v1.5.19.37 by Sangar
 - **OpenEye** v0.6 by boq, Mikee
 - **OpenMods** v0.8
 - **Pam's Clay Spawn** v1.7.10a by Pamela Collins
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.11.0-120
+- **PneumaticCraft** v1.11.19-141
 - **PoorOres** v1.7.10-1.4.8 by Xexanos
 - **PortalGun** v4.0.0-beta-5
 - **PTRModelLib** v1.0.0
-- **Railcraft** v9.7.0.0
+- **Railcraft** v9.8.0.0
 - **Random Things** v2.2.4 by Lumien
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v3.50 by McJty
+- **RFTools** v4.01 by McJty
 - **RPGAdvMod** v1.0.0
-- **Simply Jetpacks** v1.5.1 by tonius11
-- **Special Mobs** v3.1.1 by FatherToast
+- **Simply Jetpacks** v1.5.2 by tonius11
+- **Special Mobs** v3.2.0 by FatherToast
 - **Stackie** v1.6.0.36 by Lunatrius
 - **Statues** v2.1.4
 - **Steve's Carts 2** v2.0.0.b18 by Vswe
@@ -139,26 +139,26 @@ Current Mod Versions
 - **Thermal Expansion** v1.7.10R4.0.3B1 by Team CoFH
 - **Thermal Foundation** v1.7.10R1.2.0 by Team CoFH
 - **TiC Tooltips** v1.2.5 by squeek
-- **Tinkers' Construct** v1.7.10-1.8.7.build979 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
+- **Tinkers' Construct** v1.7.10-1.8.8.build988 by mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox, boni
 - **Tinkers' Defense** v1.2 by Sir Lance
 - **Tinkers' Mechworks** v0.2.14.100
-- **Tinkers' Modifiers** v1.0 by UnderMybrella
+- **Tinkers' Modifiers** v1.2.1
 - **Tinkers' Steelworks** v1.7.10-1.1.1 by Toops
-- **TNTUtils** v1.0.2-beta by ljfa
-- **TNTUtils Core** v1.0.2-beta by ljfa
-- **TooMuchLoot** v4.0.0
+- **TNTUtils** v1.1-beta by ljfa
+- **TNTUtils Core** v1.1-beta by ljfa
+- **TooMuchLoot** v4.0.1
 - **Torcherino** v2.2s by Moze_Intel, sci4me, MrComputerGhost
-- **Translocator** v1.1.1.8 by ChickenBones
+- **Translocator** v1.1.2.15 by ChickenBones
 - **Tropicraft** v6.0.4
 - **Waila** v1.5.10
 - **weather2** v2.3.6
-- **What Are We Looking At** v1.3.1
+- **What Are We Looking At** v1.3.2
 - **Witchery** v0.24.1 by Emoniph
 
 Optional Client Mod Versions
 =
 - **ArmorStatusHUD** v1.28 by bspkrs
-- **Better Foliage** v1.0.13 by octarine-noise (code), Meringue (textures)
+- **Better Foliage** v1.0.15 by octarine-noise (code), Meringue (textures)
 - **Damage Indicators** v3.2.3
 - **DirectionHUD** v1.24 by bspkrs
 - **Opis** v1.2.5
@@ -168,7 +168,7 @@ Optional Client Mod Versions
 
 Development Mod Versions
 =
-- **BD Lib** v1.9.1.97 by bdew
+- **BD Lib** v1.9.3.107 by bdew
 - **BiomeAtlas** v1.0.0 by sk89q
 - **MineTweakerRecipeMaker** v1.0
 - **Version Checker** v1.1.9 by Dynious

@@ -1,0 +1,98 @@
+{
+  "category": "dimensionalDungeonChest",
+  "count_min": 6,
+  "count_max": 6,
+  "loot": [
+    {
+      "item": "minecraft:iron_ingot",
+      "damage": 0,
+      "weight": 160,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:coal",
+      "damage": 0,
+      "weight": 120,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:quartz",
+      "damage": 0,
+      "weight": 120,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:book",
+      "damage": 0,
+      "weight": 100,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "damage": 0,
+      "weight": 80,
+      "count_min": 1,
+      "count_max": 3
+    },
+    {
+      "item": "minecraft:diamond",
+      "damage": 0,
+      "weight": 40,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "minecraft:emerald",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 1,
+      "count_max": 2
+    },
+    {
+      "item": "minecraft:golden_apple",
+      "damage": 0,
+      "weight": 10,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "dimdoors:Fabric of Reality",
+      "damage": 0,
+      "weight": 20,
+      "count_min": 16,
+      "count_max": 64
+    },
+    {
+      "item": "dimdoors:World Thread",
+      "damage": 0,
+      "weight": 80,
+      "count_min": 2,
+      "count_max": 12
+    },
+    {
+      "item": "MineFactoryReloaded:safarinet.jailer",
+      "damage": 0,
+      "weight": 15,
+      "count_min": 1,
+      "count_max": 1
+    },
+    {
+      "item": "MineFactoryReloaded:rubberwood.sapling",
+      "damage": 0,
+      "weight": 70,
+      "count_min": 1,
+      "count_max": 8
+    },
+    {
+      "item": "MineFactoryReloaded:pinkslime",
+      "damage": 0,
+      "weight": 1,
+      "count_min": 1,
+      "count_max": 1
+    }
+  ]
+}
