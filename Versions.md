@@ -73,7 +73,7 @@ Current Mod Versions
 - **Garden Trees** v1.7.10-1.6.4
 - **Glowstone Wire** v1.0.2.113 by GrygrFlzr
 - **Greg's Lighting** v1.11.0
-- **Hardcore Ender Expansion** v1.8.3 by Programmed by chylex | http://hee.chylex.com/authors
+- **Hardcore Ender Expansion** v1.8.4 by Programmed by chylex | http://hee.chylex.com/authors
 - **Hats** v4.0.1
 - **HatStand** v4.0.0
 - **Horizontal Glass Panes** v1.1.0.4 by tattyseal
