@@ -26,7 +26,7 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.4.0-beta-2 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.5 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
 - **Another One Bites The Dust** v2.8.1 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
