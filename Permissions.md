@@ -3,7 +3,7 @@
 [Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
 [HCEE Permission]:https://i.imgur.com/WdPANky.png
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
-[Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
+[Tinkers' Modifiers Notification]:https://i.imgur.com/D59wBd3.png
 [Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
 [Witchery Notification]:https://i.imgur.com/0pZ3iHy.png
 
@@ -380,8 +380,8 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Tinkers' Modifiers** by: *UnderMybrella*
-  - **Private Packs**: Open: [Tinkers' Modifiers Curse Page]
-  - **Public Packs** : Open: [Tinkers' Modifiers Curse Page]
+  - **Private Packs**: Open: [Tinkers' Modifiers Notification]
+  - **Public Packs** : Open: [Tinkers' Modifiers Notification]
 - **Tinkers' Steelworks** by: *Ephys, Toops*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
