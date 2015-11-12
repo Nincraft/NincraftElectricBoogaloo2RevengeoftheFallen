@@ -191,11 +191,12 @@ var craftingStorage16k          = <appliedenergistics2:tile.BlockCraftingStorage
 var craftingStorage64k          = <appliedenergistics2:tile.BlockCraftingStorage:3>;
 var craftingUnit                = <appliedenergistics2:tile.BlockCraftingUnit:0>;
 var craftingCoProcessingUnit    = <appliedenergistics2:tile.BlockCraftingUnit:1>;
+var denseEnergyCell             = <appliedenergistics2:tile.BlockDenseEnergyCell>;
 var meDrive                     = <appliedenergistics2:tile.BlockDrive>;
 var energyAcceptor              = <appliedenergistics2:tile.BlockEnergyAcceptor>;
 var energyCell                  = <appliedenergistics2:tile.BlockEnergyCell>;
 var fluixBlock                  = <appliedenergistics2:tile.BlockFluix>;
-var denseEnergyCell             = <appliedenergistics2:tile.BlockDenseEnergyCell>;
+var grindstone                  = <appliedenergistics2:tile.BlockGrinder>;
 var inscriber                   = <appliedenergistics2:tile.BlockInscriber>;
 var meInterface                 = <appliedenergistics2:tile.BlockInterface>;
 var meIOPort                    = <appliedenergistics2:tile.BlockIOPort>;
@@ -359,6 +360,8 @@ var allDenseCables              = [
 
 # ORE DICTIONARY
 #----------------
+var anyCobblestoneBlock         = <ore:blockCobblestone>;
+var anyStoneBlock               = <ore:blockStone>;
 var anyDiamond                  = <ore:gemDiamond>;
 var anyObsidianBlock            = <ore:obsidian>;
 var anyBlueDye                  = <ore:dyeBlue>;
@@ -445,7 +448,14 @@ for i, denseCable in allDenseCables {
 # RECIPE TWEAKS
 #---------------
 
-#Quartz Glass
+# Grindstone
+recipes.remove(grindstone);
+recipes.addShaped(grindstone, [
+    [anyStoneBlock,       woodenGear,    anyStoneBlock],
+    [anyQuartz,           anyStoneBlock, anyQuartz],
+    [anyCobblestoneBlock, anyQuartz,     anyCobblestoneBlock]]);    
+
+# Quartz Glass
 recipes.remove(quartzGlass);
 
 # Meteorite Compass
