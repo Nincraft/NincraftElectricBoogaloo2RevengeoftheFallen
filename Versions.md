@@ -46,7 +46,7 @@ Current Mod Versions
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.6 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.5.0.42 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel** v2.9.3.9 by tterrag, Drullkus, minecreatr
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.1 by RazzleberryFox
