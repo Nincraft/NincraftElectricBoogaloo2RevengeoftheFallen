@@ -360,14 +360,15 @@ var allDenseCables              = [
 
 # ORE DICTIONARY
 #----------------
-var anyCobblestoneBlock         = <ore:blockCobblestone>;
-var anyStoneBlock               = <ore:blockStone>;
+var anyCobblestoneBlock         = <ore:cobblestone>;
+var anyStoneBlock               = <ore:stone>;
 var anyDiamond                  = <ore:gemDiamond>;
 var anyObsidianBlock            = <ore:obsidian>;
 var anyBlueDye                  = <ore:dyeBlue>;
 var anyFluixPearl               = <ore:pearlFluix>;
 var anyPlasticSheet             = <ore:sheetPlastic>;
 var anyGearSignalum             = <ore:gearSignalum>;
+var anyWoodenGear               = <ore:gearWood>;
 var anyHardenedGlass            = <ore:blockGlassHardened>;
 var anyFluxedElectrumNugget     = <ore:nuggetElectrumFlux>;
 var anyIlluminatedPanel         = <ore:itemIlluminatedPanel>;
@@ -451,7 +452,7 @@ for i, denseCable in allDenseCables {
 # Grindstone
 recipes.remove(grindstone);
 recipes.addShaped(grindstone, [
-    [anyStoneBlock,       woodenGear,    anyStoneBlock],
+    [anyStoneBlock,       anyWoodenGear, anyStoneBlock],
     [anyQuartz,           anyStoneBlock, anyQuartz],
     [anyCobblestoneBlock, anyQuartz,     anyCobblestoneBlock]]);    
 
