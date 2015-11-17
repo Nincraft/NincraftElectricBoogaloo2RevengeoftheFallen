@@ -17,9 +17,6 @@
 - **Another One Bites The Dust** by: *ganymedes01*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Another One Bites The Dust: Berry Bushes** by: *Ganymedes01*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
 - **AppleCore** by: *Squeek502*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
