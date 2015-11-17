@@ -114,7 +114,7 @@ Current Mod Versions
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.11.0-120
-- **PoorOres** v1.7.10-1.4.8 by Xexanos
+- **PoorOres** v1.7.10-1.4.9 by Xexanos
 - **PortalGun** v4.0.0-beta-5
 - **PTRModelLib** v1.0.0
 - **Railcraft** v9.7.0.0
