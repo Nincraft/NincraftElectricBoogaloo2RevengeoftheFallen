@@ -6,6 +6,7 @@
 [Tinkers' Modifiers Curse Page]:http://www.curse.com/mc-mods/minecraft/224971-tinkers-modifiers
 [Witchery MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/wip-mods/1445248
 [Witchery Notification]:https://i.imgur.com/0pZ3iHy.png
+[Chisel Curse Page]:http://minecraft.curseforge.com/projects/chisel
 
 - **Agricraft** by: *InfinityRaider*
   - **Private Packs**: Open: [FTB Permission Website]
@@ -76,9 +77,9 @@
 - **ChickenChunks** by: *Chickenbones*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Chisel 2** by: *warlordjones, tterrag1098, TheCricket26, Drullkus*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
+- **Chisel** by: *tterrag, Drullkus, minecreatr*
+  - **Private Packs**: Open: [Chisel Curse Page]
+  - **Public Packs** : Open: [Chisel Curse Page]
 - **Chunkgen** by: *gecgooden*
   - **Private Packs**: Open: [Chunkgen License]
   - **Public Packs** : Open: [Chunkgen License]
