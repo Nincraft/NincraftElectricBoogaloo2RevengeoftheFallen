@@ -5,7 +5,7 @@ import minetweaker.item.IItemStack;
 import mods.botania.ElvenTrade;
 import mods.botania.Lexicon;
 #import mods.botania.ManaInfusion;
-#import mods.botania.Orechid;
+import mods.botania.Orechid;
 #import mods.botania.RuneAltar;
 
 # COMMON VARIABLES
@@ -211,3 +211,19 @@ Lexicon.addCraftingPage("botania.page.terrasteel1", "botania.entry.terrasteel", 
     [anyLapisBlock, anyLapisBlock,   anyLapisBlock],
     [waterRune,     anyMithrilBlock, fireRune],
     [earthRune,     manaRune,        airRune]]]);
+
+# ORECHID TWEAKS
+#----------------
+
+# Remove Metallurgy Fantasy Ores in favor of Nincrafty Things' Orechid Mystica
+Orechid.removeOre(<ore:oreAdamantine>);
+Orechid.removeOre(<ore:oreAstralSilver>);
+Orechid.removeOre(<ore:oreAtlarus>);
+Orechid.removeOre(<ore:oreCarmot>);
+Orechid.removeOre(<ore:oreDeepIron>);
+Orechid.removeOre(<ore:oreInfuscolium>);
+Orechid.removeOre(<ore:oreMithril>);
+Orechid.removeOre(<ore:oreOrichalcum>);
+Orechid.removeOre(<ore:oreOureclase>);
+Orechid.removeOre(<ore:orePrometheum>);
+Orechid.removeOre(<ore:oreRubracium>);
