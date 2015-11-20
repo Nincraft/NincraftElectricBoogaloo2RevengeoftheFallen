@@ -152,14 +152,6 @@ var anyShadowSteelIngot   = <ore:ingotShadowSteel>;
 var anyCopperGear         = <ore:gearCopper>;
 var anySteelGear          = <ore:gearSteel>;
 
-# Register MFR Plastic Pipe
-anyPlasticPipe.add(plasticPipe);
-
-# Unify Plastic Sheets
-for i, sheet in allPlasticSheets {
-    anyPlasticSheet.add(sheet);
-}
-
 # RECIPE TWEAKS
 #---------------
 

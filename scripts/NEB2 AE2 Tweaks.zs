@@ -417,35 +417,6 @@ var anyCoveredCable             = <ore:itemCoveredCable>;
 var anySmartCable               = <ore:itemSmartCable>;
 var anyDenseCable               = <ore:itemDenseCable>;
 
-anyHardenedGlass.add(quartzGlass);
-
-anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
-anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
-anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
-
-anyQuartz.addAll(anyCertusQuartz);
-anyQuartz.addAll(anyNetherQuartz);
-anyQuartz.add(chargedCertusQuartzCrystal);
-
-anyQuartzDust.addAll(anyCertusQuartzDust);
-anyQuartzDust.addAll(anyNetherQuartzDust);
-
-for i, glassCable in allGlassCables {
-    anyGlassCable.add(glassCable);
-}
-
-for i, coveredCable in allCoveredCables {
-    anyCoveredCable.add(coveredCable);
-}
-
-for i, smartCable in allSmartCables {
-    anySmartCable.add(smartCable);
-}
-
-for i, denseCable in allDenseCables {
-    anyDenseCable.add(denseCable);
-}
-
 # RECIPE TWEAKS
 #---------------
 

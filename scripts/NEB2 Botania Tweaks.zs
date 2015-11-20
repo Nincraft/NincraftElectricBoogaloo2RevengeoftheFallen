@@ -118,9 +118,6 @@ var anyGlowstoneBlock   = <ore:blockGlowstone>;
 var anyLapisBlock       = <ore:blockLapis>;
 var anyMithrilBlock     = <ore:blockMithril>;
 
-anyMortarAndPestle.addAll(anyPestleAndMortar);
-anyPestleAndMortar.mirror(anyMortarAndPestle);
-
 # RECIPE TWEAKS
 #---------------
 

@@ -66,30 +66,6 @@ var anyMeteoricIronIngot       = <ore:ingotMeteoricIron>;
 var anyDeshIngot               = <ore:ingotDesh>;
 var anyTitaniumIngot           = <ore:ingotTitanium>;
 
-# Add Raw Silicon to Ore Dictionary
-<ore:itemSilicon>.add(rawSilicon);
-
-# Add Ores to Ore Dictionary
-<ore:oreMeteoricIron>.add(<GalacticraftCore:tile.fallenMeteor>);
-<ore:oreDesh>.add(<GalacticraftMars:tile.mars:2>);
-<ore:oreTitanium>.add(<GalacticraftMars:tile.asteroidsBlock:4>);
-
-# Add Raw Metals to Ore Dictionary
-<ore:clumpMeteoricIron>.add(<GalacticraftCore:item.meteoricIronRaw>);
-<ore:clumpDesh>.add(<GalacticraftMars:item.null>);
-
-# Add Metal Blocks to Ore Dictionary
-<ore:blockCopper>.add(<GalacticraftCore:tile.gcBlockCore:9>);
-<ore:blockTin>.add(<GalacticraftCore:tile.gcBlockCore:10>);
-<ore:blockAluminum>.add(<GalacticraftCore:tile.gcBlockCore:11>);
-
-# Merge Compressed Iron
-var anyCompressedIronIngot = <ore:ingotIronCompressed>;
-var anyCompressedIron      = <ore:compressedIron>;
-
-anyCompressedIronIngot.addAll(anyCompressedIron);
-anyCompressedIron.mirror(anyCompressedIronIngot);
-
 # Merge Silicon Wafers
 var anyBasicWafer          = <ore:waferBasic>;
 var anyAdvancedWafer       = <ore:waferAdvanced>;
