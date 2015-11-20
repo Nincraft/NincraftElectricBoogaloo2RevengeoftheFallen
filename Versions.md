@@ -1,6 +1,6 @@
 Current Forge Version
 =
-- **Forge** v10.13.4.1448
+- **Forge** v10.13.4.1558
 
 Current API Versions
 =
@@ -26,10 +26,9 @@ Current API Versions
 
 Current Mod Versions
 =
-- **AgriCraft** v1.7.10-1.4.3 by InfinityRaider
+- **AgriCraft** v1.7.10-1.4.5 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Another One Bites The Dust** v2.8.4 by ganymedes01
-- **Another One Bites The Dust: Berry Bushes** v1.0.6 by ganymedes01
+- **Another One Bites The Dust** v2.8.1 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.5
@@ -46,7 +45,7 @@ Current Mod Versions
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.7 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
-- **Chisel 2** v2.5.1.44 by AUTOMATIC_MAIDEN, Pokefenn, Cricket, tterrag
+- **Chisel** v2.9.3.9 by tterrag, Drullkus, minecreatr
 - **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.2.1 by RazzleberryFox
@@ -102,8 +101,8 @@ Current Mod Versions
 - **NEI Integration** v1.0.13 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
-- **Nincrafty Things** v1.7.10-0.5.3+26 by Nincodedo
 - **Not Enough Items** v1.0.5.118 by ChickenBones
+- **Nincrafty Things** v1.7.10-0.6.1+51 by Nincodedo
 - **OpenBlocks** v1.4.4
 - **OpenComputers** v1.5.19.37 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
 - **OpenComputers (Core)** v1.5.19.37 by Sangar
@@ -114,7 +113,7 @@ Current Mod Versions
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
 - **PneumaticCraft** v1.11.19-141
-- **PoorOres** v1.7.10-1.4.8 by Xexanos
+- **PoorOres** v1.7.10-1.4.9 by Xexanos
 - **PortalGun** v4.0.0-beta-5
 - **PTRModelLib** v1.0.0
 - **Railcraft** v9.8.0.0

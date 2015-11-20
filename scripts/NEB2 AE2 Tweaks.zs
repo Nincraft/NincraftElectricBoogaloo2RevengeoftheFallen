@@ -191,11 +191,12 @@ var craftingStorage16k          = <appliedenergistics2:tile.BlockCraftingStorage
 var craftingStorage64k          = <appliedenergistics2:tile.BlockCraftingStorage:3>;
 var craftingUnit                = <appliedenergistics2:tile.BlockCraftingUnit:0>;
 var craftingCoProcessingUnit    = <appliedenergistics2:tile.BlockCraftingUnit:1>;
+var denseEnergyCell             = <appliedenergistics2:tile.BlockDenseEnergyCell>;
 var meDrive                     = <appliedenergistics2:tile.BlockDrive>;
 var energyAcceptor              = <appliedenergistics2:tile.BlockEnergyAcceptor>;
 var energyCell                  = <appliedenergistics2:tile.BlockEnergyCell>;
 var fluixBlock                  = <appliedenergistics2:tile.BlockFluix>;
-var denseEnergyCell             = <appliedenergistics2:tile.BlockDenseEnergyCell>;
+var grindstone                  = <appliedenergistics2:tile.BlockGrinder>;
 var inscriber                   = <appliedenergistics2:tile.BlockInscriber>;
 var meInterface                 = <appliedenergistics2:tile.BlockInterface>;
 var meIOPort                    = <appliedenergistics2:tile.BlockIOPort>;
@@ -359,12 +360,15 @@ var allDenseCables              = [
 
 # ORE DICTIONARY
 #----------------
+var anyCobblestoneBlock         = <ore:cobblestone>;
+var anyStoneBlock               = <ore:stone>;
 var anyDiamond                  = <ore:gemDiamond>;
 var anyObsidianBlock            = <ore:obsidian>;
 var anyBlueDye                  = <ore:dyeBlue>;
 var anyFluixPearl               = <ore:pearlFluix>;
 var anyPlasticSheet             = <ore:sheetPlastic>;
 var anyGearSignalum             = <ore:gearSignalum>;
+var anyWoodenGear               = <ore:gearWood>;
 var anyHardenedGlass            = <ore:blockGlassHardened>;
 var anyFluxedElectrumNugget     = <ore:nuggetElectrumFlux>;
 var anyIlluminatedPanel         = <ore:itemIlluminatedPanel>;
@@ -413,39 +417,17 @@ var anyCoveredCable             = <ore:itemCoveredCable>;
 var anySmartCable               = <ore:itemSmartCable>;
 var anyDenseCable               = <ore:itemDenseCable>;
 
-anyHardenedGlass.add(quartzGlass);
-
-anyCertusQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:10>);
-anyNetherQuartz.add(<appliedenergistics2:item.ItemMultiMaterial:11>);
-anyFluixCrystal.add(<appliedenergistics2:item.ItemMultiMaterial:12>);
-
-anyQuartz.addAll(anyCertusQuartz);
-anyQuartz.addAll(anyNetherQuartz);
-anyQuartz.add(chargedCertusQuartzCrystal);
-
-anyQuartzDust.addAll(anyCertusQuartzDust);
-anyQuartzDust.addAll(anyNetherQuartzDust);
-
-for i, glassCable in allGlassCables {
-    anyGlassCable.add(glassCable);
-}
-
-for i, coveredCable in allCoveredCables {
-    anyCoveredCable.add(coveredCable);
-}
-
-for i, smartCable in allSmartCables {
-    anySmartCable.add(smartCable);
-}
-
-for i, denseCable in allDenseCables {
-    anyDenseCable.add(denseCable);
-}
-
 # RECIPE TWEAKS
 #---------------
 
-#Quartz Glass
+# Grindstone
+recipes.remove(grindstone);
+recipes.addShaped(grindstone, [
+    [anyStoneBlock,       anyWoodenGear, anyStoneBlock],
+    [anyQuartz,           anyStoneBlock, anyQuartz],
+    [anyCobblestoneBlock, anyQuartz,     anyCobblestoneBlock]]);    
+
+# Quartz Glass
 recipes.remove(quartzGlass);
 
 # Meteorite Compass

@@ -28,13 +28,6 @@ var anyBone                  = <ore:itemBone>;
 var anyWitherBone            = <ore:itemWitherBone>;
 var anyWoodSlab              = <ore:slabWood>;
 
-# Unify Various Bones
-anyWitherBone.add(necroticBone);
-anyWitherBone.add(witheredRib);
-
-anyBone.add(bone);
-anyBone.add(ribBone);
-
 # RECIPE TWEAKS
 #---------------
 

@@ -24,12 +24,6 @@ var anyLapisBlock      = <ore:blockLapis>;
 var anyLapisTinyDust   = <ore:dustTinyLapis>;
 var anyLapisLazuli     = <ore:gemLapis>;
 
-var anyQuartzOre       = <ore:oreQuartz>;
-var anyNetherQuartzOre = <ore:oreNetherQuartz>;
-
-anyNetherQuartzOre.add(netherQuartzOre);
-anyQuartzOre.remove(netherQuartzOre);
-
 # SMELTERY TWEAKS
 #-----------------
 

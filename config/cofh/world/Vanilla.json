@@ -21,38 +21,7 @@
     },
     "gravel": {
         "template": "uniform",
-        "block": [
-            {
-                "name": "gravel",
-                "metadata": 0,
-                "weight": 975
-            },
-            {
-                "name": "TConstruct:GravelOre",
-                "metadata": 0,
-                "weight": 5
-            },
-            {
-                "name": "TConstruct:GravelOre",
-                "metadata": 1,
-                "weight": 5
-            },
-            {
-                "name": "TConstruct:GravelOre",
-                "metadata": 2,
-                "weight": 5
-            },
-            {
-                "name": "TConstruct:GravelOre",
-                "metadata": 3,
-                "weight": 5
-            },
-            {
-                "name": "TConstruct:GravelOre",
-                "metadata": 4,
-                "weight": 5
-            }
-        ],
+        "block": "gravel",
         "material": "stone",
         "clusterSize": 32,
         "numClusters": 10,
