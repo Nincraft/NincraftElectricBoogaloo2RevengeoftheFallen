@@ -157,6 +157,13 @@ var allMachineFrames             = [
     reinforcedMachineFrame,
     resonantMachineFrame
 ] as IItemStack[];
+var allDynamos                   = [
+    steamDynamo,
+    magmaticDynamo,
+    compressionDynamo,
+    reactantDynamo,
+    enervationDynamo
+] as IItemStack[];
 var allTierOneMachines           = [
     redstoneFurnace.withTag({Level:0 as byte}),
     pulverizer.withTag({Level:0 as byte}),
@@ -217,6 +224,14 @@ var allTierFourMachines          = [
 # RECIPE TWEAKS
 #---------------
 
+# Remove all Dynamo Recipes
+for i, dynamo in allDynamos {
+    recipes.removeShaped(dynamo, [
+        [null, <*>, null],
+        [<*>,  <*>, <*>],
+        [<*>,  <*>, <*>]]);
+}
+
 # Dynamos
 recipes.addShaped(steamDynamo, [
     [null,          redstoneTransmissionCoil, null],
@@ -244,27 +259,27 @@ recipes.removeShaped(anyMachineFrame);
 
 # Basic Machine Frame
 recipes.addShaped(basicMachineFrame, [
-	    [anySteelIngot, anyGlassBlock, anySteelIngot],
-	    [anyGlassBlock, anyInvarGear,  anyGlassBlock],
-	    [anySteelIngot, anyGlassBlock, anySteelIngot]]);
+        [anySteelIngot, anyGlassBlock, anySteelIngot],
+        [anyGlassBlock, anyInvarGear,  anyGlassBlock],
+        [anySteelIngot, anyGlassBlock, anySteelIngot]]);
 
 # Hardened Machine Frame
 recipes.addShaped(hardenedMachineFrame, [
-	    [anyBlackSteelIngot, anyPlatinumGear,   anyBlackSteelIngot],
-	    [null,               basicMachineFrame, null],
-	    [anyBlackSteelIngot, null,              anyBlackSteelIngot]]);
+        [anyBlackSteelIngot, anyPlatinumGear,   anyBlackSteelIngot],
+        [null,               basicMachineFrame, null],
+        [anyBlackSteelIngot, null,              anyBlackSteelIngot]]);
 
 # Reinforced Machine Frame
 recipes.addShaped(reinforcedMachineFrame, [
-	    [anyShadowSteelIngot, anyLumiumGear,        anyShadowSteelIngot],
-	    [null,                hardenedMachineFrame, null],
-	    [anyShadowSteelIngot, null,                 anyShadowSteelIngot]]);
+        [anyShadowSteelIngot, anyLumiumGear,        anyShadowSteelIngot],
+        [null,                hardenedMachineFrame, null],
+        [anyShadowSteelIngot, null,                 anyShadowSteelIngot]]);
 
 # Resonant Machine Frame
 recipes.addShaped(resonantMachineFrame, [
-	    [anyTitaniumIngot, anyEnderiumGear,        anyTitaniumIngot],
-	    [null,             reinforcedMachineFrame, null],
-	    [anyTitaniumIngot, null,                   anyTitaniumIngot]]);
+        [anyTitaniumIngot, anyEnderiumGear,        anyTitaniumIngot],
+        [null,             reinforcedMachineFrame, null],
+        [anyTitaniumIngot, null,                   anyTitaniumIngot]]);
 
 /*
 # Remove all Basic Machine Recipes
@@ -363,40 +378,40 @@ for i, machineFrame in allMachineFrames {
 # Upgrade Recipes from Basic to Hardened
 for i, machine in allTierTwoMachines {
     var input = allTierOneMachines[i].onlyWithTag({Level:0 as byte});
-	recipes.addShaped(machine, [
-	    [anyBlackSteelIngot, anyPlatinumGear,         anyBlackSteelIngot],
-	    [null,               input.marked("machine"), null],
-	    [anyBlackSteelIngot, null,                    anyBlackSteelIngot]],
-	    function(output, inputs, crafting)
-	    {
-	        return output.withTag(inputs.machine.tag).updateTag({Level: 1 as byte});
-	    });
+    recipes.addShaped(machine, [
+        [anyBlackSteelIngot, anyPlatinumGear,         anyBlackSteelIngot],
+        [null,               input.marked("machine"), null],
+        [anyBlackSteelIngot, null,                    anyBlackSteelIngot]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Level: 1 as byte});
+        });
 }
 
 # Upgrade Recipes from Hardened to Reinforced
 for i, machine in allTierThreeMachines {
     var input = allTierTwoMachines[i].onlyWithTag({Level:1 as byte});
-	recipes.addShaped(machine, [
-	    [anyShadowSteelIngot, anyLumiumGear,           anyShadowSteelIngot],
-	    [null,                input.marked("machine"), null],
-	    [anyShadowSteelIngot, null,                    anyShadowSteelIngot]],
-	    function(output, inputs, crafting)
-	    {
-	        return output.withTag(inputs.machine.tag).updateTag({Level: 2 as byte});
-	    });
+    recipes.addShaped(machine, [
+        [anyShadowSteelIngot, anyLumiumGear,           anyShadowSteelIngot],
+        [null,                input.marked("machine"), null],
+        [anyShadowSteelIngot, null,                    anyShadowSteelIngot]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Level: 2 as byte});
+        });
 }
 
 # Upgrade Recipes from Reinforced to Resonant
 for i, machine in allTierFourMachines {
     var input = allTierThreeMachines[i].onlyWithTag({Level:2 as byte});
-	recipes.addShaped(machine, [
-	    [anyTitaniumIngot, anyEnderiumGear,         anyTitaniumIngot],
-	    [null,             input.marked("machine"), null],
-	    [anyTitaniumIngot, null,                    anyTitaniumIngot]],
-	    function(output, inputs, crafting)
-	    {
-	        return output.withTag(inputs.machine.tag).updateTag({Level: 3 as byte});
-	    });
+    recipes.addShaped(machine, [
+        [anyTitaniumIngot, anyEnderiumGear,         anyTitaniumIngot],
+        [null,             input.marked("machine"), null],
+        [anyTitaniumIngot, null,                    anyTitaniumIngot]],
+        function(output, inputs, crafting)
+        {
+            return output.withTag(inputs.machine.tag).updateTag({Level: 3 as byte});
+        });
 }
 
 # Machine Security Upgrade
