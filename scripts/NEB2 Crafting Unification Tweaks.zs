@@ -229,7 +229,6 @@ var endiumNugget             = <aobd:nuggetHeeEndium>;
 var nincodiumNugget          = <aobd:nuggetNincodium>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
 var yelloriumNugget          = <aobd:nuggetYellorium>;
-var osmiumNugget             = <aobd:oreberryOsmium>;
 var goldNugget               = <minecraft:gold_nugget>;
 var manganeseNugget          = <Metallurgy:base.nugget:2>;
 var hepatizonNugget          = <Metallurgy:base.nugget:4>;
@@ -266,6 +265,7 @@ var sanguiniteNugget         = <Metallurgy:nether.nugget:9>;
 var shadowSteelNugget        = <Metallurgy:nether.nugget:10>;
 var inolashiteNugget         = <Metallurgy:nether.nugget:11>;
 var amordrineNugget          = <Metallurgy:nether.nugget:12>;
+var osmiumNugget             = <PoorOres:osmium_nugget>;
 var fluxedElectrumNugget     = <RedstoneArsenal:material:64>;
 var zincNugget               = <Steamcraft:steamcraftNugget:1>;
 var brassNugget              = <Steamcraft:steamcraftNugget:3>;
@@ -289,8 +289,6 @@ var bronzeNugget             = <ThermalFoundation:material:105>;
 var signalumNugget           = <ThermalFoundation:material:106>;
 var lumiumNugget             = <ThermalFoundation:material:107>;
 var enderiumNugget           = <ThermalFoundation:material:108>;
-#var celenegilNugget          = <aobd:nuggetCelenegil>;
-#var haderothNugget           = <aobd:nuggetHaderoth>;
 
 # Dusts
 var endiumDust               = <aobd:dustHeeEndium>;

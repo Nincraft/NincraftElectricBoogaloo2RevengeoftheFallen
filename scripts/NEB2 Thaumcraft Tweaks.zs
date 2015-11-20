@@ -103,7 +103,6 @@ var thaumicWardenTab            = "TWARDEN";
 
 # ORE DICTIONARY
 #----------------
-
 var anyTitaniumIngot            = <ore:ingotTitanium>;
 
 # RESEARCH TWEAKS

@@ -173,7 +173,7 @@ var brine                      = <gas:brine>;
 
 # ORE DICTIONARY
 #----------------
-var anyRedstoneDust               = <minecraft:redstone>;
+var anyRedstoneDust            = <ore:dustRedstone>;
 var anyStick                   = <ore:stickWood>;
 
 # Blocks

@@ -29,30 +29,23 @@ var anyRedstoneAlloyIngot    = <ore:ingotRedstoneAlloy>;
 var anyIronPlate             = <ore:plateIron>;
 var anySteelPlate            = <ore:plateSteel>;
 
-# Add Steel Gears to Ore Dictionary
-anySteelGear.add(<Railcraft:part.gear:2>);
-
-# Add Plates to Ore Dictionary
-anyIronPlate.add(<Railcraft:part.plate:0>);
-anySteelPlate.add(<Railcraft:part.plate:1>);
-
 # RECIPE TWEAKS
 #---------------
 
 # Tweak Steam Engines to be Consistent with Dynamos
-recipes.removeShaped(hobbyistSteamEngine);
+recipes.remove(hobbyistSteamEngine);
 recipes.addShaped(hobbyistSteamEngine, [
     [null,            redstoneTransmissionCoil, null],
     [goldPlateGear,   gildedIronIngot,          goldPlateGear],
     [gildedIronIngot, anyRedstoneAlloyIngot,    gildedIronIngot]]);
 
-recipes.removeShaped(commercialSteamEngine);
+recipes.remove(commercialSteamEngine);
 recipes.addShaped(commercialSteamEngine, [
     [null,          redstoneTransmissionCoil, null],
     [anyIronGear,   anyIronPlate,             anyIronGear],
     [anyIronPlate,  anyRedstoneAlloyIngot,    anyIronPlate]]);
 
-recipes.removeShaped(industrialSteamEngine);
+recipes.remove(industrialSteamEngine);
 recipes.addShaped(industrialSteamEngine, [
     [null,          redstoneTransmissionCoil, null],
     [anySteelGear,  anySteelPlate,            anySteelGear],

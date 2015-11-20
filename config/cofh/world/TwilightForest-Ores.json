@@ -158,16 +158,11 @@
         "crust": [
             {
                 "name": "appliedenergistics2:tile.OreQuartz",
-                "weight": 25
+                "weight": 90
             },
             {
                 "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "weight": 5
-            },
-            {
-                "name": "GalacticraftCore:tile.gcBlockCore",
-                "metadata": 8,
-                "weight": 70
+                "weight": 10
             }
         ],
         "material": "stone",
@@ -228,16 +223,11 @@
         "block": [
             {
                 "name": "appliedenergistics2:tile.OreQuartz",
-                "weight": 25
+                "weight": 90
             },
             {
                 "name": "appliedenergistics2:tile.OreQuartzCharged",
-                "weight": 5
-            },
-            {
-                "name": "GalacticraftCore:tile.gcBlockCore",
-                "metadata": 8,
-                "weight": 70
+                "weight": 10
             }
         ],
         "material": "stone",

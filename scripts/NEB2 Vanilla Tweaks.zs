@@ -55,19 +55,6 @@ var anyWoodSlab           = <ore:slabWood>;
 var anyWoodStick          = <ore:stickWood>;
 var anyWoolBlock          = <ore:blockWool>;
 
-# Register Clay Bricks
-var clayBricks            = <ore:bricksClay>;
-clayBricks.add(bricks);
-
-# Unify Torches
-var anyTorch              = <ore:torch>;
-anyTorch.add(torchWood);
-anyTorch.add(torchCarpenters);
-anyTorch.add(torchStone);
-
-# Unify Diamond Nuggets
-<ore:nuggetDiamond>.addAll(<ore:diamondNugget>);
-
 # ITEM LISTS
 #------------
 var torchHandles          = [
