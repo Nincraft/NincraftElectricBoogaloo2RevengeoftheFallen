@@ -101,7 +101,7 @@ Current Mod Versions
 - **NEI Integration** v1.0.12 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
-- **Nincrafty Things** v1.7.10-0.5.4+41 by Nincodedo
+- **Nincrafty Things** v1.7.10-0.6.1+51 by Nincodedo
 - **Not Enough Items** v1.0.4.107 by ChickenBones
 - **OpenBlocks** v1.4.4
 - **OpenComputers** v1.5.15.31 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
