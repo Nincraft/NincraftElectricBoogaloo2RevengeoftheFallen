@@ -158,6 +158,7 @@ Optional Client Mod Versions
 =
 - **ArmorStatusHUD** v1.28 by bspkrs
 - **Better Foliage** v1.0.15 by octarine-noise (code), Meringue (textures)
+- **CoFH Tweak ASM** v1.7.10R1.0.2B1
 - **Damage Indicators** v3.2.3
 - **DirectionHUD** v1.24 by bspkrs
 - **Opis** v1.2.5
