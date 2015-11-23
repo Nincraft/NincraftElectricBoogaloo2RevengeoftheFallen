@@ -28,9 +28,9 @@ Current Mod Versions
 =
 - **AgriCraft** v1.7.10-1.4.5 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
-- **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
 - **Another One Bites The Dust** v2.8.4 by ganymedes01
+- **Applied Energistics 2** rv3-alpha-10 by AlgorithmX2
+- **Applied Energistics 2 Core** rv3-alpha-10 by AlgorithmX2
 - **AromaBackup** v0.0.0.6
 - **AromaBackup Recovery** v1.0
 - **Avaritia** v0.21c by SpitefulFox, TTFTCUTS
