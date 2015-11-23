@@ -12,6 +12,7 @@ Current API Versions
 - **CodeChicken Core** v1.0.7.47 by ChickenBones
 - **CoFH Core** v1.7.10R3.0.4B1 by Team CoFH
 - **Cookie Core** v1.4.0 by Ephys
+- **EnderCore** v1.7.10-0.2.0.31_beta by tterrag, CrazyPants
 - **Forge Microblocks** v1.2.0.345
 - **Forge Multipart** v1.2.0.345
 - **iChunUtil** v4.2.2
@@ -22,18 +23,18 @@ Current API Versions
 - **Metallurgy Core** v4.0.4 by Team Metallurgy
 - **Micdoodle8 Core**  by micdoodle8, radfast
 - **OpenModsCore** v0.8 by Mikee, NeverCast, boq
-- **ttCore** vMC1.7.10-0.1.1-78
 
 Current Mod Versions
 =
 - **AgriCraft** v1.7.10-1.4.5 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
-- **Another One Bites The Dust** v2.8.1 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
-- **AromaBackup** v0.0.0.5
-- **Avaritia** v0.2b by SpitefulFox, TTFTCUTS
-- **Better Records** v1.7.10-1.2.0
+- **Another One Bites The Dust** v2.8.4 by ganymedes01
+- **AromaBackup** v0.0.0.6
+- **AromaBackup Recovery** v1.0
+- **Avaritia** v0.21c by SpitefulFox, TTFTCUTS
+- **Better Records** v@VERSION@
 - **Better Title Screen** v1.7.10-1.1 by Girafi, Amadornes
 - **BiblioCraft** v1.11.4 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
@@ -41,19 +42,18 @@ Current Mod Versions
 - **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
-- **Botania** r1.7-230 by Vazkii
+- **Botania** r1.7-233 by Vazkii
 - **Build Mod** v1.0
 - **Carpenter's Blocks** v3.3.7 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
 - **Chisel** v2.9.3.9 by tterrag, Drullkus, minecreatr
-- **ChunkGen** v1.7.10-1.2.2 by gecgooden
 - **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
 - **Doomlike Dungeons** v1.8.5
 - **Enchiridion 2** v2.0.2a
-- **Ender IO** v1.7.10-2.2.8.381 by CrazyPants, tterrag
+- **Ender IO** v1.7.10-2.3.0.420_beta by CrazyPants, tterrag
 - **EnderStorage** v1.4.7.36 by ChickenBones
 - **Equivalent Exchange 3** v0.3.507 by pahimar, x3n0ph0b3
 - **Et Futurum** v1.4.4 by ganymedes01
@@ -62,7 +62,7 @@ Current Mod Versions
 - **ExtraTiC** v1.4.5 by Glassmaker
 - **Flaxbeard's Steam Power** v0.28.12 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
-- **Forbidden Magic** v1.7.10-0.57 by SpitefulFox
+- **Forbidden Magic** v1.7.10-0.571 by SpitefulFox
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
@@ -96,35 +96,35 @@ Current Mod Versions
 - **Mod Tweaker 2** v0.9.4 by Jaredlll08
 - **ModpackTweaks** v1.2.0
 - **More Planet's** v1.1.9
-- **Morpheus** v1.7.10-1.6.10 by Quetzi
+- **Morpheus** v1.7.10-1.6.13 by Quetzi
 - **Natura** v2.2.0
 - **NEI Integration** v1.0.13 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
+- **Nincrafty Things** v1.7.10-0.6.0+51 by Nincodedo
 - **Not Enough Items** v1.0.5.118 by ChickenBones
-- **Nincrafty Things** v1.7.10-0.6.1+51 by Nincodedo
 - **OpenBlocks** v1.4.4
-- **OpenComputers** v1.5.19.37 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
-- **OpenComputers (Core)** v1.5.19.37 by Sangar
+- **OpenComputers** v1.5.20.38 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
+- **OpenComputers (Core)** v1.5.20.38 by Sangar
 - **OpenEye** v0.6 by boq, Mikee
 - **OpenMods** v0.8
 - **Pam's Clay Spawn** v1.7.10a by Pamela Collins
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
 - **Ping** v1.0.2.B6
 - **PiP** v4.0.0
-- **PneumaticCraft** v1.11.19-141
+- **PneumaticCraft** v1.12.1-144
 - **PoorOres** v1.7.10-1.4.9 by Xexanos
-- **PortalGun** v4.0.0-beta-5
+- **PortalGun** v4.0.0-beta-6
 - **PTRModelLib** v1.0.0
 - **Railcraft** v9.8.0.0
 - **Random Things** v2.2.4 by Lumien
 - **RedLogic** v59.1.11
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
-- **RFTools** v4.01 by McJty
+- **RFTools** v4.12 by McJty
 - **RPGAdvMod** v1.0.0
-- **Simply Jetpacks** v1.5.2 by tonius11
-- **Special Mobs** v3.2.0 by FatherToast
+- **Simply Jetpacks** v1.5.3 by tonius11
+- **Special Mobs** v3.2.1 by FatherToast
 - **Stackie** v1.6.0.36 by Lunatrius
 - **Statues** v2.1.4
 - **Steve's Carts 2** v2.0.0.b18 by Vswe
@@ -151,7 +151,7 @@ Current Mod Versions
 - **Tropicraft** v6.0.4
 - **Waila** v1.5.10
 - **weather2** v2.3.6
-- **What Are We Looking At** v1.3.2
+- **What Are We Looking At** v1.3.3
 - **Witchery** v0.24.1 by Emoniph
 
 Optional Client Mod Versions
