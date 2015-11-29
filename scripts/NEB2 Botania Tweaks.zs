@@ -29,6 +29,7 @@ var runicAltar          = <Botania:runeAltar>;
 var terraPlate          = <Botania:terraPlate>;
 var manaLens            = <Botania:lens>;
 var boreLens            = <Botania:lens:7>;
+var weightLens            = <Botania:lens:13>;
 
 var equalTradeFocus     = <Thaumcraft:FocusTrade>;
 
@@ -97,6 +98,7 @@ var botaniaPetals       = [
 #----------------
 var anySteeleaf         = <ore:steeleaf>;
 var anyStone            = <ore:stone>;
+var anyPrismarineShard  = <ore:shardPrismarine>;
 
 # Tools
 var anyMortarAndPestle  = <ore:toolMortarandpestle>;
@@ -152,6 +154,13 @@ recipes.addShaped(boreLens, [
     [anyTitaniumIngot, manaLens,         anyTitaniumIngot],
     [null,             anyTitaniumIngot, null]]);
 
+# Weight Lens
+recipes.remove(weightLens);
+recipes.addShaped(weightLens, [
+    [anyPrismarineShard, anyTitaniumIngot, anyPrismarineShard],
+    [anyTitaniumIngot,   manaLens,         anyTitaniumIngot],
+    [anyPrismarineShard, waterRune,        anyPrismarineShard]]);
+
 # Shears are consistent
 recipes.removeShaped(manasteelShears);
 recipes.addShaped(manasteelShears, [
@@ -187,6 +196,14 @@ Lexicon.addCraftingPage("botania.page.lens19", "botania.entry.lens", 17, [boreLe
     [null,             greedRune,        null],
     [anyTitaniumIngot, manaLens,         anyTitaniumIngot],
     [null,             anyTitaniumIngot, null]]]);
+
+# Weight Lens
+Lexicon.removePage("botania.entry.lens", 29);
+Lexicon.addCraftingPage("botania.page.lens31", "botania.entry.lens", 29, [weightLens], [[
+    [anyPrismarineShard, anyTitaniumIngot, anyPrismarineShard],
+    [anyTitaniumIngot,   manaLens,         anyTitaniumIngot],
+    [anyPrismarineShard, waterRune,        anyPrismarineShard]]]);
+
 
 # Runic Altar
 Lexicon.removePage("botania.entry.runeAltar", 3);
