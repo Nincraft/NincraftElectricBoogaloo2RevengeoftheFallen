@@ -7,7 +7,7 @@ import minetweaker.item.IItemStack;
 var resonantChest       = <ThermalExpansion:Strongbox:4>;
 var resonantPouch       = <ThermalExpansion:satchel:4>;
 var resonantTank        = <ThermalExpansion:Tank:4>;
-var enderObsidian       = <ore:enderobsidian>;
+var enderObsidian       = <ore:blockEnderObsidian>;
 var blazeRod            = <minecraft:blaze_rod>;
 var redString           = <Botania:manaResource:12>;
 var enderBucket         = <ThermalFoundation:bucket:2>;
