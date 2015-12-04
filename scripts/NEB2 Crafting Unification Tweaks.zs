@@ -1652,7 +1652,8 @@ var allAlloyNuggets          = [
     quicksilverNugget,
     shadowSteelNugget,
     steelNugget,
-    tartariteNugget
+    tartariteNugget,
+    enderiumNugget
     #lumiumNugget,
     #signalumNugget,
 ] as IItemStack[];
@@ -1676,7 +1677,8 @@ var allAlloyDusts            = [
     quicksilverDust,
     shadowSteelDust,
     steelDust,
-    tartariteDust
+    tartariteDust,
+    enderiumDust
     #lumiumDust,
     #signalumDust,
     #cryotheumDust,
@@ -1702,7 +1704,8 @@ var allAlloyIngots           = [
     quicksilverIngot,
     shadowSteelIngot,
     steelIngot,
-    tartariteIngot
+    tartariteIngot,
+    enderiumIngot
     #lumiumIngot,
     #signalumIngot,
 ] as IItemStack[];
@@ -1726,7 +1729,8 @@ var allAlloyBlocks           = [
     quicksilverBlock,
     shadowSteelBlock,
     steelBlock,
-    tartariteBlock
+    tartariteBlock,
+    enderiumBlock
     #lumiumBlock,
     #signalumBlock,
 ] as IItemStack[];
@@ -1751,7 +1755,8 @@ var allAnyAlloyTinyDusts     = [
     anyQuicksilverTinyDust,
     anyShadowSteelTinyDust,
     anySteelTinyDust,
-    anyTartariteTinyDust
+    anyTartariteTinyDust,
+    anyEnderiumTinyDust
     #anyLumiumTinyDust,
     #anySignalumTinyDust,
 ] as IIngredient[];
@@ -1776,7 +1781,8 @@ var allAnyAlloyNuggets       = [
     anyQuicksilverNugget,
     anyShadowSteelNugget,
     anySteelNugget,
-    anyTartariteNugget
+    anyTartariteNugget,
+    anyEnderiumNugget
     #anyLumiumNugget,
     #anySignalumNugget,
 ] as IIngredient[];
@@ -1800,7 +1806,8 @@ var allAnyAlloyDusts         = [
     anyQuicksilverDust,
     anyShadowSteelDust,
     anySteelDust,
-    anyTartariteDust
+    anyTartariteDust,
+    anyEnderiumDust
     #anyLumiumDust,
     #anySignalumDust,
     #anyCryotheumDust,
@@ -1826,7 +1833,8 @@ var allAnyAlloyIngots        = [
     anyQuicksilverIngot,
     anyShadowSteelIngot,
     anySteelIngot,
-    anyTartariteIngot
+    anyTartariteIngot,
+    anyEnderiumIngot
     #anyLumiumIngot,
     #anySignalumIngot,
 ] as IIngredient[];
@@ -1850,7 +1858,8 @@ var allAnyAlloyBlocks        = [
     anyQuicksilverBlock,
     anyShadowSteelBlock,
     anySteelBlock,
-    anyTartariteBlock
+    anyTartariteBlock,
+    anyEnderiumBlock
     #anyLumiumBlock,
     #anySignalumBlock,
 ] as IIngredient[];
