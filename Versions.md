@@ -148,7 +148,7 @@ Current Mod Versions
 - **TooMuchLoot** v4.0.1
 - **Torcherino** v2.2s by Moze_Intel, sci4me, MrComputerGhost
 - **Translocator** v1.1.2.15 by ChickenBones
-- **Tropicraft** v6.0.4
+- **Tropicraft** v6.0.5
 - **Waila** v1.5.10
 - **weather2** v2.3.6
 - **What Are We Looking At** v1.3.3

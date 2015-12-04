@@ -7,7 +7,6 @@ import minetweaker.item.IItemStack;
 var resonantChest       = <ThermalExpansion:Strongbox:4>;
 var resonantPouch       = <ThermalExpansion:satchel:4>;
 var resonantTank        = <ThermalExpansion:Tank:4>;
-var enderObsidian       = <ore:enderobsidian>;
 var blazeRod            = <minecraft:blaze_rod>;
 var redString           = <Botania:manaResource:12>;
 var enderBucket         = <ThermalFoundation:bucket:2>;
@@ -86,6 +85,10 @@ var enderTankGreen      = <EnderStorage:enderChest:7645>;
 var enderTankRed        = <EnderStorage:enderChest:7918>;
 var enderTankBlack      = <EnderStorage:enderChest:8191>;
 
+# ORE DICTIONARY
+#----------------
+var anyEnderObsidian    = <ore:blockEnderObsidian>;
+
 # ITEM LISTS
 #------------
 var wools               = [
@@ -161,45 +164,28 @@ var enderTanks          = [
     enderTankBlack
 ] as IItemStack[];
 
-# ENDER STORAGE RECIPES
+# RECIPE TWEAKS
 #-----------------------
+
 for i, wool in wools {
     # Ender Chest
-    # -----------------------------------------------------------------------
-    # [ Blaze Rod,              Wool,               Blaze Rod              ]
-    # [ Ender-Infused Obsidian, Resonant Strongbox, Ender-Infused Obsidian ]
-    # [ Blaze Rod,              Eye of Ender,       Blaze Rod              ]
-    var enderChest      = enderChests[i];
-
-    recipes.remove(enderChest);
-    recipes.addShaped(enderChest, [
-        [blazeRod,      wool,          blazeRod],
-        [enderObsidian, resonantChest, enderObsidian],
-        [blazeRod,      enderEye,      blazeRod]]);
+    recipes.remove(enderChests[i]);
+    recipes.addShaped(enderChests[i], [
+        [blazeRod,         wool,          blazeRod],
+        [anyEnderObsidian, resonantChest, anyEnderObsidian],
+        [blazeRod,         enderEye,      blazeRod]]);
 
     # Ender Pouch
-    # --------------------------------------------------
-    # [ Red String, Wool,                  Red String ]
-    # [ Leather,    Resonant Satchel,      Leather    ]
-    # [ Red String, Resonant Ender Bucket, Red String ]
-    var enderPouch      = enderPouches[i];
-
-    recipes.remove(enderPouch);
-    recipes.addShaped(enderPouch, [
+    recipes.remove(enderPouches[i]);
+    recipes.addShaped(enderPouches[i], [
         [redString, wool,          redString],
         [leather,   resonantPouch, leather],
         [redString, enderBucket,   redString]]);
 
     # Ender Tank
-    # ------------------------------------------------------------------
-    # [ Blaze Rod,              Wool,          Blaze Rod              ]
-    # [ Ender-Infused Obsidian, Resonant Tank, Ender-Infused Obsidian ]
-    # [ Blaze Rod,              Eye of Ender,  Blaze Rod              ]
-    var enderTank       = enderTanks[i];
-
-    recipes.remove(enderTank);
-    recipes.addShaped(enderTank, [
-        [blazeRod,      wool,         blazeRod],
-        [enderObsidian, resonantTank, enderObsidian],
-        [blazeRod,      enderEye,     blazeRod]]);
+    recipes.remove(enderTanks[i]);
+    recipes.addShaped(enderTanks[i], [
+        [blazeRod,         wool,         blazeRod],
+        [anyEnderObsidian, resonantTank, anyEnderObsidian],
+        [blazeRod,         enderEye,     blazeRod]]);
 }
