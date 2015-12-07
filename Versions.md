@@ -28,9 +28,9 @@ Current Mod Versions
 =
 - **AgriCraft** v1.7.10-1.4.5 by InfinityRaider
 - **Alternate Terrain Generation** v0.10.0
+- **Another One Bites The Dust** v2.8.4 by ganymedes01
 - **Applied Energistics 2** rv2-stable-10 by AlgorithmX2
 - **AppliedEnergistics2 Core** rv2-stable-10 by AlgorithmX2
-- **Another One Bites The Dust** v2.8.4 by ganymedes01
 - **AromaBackup** v0.0.0.6
 - **AromaBackup Recovery** v1.0
 - **Avaritia** v0.21c by SpitefulFox, TTFTCUTS
@@ -101,7 +101,8 @@ Current Mod Versions
 - **NEI Integration** v1.0.13 by tonius11
 - **Nether Ores** v1.7.10R2.3.1RC1 by PowerCrystals, TehKrush, AtomicStryker, skyboy026
 - **Nin's Mod Lister** v1.7.10-1.0.17 by Nincodedo
-- **Nincrafty Things** v1.7.10-0.6.0+51 by Nincodedo
+- **Nincraft Lib** v1.7.10-0.1.1+13 by Nincodedo
+- **Nincrafty Things** v1.7.10-0.7.0+79 by Nincodedo
 - **Not Enough Items** v1.0.5.118 by ChickenBones
 - **OpenBlocks** v1.4.4
 - **OpenComputers** v1.5.20.38 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
