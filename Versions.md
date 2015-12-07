@@ -106,7 +106,6 @@ Current Mod Versions
 - **OpenBlocks** v1.4.4
 - **OpenComputers** v1.5.20.38 by Florian 'Sangar' Nuecke, Johannes 'Lord Joda' Lohrer, Everyone who contributed to the mod on Github - thank you!
 - **OpenComputers (Core)** v1.5.20.38 by Sangar
-- **OpenEye** v0.6 by boq, Mikee
 - **OpenMods** v0.8
 - **Pam's Clay Spawn** v1.7.10a by Pamela Collins
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
