@@ -63,6 +63,8 @@ Current Mod Versions
 - **Flaxbeard's Steam Power** v0.28.12 by SatanicSanta, xbony2, dmillerw, Flaxbeard, Zenith
 - **Fluxed-Crystals** v1.0.3 by Jaredlll08, Darkbyte, JHarb52207
 - **Forbidden Magic** v1.7.10-0.571 by SpitefulFox
+- **FTBLib** v1.0.11.3 by LatvianModder, Jared
+- **FTBUtilities** v1.0.11.3 by LatvianModder
 - **Funky Locomotion** v1.0 by RWTema
 - **Galacticraft Core** v3.0.12 by micdoodle8, radfast, fishtaco
 - **Galacticraft Planets** v3.0.12 by micdoodle8, radfast, fishtaco
