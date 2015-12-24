@@ -346,47 +346,6 @@
             7
         ]
     },
-    "yelloriteVeins": {
-        "template": "fractal",
-        "block": [
-            {
-                "name": "BigReactors:YelloriteOre",
-                "weight": 90
-            },
-            {
-                "name": "PoorOres:poor_yellorite_ore",
-                "weight": 10
-            }
-        ],
-        "material": "stone",
-        "clusterSize": 32,
-        "numClusters": 32,
-        "chunkChance": 128,
-        "minHeight": 1,
-        "veinHeight": 64,
-        "veinDiameter": 64,
-        "verticalDensity": 16,
-        "horizontalDensity": 16,
-        "retrogen": false,
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "dictionary",
-                "entry": [
-                    "DEAD",
-                    "WASTELAND"
-                ]
-            }
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -1,
-            1,
-            7
-        ]
-    },
     "zincVeins": {
         "template": "fractal",
         "block": [
@@ -544,34 +503,6 @@
             {
                 "type": "name",
                 "entry": "Sacred Springs"
-            }
-        ],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -100,
-            -19,
-            -1,
-            1,
-            7
-        ]
-    },
-    "poorYelloriteClusters": {
-        "template": "uniform",
-        "block": "PoorOres.poor_yellorite_ore",
-        "material": "minecraft:stone",
-        "clusterSize": 8,
-        "numClusters": 1,
-        "minHeight": 1,
-        "maxHeight": 64,
-        "retrogen": true,
-        "biomeRestriction": "whitelist",
-        "biomes": [
-            {
-                "type": "dictionary",
-                "entry": [
-                    "DEAD",
-                    "WASTELAND"
-                ]
             }
         ],
         "dimensionRestriction": "blacklist",

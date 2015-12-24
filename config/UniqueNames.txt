@@ -169,18 +169,6 @@ BiblioWoodsNatura:BiblioWoodpotshelf
 BiblioWoodsNatura:BiblioWoodrack
 BiblioWoodsNatura:BiblioWoodshelf
 BiblioWoodsNatura:BiblioWoodtable
-BigReactors:BRDevice
-BigReactors:BRMetalBlock
-BigReactors:BRMultiblockCreativePart
-BigReactors:BRMultiblockGlass
-BigReactors:BRReactorPart
-BigReactors:BRReactorRedstonePort
-BigReactors:BRTurbinePart
-BigReactors:BRTurbineRotorPart
-BigReactors:YelloriteOre
-BigReactors:YelloriumFuelRod
-BigReactors:tile.fluid.cyanite.still
-BigReactors:tile.fluid.yellorium.still
 BiomesOPlenty:appleLeaves
 BiomesOPlenty:ash
 BiomesOPlenty:ashStone
@@ -672,7 +660,6 @@ ExtraTiC:moltenElectricalSteel
 ExtraTiC:moltenElementium
 ExtraTiC:moltenEnergeticAlloy
 ExtraTiC:moltenFairy
-ExtraTiC:moltenLudicrite
 ExtraTiC:moltenManasteel
 ExtraTiC:moltenOsmium
 ExtraTiC:moltenPhasedGold
@@ -685,7 +672,6 @@ ExtraTiC:moltenSoularium
 ExtraTiC:moltenTerrasteel
 ExtraTiC:moltenVoidmetal
 ExtraTiC:moltenZinc
-ExtraTiC:moltenblutonium
 ExtraUtilities:angelBlock
 ExtraUtilities:block_bedrockium
 ExtraUtilities:budoff
@@ -1557,7 +1543,6 @@ PoorOres:poor_sulfur_ore
 PoorOres:poor_tin_ore
 PoorOres:poor_vulcanite_ore
 PoorOres:poor_vyroxeres_ore
-PoorOres:poor_yellorite_ore
 PoorOres:poor_zinc_ore
 PortalGun:Portal_BlockMulti
 PortalGun:Portal_BlockPortal
@@ -3316,22 +3301,6 @@ BiblioWoodsNatura:seatBack2
 BiblioWoodsNatura:seatBack3
 BiblioWoodsNatura:seatBack4
 BiblioWoodsNatura:seatBack5
-BigReactors:BRDebugTool
-BigReactors:BRDevice
-BigReactors:BRIngot
-BigReactors:BRMetalBlock
-BigReactors:BRMultiblockCreativePart
-BigReactors:BRMultiblockGlass
-BigReactors:BRReactorPart
-BigReactors:BRReactorRedstonePort
-BigReactors:BRTurbinePart
-BigReactors:BRTurbineRotorPart
-BigReactors:YelloriteOre
-BigReactors:YelloriumFuelRod
-BigReactors:bucketCyanite
-BigReactors:bucketYellorium
-BigReactors:tile.fluid.cyanite.still
-BigReactors:tile.fluid.yellorium.still
 BiomesOPlenty:ancientStaff
 BiomesOPlenty:appleLeaves
 BiomesOPlenty:ash
@@ -4117,7 +4086,6 @@ ExtraTiC:moltenElectricalSteel
 ExtraTiC:moltenElementium
 ExtraTiC:moltenEnergeticAlloy
 ExtraTiC:moltenFairy
-ExtraTiC:moltenLudicrite
 ExtraTiC:moltenManasteel
 ExtraTiC:moltenOsmium
 ExtraTiC:moltenPhasedGold
@@ -4130,7 +4098,6 @@ ExtraTiC:moltenSoularium
 ExtraTiC:moltenTerrasteel
 ExtraTiC:moltenVoidmetal
 ExtraTiC:moltenZinc
-ExtraTiC:moltenblutonium
 ExtraTiC:pickaxeHead
 ExtraTiC:scytheHead
 ExtraTiC:shovelHead
@@ -6234,7 +6201,6 @@ PoorOres:poor_sulfur_ore
 PoorOres:poor_tin_ore
 PoorOres:poor_vulcanite_ore
 PoorOres:poor_vyroxeres_ore
-PoorOres:poor_yellorite_ore
 PoorOres:poor_zinc_ore
 PoorOres:potash_dustTiny
 PoorOres:prometheum_dustTiny
@@ -6258,8 +6224,6 @@ PoorOres:vulcanite_dustTiny
 PoorOres:vulcanite_nugget
 PoorOres:vyroxeres_dustTiny
 PoorOres:vyroxeres_nugget
-PoorOres:yellorite_dustTiny
-PoorOres:yellorite_nugget
 PoorOres:zinc_dustTiny
 PoorOres:zinc_nugget
 PortalGun:AerialFaithPlate
@@ -7397,7 +7361,6 @@ aobd:clumpSteel
 aobd:clumpTitanium
 aobd:clumpVulcanite
 aobd:clumpVyroxeres
-aobd:clumpYellorium
 aobd:clumpZinc
 aobd:clusterAdamantine
 aobd:clusterAlduorite
@@ -7434,7 +7397,6 @@ aobd:clusterSteel
 aobd:clusterTitanium
 aobd:clusterVulcanite
 aobd:clusterVyroxeres
-aobd:clusterYellorium
 aobd:clusterZinc
 aobd:crushedAdamantine
 aobd:crushedAlduorite
@@ -7477,7 +7439,6 @@ aobd:crushedTin
 aobd:crushedTitanium
 aobd:crushedVulcanite
 aobd:crushedVyroxeres
-aobd:crushedYellorium
 aobd:crushedZinc
 aobd:crystalAdamantine
 aobd:crystalAlduorite
@@ -7513,7 +7474,6 @@ aobd:crystalSteel
 aobd:crystalTitanium
 aobd:crystalVulcanite
 aobd:crystalVyroxeres
-aobd:crystalYellorium
 aobd:crystalZinc
 aobd:dustDirtyAdamantine
 aobd:dustDirtyAlduorite
@@ -7549,7 +7509,6 @@ aobd:dustDirtySteel
 aobd:dustDirtyTitanium
 aobd:dustDirtyVulcanite
 aobd:dustDirtyVyroxeres
-aobd:dustDirtyYellorium
 aobd:dustDirtyZinc
 aobd:dustHeeEndium
 aobd:dustMeteoricIron
@@ -7565,13 +7524,11 @@ aobd:dustTinyNincodium
 aobd:dustTinyShadowIron
 aobd:dustTinySteel
 aobd:dustTinyTitanium
-aobd:dustTinyYellorium
 aobd:dustTitanium
 aobd:nuggetHeeEndium
 aobd:nuggetMeteoricIron
 aobd:nuggetNincodium
 aobd:nuggetTitanium
-aobd:nuggetYellorium
 aobd:oreSteel
 aobd:shardAdamantine
 aobd:shardAlduorite
@@ -7606,7 +7563,6 @@ aobd:shardShadowIron
 aobd:shardSteel
 aobd:shardVulcanite
 aobd:shardVyroxeres
-aobd:shardYellorium
 aobd:shardZinc
 appliedenergistics2:item.ItemBasicStorageCell.16k
 appliedenergistics2:item.ItemBasicStorageCell.1k

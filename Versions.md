@@ -39,7 +39,6 @@ Current Mod Versions
 - **BiblioCraft** v1.11.4 by Joseph 'Nuchaz' Sinclair
 - **BiblioWoods Biomes O'Plenty Edition** v1.9
 - **BiblioWoods Natura Edition** v1.5
-- **Big Reactors** v0.4.3A by ErogenousBeef
 - **Biomes O' Plenty** v2.1.0 by Adubbz, Amnet, Forstride, ted80
 - **Blood Magic: Alchemical Wizardry** v1.3.3 by WayofTime
 - **Botania** r1.8-240 by Vazkii

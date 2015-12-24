@@ -51,11 +51,9 @@ var poorSilverOre            = <PoorOres:poor_silver_ore>;
 var poorTinOre               = <PoorOres:poor_tin_ore>;
 var poorVulcaniteOre         = <PoorOres:poor_vulcanite_ore>;
 var poorVyroxeresOre         = <PoorOres:poor_vyroxeres_ore>;
-var poorYelloriteOre         = <PoorOres:poor_yellorite_ore>;
 var poorZincOre              = <PoorOres:poor_zinc_ore>;
 
 # Ores
-var yelloriteOre             = <BigReactors:YelloriteOre>;
 var aluminumOre              = <GalacticraftCore:tile.gcBlockCore:7>;
 var titaniumOre              = <GalacticraftMars:tile.asteroidsBlock:4>;
 var endiumOre                = <HardcoreEnderExpansion:endium_ore>;
@@ -144,7 +142,6 @@ var denseNickelOre           = <denseores:block1:11>;
 var densePlatinumOre         = <denseores:block1:12>;
 var denseAluminumOre         = <denseores:block1:13>;
 var denseOsmiumOre           = <denseores:block1:14>;
-var denseYelloriteOre        = <denseores:block1:15>;
 var denseMithrilOre          = <denseores:block2:0>;
 var denseCobaltOre           = <denseores:block2:1>;
 var denseArditeOre           = <denseores:block2:2>;
@@ -183,7 +180,6 @@ var nincodiumTinyDust        = <aobd:dustTinyNincodium>;
 var shadowIronTinyDust       = <aobd:dustTinyShadowIron>;
 var steelTinyDust            = <aobd:dustTinySteel>;
 var titaniumTinyDust         = <aobd:dustTinyTitanium>;
-var yelloriumTinyDust        = <aobd:dustTinyYellorium>;
 var adamantineTinyDust       = <PoorOres:adamantine_dustTiny>;
 var alduoriteTinyDust        = <PoorOres:alduorite_dustTiny>;
 var atlarusTinyDust          = <PoorOres:atlarus_dustTiny>;
@@ -232,7 +228,6 @@ var zincTinyDust             = <PoorOres:zinc_dustTiny>;
 var endiumNugget             = <aobd:nuggetHeeEndium>;
 var nincodiumNugget          = <aobd:nuggetNincodium>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
-var yelloriumNugget          = <aobd:nuggetYellorium>;
 var goldNugget               = <minecraft:gold_nugget>;
 var manganeseNugget          = <Metallurgy:base.nugget:2>;
 var hepatizonNugget          = <Metallurgy:base.nugget:4>;
@@ -300,7 +295,6 @@ var enderiumNugget           = <ThermalFoundation:material:108>;
 var endiumDust               = <aobd:dustHeeEndium>;
 var nincodiumDust            = <aobd:dustNincodium>;
 var titaniumDust             = <aobd:dustTitanium>;
-var yelloriumDust            = <BigReactors:BRIngot:4>;
 var endPowder                = <HardcoreEnderExpansion:end_powder>;
 var osmiumDust               = <Mekanism:Dust:2>;
 var manganeseDust            = <Metallurgy:base.dust:2>;
@@ -375,7 +369,6 @@ var cryotheumDust            = <ThermalFoundation:material:513>;
 var blizzPowder              = <ThermalFoundation:material:1025>;
 
 # Ingots
-var yelloriumIngot           = <BigReactors:BRIngot:0>;
 var soulariumIngot           = <EnderIO:itemAlloy:7>;
 var aluminumIngot            = <GalacticraftCore:item.basicItem:5>;
 var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
@@ -443,7 +436,6 @@ var enderiumIngot            = <ThermalFoundation:material:76>;
 
 # Blocks
 var titaniumBlock            = <aobd:blockTitanium>;
-var yelloriumBlock           = <BigReactors:BRMetalBlock:0>;
 var soulariumBlock           = <EnderIO:blockIngotStorage:7>;
 var endiumBlock              = <HardcoreEnderExpansion:endium_block>;
 var osmiumBlock              = <Mekanism:BasicBlock:0>;
@@ -580,7 +572,6 @@ var moltenCelenegil          = <liquid:celenegil.molten>;
 var moltenCeruclase          = <liquid:ceruclase.molten>;
 var moltenCopper             = <liquid:copper.molten>;
 var moltenCryotheum          = <liquid:cryotheum>;
-var moltenCyanite            = <liquid:cyanite>;
 var moltenDamascusSteel      = <liquid:damascus.steel.molten>;
 var moltenDeepIron           = <liquid:deep.iron.molten>;
 var moltenDesichalkos        = <liquid:desichalkos.molten>;
@@ -636,7 +627,6 @@ var moltenTin                = <liquid:tin.molten>;
 var moltenTitanium           = <liquid:titanium>;
 var moltenVulcanite          = <liquid:vulcanite.molten>;
 var moltenVyroxeres          = <liquid:vyroxeres.molten>;
-var moltenYellorium          = <liquid:yellorium>;
 var moltenZinc               = <liquid:zinc.molten>;
 var searedStone              = <liquid:stone.seared>;
 var steam                    = <liquid:steam>;
@@ -681,7 +671,6 @@ var anyPoorSilverOre         = <ore:orePoorSilver>;
 var anyPoorTinOre            = <ore:orePoorTin>;
 var anyPoorVulcaniteOre      = <ore:orePoorVulcanite>;
 var anyPoorVyroxeresOre      = <ore:orePoorVyroxeres>;
-var anyPoorYelloriteOre      = <ore:orePoorYellorite>;
 var anyPoorZincOre           = <ore:orePoorZinc>;
 
 # Ores
@@ -723,7 +712,6 @@ var anyTinOre                = <ore:oreTin>;
 var anyTitaniumOre           = <ore:oreTitanium>;
 var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
-var anyYelloriteOre          = <ore:oreYellorite>;
 var anyZincOre               = <ore:oreZinc>;
 
 #Dense Ores
@@ -763,7 +751,6 @@ var anyDenseSilverOre        = <ore:denseoreSilver>;
 var anyDenseTinOre           = <ore:denseoreTin>;
 var anyDenseVulcaniteOre     = <ore:denseoreVulcanite>;
 var anyDenseVyroxeresOre     = <ore:denseoreVyroxeres>;
-var anyDenseYelloriteOre     = <ore:denseoreYellorite>;
 var anyDenseZincOre          = <ore:denseoreZinc>;
 
 /*
@@ -827,7 +814,6 @@ var anyTinTinyDust           = <ore:dustTinyTin>;
 var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
-var anyYelloriumTinyDust     = <ore:dustTinyYellorium>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
 */
 
@@ -892,7 +878,6 @@ var anyTinNugget             = <ore:nuggetTin>;
 var anyTitaniumNugget        = <ore:nuggetTitanium>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
-var anyYelloriumNugget       = <ore:nuggetYellorium>;
 var anyZincNugget            = <ore:nuggetZinc>;
 
 # Dusts
@@ -961,7 +946,6 @@ var anyTinDust               = <ore:dustTin>;
 var anyTitaniumDust          = <ore:dustTitanium>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
-var anyYelloriumDust         = <ore:dustYellorium>;
 var anyZincDust              = <ore:dustZinc>;
 
 # Ingots
@@ -1026,7 +1010,6 @@ var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTitaniumIngot         = <ore:ingotTitanium>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
-var anyYelloriumIngot        = <ore:ingotYellorium>;
 var anyZincIngot             = <ore:ingotZinc>;
 
 # Blocks
@@ -1093,7 +1076,6 @@ var anyTinBlock              = <ore:blockTin>;
 var anyTitaniumBlock         = <ore:blockTitanium>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
-var anyYelloriumBlock        = <ore:blockYellorium>;
 var anyZincBlock             = <ore:blockZinc>;
 
 # ITEM LISTS
@@ -1135,7 +1117,6 @@ var allPoorOres              = [
     poorTinOre,
     poorVulcaniteOre,
     poorVyroxeresOre,
-    poorYelloriteOre,
     poorZincOre
 ] as IItemStack[];
 var allOres                  = [
@@ -1177,7 +1158,6 @@ var allOres                  = [
     titaniumOre,
     vulcaniteOre,
     vyroxeresOre,
-    yelloriteOre,
     zincOre
 ] as IItemStack[];
 var allDenseOres             = [
@@ -1217,7 +1197,6 @@ var allDenseOres             = [
     denseTinOre,
     denseVulcaniteOre,
     denseVyroxeresOre,
-    denseYelloriteOre,
     denseZincOre
 ] as IItemStack[];
 var allTinyDusts             = [
@@ -1259,7 +1238,6 @@ var allTinyDusts             = [
     titaniumTinyDust,
     vulcaniteTinyDust,
     vyroxeresTinyDust,
-    yelloriumTinyDust,
     zincTinyDust
 ] as IItemStack[];
 var allNuggets               = [
@@ -1321,7 +1299,6 @@ var allNuggets               = [
     titaniumNugget,
     vulcaniteNugget,
     vyroxeresNugget,
-    yelloriumNugget,
     zincNugget
 ] as IItemStack[];
 var allDusts                 = [
@@ -1383,7 +1360,6 @@ var allDusts                 = [
     titaniumDust,
     vulcaniteDust,
     vyroxeresDust,
-    yelloriumDust,
     zincDust
 ] as IItemStack[];
 var allIngots                = [
@@ -1445,7 +1421,6 @@ var allIngots                = [
     titaniumIngot,
     vulcaniteIngot,
     vyroxeresIngot,
-    yelloriumIngot,
     zincIngot
 ] as IItemStack[];
 var allBlocks                = [
@@ -1507,7 +1482,6 @@ var allBlocks                = [
     titaniumBlock,
     vulcaniteBlock,
     vyroxeresBlock,
-    yelloriumBlock,
     zincBlock
 ] as IItemStack[];
 var allAnyPoorOres           = [
@@ -1545,7 +1519,6 @@ var allAnyPoorOres           = [
     anyPoorTinOre,
     anyPoorVulcaniteOre,
     anyPoorVyroxeresOre,
-    anyPoorYelloriteOre,
     anyPoorZincOre
 ] as IIngredient[];
 var allAnyOres               = [
@@ -1587,7 +1560,6 @@ var allAnyOres               = [
     anyTitaniumOre,
     anyVulcaniteOre,
     anyVyroxeresOre,
-    anyYelloriteOre,
     anyZincOre
 ] as IIngredient[];
 var allAnyDenseOres          = [
@@ -1627,7 +1599,6 @@ var allAnyDenseOres          = [
     anyDenseTinOre,
     anyDenseVulcaniteOre,
     anyDenseVyroxeresOre,
-    anyDenseYelloriteOre,
     anyDenseZincOre
 ] as IIngredient[];
 /*
@@ -1690,7 +1661,6 @@ var allAnyTinyDusts          = [
     anyTitaniumTinyDust,
     anyVulcaniteTinyDust,
     anyVyroxeresTinyDust,
-    anyYelloriumTinyDust,
     anyZincTinyDust
 ] as IIngredient[];
 */
@@ -1753,7 +1723,6 @@ var allAnyDusts              = [
     anyTitaniumDust,
     anyVulcaniteDust,
     anyVyroxeresDust,
-    anyYelloriumDust,
     anyZincDust
 ] as IIngredient[];
 var allAnyNuggets            = [
@@ -1815,7 +1784,6 @@ var allAnyNuggets            = [
     anyTitaniumNugget,
     anyVulcaniteNugget,
     anyVyroxeresNugget,
-    anyYelloriumNugget,
     anyZincNugget
 ] as IIngredient[];
 var allAnyIngots             = [
@@ -1877,7 +1845,6 @@ var allAnyIngots             = [
     anyTitaniumIngot,
     anyVulcaniteIngot,
     anyVyroxeresIngot,
-    anyYelloriumIngot,
     anyZincIngot
 ] as IIngredient[];
 var allAnyBlocks             = [
@@ -1939,7 +1906,6 @@ var allAnyBlocks             = [
     anyTitaniumBlock,
     anyVulcaniteBlock,
     anyVyroxeresBlock,
-    anyYelloriumBlock,
     anyZincBlock
 ] as IIngredient[];
 var allMoltenMetals          = [
@@ -2001,7 +1967,6 @@ var allMoltenMetals          = [
     moltenTitanium,
     moltenVulcanite,
     moltenVyroxeres,
-    moltenYellorium,
     moltenZinc
 ] as ILiquidStack[];
 

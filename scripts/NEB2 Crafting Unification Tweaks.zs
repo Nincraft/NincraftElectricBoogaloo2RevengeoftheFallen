@@ -47,11 +47,9 @@ var poorSilverOre            = <PoorOres:poor_silver_ore>;
 var poorTinOre               = <PoorOres:poor_tin_ore>;
 var poorVulcaniteOre         = <PoorOres:poor_vulcanite_ore>;
 var poorVyroxeresOre         = <PoorOres:poor_vyroxeres_ore>;
-var poorYelloriteOre         = <PoorOres:poor_yellorite_ore>;
 var poorZincOre              = <PoorOres:poor_zinc_ore>;
 
 # Ores
-var yelloriteOre             = <BigReactors:YelloriteOre>;
 var aluminumOre              = <GalacticraftCore:tile.gcBlockCore:7>;
 var titaniumOre              = <GalacticraftMars:tile.asteroidsBlock:4>;
 var endiumOre                = <HardcoreEnderExpansion:endium_ore>;
@@ -140,7 +138,6 @@ var denseNickelOre           = <denseores:block1:11>;
 var densePlatinumOre         = <denseores:block1:12>;
 var denseAluminumOre         = <denseores:block1:13>;
 var denseOsmiumOre           = <denseores:block1:14>;
-var denseYelloriteOre        = <denseores:block1:15>;
 var denseMithrilOre          = <denseores:block2:0>;
 var denseCobaltOre           = <denseores:block2:1>;
 var denseArditeOre           = <denseores:block2:2>;
@@ -179,7 +176,6 @@ var nincodiumTinyDust        = <aobd:dustTinyNincodium>;
 var shadowIronTinyDust       = <aobd:dustTinyShadowIron>;
 var steelTinyDust            = <aobd:dustTinySteel>;
 var titaniumTinyDust         = <aobd:dustTinyTitanium>;
-var yelloriumTinyDust        = <aobd:dustTinyYellorium>;
 var adamantineTinyDust       = <PoorOres:adamantine_dustTiny>;
 var alduoriteTinyDust        = <PoorOres:alduorite_dustTiny>;
 var atlarusTinyDust          = <PoorOres:atlarus_dustTiny>;
@@ -228,7 +224,6 @@ var zincTinyDust             = <PoorOres:zinc_dustTiny>;
 var endiumNugget             = <aobd:nuggetHeeEndium>;
 var nincodiumNugget          = <aobd:nuggetNincodium>;
 var titaniumNugget           = <aobd:nuggetTitanium>;
-var yelloriumNugget          = <aobd:nuggetYellorium>;
 var goldNugget               = <minecraft:gold_nugget>;
 var manganeseNugget          = <Metallurgy:base.nugget:2>;
 var hepatizonNugget          = <Metallurgy:base.nugget:4>;
@@ -294,7 +289,6 @@ var enderiumNugget           = <ThermalFoundation:material:108>;
 var endiumDust               = <aobd:dustHeeEndium>;
 var nincodiumDust            = <aobd:dustNincodium>;
 var titaniumDust             = <aobd:dustTitanium>;
-var yelloriumDust            = <BigReactors:BRIngot:4>;
 var endPowder                = <HardcoreEnderExpansion:end_powder>;
 var osmiumDust               = <Mekanism:Dust:2>;
 var manganeseDust            = <Metallurgy:base.dust:2>;
@@ -369,7 +363,6 @@ var cryotheumDust            = <ThermalFoundation:material:513>;
 var blizzPowder              = <ThermalFoundation:material:1025>;
 
 # Ingots
-var yelloriumIngot           = <BigReactors:BRIngot:0>;
 var aluminumIngot            = <GalacticraftCore:item.basicItem:5>;
 var titaniumIngot            = <GalacticraftMars:item.itemBasicAsteroids:5>;
 var endiumIngot              = <HardcoreEnderExpansion:endium_ingot>;
@@ -436,7 +429,6 @@ var enderiumIngot            = <ThermalFoundation:material:76>;
 
 # Blocks
 var titaniumBlock            = <aobd:blockTitanium>;
-var yelloriumBlock           = <BigReactors:BRMetalBlock:0>;
 var endiumBlock              = <HardcoreEnderExpansion:endium_block>;
 var osmiumBlock              = <Mekanism:BasicBlock:0>;
 var manganeseBlock           = <Metallurgy:base.block:2>;
@@ -547,7 +539,6 @@ var anyPoorSilverOre         = <ore:orePoorSilver>;
 var anyPoorTinOre            = <ore:orePoorTin>;
 var anyPoorVulcaniteOre      = <ore:orePoorVulcanite>;
 var anyPoorVyroxeresOre      = <ore:orePoorVyroxeres>;
-var anyPoorYelloriteOre      = <ore:orePoorYellorite>;
 var anyPoorZincOre           = <ore:orePoorZinc>;
 
 # Ores
@@ -589,7 +580,6 @@ var anyTinOre                = <ore:oreTin>;
 var anyTitaniumOre           = <ore:oreTitanium>;
 var anyVulcaniteOre          = <ore:oreVulcanite>;
 var anyVyroxeresOre          = <ore:oreVyroxeres>;
-var anyYelloriteOre          = <ore:oreYellorite>;
 var anyZincOre               = <ore:oreZinc>;
 
 #Dense Ores
@@ -629,7 +619,6 @@ var anyDenseSilverOre        = <ore:denseoreSilver>;
 var anyDenseTinOre           = <ore:denseoreTin>;
 var anyDenseVulcaniteOre     = <ore:denseoreVulcanite>;
 var anyDenseVyroxeresOre     = <ore:denseoreVyroxeres>;
-var anyDenseYelloriteOre     = <ore:denseoreYellorite>;
 var anyDenseZincOre          = <ore:denseoreZinc>;
 
 /*
@@ -693,7 +682,6 @@ var anyTinTinyDust           = <ore:dustTinyTin>;
 var anyTitaniumTinyDust      = <ore:dustTinyTitanium>;
 var anyVulcaniteTinyDust     = <ore:dustTinyVulcanite>;
 var anyVyroxeresTinyDust     = <ore:dustTinyVyroxeres>;
-var anyYelloriumTinyDust     = <ore:dustTinyYellorium>;
 var anyZincTinyDust          = <ore:dustTinyZinc>;
 */
 
@@ -758,7 +746,6 @@ var anyTinNugget             = <ore:nuggetTin>;
 var anyTitaniumNugget        = <ore:nuggetTitanium>;
 var anyVulcaniteNugget       = <ore:nuggetVulcanite>;
 var anyVyroxeresNugget       = <ore:nuggetVyroxeres>;
-var anyYelloriumNugget       = <ore:nuggetYellorium>;
 var anyZincNugget            = <ore:nuggetZinc>;
 
 # Dusts
@@ -827,7 +814,6 @@ var anyTinDust               = <ore:dustTin>;
 var anyTitaniumDust          = <ore:dustTitanium>;
 var anyVulcaniteDust         = <ore:dustVulcanite>;
 var anyVyroxeresDust         = <ore:dustVyroxeres>;
-var anyYelloriumDust         = <ore:dustYellorium>;
 var anyZincDust              = <ore:dustZinc>;
 
 # Ingots
@@ -891,7 +877,6 @@ var anyTartariteIngot        = <ore:ingotTartarite>;
 var anyTitaniumIngot         = <ore:ingotTitanium>;
 var anyVulcaniteIngot        = <ore:ingotVulcanite>;
 var anyVyroxeresIngot        = <ore:ingotVyroxeres>;
-var anyYelloriumIngot        = <ore:ingotYellorium>;
 var anyZincIngot             = <ore:ingotZinc>;
 
 # Blocks
@@ -957,7 +942,6 @@ var anyTinBlock              = <ore:blockTin>;
 var anyTitaniumBlock         = <ore:blockTitanium>;
 var anyVulcaniteBlock        = <ore:blockVulcanite>;
 var anyVyroxeresBlock        = <ore:blockVyroxeres>;
-var anyYelloriumBlock        = <ore:blockYellorium>;
 var anyZincBlock             = <ore:blockZinc>;
 
 # ITEM LISTS
@@ -999,7 +983,6 @@ var allPoorOres              = [
     poorTinOre,
     poorVulcaniteOre,
     poorVyroxeresOre,
-    poorYelloriteOre,
     poorZincOre
 ] as IItemStack[];
 var allOres                  = [
@@ -1039,7 +1022,6 @@ var allOres                  = [
     tinOre,
     vulcaniteOre,
     vyroxeresOre,
-    yelloriteOre,
     zincOre,
     endiumOre,
     titaniumOre
@@ -1079,7 +1061,6 @@ var allDenseOres             = [
     denseTinOre,
     denseVulcaniteOre,
     denseVyroxeresOre,
-    denseYelloriteOre,
     denseZincOre,
     denseArditeOre,
     denseCobaltOre
@@ -1119,7 +1100,6 @@ var allTinyDusts             = [
     tinTinyDust,
     vulcaniteTinyDust,
     vyroxeresTinyDust,
-    yelloriumTinyDust,
     zincTinyDust,
     arditeTinyDust,
     cobaltTinyDust,
@@ -1161,7 +1141,6 @@ var allNuggets               = [
     tinNugget,
     vulcaniteNugget,
     vyroxeresNugget,
-    yelloriumNugget,
     zincNugget,
     arditeNugget,
     cobaltNugget,
@@ -1203,7 +1182,6 @@ var allDusts                 = [
     tinDust,
     vulcaniteDust,
     vyroxeresDust,
-    yelloriumDust,
     zincDust,
     arditeDust,
     cobaltDust,
@@ -1245,7 +1223,6 @@ var allIngots                = [
     tinIngot,
     vulcaniteIngot,
     vyroxeresIngot,
-    yelloriumIngot,
     zincIngot,
     arditeIngot,
     cobaltIngot,
@@ -1287,7 +1264,6 @@ var allBlocks                = [
     tinBlock,
     vulcaniteBlock,
     vyroxeresBlock,
-    yelloriumBlock,
     zincBlock,
     arditeBlock,
     cobaltBlock,
@@ -1329,7 +1305,6 @@ var allAnyPoorOres           = [
     anyPoorTinOre,
     anyPoorVulcaniteOre,
     anyPoorVyroxeresOre,
-    anyPoorYelloriteOre,
     anyPoorZincOre
 ] as IIngredient[];
 var allAnyOres               = [
@@ -1367,7 +1342,6 @@ var allAnyOres               = [
     anyTinOre,
     anyVulcaniteOre,
     anyVyroxeresOre,
-    anyYelloriteOre,
     anyZincOre,
     anyArditeOre,
     anyCobaltOre,
@@ -1409,7 +1383,6 @@ var allAnyDenseOres          = [
     anyDenseTinOre,
     anyDenseVulcaniteOre,
     anyDenseVyroxeresOre,
-    anyDenseYelloriteOre,
     anyDenseZincOre,
     anyDenseArditeOre,
     anyDenseCobaltOre
@@ -1450,7 +1423,6 @@ var allAnyTinyDusts          = [
     anyTinTinyDust,
     anyVulcaniteTinyDust,
     anyVyroxeresTinyDust,
-    anyYelloriumTinyDust,
     anyZincTinyDust,
     anyArditeTinyDust,
     anyCobaltTinyDust,
@@ -1493,7 +1465,6 @@ var allAnyDusts              = [
     anyTinDust,
     anyVulcaniteDust,
     anyVyroxeresDust,
-    anyYelloriumDust,
     anyZincDust,
     anyArditeDust,
     anyCobaltDust,
@@ -1535,7 +1506,6 @@ var allAnyNuggets            = [
     anyTinNugget,
     anyVulcaniteNugget,
     anyVyroxeresNugget,
-    anyYelloriumNugget,
     anyZincNugget,
     anyArditeNugget,
     anyCobaltNugget,
@@ -1577,7 +1547,6 @@ var allAnyIngots             = [
     anyTinIngot,
     anyVulcaniteIngot,
     anyVyroxeresIngot,
-    anyYelloriumIngot,
     anyZincIngot,
     anyArditeIngot,
     anyCobaltIngot,
@@ -1619,7 +1588,6 @@ var allAnyBlocks             = [
     anyTinBlock,
     anyVulcaniteBlock,
     anyVyroxeresBlock,
-    anyYelloriumBlock,
     anyZincBlock,
     anyArditeBlock,
     anyCobaltBlock,

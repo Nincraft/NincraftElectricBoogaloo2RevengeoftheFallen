@@ -34,7 +34,6 @@ var allDisabledItems = [
     <Natura:natura.sword.netherquartz>,
     <ore:oreCopper>,
     <ore:oreOsmium>,
-    <ore:oreYellorite>,
     <Steamcraft:axeBrass>,
     <Steamcraft:chestBrass>,
     <Steamcraft:feetBrass>,
