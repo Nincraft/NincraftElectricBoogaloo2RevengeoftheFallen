@@ -9,7 +9,7 @@ import mods.thaumcraft.Aspects;
 #--------------------
 Aspects.add(<Botania:flower:*>, "herba 1, victus 1, sensus 1, praecantatio 1");
 Aspects.add(<Botania:petal:*>, "herba 1, praecantatio 1, sensus 1");
-Aspects.add(<Botania:manaPetal:*>, "herba 1, praecantatio 1, sensus 1");
+#Aspects.add(<Botania:manaPetal:*>, "herba 1, praecantatio 1, sensus 1");
 Aspects.add(<Botania:dye:*>, "herba 1");
 Aspects.add(<Botania:fertilizer>, "herba 3, sensus 1");
 Aspects.add(<Botania:twigWand>, "arbor 6, herba 2, praecantatio 6, sensus 5");
