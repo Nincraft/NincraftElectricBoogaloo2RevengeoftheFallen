@@ -6,27 +6,31 @@ import mods.pneumaticcraft.Pressure;
 
 # COMMON VARIABLES
 #------------------
-var coal              = <minecraft:coal:0>;
-var charcoal          = <minecraft:coal:1>;
-var diamond           = <minecraft:diamond>;
-var seeds             = <minecraft:wheat_seeds>;
+var diamondNugget      = <PoorOres:diamond_nugget>;
 
-var compressedSawdust = <ThermalExpansion:material:513>;
+var coal               = <minecraft:coal:0>;
+var charcoal           = <minecraft:coal:1>;
+var diamond            = <minecraft:diamond>;
+var seeds              = <minecraft:wheat_seeds>;
+
+var compressedSawdust  = <ThermalExpansion:material:513>;
 
 # ORE DICTIONARY
 #----------------
-var anyCharcoalDust   = <ore:dustCharcoal>;
-var anyCoalDust       = <ore:dustCoal>;
-var anyDiamondDust    = <ore:dustDiamond>;
-var anySawdust        = <ore:dustWood>;
+var anyCharcoalDust    = <ore:dustCharcoal>;
+var anyCoalDust        = <ore:dustCoal>;
+var anyDiamondDust     = <ore:dustDiamond>;
+var anySawdust         = <ore:dustWood>;
 
-var anyDiamondNugget  = <ore:diamondNugget>;
+var anyDiamondTinyDust = <ore:dustTinyDiamond>;
 
-var anyRawRubber      = <ore:itemRawRubber>;
+var anyDiamondNugget   = <ore:nuggetDiamond>;
+
+var anyRawRubber       = <ore:itemRawRubber>;
 
 # ITEM LISTS
 #------------
-var allPlasticSeeds   = [
+var allPlasticSeeds    = [
     <PneumaticCraft:plasticPlant>,
     <PneumaticCraft:plasticPlant:1>,
     <PneumaticCraft:plasticPlant:2>,
@@ -42,7 +46,7 @@ var allPlasticSeeds   = [
     <PneumaticCraft:plasticPlant:14>,
     <PneumaticCraft:plasticPlant:15>
 ] as IItemStack[];
-var allDyes          = [
+var allDyes           = [
     <ore:dyeBlack>,
     <ore:dyeRed>,
     <ore:dyeGreen>,
@@ -91,12 +95,17 @@ for sawdust in anySawdust.items {
     Pressure.addRecipe([sawdust * 8], 1.0, [compressedSawdust], false);
 }
 
+# Diamond Tiny Dust -> Diamond Nugget
+for tinyDust in anyDiamondTinyDust.items {
+    Pressure.addRecipe([tinyDust], 4.0, [diamondNugget], false);
+}
+
 # Diamond Nuggets -> Diamond
-for diamondNugget in anyDiamondNugget.items {
-    Pressure.addRecipe([diamondNugget * 9], 4.0, [diamond], false);
+for nugget in anyDiamondNugget.items {
+    Pressure.addRecipe([nugget * 9], 4.0, [diamond], false);
 }
 
 # Diamond Dust -> Diamond
-for diamondDust in anyDiamondDust.items {
-    Pressure.addRecipe([diamondDust], 4.0, [diamond], false);
+for dust in anyDiamondDust.items {
+    Pressure.addRecipe([dust], 4.0, [diamond], false);
 }

@@ -17,7 +17,6 @@ Current API Versions
 - **Forge Multipart** v1.2.0.345
 - **iChunUtil** v4.2.2
 - **Immibis Core** v59.1.1
-- **INpureCore** v1.7.10R1.0.0B9
 - **LunatriusCore** v1.1.2.21 by Lunatrius
 - **Mantle** v1.7.10-0.3.2.jenkins191
 - **Metallurgy Core** v4.0.4 by Team Metallurgy
@@ -46,7 +45,6 @@ Current Mod Versions
 - **Carpenter's Blocks** v3.3.7 by Mineshopper
 - **ChickenChunks** v1.3.4.17 by ChickenBones
 - **Chisel** v2.9.3.9 by tterrag, Drullkus, minecreatr
-- **Crafting Pillars Mod** v1.6.0
 - **Decocraft** v2.2.1 by RazzleberryFox
 - **Dense Ores** v1.0
 - **Dimensional Doors** v2.2.5-test by StevenRS11, SenseiKiwi
@@ -71,18 +69,15 @@ Current Mod Versions
 - **Garden Core** v1.7.10-1.6.8
 - **Garden Stuff** v1.7.10-1.6.8
 - **Garden Trees** v1.7.10-1.6.8
-- **Glowstone Wire** v1.0.2.113 by GrygrFlzr
 - **Greg's Lighting** v1.11.0
 - **Hardcore Ender Expansion** v1.8.4 by Programmed by chylex | http://hee.chylex.com/authors
 - **Hats** v4.0.1
-- **HatStand** v4.0.0
 - **Horizontal Glass Panes** v1.1.0.4 by tattyseal
 - **Iguana Tinker Tweaks** v1.7.10-2.1.5.140 by boni, iguana_man
 - **Infernal Mobs** v1.6.1
 - **Inventory Tweaks** v1.58-147-645ca10
 - **Iron Chest** v6.0.62.742
 - **JABBA** v1.2.1 by ProfMobius, Taelnia
-- **Looking Glass** v0.2.0.00 by XCompWiz
 - **MapWriter** v2.1.2
 - **Mekanism** v8.1.3
 - **MekanismGenerators** v8.1.3
@@ -91,7 +86,6 @@ Current Mod Versions
 - **Metallurgy 4** v4.0.8 by Team Metallurgy
 - **Mine & Blade Battlegear 2 - Bullseye** v1.7.10 by nerd-boy, GotoLink, coolAlias
 - **Minecraft Multipart Plugin** v1.2.0.345
-- **MineFactory Reloaded** v1.7.10R2.8.1B1 by PowerCrystals, TehKrush, AtomicStryker, Feanorith, skyboy026
 - **MineTweaker 3** v3.0.10 by Stan Hebben
 - **MobiusCore** v1.2.5 by ProfMobius
 - **Mod Tweaker 2** v0.9.4 by Jaredlll08
@@ -111,8 +105,6 @@ Current Mod Versions
 - **OpenMods** v0.8
 - **Pam's Clay Spawn** v1.7.10a by Pamela Collins
 - **Pam's HarvestCraft** v1.7.10j by Pamela Collins
-- **Ping** v1.0.2.B6
-- **PiP** v4.0.0
 - **PneumaticCraft** v1.12.1-144
 - **PoorOres** v1.7.10-1.4.9 by Xexanos
 - **PortalGun** v4.0.0-beta-6
@@ -123,7 +115,6 @@ Current Mod Versions
 - **Redstone Arsenal** v1.7.10R1.1.1 by Team CoFH
 - **Reliquary** v1.2 by x3n0ph0b3, TheMike
 - **RFTools** v4.12 by McJty
-- **RPGAdvMod** v1.0.0
 - **Simply Jetpacks** v1.5.3 by tonius11
 - **Special Mobs** v3.2.1 by FatherToast
 - **Stackie** v1.6.0.36 by Lunatrius
@@ -133,7 +124,6 @@ Current Mod Versions
 - **Thaumcraft** v4.2.3.5
 - **Thaumic Tinkerer** v2.5-1.7.10-164
 - **Thaumic Tinkerer Core** v0.1 by nekosune, Pixlepix, Vazkii
-- **Thaumic Warden** v1.1.1
 - **The Twilight Forest** v2.3.7
 - **Thermal Dynamics** v1.7.10R1.1.0 by Team CoFH
 - **Thermal Expansion** v1.7.10R4.0.3B1 by Team CoFH
@@ -148,10 +138,7 @@ Current Mod Versions
 - **TNTUtils Core** v1.1-beta by ljfa
 - **TooMuchLoot** v4.0.1
 - **Torcherino** v2.2s by Moze_Intel, sci4me, MrComputerGhost
-- **Translocator** v1.1.2.15 by ChickenBones
-- **Tropicraft** v6.0.5
 - **Waila** v1.5.10
-- **weather2** v2.3.6
 - **What Are We Looking At** v1.3.3
 - **Witchery** v0.24.1 by Emoniph
 

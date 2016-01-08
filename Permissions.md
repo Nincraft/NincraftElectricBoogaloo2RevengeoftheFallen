@@ -1,6 +1,5 @@
 [Chunkgen License]:https://github.com/gecgooden/chunkgen/blob/master/LICENSE.md
 [FTB Permission Website]:http://www.feed-the-beast.com/mods
-[Glowstone Wire MCF Thread]:http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1280347-glowstone-wire-v1-0-2-113
 [HCEE Permission]:https://i.imgur.com/WdPANky.png
 [Nincrafty Things License]:https://github.com/Nincodedo/Nincrafty-Things/blob/master/LICENSE
 [Tinkers' Modifiers Notification]:https://i.imgur.com/D59wBd3.png
@@ -95,9 +94,6 @@
 - **CookieCore** by: *Ephys*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **CoroUtil** by: *Corosauce*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
 - **Damage Indicators Mod (Optional)** by: *rich1051414*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
@@ -164,9 +160,6 @@
 - **Garden Stuff** by: *jaquadro*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Glowstone Wire** by: *GrygrFlzr*
-  - **Private Packs**: Open: [Glowstone Wire MCF Thread]
-  - **Public Packs** : Open: [Glowstone Wire MCF Thread]
 - **Greg's Lighting** by: *Greg_Ewing*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
@@ -174,9 +167,6 @@
   - **Private Packs**: Permission Granted: [HCEE Permission]
   - **Public Packs** : Permission Granted: [HCEE Permission]
 - **Hats** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **Hat Stand** by: *iChun*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Horizontal Glass Panes** by: *tattyseal*
@@ -197,9 +187,6 @@
 - **Infernal Mobs** by: *AtomicStryker*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **INPureCore** by: *denoflionsx*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
 - **Inventory Tweaks** by: *Kobata*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
@@ -207,9 +194,6 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **JABBA** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **Looking Glass** by: *XCompWiz*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Lunatrius Core** by: *Lunatrius*
@@ -231,9 +215,6 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Mine & Blade: Battlegear 2** by: *Mine_and_Blade_Admin*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **MineFactory Reloaded** by: *Skyboy026, powercrystals*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **MineTweaker** by: *StanH*
@@ -290,12 +271,6 @@
 - **Pam's HarvestCraft** by: *MatrexsVigil, Rhodox*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Ping** by: *dmillerw*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **PiP** by: *iChun*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
 - **PneumaticCraft** by: *MineMaarten*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
@@ -318,9 +293,6 @@
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **RFTools** by: *McJty*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **RPG Advanced Mod** by: *ProfMobius, RazzleberryFox, taelnia, Wulfyk*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **Shatter (Optional)** by: *iChun*
@@ -392,16 +364,10 @@
 - **Torcherino** by: *sci4me*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
-- **Translocator** by: *Chickenbones*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
 - **Twilight Forest** by: *Benimatic*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **WAILA** by: *ProfMobius*
-  - **Private Packs**: Open: [FTB Permission Website]
-  - **Public Packs** : Open: [FTB Permission Website]
-- **Weather** by: *Corosauce*
   - **Private Packs**: Open: [FTB Permission Website]
   - **Public Packs** : Open: [FTB Permission Website]
 - **What Are We Looking At** by: *Darkhax*
